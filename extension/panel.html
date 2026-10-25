@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Auto Fill Form</title>
+  <link rel="stylesheet" href="panel.css">
+  <script src="core.js" defer></script>
+  <script src="bundled.js" defer></script>
+  <script src="panel.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand"><span class="mark" aria-hidden="true">f<span>↗</span></span><div><h1>Auto Fill Form</h1><p>Microsoft Forms · v0.2.2</p></div></div>
+    <span class="local-badge"><i></i> LOCAL</span>
+  </header>
+  <main>
+    <section class="intro"><p class="eyebrow">QUY CHẾ 2026.1 · 200 ĐÁP ÁN CÓ SẴN</p><h2>Mở form.<br>Đáp án đã sẵn sàng.</h2><p>Tự quét và ghép đáp án từ PDF đã tích hợp.<br>Kiểm tra rồi bấm Điền các câu đã chọn.</p></section>
+    <section class="target-box" aria-label="Form đang chọn"><span class="target-dot"></span><div><strong id="targetTitle">Chưa chọn form</strong><p id="targetUrl">Mở form và bấm biểu tượng extension.</p></div></section>
+    <div class="toolbar"><button id="scan" class="primary">↻ &nbsp; Quét form</button><button id="template" disabled>Xuất mẫu JSON</button></div>
+    <p style="margin-top:10px"><button id="openTarget" class="link">Mở form Quy chế 2026.1 →</button></p>
+    <p style="margin-top:6px"><button id="demo" class="link">Thử tính năng bằng bản demo →</button></p>
+    <div id="notice" role="status" aria-live="polite" class="notice">Bắt đầu bằng Quét form.</div>
+    <details class="bank-box" open>
+      <summary><span>01 &nbsp; Nguồn đáp án</span><span id="bankName" class="muted">Chưa nạp</span></summary>
+      <div class="bank-content"><label class="file-button" for="bankFile">＋ &nbsp; Chọn file JSON<input id="bankFile" type="file" accept=".json,application/json"></label>
+      <details class="paste-box"><summary>Hoặc dán nội dung JSON</summary><label for="bankText" class="sr-only">Nội dung bộ đáp án JSON</label><textarea id="bankText" rows="5" placeholder='{"schemaVersion":1,"name":"Đáp án",…}' spellcheck="false"></textarea><button id="importText">Nạp nội dung</button></details>
+      <div class="bank-actions"><button id="exportBank" class="link" disabled>Xuất bộ đáp án</button><button id="clearBank" class="link danger" disabled>Xóa bộ đã nhập</button></div>
+      <p class="hint">Bộ Quy chế 2026.1 đã có sẵn, không cần nhập file. Có thể nạp bộ riêng khi dùng form khác.</p></div>
+    </details>
+    <section class="questions-section">
+      <div class="section-heading"><h3>02 &nbsp; Xem trước &amp; chỉnh đáp án</h3><span id="total" class="count">0 câu</span></div>
+      <div class="stats"><div><strong id="matchedCount">0</strong><span>Khớp JSON</span></div><div><strong id="selectedCount">0</strong><span>Đã chọn</span></div><div><strong id="unsupportedCount">0</strong><span>Chưa hỗ trợ</span></div></div>
+      <label class="overwrite"><input id="overwrite" type="checkbox"><span>Cho phép ghi đè câu đã có đáp án</span></label>
+      <div class="filters"><label class="sr-only" for="search">Tìm câu hỏi</label><input id="search" type="search" placeholder="Tìm nội dung câu hỏi…"><label class="sr-only" for="filter">Lọc trạng thái</label><select id="filter"><option value="all">Tất cả</option><option value="ready">Có đáp án</option><option value="missing">Chưa có đáp án</option><option value="unsupported">Chưa hỗ trợ</option></select></div>
+      <div class="selection-tools"><button id="selectReady" class="link" disabled>Chọn câu có đáp án</button><button id="deselect" class="link" disabled>Bỏ chọn</button></div>
+      <div id="questions" class="question-list"><div class="empty"><span aria-hidden="true">☷</span><h3>Form của bạn sẽ hiện ở đây</h3><p>Mở Microsoft Forms rồi chọn Quét form.<br>Bạn cũng có thể mở demo để thử trước.</p></div></div>
+      <p id="noResults" class="hint" hidden>Không có câu phù hợp bộ lọc.</p>
+    </section>
+    <section id="resultsSection" class="results" hidden><h3>Kết quả thao tác</h3><ol id="results"></ol></section>
+  </main>
+  <footer><div class="footer-actions"><button id="fill" class="primary" disabled>Điền 0 câu đã chọn →</button><button id="undo" disabled>Hoàn tác</button></div><p>Xử lý trên máy · Bạn tự kiểm tra và nộp bài</p></footer>
+</body>
+</html>

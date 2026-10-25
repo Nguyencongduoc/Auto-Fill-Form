@@ -1,0 +1,11 @@
+{
+  "name": "auto-fill-form",
+  "version": "0.2.2",
+  "private": true,
+  "description": "Dependency-free Microsoft Forms Chrome Extension",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs tests/bundled.test.cjs",
+    "test:browser": "node tests/browser.test.cjs",
+    "package": "node scripts/package.cjs"
+  }
+}

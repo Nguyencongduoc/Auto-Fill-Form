@@ -1,0 +1,3211 @@
+{
+  "schemaVersion": 1,
+  "name": "Quy chế 2026.1 · PDF cập nhật 26/10/2026",
+  "answers": [
+    {
+      "questionId": "quy-che-187",
+      "question": "Thời gian Ban Công tác sinh viên thông báo công khai kế hoạch đăng ký xét Học bổng Trao đổi sinh viên tối thiểu là bao lâu để người học chuẩn bị?",
+      "type": "single_choice",
+      "options": [
+        "Tối thiểu 01 tuần",
+        "Tối thiểu 02 tuần",
+        "Tối thiểu 03 tuần",
+        "Tối thiểu 01 tháng"
+      ],
+      "answer": [
+        "Tối thiểu 02 tuần"
+      ],
+      "sourceNumber": 1,
+      "sourcePage": 1
+    },
+    {
+      "questionId": "quy-che-158",
+      "question": "Học phí của các lớp \"Học phần rút gọn\" (cho sinh viên học lại) được tính bằng bao nhiêu so với lớp bình thường?",
+      "type": "single_choice",
+      "options": [
+        "Bằng 100%",
+        "Bằng 75%",
+        "Bằng 50%",
+        "Miễn phí 100%"
+      ],
+      "answer": [
+        "Bằng 50%"
+      ],
+      "sourceNumber": 2,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "quy-che-069",
+      "question": "Sinh viên nộp chậm học phí học kỳ hè quá thời hạn quy định sẽ bị xử lý như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Bị đình chỉ học kỳ chính tiếp theo",
+        "Bị hủy kết quả đăng ký học phần trong học kỳ hè đó",
+        "Bị phạt tiền gấp đôi",
+        "Bị trừ 100 điểm rèn luyện"
+      ],
+      "answer": [
+        "Bị hủy kết quả đăng ký học phần trong học kỳ hè đó"
+      ],
+      "sourceNumber": 3,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "quy-che-048",
+      "question": "Sinh viên tham gia đầy đủ Tuần sinh hoạt công dân do Nhà trường tổ chức được cộng bao nhiêu điểm rèn luyện?",
+      "type": "single_choice",
+      "options": [
+        "Cộng 3 điểm",
+        "Cộng 4 điểm",
+        "Cộng 6 điểm",
+        "Cộng 10 điểm"
+      ],
+      "answer": [
+        "Cộng 6 điểm"
+      ],
+      "sourceNumber": 4,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "quy-che-057",
+      "question": "Điều kiện học tập đối với sinh viên từ năm thứ hai trở đi để đăng ký Chương trình Vay vốn tín dụng ưu đãi STEM là gì?",
+      "type": "single_choice",
+      "options": [
+        "Kết quả học tập trung bình (GPA) năm học liền trước đạt loại Giỏi trở lên (từ 3,2 trở lên)",
+        "Đạt CPA từ 2,5 trở lên",
+        "Không bị điểm F nào",
+        "Có giấy chứng nhận hộ nghèo"
+      ],
+      "answer": [
+        "Kết quả học tập trung bình (GPA) năm học liền trước đạt loại Giỏi trở lên (từ 3,2 trở lên)"
+      ],
+      "sourceNumber": 5,
+      "sourcePage": 3
+    },
+    {
+      "questionId": "quy-che-013",
+      "question": "Sinh viên đạt danh hiệu \"Sinh viên 5 tốt\" từ cấp Đại học trở lên được cộng bao nhiêu điểm rèn luyện?",
+      "type": "single_choice",
+      "options": [
+        "Cộng 4 điểm",
+        "Cộng 6 điểm",
+        "Cộng 8 điểm",
+        "Cộng 10 điểm"
+      ],
+      "answer": [
+        "Cộng 4 điểm"
+      ],
+      "sourceNumber": 6,
+      "sourcePage": 3
+    },
+    {
+      "questionId": "quy-che-137",
+      "question": "Quy mô lớp học phần tối thiểu đối với chương trình đào tạo thạc sĩ theo Quy chế 2025 được điều chỉnh thành bao nhiêu học viên?",
+      "type": "single_choice",
+      "options": [
+        "20 học viên",
+        "15 học viên",
+        "10 học viên",
+        "5 học viên"
+      ],
+      "answer": [
+        "5 học viên"
+      ],
+      "sourceNumber": 7,
+      "sourcePage": 4
+    },
+    {
+      "questionId": "quy-che-099",
+      "question": "Địa chỉ phòng Mượn giáo trình học tập tại Thư viện Tạ Quang Bửu là phòng nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 102",
+        "Phòng 111 Thư viện Tạ Quang Bửu",
+        "Phòng 302",
+        "Phòng 509"
+      ],
+      "answer": [
+        "Phòng 111 Thư viện Tạ Quang Bửu"
+      ],
+      "sourceNumber": 8,
+      "sourcePage": 4
+    },
+    {
+      "questionId": "quy-che-186",
+      "question": "Khung điểm CPA quy đổi sang xếp loại học lực \"Giỏi\" theo Quy chế đào tạo là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2,50 đến 3,19",
+        "3,20 đến 3,59",
+        "3,60 đến 4,00",
+        "2,00 đến 2,49"
+      ],
+      "answer": [
+        "3,20 đến 3,59"
+      ],
+      "sourceNumber": 9,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "quy-che-044",
+      "question": "Sinh viên thực hiện khai báo thông tin liên lạc và nơi cư trú đầy đủ theo yêu cầu của Đại học được cộng bao nhiêu điểm rèn luyện?",
+      "type": "single_choice",
+      "options": [
+        "Cộng 2 điểm",
+        "Cộng 4 điểm",
+        "Cộng 6 điểm",
+        "Cộng 8 điểm"
+      ],
+      "answer": [
+        "Cộng 4 điểm"
+      ],
+      "sourceNumber": 10,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "quy-che-157",
+      "question": "Quy mô sức chứa tổng cộng của Ký túc xá Bách khoa hiện nay là bao nhiêu chỗ ở?",
+      "type": "single_choice",
+      "options": [
+        "2.000 chỗ ở",
+        "3.000 chỗ ở",
+        "4.500 chỗ ở (gồm 8 tòa nhà 4-5 tầng)",
+        "10.000 chỗ ở"
+      ],
+      "answer": [
+        "4.500 chỗ ở (gồm 8 tòa nhà 4-5 tầng)"
+      ],
+      "sourceNumber": 11,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "quy-che-079",
+      "question": "Để đạt Học bổng KKHT loại Xuất sắc (loại A), sinh viên cần đạt tiêu chuẩn GPA và điểm rèn luyện (ĐRL) học kỳ tối thiểu là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "GPA ≥ 3,2 và ĐRL ≥ 80",
+        "GPA ≥ 3,5 và ĐRL ≥ 85",
+        "GPA ≥ 3,6 và ĐRL ≥ 90",
+        "GPA ≥ 3,8 và ĐRL ≥ 95"
+      ],
+      "answer": [
+        "GPA ≥ 3,6 và ĐRL ≥ 90"
+      ],
+      "sourceNumber": 12,
+      "sourcePage": 6
+    },
+    {
+      "questionId": "quy-che-053",
+      "question": "Các phòng Học nhóm dành cho sinh viên tại Thư viện Tạ Quang Bửu nằm từ phòng 501 đến phòng 508 thuộc tầng mấy?",
+      "type": "single_choice",
+      "options": [
+        "Tầng 3",
+        "Tầng 4",
+        "Tầng 5 Thư viện Tạ Quang Bửu",
+        "Tầng 2"
+      ],
+      "answer": [
+        "Tầng 5 Thư viện Tạ Quang Bửu"
+      ],
+      "sourceNumber": 13,
+      "sourcePage": 6
+    },
+    {
+      "questionId": "quy-che-054",
+      "question": "Đối với học phần từ 2 tín chỉ trở lên, nếu sinh viên bị điểm quá trình là điểm liệt (dưới 3,0 hoặc dưới 5,0 tùy môn) thì điểm kết thúc học phần được tính ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Điểm học phần tính bằng đúng điểm thi cuối kỳ",
+        "Vẫn tính trung bình trọng số",
+        "Điểm học phần là điểm F",
+        "Cho thi lại giữa kỳ"
+      ],
+      "answer": [
+        "Điểm học phần là điểm F"
+      ],
+      "sourceNumber": 14,
+      "sourcePage": 7
+    },
+    {
+      "questionId": "quy-che-147",
+      "question": "Đối với chương trình đào tạo Thạc sĩ, lớp học phần có quy mô dưới 5 học viên được xem xét tổ chức dưới hình thức nào?",
+      "type": "single_choice",
+      "options": [
+        "Bị hủy lớp bắt buộc",
+        "Mở lớp dưới hình thức đồ án, khóa luận hoặc tiểu luận chuyên đề thay thế giờ lên lớp",
+        "Học viên phải tự học trực tuyến",
+        "Ghép học chung với sinh viên đại học"
+      ],
+      "answer": [
+        "Mở lớp dưới hình thức đồ án, khóa luận hoặc tiểu luận chuyên đề thay thế giờ lên lớp"
+      ],
+      "sourceNumber": 15,
+      "sourcePage": 7
+    },
+    {
+      "questionId": "quy-che-034",
+      "question": "Trường hợp ngoại lệ nào sinh viên đề nghị rút học phần mà KHÔNG phải đóng học phí?",
+      "type": "single_choice",
+      "options": [
+        "Đề nghị rút trong tuần đầu tiên của học kỳ thứ 2",
+        "Đề nghị rút trong học kỳ hè",
+        "Đề nghị rút ở tuần thứ 10",
+        "Không có trường hợp ngoại lệ"
+      ],
+      "answer": [
+        "Đề nghị rút trong tuần đầu tiên của học kỳ thứ 2"
+      ],
+      "sourceNumber": 16,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "quy-che-169",
+      "question": "Văn phòng Quản lý Ký túc xá Bách khoa và Trung tâm Dịch vụ & Hỗ trợ Bách khoa nằm tại đâu?",
+      "type": "single_choice",
+      "options": [
+        "Tầng 1 - Nhà B9",
+        "Tầng 5 - Nhà B10",
+        "Tòa nhà C1",
+        "Nhà D3"
+      ],
+      "answer": [
+        "Tầng 1 - Nhà B9"
+      ],
+      "sourceNumber": 17,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "quy-che-046",
+      "question": "Địa chỉ Văn phòng Tổ tư vấn và hỗ trợ sinh viên (SSU) chuyên tư vấn tâm lý và hỗ trợ học tập nằm tại phòng nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Nhà C1",
+        "Phòng 208 - Nhà C2",
+        "Phòng 106 - Nhà D4",
+        "Tầng 1 - Nhà B9"
+      ],
+      "answer": [
+        "Phòng 101 - Nhà C1"
+      ],
+      "sourceNumber": 18,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "quy-che-119",
+      "question": "Mức định mức cho vay tối đa theo Chương trình Vay vốn đối với sinh viên có hoàn cảnh khó khăn là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2.500.000đ / sinh viên / tháng",
+        "3.000.000đ / sinh viên / tháng",
+        "4.000.000đ / sinh viên / tháng",
+        "5.000.000đ / sinh viên / tháng"
+      ],
+      "answer": [
+        "4.000.000đ / sinh viên / tháng"
+      ],
+      "sourceNumber": 19,
+      "sourcePage": 9
+    },
+    {
+      "questionId": "quy-che-029",
+      "question": "Sinh viên được cấp Học bổng Chính phủ theo Nghị định 179 có được đồng thời hưởng thêm chính sách học bổng khác từ nguồn ngân sách nhà nước không?",
+      "type": "single_choice",
+      "options": [
+        "Được nhận song song tất cả các nguồn",
+        "Không, chỉ được lựa chọn hưởng 01 chính sách học bổng từ nguồn ngân sách nhà nước",
+        "Được nhận nếu có CPA 4,0",
+        "Tùy thuộc vào quyết định của lớp trưởng"
+      ],
+      "answer": [
+        "Không, chỉ được lựa chọn hưởng 01 chính sách học bổng từ nguồn ngân sách nhà nước"
+      ],
+      "sourceNumber": 20,
+      "sourcePage": 9
+    },
+    {
+      "questionId": "quy-che-165",
+      "question": "Số điện thoại đường dây nóng (Hotline) chính thức của Tổ tư vấn và hỗ trợ sinh viên (SSU) là số nào?",
+      "type": "single_choice",
+      "options": [
+        "024 3869 2110",
+        "024 3869 3108",
+        "024 3869 2942",
+        "024 3868 1954"
+      ],
+      "answer": [
+        "024 3869 2942"
+      ],
+      "sourceNumber": 21,
+      "sourcePage": 10
+    },
+    {
+      "questionId": "quy-che-009",
+      "question": "Khi đăng ký tốt nghiệp đại học, sinh viên được chọn số tín chỉ tích lũy so với yêu cầu của CTĐT như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Chọn vượt bao nhiêu tín chỉ tùy ý",
+        "Chỉ chọn đủ hoặc không nhiều hơn 3 tín chỉ so với yêu cầu của chương trình",
+        "Bắt buộc chọn đúng bằng số tín chỉ chuẩn",
+        "Chọn ít hơn chuẩn 5 tín chỉ"
+      ],
+      "answer": [
+        "Chỉ chọn đủ hoặc không nhiều hơn 3 tín chỉ so với yêu cầu của chương trình"
+      ],
+      "sourceNumber": 22,
+      "sourcePage": 10
+    },
+    {
+      "questionId": "quy-che-093",
+      "question": "Học viên tốt nghiệp đại học ngành phù hợp khi theo học chương trình Thạc sĩ phải học bổ sung tối đa bao nhiêu tín chỉ?",
+      "type": "single_choice",
+      "options": [
+        "Học bổ sung tối đa 10 tín chỉ",
+        "Học bổ sung tối đa 15 tín chỉ",
+        "Học bổ sung tối đa 20 tín chỉ",
+        "Không phải học bổ sung"
+      ],
+      "answer": [
+        "Học bổ sung tối đa 15 tín chỉ"
+      ],
+      "sourceNumber": 23,
+      "sourcePage": 11
+    },
+    {
+      "questionId": "quy-che-071",
+      "question": "Kết quả rèn luyện học kỳ đạt từ 80 điểm đến 89 điểm được xếp loại gì?",
+      "type": "single_choice",
+      "options": [
+        "Loại Xuất sắc",
+        "Loại Tốt",
+        "Loại Khá",
+        "Loại Trung bình"
+      ],
+      "answer": [
+        "Loại Tốt"
+      ],
+      "sourceNumber": 24,
+      "sourcePage": 11
+    },
+    {
+      "questionId": "quy-che-142",
+      "question": "Sinh viên vi phạm quy chế thi từ mức cảnh cáo trở lên sẽ bị trừ bao nhiêu điểm rèn luyện (ĐRL)?",
+      "type": "single_choice",
+      "options": [
+        "Trừ 5 điểm",
+        "Trừ 10 điểm",
+        "Trừ 20 điểm",
+        "Trừ 50 điểm"
+      ],
+      "answer": [
+        "Trừ 10 điểm"
+      ],
+      "sourceNumber": 25,
+      "sourcePage": 12
+    },
+    {
+      "questionId": "quy-che-017",
+      "question": "Chứng chỉ tiếng Anh VSTEP trình độ B1 tương ứng với Bậc mấy trong Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 1",
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4"
+      ],
+      "answer": [
+        "Bậc 3"
+      ],
+      "sourceNumber": 26,
+      "sourcePage": 12
+    },
+    {
+      "questionId": "quy-che-015",
+      "question": "Theo hướng dẫn Quản lý tài chính cá nhân trong Sổ tay sinh viên, tỷ lệ 20% thu nhập hàng tháng được khuyên dành cho mục đích nào?",
+      "type": "single_choice",
+      "options": [
+        "Chi tiêu thiết yếu",
+        "Hưởng thụ cá nhân",
+        "Dành cho tiết kiệm",
+        "Đầu tư chứng khoán"
+      ],
+      "answer": [
+        "Dành cho tiết kiệm"
+      ],
+      "sourceNumber": 27,
+      "sourcePage": 12
+    },
+    {
+      "questionId": "quy-che-088",
+      "question": "Đối với Chương trình đào tạo Kỹ sư chuyên sâu Thiết kế vi mạch, mức học phí/1 TCHP được tính bằng mức học phí của chương trình cử nhân nào?",
+      "type": "single_choice",
+      "options": [
+        "Cử nhân Khoa học máy tính",
+        "Cử nhân Kỹ thuật Điện tử - Viễn thông",
+        "Cử nhân Vật lý kỹ thuật",
+        "Cử nhân Hệ thống thông tin"
+      ],
+      "answer": [
+        "Cử nhân Kỹ thuật Điện tử - Viễn thông"
+      ],
+      "sourceNumber": 28,
+      "sourcePage": 13
+    },
+    {
+      "questionId": "quy-che-193",
+      "question": "Sinh viên học cùng lúc hai chương trình đào tạo (bằng kép) cần lưu ý quy định gì về việc đăng ký tốt nghiệp?",
+      "type": "single_choice",
+      "options": [
+        "Bắt buộc phải đăng ký tốt nghiệp đồng thời trong cùng một đợt cho cả hai CTĐT",
+        "Phải tốt nghiệp chương trình 1 trước ít nhất 1 năm mới được tốt nghiệp chương trình 2",
+        "Không được công nhận bất kỳ tín chỉ chung nào giữa hai chương trình",
+        "Được cấp 1 văn bằng gộp chung cả hai ngành"
+      ],
+      "answer": [
+        "Bắt buộc phải đăng ký tốt nghiệp đồng thời trong cùng một đợt cho cả hai CTĐT"
+      ],
+      "sourceNumber": 29,
+      "sourcePage": 13
+    },
+    {
+      "questionId": "quy-che-031",
+      "question": "Mức điểm chữ \"P\" được áp dụng cho loại học phần nào trong chương trình đào tạo?",
+      "type": "single_choice",
+      "options": [
+        "Các môn học chuyên ngành tính GPA",
+        "Các học phần chỉ yêu cầu đạt, không tính vào điểm trung bình học tập",
+        "Đồ án tốt nghiệp",
+        "Môn học bị kỷ luật"
+      ],
+      "answer": [
+        "Các học phần chỉ yêu cầu đạt, không tính vào điểm trung bình học tập"
+      ],
+      "sourceNumber": 30,
+      "sourcePage": 14
+    },
+    {
+      "questionId": "quy-che-050",
+      "question": "Quyết định ban hành Quy định về phân loại trình độ đầu vào và chuẩn ngoại ngữ K71 do lãnh đạo nào ký phê duyệt?",
+      "type": "single_choice",
+      "options": [
+        "Giám đốc GS.TS. Lê Anh Tuấn",
+        "Phó Giám đốc GS.TS. Vũ Văn Yêm",
+        "Trưởng Ban Đào tạo",
+        "Trưởng Khoa Ngoại ngữ"
+      ],
+      "answer": [
+        "Phó Giám đốc GS.TS. Vũ Văn Yêm"
+      ],
+      "sourceNumber": 31,
+      "sourcePage": 14
+    },
+    {
+      "questionId": "quy-che-189",
+      "question": "Mức học phí học lại học phần đối với Nghiên cứu sinh trình độ Tiến sĩ được quy định cụ thể là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "500.000 đồng / TCHP",
+        "650.000 đồng / TCHP",
+        "850.000 đồng / TCHP",
+        "1.200.000 đồng / TCHP"
+      ],
+      "answer": [
+        "850.000 đồng / TCHP"
+      ],
+      "sourceNumber": 32,
+      "sourcePage": 15
+    },
+    {
+      "questionId": "quy-che-171",
+      "question": "Quỹ học bổng Khuyến khích học tập (KKHT) được trích từ nguồn nào và chiếm tỷ lệ bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Ngân sách nhà nước, chiếm 5%",
+        "Trích từ nguồn học phí, bằng 8% học phí của học kỳ lấy điểm xét cấp học bổng",
+        "Tài trợ của doanh nghiệp, chiếm 10%",
+        "Quỹ cựu sinh viên, chiếm 12%"
+      ],
+      "answer": [
+        "Trích từ nguồn học phí, bằng 8% học phí của học kỳ lấy điểm xét cấp học bổng"
+      ],
+      "sourceNumber": 33,
+      "sourcePage": 15
+    },
+    {
+      "questionId": "quy-che-180",
+      "question": "Quy đổi 1 TCHT học phần \"Thực tập tốt nghiệp\" hệ đại học chính quy tương ứng bằng bao nhiêu TCHP?",
+      "type": "single_choice",
+      "options": [
+        "1,0 TCHP",
+        "1,5 TCHP",
+        "2,0 TCHP",
+        "2,5 TCHP"
+      ],
+      "answer": [
+        "2,5 TCHP"
+      ],
+      "sourceNumber": 34,
+      "sourcePage": 15
+    },
+    {
+      "questionId": "quy-che-063",
+      "question": "Sinh viên nghỉ học tạm thời do tai nạn hoặc điều trị bệnh dài ngày sẽ KHÔNG tính vào thời gian chậm tiến độ nếu tổng thời gian nghỉ không vượt quá bao nhiêu học kỳ?",
+      "type": "single_choice",
+      "options": [
+        "02 học kỳ chính",
+        "03 học kỳ chính",
+        "04 học kỳ chính",
+        "05 học kỳ chính"
+      ],
+      "answer": [
+        "04 học kỳ chính"
+      ],
+      "sourceNumber": 35,
+      "sourcePage": 16
+    },
+    {
+      "questionId": "quy-che-058",
+      "question": "Sinh viên được xét \"Miễn học\" học phần ngoại ngữ cơ bản sẽ được ghi ký hiệu điểm gì trên hệ thống?",
+      "type": "single_choice",
+      "options": [
+        "Điểm A",
+        "Điểm P",
+        "Điểm R",
+        "Điểm M"
+      ],
+      "answer": [
+        "Điểm R"
+      ],
+      "sourceNumber": 36,
+      "sourcePage": 16
+    },
+    {
+      "questionId": "quy-che-125",
+      "question": "Học phần \"FL1135 Tiếng Anh cơ sở 5\" có khối lượng thời lượng quy định là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2(2-0-0-4)",
+        "4(2-4-0-8)",
+        "3(3-0-0-6)",
+        "5(0-10-0-10)"
+      ],
+      "answer": [
+        "3(3-0-0-6)"
+      ],
+      "sourceNumber": 37,
+      "sourcePage": 17
+    },
+    {
+      "questionId": "quy-che-164",
+      "question": "Mức điểm rèn luyện (ĐRL) học kỳ 2025.2 tối thiểu đối với sinh viên Nhóm 2 đăng ký Học bổng Trần Đại Nghĩa là bao nhiêu điểm?",
+      "type": "single_choice",
+      "options": [
+        "ĐRL ≥ 50 điểm",
+        "ĐRL ≥ 65 điểm",
+        "ĐRL ≥ 70 điểm",
+        "ĐRL ≥ 80 điểm"
+      ],
+      "answer": [
+        "ĐRL ≥ 70 điểm"
+      ],
+      "sourceNumber": 38,
+      "sourcePage": 17
+    },
+    {
+      "questionId": "quy-che-148",
+      "question": "Địa điểm làm thủ tục và nhận Giấy xác nhận ưu đãi giáo dục đào tạo cho sinh viên diện Chế độ chính sách là phòng nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Nhà B9",
+        "Phòng 102 - Nhà C1",
+        "Phòng 208 - Nhà C2",
+        "Phòng 106 - Nhà D4"
+      ],
+      "answer": [
+        "Phòng 102 - Nhà C1"
+      ],
+      "sourceNumber": 39,
+      "sourcePage": 18
+    },
+    {
+      "questionId": "quy-che-143",
+      "question": "Sinh viên nộp hồ sơ văn bản giấy đăng ký Học bổng Trần Đại Nghĩa tại đâu?",
+      "type": "single_choice",
+      "options": [
+        "Phòng C1 - 102 (gặp cô Nghiêm Thị Kim Chi)",
+        "Thư viện Tạ Quang Bửu",
+        "Hội trường C2",
+        "Trung tâm Y tế Bách khoa"
+      ],
+      "answer": [
+        "Phòng C1 - 102 (gặp cô Nghiêm Thị Kim Chi)"
+      ],
+      "sourceNumber": 40,
+      "sourcePage": 18
+    },
+    {
+      "questionId": "quy-che-150",
+      "question": "Khối lượng học tập tối đa được xem xét công nhận và chuyển đổi tín chỉ từ một cơ sở đào tạo khác không được vượt quá bao nhiêu % khối lượng toàn khóa?",
+      "type": "single_choice",
+      "options": [
+        "Không vượt quá 30%",
+        "Không vượt quá 40%",
+        "Không vượt quá 50%",
+        "Không vượt quá 60%"
+      ],
+      "answer": [
+        "Không vượt quá 50%"
+      ],
+      "sourceNumber": 41,
+      "sourcePage": 18
+    },
+    {
+      "questionId": "quy-che-131",
+      "question": "Sinh viên được phép đăng ký học chương trình đào tạo thứ hai (bằng kép) sớm nhất khi nào?",
+      "type": "single_choice",
+      "options": [
+        "Ngay từ học kỳ 1 năm thứ nhất",
+        "Khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất",
+        "Sau khi đã tốt nghiệp chương trình thứ nhất",
+        "Khi có CPA 4,0"
+      ],
+      "answer": [
+        "Khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất"
+      ],
+      "sourceNumber": 42,
+      "sourcePage": 19
+    },
+    {
+      "questionId": "quy-che-176",
+      "question": "Theo Quy chế đào tạo 2025, sinh viên bị hạn chế khối lượng đăng ký học tập khi nào?",
+      "type": "single_choice",
+      "options": [
+        "Khi chưa đạt chuẩn ngoại ngữ theo trình độ năm học",
+        "Khi bị cảnh báo học tập từ mức 2 trở lên tại học kỳ 1 của năm học",
+        "Khi bị cảnh báo học tập mức 1",
+        "Tất cả sinh viên có CPA < 2,0"
+      ],
+      "answer": [
+        "Khi bị cảnh báo học tập mức 1"
+      ],
+      "sourceNumber": 43,
+      "sourcePage": 19
+    },
+    {
+      "questionId": "quy-che-196",
+      "question": "Sinh viên nghỉ học tạm thời phải nộp đơn đề nghị tiếp nhận trở lại học chậm nhất vào thời điểm nào?",
+      "type": "single_choice",
+      "options": [
+        "Ngay ngày đầu tiên đi học lại",
+        "Chậm nhất 01 tuần trước khi bắt đầu học kỳ mới",
+        "Sau khi học kỳ mới bắt đầu 2 tuần",
+        "Vào tuần thi cuối kỳ"
+      ],
+      "answer": [
+        "Chậm nhất 01 tuần trước khi bắt đầu học kỳ mới"
+      ],
+      "sourceNumber": 44,
+      "sourcePage": 20
+    },
+    {
+      "questionId": "quy-che-080",
+      "question": "Đối với Chương trình đào tạo chuẩn có chuẩn đầu ra là tiếng Anh, yêu cầu trình độ tiếng Anh tối thiểu khi xét tốt nghiệp là gì?",
+      "type": "single_choice",
+      "options": [
+        "Đạt trình độ Bậc 1 theo Khung 6 bậc",
+        "Đạt trình độ Bậc 2 theo Khung 6 bậc",
+        "Có chứng chỉ tiếng Anh quy đổi tương đương từ Bậc 3 trở lên",
+        "Có chứng chỉ tiếng Anh quy đổi tương đương từ Bậc 5 trở lên"
+      ],
+      "answer": [
+        "Có chứng chỉ tiếng Anh quy đổi tương đương từ Bậc 3 trở lên"
+      ],
+      "sourceNumber": 45,
+      "sourcePage": 20
+    },
+    {
+      "questionId": "quy-che-192",
+      "question": "Thời gian hưởng Học bổng Chính phủ tối đa cho sinh viên thuộc chương trình đào tạo Kỹ sư (từ 150 tín chỉ trở lên) là bao nhiêu năm?",
+      "type": "single_choice",
+      "options": [
+        "Không quá 03 năm",
+        "Không quá 04 năm",
+        "Không quá 05 năm",
+        "Không quá 06 năm"
+      ],
+      "answer": [
+        "Không quá 05 năm"
+      ],
+      "sourceNumber": 46,
+      "sourcePage": 21
+    },
+    {
+      "questionId": "quy-che-174",
+      "question": "Trường hợp nào sau đây sinh viên KHÔNG được quyền đề nghị phúc tra hoặc khiếu nại điểm?",
+      "type": "single_choice",
+      "options": [
+        "Bài thi viết tự luận cuối kỳ",
+        "Bài thi trắc nghiệm trên máy tính",
+        "Các học phần được tổ chức thi theo hình thức vấn đáp hoặc đánh giá trước hội đồng",
+        "Bài kiểm tra giữa kỳ"
+      ],
+      "answer": [
+        "Bài thi trắc nghiệm trên máy tính"
+      ],
+      "sourceNumber": 47,
+      "sourcePage": 21
+    },
+    {
+      "questionId": "quy-che-039",
+      "question": "Bài thi kiểm tra trình độ tiếng Anh đầu vào (Placement Test) do ĐHBK Hà Nội tổ chức có giá trị sử dụng trong thời gian bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Có giá trị 2 năm để xét tốt nghiệp",
+        "Chỉ có giá trị để phân loại trình độ đầu vào và xếp lớp học phần NNCB năm thứ nhất",
+        "Có giá trị vô thời hạn",
+        "Thay thế chứng chỉ IELTS"
+      ],
+      "answer": [
+        "Chỉ có giá trị để phân loại trình độ đầu vào và xếp lớp học phần NNCB năm thứ nhất"
+      ],
+      "sourceNumber": 48,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "quy-che-185",
+      "question": "Mức học phí áp dụng đối với sinh viên quốc tế học các chương trình đào tạo bằng tiếng Anh được tính như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Bằng 1,0 lần mức học phí người Việt Nam",
+        "Bằng 1,5 lần mức học phí quy định tương ứng",
+        "Bằng 2,0 lần",
+        "Bằng 3,0 lần"
+      ],
+      "answer": [
+        "Bằng 1,5 lần mức học phí quy định tương ứng"
+      ],
+      "sourceNumber": 49,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "quy-che-064",
+      "question": "Sau thời gian nào hàng ngày, sinh viên không được tự ý tụ tập tại các khu vực công cộng thuộc khuôn viên Nhà trường nếu không được phép?",
+      "type": "single_choice",
+      "options": [
+        "Sau 17h00",
+        "Sau 18h00",
+        "Sau 21h00",
+        "Sau 22h00"
+      ],
+      "answer": [
+        "Sau 21h00"
+      ],
+      "sourceNumber": 50,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "quy-che-041",
+      "question": "Mức phí thực hiện lại 01 chuyên đề tiến sĩ đối với nghiên cứu sinh được quy định cụ thể là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "1.000.000 đồng / chuyên đề",
+        "1.500.000 đồng / chuyên đề",
+        "2.200.000 đồng / chuyên đề",
+        "5.000.000 đồng / chuyên đề"
+      ],
+      "answer": [
+        "2.200.000 đồng / chuyên đề"
+      ],
+      "sourceNumber": 51,
+      "sourcePage": 23
+    },
+    {
+      "questionId": "quy-che-197",
+      "question": "Số đợt xét tốt nghiệp đại học trong một năm theo Quy chế đào tạo 2025 được quy định là bao nhiêu đợt?",
+      "type": "single_choice",
+      "options": [
+        "2 đợt",
+        "3 đợt",
+        "5 đợt",
+        "12 đợt"
+      ],
+      "answer": [
+        "5 đợt"
+      ],
+      "sourceNumber": 52,
+      "sourcePage": 23
+    },
+    {
+      "questionId": "quy-che-173",
+      "question": "Sinh viên có kết quả học tập và rèn luyện của học kỳ trước đó đạt mức Giỏi (GPA ≥ 3.2, ĐRL ≥ 80) được cộng bao nhiêu điểm rèn luyện?",
+      "type": "single_choice",
+      "options": [
+        "Cộng 2 điểm",
+        "Cộng 4 điểm",
+        "Cộng 6 điểm",
+        "Cộng 8 điểm"
+      ],
+      "answer": [
+        "Cộng 4 điểm"
+      ],
+      "sourceNumber": 53,
+      "sourcePage": 24
+    },
+    {
+      "questionId": "quy-che-089",
+      "question": "Điều 22 Luật Giáo dục số 43/2019/QH14 nghiêm cấm các hành vi nào trong cơ sở giáo dục?",
+      "type": "single_choice",
+      "options": [
+        "Xúc phạm nhân phẩm nhà giáo/người học; Xuyên tạc nội dung giáo dục; Gian lận trong học tập/thi; Hút thuốc, uống rượu bia, gây rối trật tự",
+        "Đi học muộn quá 5 phút",
+        "Không tham gia câu lạc bộ sinh viên",
+        "Không nộp tiền quỹ lớp"
+      ],
+      "answer": [
+        "Xúc phạm nhân phẩm nhà giáo/người học; Xuyên tạc nội dung giáo dục; Gian lận trong học tập/thi; Hút thuốc, uống rượu bia, gây rối trật tự"
+      ],
+      "sourceNumber": 54,
+      "sourcePage": 24
+    },
+    {
+      "questionId": "quy-che-124",
+      "question": "Mức điểm trung bình tích lũy (CPA) tối thiểu sinh viên cần đạt khi xét công nhận tốt nghiệp đại học là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "CPA ≥ 1,50",
+        "CPA ≥ 1,80",
+        "CPA ≥ 2,00",
+        "CPA ≥ 2,50"
+      ],
+      "answer": [
+        "CPA ≥ 2,00"
+      ],
+      "sourceNumber": 55,
+      "sourcePage": 25
+    },
+    {
+      "questionId": "quy-che-198",
+      "question": "Khái niệm \"Học phần học trước\" khác với \"Học phần tiên quyết\" ở điểm cốt lõi nào?",
+      "type": "single_choice",
+      "options": [
+        "Yêu cầu sinh viên phải đạt điểm A trở lên",
+        "Sinh viên chỉ cần đăng ký và học xong học phần A (có thể chưa đạt) là đã đủ điều kiện học học phần B",
+        "Bắt buộc phải học trong học kỳ hè",
+        "Không tính tín chỉ vào chương trình đào tạo"
+      ],
+      "answer": [
+        "Sinh viên chỉ cần đăng ký và học xong học phần A (có thể chưa đạt) là đã đủ điều kiện học học phần B"
+      ],
+      "sourceNumber": 56,
+      "sourcePage": 25
+    },
+    {
+      "questionId": "quy-che-184",
+      "question": "Thời gian điều chỉnh đăng ký học phần bổ sung vào các lớp học phần đã mở ở đầu học kỳ chính kéo dài trong bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Chỉ thực hiện trong 3 ngày đầu",
+        "Chỉ thực hiện trong tuần đầu của học kỳ",
+        "Kéo dài trong 2 tuần đầu",
+        "Trong suốt 7 tuần đầu"
+      ],
+      "answer": [
+        "Kéo dài trong 2 tuần đầu"
+      ],
+      "sourceNumber": 57,
+      "sourcePage": 26
+    },
+    {
+      "questionId": "quy-che-061",
+      "question": "Văn bản pháp lý của Chính phủ quy định về chính sách học phí, miễn giảm học phí áp dụng cho năm học 2026-2027 tại ĐHBK Hà Nội là văn bản nào?",
+      "type": "single_choice",
+      "options": [
+        "Nghị định 81/2021/NĐ-CP",
+        "Nghị định 238/2025/NĐ-CP ngày 03/09/2025",
+        "Thông tư 14/2023/TT-BGDĐT",
+        "Nghị định 100/2015/NĐ-CP"
+      ],
+      "answer": [
+        "Nghị định 238/2025/NĐ-CP ngày 03/09/2025"
+      ],
+      "sourceNumber": 58,
+      "sourcePage": 26
+    },
+    {
+      "questionId": "quy-che-170",
+      "question": "Theo Quy chế đào tạo 2025, điểm trung bình toàn khóa (CPA tốt nghiệp) cho chương trình Kỹ sư được tính như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Tính trung bình trọng số giữa cả giai đoạn Cử nhân và Kỹ sư",
+        "Chỉ tính dựa trên các học phần thuộc chương trình đào tạo kỹ sư đăng ký tốt nghiệp",
+        "Lấy điểm CPA của giai đoạn Cử nhân làm điểm tốt nghiệp Kỹ sư",
+        "Cộng trung bình cộng của tất cả các môn học từ năm thứ 1 đến năm thứ 5"
+      ],
+      "answer": [
+        "Chỉ tính dựa trên các học phần thuộc chương trình đào tạo kỹ sư đăng ký tốt nghiệp"
+      ],
+      "sourceNumber": 59,
+      "sourcePage": 26
+    },
+    {
+      "questionId": "quy-che-095",
+      "question": "Sau khi có quyết định công nhận tốt nghiệp, Nhà trường sẽ cấp bằng tốt nghiệp cho sinh viên trong thời hạn bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Trong vòng 30 ngày",
+        "Trong thời hạn 03 tháng",
+        "Trong vòng 6 tháng",
+        "Cấp ngay trong ngày ra quyết định"
+      ],
+      "answer": [
+        "Trong thời hạn 03 tháng"
+      ],
+      "sourceNumber": 60,
+      "sourcePage": 27
+    },
+    {
+      "questionId": "quy-che-179",
+      "question": "Thời gian hưởng Học bổng Chính phủ tối đa cho người học thuộc chương trình đào tạo Cử nhân là bao nhiêu năm?",
+      "type": "single_choice",
+      "options": [
+        "Không quá 03 năm",
+        "Không quá 04 năm",
+        "Không quá 05 năm",
+        "Hưởng vĩnh viễn"
+      ],
+      "answer": [
+        "Không quá 04 năm"
+      ],
+      "sourceNumber": 61,
+      "sourcePage": 27
+    },
+    {
+      "questionId": "quy-che-083",
+      "question": "Quỹ học bổng Khuyến khích học tập (KKHT) KHÔNG xét cấp cho sinh viên đăng ký ít hơn bao nhiêu tín chỉ trong học kỳ cấp học bổng?",
+      "type": "single_choice",
+      "options": [
+        "Đăng ký ít hơn 3 tín chỉ",
+        "Đăng ký ít hơn 6 tín chỉ",
+        "Đăng ký ít hơn 10 tín chỉ",
+        "Đăng ký ít hơn 12 tín chỉ"
+      ],
+      "answer": [
+        "Đăng ký ít hơn 12 tín chỉ"
+      ],
+      "sourceNumber": 62,
+      "sourcePage": 28
+    },
+    {
+      "questionId": "quy-che-052",
+      "question": "Ký hiệu \"ĐK\" trong bảng danh mục học phần tiếng Anh cơ bản có ý nghĩa gì?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên được miễn đăng ký",
+        "Sinh viên bắt buộc nghỉ học",
+        "Sinh viên tự đăng ký học song hành với các học phần của CTĐT tại kỳ tương ứng nếu chưa học hoặc chưa được miễn",
+        "Đăng ký học lại do bị điểm phạt"
+      ],
+      "answer": [
+        "Sinh viên tự đăng ký học song hành với các học phần của CTĐT tại kỳ tương ứng nếu chưa học hoặc chưa được miễn"
+      ],
+      "sourceNumber": 63,
+      "sourcePage": 28
+    },
+    {
+      "questionId": "quy-che-037",
+      "question": "Thời hạn Giám đốc Đại học ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp Thạc sĩ cho học viên đủ điều kiện là bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Trong thời hạn 01 tháng",
+        "Trong thời hạn 02 tháng tính từ thời điểm đáp ứng đủ điều kiện",
+        "Trong thời hạn 03 tháng",
+        "Trong thời hạn 06 tháng"
+      ],
+      "answer": [
+        "Trong thời hạn 02 tháng tính từ thời điểm đáp ứng đủ điều kiện"
+      ],
+      "sourceNumber": 64,
+      "sourcePage": 29
+    },
+    {
+      "questionId": "quy-che-001",
+      "question": "Điểm CPA từ 3,2 đến cận 3,6 khi quy đổi sang dải điểm thang 10 tương đương có kết quả là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "7,0 đến cận 8,0",
+        "7,5 đến cận 8,5",
+        "8,0 đến cận 9,0",
+        "9,0 đến 10,0"
+      ],
+      "answer": [
+        "8,0 đến cận 9,0"
+      ],
+      "sourceNumber": 65,
+      "sourcePage": 29
+    },
+    {
+      "questionId": "quy-che-022",
+      "question": "Việc miễn giảm học phí cho sinh viên diện chế độ chính sách được thực hiện căn cứ theo văn bản quy định nào của Chính phủ?",
+      "type": "single_choice",
+      "options": [
+        "Nghị định 100/2015/NĐ-CP",
+        "Nghị định 238/2025/NĐ-CP",
+        "Thông tư 01/2020/TT-BGDĐT",
+        "Quyết định 157/QĐ-TTg"
+      ],
+      "answer": [
+        "Nghị định 238/2025/NĐ-CP"
+      ],
+      "sourceNumber": 66,
+      "sourcePage": 30
+    },
+    {
+      "questionId": "quy-che-068",
+      "question": "Sinh viên đã có quyết định buộc thôi học, nếu thi lại và trúng tuyển mới vào trường thì việc công nhận học phần cũ được xử lý ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Bảo lưu toàn bộ các môn có điểm D trở lên",
+        "Bảo lưu tất cả các môn trừ Đồ án tốt nghiệp",
+        "Phải học lại toàn bộ chương trình, ngoại trừ học phần Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ",
+        "Được cấn trừ 50% số tín chỉ tích lũy cũ"
+      ],
+      "answer": [
+        "Phải học lại toàn bộ chương trình, ngoại trừ học phần Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ"
+      ],
+      "sourceNumber": 67,
+      "sourcePage": 30
+    },
+    {
+      "questionId": "quy-che-145",
+      "question": "Sinh viên từ K67 đến K70 (Nhóm 2) đăng ký Học bổng Trần Đại Nghĩa cần đạt mức GPA học kỳ 2025.2 tối thiểu là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "GPA ≥ 1,5",
+        "GPA ≥ 2,0",
+        "GPA ≥ 2,5",
+        "GPA ≥ 3,2"
+      ],
+      "answer": [
+        "GPA ≥ 2,0"
+      ],
+      "sourceNumber": 68,
+      "sourcePage": 30
+    },
+    {
+      "questionId": "quy-che-111",
+      "question": "Cơ quan nào chịu trách nhiệm đánh giá khả năng và mức độ ứng dụng thực tế của đề tài ĐATN trong quy trình xét cấp Học bổng \"Gắn kết quê hương\"?",
+      "type": "single_choice",
+      "options": [
+        "Ban Bảo vệ trường",
+        "Hội đồng chấm Đồ án tốt nghiệp",
+        "Ủy ban nhân dân tỉnh",
+        "Hội Sinh viên"
+      ],
+      "answer": [
+        "Hội đồng chấm Đồ án tốt nghiệp"
+      ],
+      "sourceNumber": 69,
+      "sourcePage": 31
+    },
+    {
+      "questionId": "quy-che-154",
+      "question": "Mức học phí áp dụng cho các lớp học phần tổ chức theo yêu cầu riêng của 01 sinh viên (lớp đặc biệt) do cấp nào quyết định?",
+      "type": "single_choice",
+      "options": [
+        "Giảng viên phụ trách môn học",
+        "Giám đốc Đại học Bách khoa Hà Nội quyết định",
+        "Trưởng khoa",
+        "Lớp trưởng"
+      ],
+      "answer": [
+        "Giám đốc Đại học Bách khoa Hà Nội quyết định"
+      ],
+      "sourceNumber": 70,
+      "sourcePage": 31
+    },
+    {
+      "questionId": "quy-che-151",
+      "question": "Học viên cao học nghỉ học tạm thời vì lý do cá nhân thông thường được phép nghỉ thời gian tối đa là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Tối đa 6 tháng",
+        "Tối đa 12 tháng (và được tính vào thời gian học tập)",
+        "Tối đa 18 tháng",
+        "Tối đa 24 tháng"
+      ],
+      "answer": [
+        "Tối đa 12 tháng (và được tính vào thời gian học tập)"
+      ],
+      "sourceNumber": 71,
+      "sourcePage": 32
+    },
+    {
+      "questionId": "quy-che-021",
+      "question": "Học bổng Trần Đại Nghĩa là học bổng của ĐHBK Hà Nội dành cho đối tượng sinh viên nào?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên đạt giải Nhất NCKH cấp quốc gia",
+        "Sinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn, có ý chí vươn lên trong học tập",
+        "Sinh viên có GPA 4,0",
+        "Sinh viên là vận động viên chuyên nghiệp"
+      ],
+      "answer": [
+        "Sinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn, có ý chí vươn lên trong học tập"
+      ],
+      "sourceNumber": 72,
+      "sourcePage": 32
+    },
+    {
+      "questionId": "quy-che-134",
+      "question": "Mức học phí đối với các học phần học ở học kỳ hè được tính như thế nào so với học kỳ chính?",
+      "type": "single_choice",
+      "options": [
+        "Bằng 1,0 lần mức học phí kỳ chính",
+        "Bằng 1,2 lần mức học phí kỳ chính",
+        "Bằng 1,5 lần mức học phí kỳ chính",
+        "Bằng 2,0 lần mức học phí kỳ chính"
+      ],
+      "answer": [
+        "Bằng 1,5 lần mức học phí kỳ chính"
+      ],
+      "sourceNumber": 73,
+      "sourcePage": 33
+    },
+    {
+      "questionId": "quy-che-023",
+      "question": "Theo Quy chế đào tạo 2025 (sửa đổi), điểm liệt đối với học phần đồ án tốt nghiệp/khóa luận tốt nghiệp cử nhân, đồ án tốt nghiệp kỹ sư là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Dưới 3,0",
+        "Dưới 4,0",
+        "Dưới 5,0",
+        "Dưới 2,0"
+      ],
+      "answer": [
+        "Dưới 5,0"
+      ],
+      "sourceNumber": 74,
+      "sourcePage": 33
+    },
+    {
+      "questionId": "quy-che-102",
+      "question": "Sinh viên đăng ký học vượt quá số tín chỉ chuẩn quy định trong một học kỳ có được giảm đơn giá TCHP không?",
+      "type": "single_choice",
+      "options": [
+        "Được giảm 20% đơn giá",
+        "Vẫn tính đúng đơn giá TCHP quy định của chương trình đào tạo",
+        "Được miễn phí các tín chỉ vượt",
+        "Tính gấp đôi đơn giá"
+      ],
+      "answer": [
+        "Vẫn tính đúng đơn giá TCHP quy định của chương trình đào tạo"
+      ],
+      "sourceNumber": 75,
+      "sourcePage": 34
+    },
+    {
+      "questionId": "quy-che-003",
+      "question": "Sinh viên có hành vi vi phạm kỷ luật khi thi hộ hoặc nhờ thi hộ sẽ bị trừ bao nhiêu điểm rèn luyện?",
+      "type": "single_choice",
+      "options": [
+        "Trừ 10 điểm",
+        "Trừ 20 điểm",
+        "Trừ 30 điểm",
+        "Trừ 50 điểm"
+      ],
+      "answer": [
+        "Trừ 20 điểm"
+      ],
+      "sourceNumber": 76,
+      "sourcePage": 34
+    },
+    {
+      "questionId": "quy-che-144",
+      "question": "Quy định về chương trình ngoại ngữ cơ bản K71 KHÔNG áp dụng cho đối tượng sinh viên nào?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên hệ đào tạo tài năng",
+        "Sinh viên ngành Ngôn ngữ Anh",
+        "Sinh viên là người nước ngoài theo học CTĐT có ngôn ngữ giảng dạy chính là tiếng Việt",
+        "Sinh viên học bằng kép"
+      ],
+      "answer": [
+        "Sinh viên ngành Ngôn ngữ Anh"
+      ],
+      "sourceNumber": 77,
+      "sourcePage": 34
+    },
+    {
+      "questionId": "quy-che-200",
+      "question": "Điều kiện học lực để sinh viên hết năm thứ nhất được xem xét chuyển sang học một chương trình đào tạo khác là gì?",
+      "type": "single_choice",
+      "options": [
+        "CPA ≥ 2,0",
+        "CPA ≥ 2,5 (từ loại khá trở lên) và không bị cảnh báo học tập",
+        "CPA ≥ 3,2",
+        "CPA ≥ 3,6"
+      ],
+      "answer": [
+        "CPA ≥ 2,5 (từ loại khá trở lên) và không bị cảnh báo học tập"
+      ],
+      "sourceNumber": 78,
+      "sourcePage": 35
+    },
+    {
+      "questionId": "quy-che-025",
+      "question": "Chuẩn ngoại ngữ đầu ra đối với CTĐT Tiếng Anh Khoa học Kỹ thuật và Công nghệ là gì?",
+      "type": "single_choice",
+      "options": [
+        "Ngoại ngữ 1 đạt Bậc 4, Ngoại ngữ 2 đạt Bậc 2",
+        "Ngoại ngữ 1 đạt tối thiểu Bậc 5, Ngoại ngữ 2 đạt tối thiểu Bậc 3",
+        "Ngoại ngữ 1 đạt Bậc 6, Ngoại ngữ 2 không yêu cầu",
+        "Cả 2 ngoại ngữ đều đạt Bậc 4"
+      ],
+      "answer": [
+        "Ngoại ngữ 1 đạt tối thiểu Bậc 5, Ngoại ngữ 2 đạt tối thiểu Bậc 3"
+      ],
+      "sourceNumber": 79,
+      "sourcePage": 35
+    },
+    {
+      "questionId": "quy-che-067",
+      "question": "Địa chỉ văn phòng làm việc của Đoàn Thanh niên Đại học Bách khoa Hà Nội nằm tại phòng nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Nhà B8",
+        "Phòng 208 - Tòa nhà C2",
+        "Phòng 102 - Nhà C1",
+        "Tầng 1 - Nhà B9"
+      ],
+      "answer": [
+        "Phòng 208 - Tòa nhà C2"
+      ],
+      "sourceNumber": 80,
+      "sourcePage": 36
+    },
+    {
+      "questionId": "quy-che-110",
+      "question": "Học phí các học phần thuộc hệ Vừa làm vừa học hoặc Sau đại học được thực hiện tại cơ sở liên kết ngoài Đại học được tính bằng bao nhiêu % so với chương trình chuẩn?",
+      "type": "single_choice",
+      "options": [
+        "Bằng 80%",
+        "Bằng 90% học phí chương trình chuẩn, cộng thêm kinh phí phối hợp đào tạo",
+        "Bằng 100%",
+        "Bằng 110%"
+      ],
+      "answer": [
+        "Bằng 90% học phí chương trình chuẩn, cộng thêm kinh phí phối hợp đào tạo"
+      ],
+      "sourceNumber": 81,
+      "sourcePage": 36
+    },
+    {
+      "questionId": "quy-che-113",
+      "question": "Sinh viên không hoàn thành chương trình đào tạo Thạc sĩ được quyền đề nghị cấp chứng nhận các học phần đã tích lũy trong thời hạn bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Trong thời hạn 2 năm",
+        "Trong thời hạn 3 năm",
+        "Trong thời hạn 5 năm kể từ ngày khóa học kết thúc",
+        "Vĩnh viễn"
+      ],
+      "answer": [
+        "Trong thời hạn 5 năm kể từ ngày khóa học kết thúc"
+      ],
+      "sourceNumber": 82,
+      "sourcePage": 37
+    },
+    {
+      "questionId": "quy-che-123",
+      "question": "Sinh viên là con đẻ hoặc con nuôi hợp pháp của Người có công với cách mạng được hưởng mức hỗ trợ miễn giảm học phí là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Giảm 50% học phí",
+        "Giảm 70% học phí",
+        "Miễn 100% học phí",
+        "Hỗ trợ 2 triệu/kỳ"
+      ],
+      "answer": [
+        "Miễn 100% học phí"
+      ],
+      "sourceNumber": 83,
+      "sourcePage": 37
+    },
+    {
+      "questionId": "quy-che-066",
+      "question": "Mức Học bổng Chính phủ hỗ trợ hàng tháng cho Học viên Thạc sĩ ngành Vi mạch bán dẫn và các ngành Khoa học cơ bản là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "5.500.000 đồng / tháng",
+        "6.300.000 đồng / tháng",
+        "7.400.000 đồng / tháng",
+        "8.400.000 đồng / tháng"
+      ],
+      "answer": [
+        "8.400.000 đồng / tháng"
+      ],
+      "sourceNumber": 84,
+      "sourcePage": 38
+    },
+    {
+      "questionId": "quy-che-086",
+      "question": "Chính sách hỗ trợ phần chênh lệch học phí cho sinh viên diện Chế độ chính sách (CĐCS) KHÔNG áp dụng cho khối chương trình nào?",
+      "type": "single_choice",
+      "options": [
+        "Chương trình đào tạo chuẩn",
+        "Chương trình đào tạo Kỹ sư chuyên sâu",
+        "Chương trình thạc sĩ",
+        "Tất cả các chương trình"
+      ],
+      "answer": [
+        "Chương trình thạc sĩ"
+      ],
+      "sourceNumber": 85,
+      "sourcePage": 38
+    },
+    {
+      "questionId": "quy-che-065",
+      "question": "Chuẩn ngoại ngữ đầu ra đối với Chương trình đào tạo Tiếng Hàn Khoa học và Công nghệ quy định ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Ngoại ngữ 1 (Tiếng Hàn) đạt Bậc 4, Ngoại ngữ 2 đạt Bậc 2",
+        "Ngoại ngữ 1 (Tiếng Hàn) đạt tối thiểu Bậc 5, Ngoại ngữ 2 đạt tối thiểu Bậc 3",
+        "Chỉ cần đạt TOPIK 2",
+        "Cả 2 ngoại ngữ đạt Bậc 4"
+      ],
+      "answer": [
+        "Ngoại ngữ 1 (Tiếng Hàn) đạt tối thiểu Bậc 5, Ngoại ngữ 2 đạt tối thiểu Bậc 3"
+      ],
+      "sourceNumber": 86,
+      "sourcePage": 38
+    },
+    {
+      "questionId": "quy-che-087",
+      "question": "Học phí tại Đại học Bách khoa Hà Nội được tính dựa trên đơn vị đo lường nào?",
+      "type": "single_choice",
+      "options": [
+        "Số buổi điểm danh",
+        "Số tín chỉ học phí (TCHP) của các học phần đăng ký",
+        "Mức phí cố định hàng tháng",
+        "Tổng số môn học"
+      ],
+      "answer": [
+        "Số tín chỉ học phí (TCHP) của các học phần đăng ký"
+      ],
+      "sourceNumber": 87,
+      "sourcePage": 39
+    },
+    {
+      "questionId": "quy-che-045",
+      "question": "Điều kiện bắt buộc kể từ học kỳ 3 trở đi đối với sinh viên chưa học hoặc chưa được miễn các học phần ngoại ngữ cơ bản (NNCB) để được đăng ký môn khác là gì?",
+      "type": "single_choice",
+      "options": [
+        "Phải có chứng chỉ IELTS 6.0",
+        "Bắt buộc phải đăng ký học song hành các học phần NNCB tương ứng ở mỗi kỳ",
+        "Phải nộp tiền cam kết học tập",
+        "Bị dừng học 1 kỳ"
+      ],
+      "answer": [
+        "Bắt buộc phải đăng ký học song hành các học phần NNCB tương ứng ở mỗi kỳ"
+      ],
+      "sourceNumber": 88,
+      "sourcePage": 39
+    },
+    {
+      "questionId": "quy-che-020",
+      "question": "Học bổng Chính phủ cấp cho người học được Nhà trường thực hiện chi trả theo định kỳ nào?",
+      "type": "single_choice",
+      "options": [
+        "Chi trả 1 lần duy nhất vào cuối khóa",
+        "Chi trả định kỳ theo từng tháng dựa trên số tháng thực học",
+        "Chi trả theo năm",
+        "Chi trả bằng hiện vật"
+      ],
+      "answer": [
+        "Chi trả định kỳ theo từng tháng dựa trên số tháng thực học"
+      ],
+      "sourceNumber": 89,
+      "sourcePage": 40
+    },
+    {
+      "questionId": "quy-che-177",
+      "question": "Bảng quy đổi chứng chỉ ngoại ngữ ban hành kèm Quy định K71 có áp dụng cho sinh viên các khóa cũ (từ K70 trở về trước) không?",
+      "type": "single_choice",
+      "options": [
+        "Không áp dụng cho khóa cũ",
+        "Áp dụng cho toàn bộ sinh viên các khóa đối với chứng chỉ cấp từ ngày quy định có hiệu lực; nếu mức mới khác cũ thì áp dụng mức cao hơn",
+        "Bắt buộc khóa cũ phải thi lại",
+        "Chỉ áp dụng cho hệ tài năng"
+      ],
+      "answer": [
+        "Áp dụng cho toàn bộ sinh viên các khóa đối với chứng chỉ cấp từ ngày quy định có hiệu lực; nếu mức mới khác cũ thì áp dụng mức cao hơn"
+      ],
+      "sourceNumber": 90,
+      "sourcePage": 40
+    },
+    {
+      "questionId": "quy-che-167",
+      "question": "Văn phòng làm việc của Hội Sinh viên Đại học Bách khoa Hà Nội đặt tại vị trí nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Tòa nhà B8",
+        "Phòng 208 - Nhà C2",
+        "Phòng 106 - Nhà D4",
+        "Nhà C1B"
+      ],
+      "answer": [
+        "Phòng 106 - Nhà D4"
+      ],
+      "sourceNumber": 91,
+      "sourcePage": 41
+    },
+    {
+      "questionId": "quy-che-098",
+      "question": "Theo quy tắc quy đổi, chứng chỉ APTIS ESOL trình độ A2 (chỉ thể hiện 1 mức năng lực) được xếp vào bậc cơ sở nào trong Bảng quy đổi?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 1.1",
+        "Bậc 1.2",
+        "Bậc 2.1",
+        "Bậc 2.3"
+      ],
+      "answer": [
+        "Bậc 2.1"
+      ],
+      "sourceNumber": 92,
+      "sourcePage": 41
+    },
+    {
+      "questionId": "quy-che-007",
+      "question": "Quy đổi khối lượng học tập hệ đại học chính quy: 1 TCHT của học phần \"Thí nghiệm / Thực hành thông thường\" bằng bao nhiêu Tín chỉ học phí (TCHP)?",
+      "type": "single_choice",
+      "options": [
+        "1,0 TCHP",
+        "1,5 TCHP",
+        "2,0 TCHP",
+        "2,5 TCHP"
+      ],
+      "answer": [
+        "1,5 TCHP"
+      ],
+      "sourceNumber": 93,
+      "sourcePage": 42
+    },
+    {
+      "questionId": "quy-che-136",
+      "question": "Chứng chỉ Cambridge English Qualifications trình độ B2 First (FCE) đạt từ 160-179 điểm được quy đổi sang Bậc mấy?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5"
+      ],
+      "answer": [
+        "Bậc 4"
+      ],
+      "sourceNumber": 94,
+      "sourcePage": 42
+    },
+    {
+      "questionId": "quy-che-040",
+      "question": "Chứng chỉ tiếng Trung HSK 6 kết hợp HSKK cao cấp tương ứng Bậc mấy trong Khung năng lực 6 bậc?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 4",
+        "Bậc 5",
+        "Bậc 6",
+        "Bậc 5+"
+      ],
+      "answer": [
+        "Bậc 6"
+      ],
+      "sourceNumber": 95,
+      "sourcePage": 42
+    },
+    {
+      "questionId": "quy-che-016",
+      "question": "Sinh viên không thể dự thi cuối kỳ do bị ốm hoặc tai nạn có hồ sơ hợp lệ được hoãn thi (điểm I) và dự thi bù trong thời hạn tối đa bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Ngay trong kỳ hè liền kề",
+        "Trong thời hạn 2 học kỳ chính tiếp theo",
+        "Trong vòng 1 tháng",
+        "Phải đăng ký học lại từ đầu"
+      ],
+      "answer": [
+        "Trong thời hạn 2 học kỳ chính tiếp theo"
+      ],
+      "sourceNumber": 96,
+      "sourcePage": 43
+    },
+    {
+      "questionId": "quy-che-146",
+      "question": "Sinh viên tự ý chuyển sang ngành học KHÔNG thuộc danh mục ưu tiên của Nghị định 179 sẽ bị xử lý học bổng ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Tiếp tục được nhận bình thường",
+        "Không tiếp tục được hưởng học bổng và phải hoàn trả kinh phí đã nhận thông qua cơ sở đào tạo",
+        "Được giảm 50% học bổng",
+        "Chuyển học bổng cho người khác"
+      ],
+      "answer": [
+        "Không tiếp tục được hưởng học bổng và phải hoàn trả kinh phí đã nhận thông qua cơ sở đào tạo"
+      ],
+      "sourceNumber": 97,
+      "sourcePage": 43
+    },
+    {
+      "questionId": "quy-che-188",
+      "question": "Đối với sinh viên Nhóm 4 (gặp tai nạn, rủi ro đột xuất), Học bổng Trần Đại Nghĩa hỗ trợ các mức tiền mặt cố định là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2 triệu đồng và 3 triệu đồng",
+        "3 triệu đồng và 5 triệu đồng",
+        "5 triệu đồng và 10 triệu đồng",
+        "10 triệu đồng và 20 triệu đồng"
+      ],
+      "answer": [
+        "5 triệu đồng và 10 triệu đồng"
+      ],
+      "sourceNumber": 98,
+      "sourcePage": 44
+    },
+    {
+      "questionId": "quy-che-036",
+      "question": "Thời gian nghỉ học tạm thời tối đa cho phép đối với lý do cá nhân thông thường là bao nhiêu học kỳ chính?",
+      "type": "single_choice",
+      "options": [
+        "01 học kỳ chính",
+        "02 học kỳ chính",
+        "04 học kỳ chính (và được tính vào thời gian chậm tiến độ)",
+        "06 học kỳ chính"
+      ],
+      "answer": [
+        "04 học kỳ chính (và được tính vào thời gian chậm tiến độ)"
+      ],
+      "sourceNumber": 99,
+      "sourcePage": 44
+    },
+    {
+      "questionId": "quy-che-084",
+      "question": "Hồ sơ đăng ký xét Học bổng Trần Đại Nghĩa bắt buộc phải có giấy tờ xác nhận của cơ quan nào?",
+      "type": "single_choice",
+      "options": [
+        "Công an phường/xã",
+        "Mẫu đơn đăng ký có xác nhận hoàn cảnh khó khăn của Ủy ban nhân dân địa phương nơi gia đình cư trú",
+        "Ban Bảo vệ trường",
+        "Hội Cựu sinh viên"
+      ],
+      "answer": [
+        "Mẫu đơn đăng ký có xác nhận hoàn cảnh khó khăn của Ủy ban nhân dân địa phương nơi gia đình cư trú"
+      ],
+      "sourceNumber": 100,
+      "sourcePage": 45
+    },
+    {
+      "questionId": "quy-che-168",
+      "question": "Kết quả bài thi kiểm tra tiếng Anh đầu khóa (HUST English Placement Test) đối với tân sinh viên K71 được sử dụng để làm gì?",
+      "type": "single_choice",
+      "options": [
+        "Xét đạt chuẩn ngoại ngữ đầu ra khi tốt nghiệp",
+        "Phân loại trình độ đầu vào, xếp lớp và xét miễn các học phần ngoại ngữ cơ bản",
+        "Quy đổi trực tiếp thành điểm thi tốt nghiệp đại học",
+        "Cộng trực tiếp vào điểm trung bình tích lũy CPA"
+      ],
+      "answer": [
+        "Phân loại trình độ đầu vào, xếp lớp và xét miễn các học phần ngoại ngữ cơ bản"
+      ],
+      "sourceNumber": 101,
+      "sourcePage": 45
+    },
+    {
+      "questionId": "quy-che-141",
+      "question": "Sinh viên có cha hoặc mẹ bị tai nạn lao động hưởng trợ cấp thường xuyên được hưởng mức giảm học phí là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Miễn 100% học phí",
+        "Giảm 70% học phí",
+        "Giảm 50% học phí",
+        "Giảm 30% học phí"
+      ],
+      "answer": [
+        "Giảm 50% học phí"
+      ],
+      "sourceNumber": 102,
+      "sourcePage": 46
+    },
+    {
+      "questionId": "quy-che-155",
+      "question": "Sinh viên đang học cùng lúc hai chương trình đào tạo sẽ bị dừng học chương trình thứ hai khi nào?",
+      "type": "single_choice",
+      "options": [
+        "Khi bị cảnh báo học tập ở chương trình thứ nhất",
+        "Khi bị điểm C ở chương trình 2",
+        "Khi không tham gia câu lạc bộ",
+        "Khi rút bớt tín chỉ ở kỳ hè"
+      ],
+      "answer": [
+        "Khi bị cảnh báo học tập ở chương trình thứ nhất"
+      ],
+      "sourceNumber": 103,
+      "sourcePage": 46
+    },
+    {
+      "questionId": "quy-che-191",
+      "question": "Mức học phí/1 TCHP của Chương trình đào tạo Kỹ sư chuyên sâu Trí tuệ nhân tạo tạo sinh (GenAI) được tính bằng mức học phí của chương trình cử nhân nào?",
+      "type": "single_choice",
+      "options": [
+        "Chương trình Cử nhân Công nghệ thông tin Việt - Nhật",
+        "Chương trình Khoa học dữ liệu và Trí tuệ nhân tạo (IT-E10)",
+        "Chương trình Kỹ thuật Máy tính",
+        "Chương trình Tin học công nghiệp"
+      ],
+      "answer": [
+        "Chương trình Khoa học dữ liệu và Trí tuệ nhân tạo (IT-E10)"
+      ],
+      "sourceNumber": 104,
+      "sourcePage": 46
+    },
+    {
+      "questionId": "quy-che-096",
+      "question": "Theo quy tắc quy đổi từ dải điểm thang 4 sang thang điểm 10 tương đương, điểm CPA từ 2,0 đến cận 2,5 tương ứng với dải điểm thang 10 nào?",
+      "type": "single_choice",
+      "options": [
+        "4,0 đến cận 5,5",
+        "5,5 đến cận 7,0",
+        "7,0 đến cận 8,0",
+        "8,0 đến cận 9,0"
+      ],
+      "answer": [
+        "5,5 đến cận 7,0"
+      ],
+      "sourceNumber": 105,
+      "sourcePage": 47
+    },
+    {
+      "questionId": "quy-che-072",
+      "question": "Sau khi bảo vệ thành công luận văn Thạc sĩ, học viên phải nộp quyển luận văn tốt nghiệp cho Thư viện Tạ Quang Bửu trong thời hạn bao nhiêu ngày?",
+      "type": "single_choice",
+      "options": [
+        "Trong vòng 10 ngày",
+        "Trong thời hạn 20 ngày kể từ ngày bảo vệ thành công",
+        "Trong vòng 30 ngày",
+        "Nộp trước ngày bảo vệ"
+      ],
+      "answer": [
+        "Trong thời hạn 20 ngày kể từ ngày bảo vệ thành công"
+      ],
+      "sourceNumber": 106,
+      "sourcePage": 47
+    },
+    {
+      "questionId": "quy-che-076",
+      "question": "Nhà trường có công nhận chứng chỉ tiếng Anh thi theo hình thức trực tuyến tại nhà (ví dụ: TOEFL iBT Home Edition) không?",
+      "type": "single_choice",
+      "options": [
+        "Có công nhận nếu đạt điểm tối đa",
+        "Không công nhận các chứng chỉ tiếng Anh cấp trên cơ sở thi trực tuyến tại nhà",
+        "Công nhận cho sinh viên thuộc hệ đào tạo từ xa",
+        "Công nhận nếu có xác nhận của giảng viên"
+      ],
+      "answer": [
+        "Không công nhận các chứng chỉ tiếng Anh cấp trên cơ sở thi trực tuyến tại nhà"
+      ],
+      "sourceNumber": 107,
+      "sourcePage": 48
+    },
+    {
+      "questionId": "quy-che-109",
+      "question": "Chứng chỉ Aptis ESOL (đủ 4 kỹ năng) đạt trình độ B2 được quy đổi tương đương Bậc mấy?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5"
+      ],
+      "answer": [
+        "Bậc 4"
+      ],
+      "sourceNumber": 108,
+      "sourcePage": 48
+    },
+    {
+      "questionId": "quy-che-112",
+      "question": "Sinh viên mồ côi cả cha lẫn mẹ thuộc Nhóm 3 khi đăng ký Học bổng Trần Đại Nghĩa được hưởng mức học bổng là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "30% học phí",
+        "50% học phí",
+        "100% học phí của các học phần trong chương trình đào tạo tại học kỳ xét",
+        "Trợ cấp 2 triệu đồng/tháng"
+      ],
+      "answer": [
+        "100% học phí của các học phần trong chương trình đào tạo tại học kỳ xét"
+      ],
+      "sourceNumber": 109,
+      "sourcePage": 49
+    },
+    {
+      "questionId": "quy-che-195",
+      "question": "Sinh viên phải đăng ký tối thiểu bao nhiêu tín chỉ trong học kỳ lấy điểm xét học bổng để không bị loại (trừ HK1 năm thứ nhất)?",
+      "type": "single_choice",
+      "options": [
+        "Tối thiểu 10 tín chỉ",
+        "Tối thiểu 12 tín chỉ",
+        "Tối thiểu 15 tín chỉ",
+        "Tối thiểu 18 tín chỉ"
+      ],
+      "answer": [
+        "Tối thiểu 12 tín chỉ"
+      ],
+      "sourceNumber": 110,
+      "sourcePage": 49
+    },
+    {
+      "questionId": "quy-che-014",
+      "question": "Nếu sinh viên nộp đơn đề nghị rút học phần trong khoảng 7 tuần đầu của học kỳ chính và được giải quyết, mức học phí phải đóng là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Được hoàn lại 100% học phí",
+        "Phải đóng 50% học phí của học phần đó",
+        "Phải đóng 100% học phí",
+        "Phải đóng 70% học phí"
+      ],
+      "answer": [
+        "Phải đóng 50% học phí của học phần đó"
+      ],
+      "sourceNumber": 111,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "quy-che-138",
+      "question": "Tân sinh viên K71 đăng ký Học bổng Trần Đại Nghĩa (Nhóm 1) theo điểm thi Đánh giá tư duy (TSA) cần đạt điểm xét tuyển tối thiểu là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Từ 60,00/100 trở lên",
+        "Từ 65,50/100 trở lên",
+        "Từ 72,47/100 trở lên",
+        "Từ 80,00/100 trở lên"
+      ],
+      "answer": [
+        "Từ 60,00/100 trở lên"
+      ],
+      "sourceNumber": 112,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "quy-che-090",
+      "question": "Sinh viên đoạt giải trong các cuộc thi chính thức cấp Quốc gia hoặc Quốc tế được cộng tối đa bao nhiêu điểm rèn luyện ở Mục 5.3?",
+      "type": "single_choice",
+      "options": [
+        "Cộng 10 điểm",
+        "Cộng 12 điểm",
+        "Cộng 15 điểm",
+        "Cộng 20 điểm"
+      ],
+      "answer": [
+        "Cộng 20 điểm"
+      ],
+      "sourceNumber": 113,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "quy-che-043",
+      "question": "Tân sinh viên đạt điểm bài kiểm tra HUST English Placement Test từ 475 đến dưới 545 điểm được xếp vào Nhóm trình độ nào?",
+      "type": "single_choice",
+      "options": [
+        "Nhóm 2",
+        "Nhóm 3",
+        "Nhóm 4",
+        "Nhóm 5"
+      ],
+      "answer": [
+        "Nhóm 4"
+      ],
+      "sourceNumber": 114,
+      "sourcePage": 51
+    },
+    {
+      "questionId": "quy-che-133",
+      "question": "Yêu cầu về các kỹ năng đối với chứng chỉ tiếng Anh quốc tế được sử dụng để xét chuẩn ngoại ngữ đầu ra là gì?",
+      "type": "single_choice",
+      "options": [
+        "Chỉ cần 2 kỹ năng Nghe và Đọc",
+        "Phải đánh giá đầy đủ 4 kỹ năng (Nghe, Nói, Đọc, Viết) và còn hiệu lực trong vòng 2 năm",
+        "Chỉ cần kỹ năng Viết và Đọc",
+        "Không giới hạn thời hạn cấp chứng chỉ"
+      ],
+      "answer": [
+        "Phải đánh giá đầy đủ 4 kỹ năng (Nghe, Nói, Đọc, Viết) và còn hiệu lực trong vòng 2 năm"
+      ],
+      "sourceNumber": 115,
+      "sourcePage": 51
+    },
+    {
+      "questionId": "quy-che-092",
+      "question": "Quy tắc xếp bậc đối với chứng chỉ TOEIC 4 kỹ năng trong quy định công nhận ngoại ngữ K71 được tính dựa trên tiêu chí nào?",
+      "type": "single_choice",
+      "options": [
+        "Tính theo tổng điểm 4 kỹ năng",
+        "Tính theo kỹ năng có điểm số cao nhất",
+        "Mức quy đổi được xác định theo kỹ năng có mức quy đổi thấp nhất trong bốn kỹ năng",
+        "Lấy điểm kỹ năng Đọc làm chuẩn"
+      ],
+      "answer": [
+        "Mức quy đổi được xác định theo kỹ năng có mức quy đổi thấp nhất trong bốn kỹ năng"
+      ],
+      "sourceNumber": 116,
+      "sourcePage": 52
+    },
+    {
+      "questionId": "quy-che-149",
+      "question": "Kênh thanh toán học phí trực tuyến chính thức và an toàn dành cho sinh viên ĐHBK Hà Nội là gì?",
+      "type": "single_choice",
+      "options": [
+        "Chuyển khoản qua số tài khoản cá nhân của giảng viên",
+        "Nộp trên Cổng thông tin sinh viên ctt.hust.edu.vn / app eHUST qua tài khoản ngân hàng liên kết",
+        "Nộp tiền mặt cho lớp trưởng",
+        "Đưa tiền mặt cho Ban Bảo vệ"
+      ],
+      "answer": [
+        "Nộp trên Cổng thông tin sinh viên ctt.hust.edu.vn / app eHUST qua tài khoản ngân hàng liên kết"
+      ],
+      "sourceNumber": 117,
+      "sourcePage": 52
+    },
+    {
+      "questionId": "quy-che-032",
+      "question": "Học phí học phần \"Giáo dục Quốc phòng - An ninh\" được tính toán dựa trên đơn vị nào?",
+      "type": "single_choice",
+      "options": [
+        "Tính theo số ngày đi học quân sự",
+        "Tính theo số TCHP quy đổi của các học phần GDQP-AN",
+        "Đóng mức cố định 5 triệu đồng",
+        "Do Bộ Quốc phòng thu trực tiếp"
+      ],
+      "answer": [
+        "Tính theo số TCHP quy đổi của các học phần GDQP-AN"
+      ],
+      "sourceNumber": 118,
+      "sourcePage": 53
+    },
+    {
+      "questionId": "quy-che-042",
+      "question": "Tân sinh viên K71 đăng ký Học bổng Trần Đại Nghĩa (Nhóm 1) theo điểm thi THPT yêu cầu điểm quy đổi thang 30 tối thiểu là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Từ 24/30 trở lên",
+        "Từ 25,5/30 trở lên",
+        "Từ 27/30 trở lên",
+        "Từ 28,5/30 trở lên"
+      ],
+      "answer": [
+        "Từ 24/30 trở lên"
+      ],
+      "sourceNumber": 119,
+      "sourcePage": 53
+    },
+    {
+      "questionId": "quy-che-161",
+      "question": "Quy đổi 1 TCHT học phần \"Lý thuyết / Bài tập\" hệ đại học chính quy tương ứng bằng bao nhiêu TCHP?",
+      "type": "single_choice",
+      "options": [
+        "1,0 TCHP",
+        "1,2 TCHP",
+        "1,5 TCHP",
+        "2,0 TCHP"
+      ],
+      "answer": [
+        "1,0 TCHP"
+      ],
+      "sourceNumber": 120,
+      "sourcePage": 54
+    },
+    {
+      "questionId": "quy-che-024",
+      "question": "Sinh viên thuộc diện Cử tuyển nộp và nhận giấy xác nhận được hưởng học bổng chính sách tại đâu và vào thời gian nào?",
+      "type": "single_choice",
+      "options": [
+        "Tại Phòng Đào tạo vào cuối năm học",
+        "Tại Phòng 102 - Nhà C1 vào đầu các học kỳ",
+        "Tại Văn phòng Đoàn Thanh niên",
+        "Tại Trạm Y tế"
+      ],
+      "answer": [
+        "Tại Phòng 102 - Nhà C1 vào đầu các học kỳ"
+      ],
+      "sourceNumber": 121,
+      "sourcePage": 54
+    },
+    {
+      "questionId": "quy-che-130",
+      "question": "Cổng thông tin chính thức hỗ trợ hướng nghiệp, tìm kiếm việc làm thêm và thực tập dành cho sinh viên Bách khoa có tên là gì?",
+      "type": "single_choice",
+      "options": [
+        "Cổng thông tin HustWork (hustwork.hust.edu.vn)",
+        "Cổng BK-Jobs",
+        "Cổng Vieclam24h",
+        "Cổng HUST-Career"
+      ],
+      "answer": [
+        "Cổng thông tin HustWork (hustwork.hust.edu.vn)"
+      ],
+      "sourceNumber": 122,
+      "sourcePage": 54
+    },
+    {
+      "questionId": "quy-che-094",
+      "question": "Học phần \"Tiếng Pháp PFIEV 1\" (mã FL1801) có khối lượng thời lượng quy định là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2(2-0-0-4)",
+        "3(1-4-0-6)",
+        "4(2-4-0-8)",
+        "3(3-0-0-6)"
+      ],
+      "answer": [
+        "4(2-4-0-8)"
+      ],
+      "sourceNumber": 123,
+      "sourcePage": 55
+    },
+    {
+      "questionId": "quy-che-055",
+      "question": "Sinh viên có quyền nộp đơn xin tự nguyện thôi học không và sau khi ra quyết định có được tiếp nhận trở lại không?",
+      "type": "single_choice",
+      "options": [
+        "Được xin thôi học và được tiếp nhận trở lại sau 1 năm",
+        "Được xin thôi học nhưng không được tiếp nhận trở lại",
+        "Không được tự nguyện xin thôi học",
+        "Phải nộp phạt tiền học phí nếu xin thôi học"
+      ],
+      "answer": [
+        "Được xin thôi học nhưng không được tiếp nhận trở lại"
+      ],
+      "sourceNumber": 124,
+      "sourcePage": 55
+    },
+    {
+      "questionId": "quy-che-172",
+      "question": "Ký hiệu điểm chữ \"X\" trong hệ thống quản lý học tập đại diện cho trạng thái nào?",
+      "type": "single_choice",
+      "options": [
+        "Học phần đạt điểm xuất sắc",
+        "Điểm học phần chưa hoàn thiện do thiếu dữ liệu đánh giá",
+        "Sinh viên bỏ thi không lý do",
+        "Học phần được công nhận tương đương"
+      ],
+      "answer": [
+        "Điểm học phần chưa hoàn thiện do thiếu dữ liệu đánh giá"
+      ],
+      "sourceNumber": 125,
+      "sourcePage": 56
+    },
+    {
+      "questionId": "quy-che-104",
+      "question": "Chuẩn ngoại ngữ đầu ra xét tốt nghiệp đối với các chương trình chất lượng cao ELITECH giảng dạy bằng tiếng Pháp là gì?",
+      "type": "single_choice",
+      "options": [
+        "DELF A2",
+        "Chứng chỉ tiếng Pháp DELF B2 hoặc TCF tương đương",
+        "TCF 100 điểm",
+        "Không yêu cầu tiếng Pháp"
+      ],
+      "answer": [
+        "Chứng chỉ tiếng Pháp DELF B2 hoặc TCF tương đương"
+      ],
+      "sourceNumber": 126,
+      "sourcePage": 56
+    },
+    {
+      "questionId": "quy-che-103",
+      "question": "Theo Quy chế đào tạo 2025, điều kiện trùng lặp nội dung chuyên môn tối thiểu giữa hai học phần để được xem là \"học phần tương đương\" là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "answer": [
+        "80%"
+      ],
+      "sourceNumber": 127,
+      "sourcePage": 57
+    },
+    {
+      "questionId": "quy-che-085",
+      "question": "Sinh viên đã hết thời gian học tập tối đa theo quy định nhưng chưa tốt nghiệp do thiếu môn GDQP-AN hoặc GDTC được gia hạn hoàn thiện trong thời gian tối đa bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Trong thời hạn tối đa 01 năm",
+        "Trong thời hạn tối đa 02 năm",
+        "Trong thời hạn tối đa 03 năm kể từ khi hết thời hạn học tập",
+        "Không được phép hoàn thiện"
+      ],
+      "answer": [
+        "Trong thời hạn tối đa 03 năm kể từ khi hết thời hạn học tập"
+      ],
+      "sourceNumber": 128,
+      "sourcePage": 57
+    },
+    {
+      "questionId": "quy-che-139",
+      "question": "Sinh viên là người dân tộc thiểu số rất ít người ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được hưởng mức hỗ trợ học phí ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Miễn 100% học phí",
+        "Giảm 70% học phí",
+        "Giảm 50% học phí",
+        "Giảm 30% học phí"
+      ],
+      "answer": [
+        "Miễn 100% học phí"
+      ],
+      "sourceNumber": 129,
+      "sourcePage": 58
+    },
+    {
+      "questionId": "quy-che-108",
+      "question": "Sinh viên là con đẻ của người hoạt động cách mạng trước ngày 01/01/1945 thuộc đối tượng hưởng chính sách học phí nào?",
+      "type": "single_choice",
+      "options": [
+        "Giảm 50% học phí",
+        "Miễn 100% học phí",
+        "Giảm 70% học phí",
+        "Không được miễn giảm"
+      ],
+      "answer": [
+        "Miễn 100% học phí"
+      ],
+      "sourceNumber": 130,
+      "sourcePage": 58
+    },
+    {
+      "questionId": "quy-che-074",
+      "question": "Các học phần Tiếng Anh cơ sở (NNCB) có được tính điểm vào GPA và CPA toàn khóa không?",
+      "type": "single_choice",
+      "options": [
+        "Có tính bình thường như các môn học khác",
+        "Không tính vào GPA và CPA, chỉ ghi nhận điểm đạt (R) hoặc không đạt",
+        "Chỉ tính vào GPA học kỳ 1",
+        "Tính nhân hệ số 2"
+      ],
+      "answer": [
+        "Không tính vào GPA và CPA, chỉ ghi nhận điểm đạt (R) hoặc không đạt"
+      ],
+      "sourceNumber": 131,
+      "sourcePage": 58
+    },
+    {
+      "questionId": "quy-che-153",
+      "question": "Quy định về \"Học phần song hành\" áp dụng cho hai học phần A và B được hiểu như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên bắt buộc phải học học phần A trước 1 năm",
+        "Sinh viên phải theo học học phần A trước hoặc học đồng thời với học phần B",
+        "Sinh viên được miễn học phần B nếu đã qua học phần A",
+        "Hai học phần được thi chung trong một buổi thi"
+      ],
+      "answer": [
+        "Sinh viên phải theo học học phần A trước hoặc học đồng thời với học phần B"
+      ],
+      "sourceNumber": 132,
+      "sourcePage": 59
+    },
+    {
+      "questionId": "quy-che-129",
+      "question": "Trường hợp sinh viên có đơn xin nghỉ học tạm thời hoặc thôi học được chấp thuận trong 7 tuần đầu của học kỳ chính thì nghĩa vụ học phí là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Được miễn 100% học phí",
+        "Phải đóng 50% học phí của học kỳ đó",
+        "Phải đóng 100% học phí",
+        "Đóng 20% học phí"
+      ],
+      "answer": [
+        "Phải đóng 50% học phí của học kỳ đó"
+      ],
+      "sourceNumber": 133,
+      "sourcePage": 59
+    },
+    {
+      "questionId": "quy-che-116",
+      "question": "Tiêu chuẩn về điểm rèn luyện (ĐRL) học kỳ tối thiểu để đạt Học bổng KKHT loại B (Giỏi) là bao nhiêu điểm?",
+      "type": "single_choice",
+      "options": [
+        "ĐRL ≥ 70 điểm",
+        "ĐRL ≥ 80 điểm",
+        "ĐRL ≥ 85 điểm",
+        "ĐRL ≥ 90 điểm"
+      ],
+      "answer": [
+        "ĐRL ≥ 80 điểm"
+      ],
+      "sourceNumber": 134,
+      "sourcePage": 60
+    },
+    {
+      "questionId": "quy-che-106",
+      "question": "Chứng chỉ tiếng Hàn TOPIK 4 tương ứng với Bậc mấy trong Khung năng lực 6 bậc?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5"
+      ],
+      "answer": [
+        "Bậc 4"
+      ],
+      "sourceNumber": 135,
+      "sourcePage": 60
+    },
+    {
+      "questionId": "quy-che-075",
+      "question": "Học phí đối với các lớp Vừa làm vừa học (VLVH) có sĩ số từ 10 đến 14 sinh viên áp dụng hệ số nhân học phí là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Hệ số 1,25",
+        "Hệ số 1,5",
+        "Hệ số 2,0",
+        "Hệ số 2,5"
+      ],
+      "answer": [
+        "Hệ số 1,5"
+      ],
+      "sourceNumber": 136,
+      "sourcePage": 61
+    },
+    {
+      "questionId": "quy-che-114",
+      "question": "Sinh viên thuộc Nhóm 3 trong đối tượng xét cấp Học bổng Trần Đại Nghĩa là ai?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên đạt giải Nhất Olympic",
+        "Sinh viên mồ côi cả cha và mẹ, không có nguồn nuôi dưỡng và không thuộc diện miễn 100% HP do quá 22 tuổi",
+        "Sinh viên bị kỷ luật khiển trách",
+        "Sinh viên đi du học"
+      ],
+      "answer": [
+        "Sinh viên mồ côi cả cha và mẹ, không có nguồn nuôi dưỡng và không thuộc diện miễn 100% HP do quá 22 tuổi"
+      ],
+      "sourceNumber": 137,
+      "sourcePage": 61
+    },
+    {
+      "questionId": "quy-che-182",
+      "question": "Sinh viên không nộp đủ học phí đúng thời hạn quy định sẽ bị xử lý như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Bị phạt tiền 10%",
+        "Bị đình chỉ đăng ký học tập một học kỳ kế tiếp",
+        "Bị trừ điểm rèn luyện",
+        "Bị buộc thôi học lập tức"
+      ],
+      "answer": [
+        "Bị đình chỉ đăng ký học tập một học kỳ kế tiếp"
+      ],
+      "sourceNumber": 138,
+      "sourcePage": 61
+    },
+    {
+      "questionId": "quy-che-183",
+      "question": "Mức điểm đạt đối với các học phần thuộc chương trình đào tạo cử nhân và kỹ sư (ngoại trừ học phần tốt nghiệp) là từ mức điểm chữ nào?",
+      "type": "single_choice",
+      "options": [
+        "Từ điểm F trở lên",
+        "Từ điểm D trở lên",
+        "Từ điểm C trở lên",
+        "Từ điểm B trở lên"
+      ],
+      "answer": [
+        "Từ điểm D trở lên"
+      ],
+      "sourceNumber": 139,
+      "sourcePage": 62
+    },
+    {
+      "questionId": "quy-che-107",
+      "question": "Mức Học bổng Chính phủ hỗ trợ hàng tháng đối với Học viên Thạc sĩ thuộc Chương trình đào tạo tài năng là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "6.300.000 đồng / tháng",
+        "7.400.000 đồng / tháng",
+        "8.400.000 đồng / tháng",
+        "10.000.000 đồng / tháng"
+      ],
+      "answer": [
+        "8.400.000 đồng / tháng"
+      ],
+      "sourceNumber": 140,
+      "sourcePage": 62
+    },
+    {
+      "questionId": "quy-che-126",
+      "question": "Chứng chỉ tiếng Anh quốc tế dùng để xét công nhận chuẩn đầu ra phải đảm bảo điều kiện thời hạn như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Cấp trong vòng 1 năm",
+        "Cấp trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra và còn hiệu lực",
+        "Cấp trong vòng 3 năm",
+        "Có giá trị vô thời hạn"
+      ],
+      "answer": [
+        "Cấp trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra và còn hiệu lực"
+      ],
+      "sourceNumber": 141,
+      "sourcePage": 63
+    },
+    {
+      "questionId": "quy-che-190",
+      "question": "Chuẩn tiếng Anh đầu ra đối với sinh viên chương trình liên kết đào tạo với Đại học TROY (Hoa Kỳ) khi xét tốt nghiệp là gì?",
+      "type": "single_choice",
+      "options": [
+        "IELTS 5.0",
+        "Chứng chỉ IELTS Academic 6.0 trở lên (hoặc TOEFL iBT tương đương)",
+        "VSTEP B1",
+        "TOEIC 450"
+      ],
+      "answer": [
+        "Chứng chỉ IELTS Academic 6.0 trở lên (hoặc TOEFL iBT tương đương)"
+      ],
+      "sourceNumber": 142,
+      "sourcePage": 63
+    },
+    {
+      "questionId": "quy-che-056",
+      "question": "Tiêu chuẩn xét Học bổng KKHT loại Khá (loại C) yêu cầu mức GPA và ĐRL tối thiểu là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "GPA ≥ 2,0 và ĐRL ≥ 50",
+        "GPA ≥ 2,5 và ĐRL ≥ 65",
+        "GPA ≥ 3,0 và ĐRL ≥ 70",
+        "GPA ≥ 3,2 và ĐRL ≥ 80"
+      ],
+      "answer": [
+        "GPA ≥ 2,5 và ĐRL ≥ 65"
+      ],
+      "sourceNumber": 143,
+      "sourcePage": 64
+    },
+    {
+      "questionId": "quy-che-159",
+      "question": "Trọng số của điểm thi cuối kỳ đối với học phần từ 2 tín chỉ trở lên được quy định nằm trong khoảng nào?",
+      "type": "single_choice",
+      "options": [
+        "Từ 0,3 đến 0,5",
+        "Từ 0,4 đến 0,6",
+        "Từ 0,5 đến 0,8",
+        "Cố định là 0,7"
+      ],
+      "answer": [
+        "Từ 0,5 đến 0,8"
+      ],
+      "sourceNumber": 144,
+      "sourcePage": 64
+    },
+    {
+      "questionId": "quy-che-026",
+      "question": "Chứng chỉ tiếng Pháp TCF quy đổi tương đương Bậc 3 (B1) yêu cầu điểm số TCF nằm trong khoảng nào?",
+      "type": "single_choice",
+      "options": [
+        "100 - 199 điểm",
+        "200 - 299 điểm",
+        "300 - 399 điểm",
+        "400 - 499 điểm"
+      ],
+      "answer": [
+        "300 - 399 điểm"
+      ],
+      "sourceNumber": 145,
+      "sourcePage": 65
+    },
+    {
+      "questionId": "quy-che-018",
+      "question": "Kết quả xét duyệt Học bổng KKHT được công bố chậm nhất vào tuần học thứ mấy của học kỳ cấp học bổng?",
+      "type": "single_choice",
+      "options": [
+        "Tuần thứ 5",
+        "Tuần thứ 8",
+        "Chậm nhất vào tuần học thứ 10",
+        "Tuần thứ 15"
+      ],
+      "answer": [
+        "Chậm nhất vào tuần học thứ 10"
+      ],
+      "sourceNumber": 146,
+      "sourcePage": 65
+    },
+    {
+      "questionId": "quy-che-128",
+      "question": "Theo Bảng 2.1 Phụ lục II, chứng chỉ IELTS Academic đạt mức điểm 2.0 được quy đổi tương đương Bậc cơ sở nào?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 1.1",
+        "Bậc 1.2",
+        "Bậc 2.1",
+        "Không được quy đổi"
+      ],
+      "answer": [
+        "Không được quy đổi"
+      ],
+      "sourceNumber": 147,
+      "sourcePage": 65
+    },
+    {
+      "questionId": "quy-che-160",
+      "question": "Giá trị của Học bổng KKHT loại Xuất sắc (loại A) bằng bao nhiêu lần so với loại Khá (loại C)?",
+      "type": "single_choice",
+      "options": [
+        "Bằng 1,2 lần",
+        "Bằng 1,3 lần",
+        "Bằng 1,5 lần",
+        "Bằng 2,0 lần"
+      ],
+      "answer": [
+        "Bằng 1,5 lần"
+      ],
+      "sourceNumber": 148,
+      "sourcePage": 66
+    },
+    {
+      "questionId": "quy-che-121",
+      "question": "Nếu sinh viên học một học phần tiếng Anh cơ sở nhưng không đạt điểm kết thúc (bị điểm F), sinh viên phải xử lý ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Bị buộc thôi học",
+        "Phải tự đăng ký học lại học phần đó ở các học kỳ tiếp theo",
+        "Được nhà trường tự động nâng điểm P",
+        "Chuyển sang học tiếng Pháp"
+      ],
+      "answer": [
+        "Phải tự đăng ký học lại học phần đó ở các học kỳ tiếp theo"
+      ],
+      "sourceNumber": 149,
+      "sourcePage": 66
+    },
+    {
+      "questionId": "quy-che-156",
+      "question": "Chứng chỉ tiếng Trung HSK 4 kết hợp HSKK trung cấp được Phụ lục VIII xếp vào Bậc mấy theo Khung 6 bậc?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5"
+      ],
+      "answer": [
+        "Bậc 3"
+      ],
+      "sourceNumber": 150,
+      "sourcePage": 67
+    },
+    {
+      "questionId": "quy-che-115",
+      "question": "Sau khi kết quả đánh giá điểm rèn luyện dự kiến được công bố, sinh viên có thời gian tối thiểu bao nhiêu ngày làm việc để nộp kiến nghị nếu có thắc mắc?",
+      "type": "single_choice",
+      "options": [
+        "Ít nhất 02 ngày làm việc",
+        "Ít nhất 03 ngày làm việc",
+        "Kết quả dự kiến được công bố ít nhất 05 ngày làm việc trước khi chính thức công nhận để sinh viên kiến nghị",
+        "Không cho phép kiến nghị"
+      ],
+      "answer": [
+        "Kết quả dự kiến được công bố ít nhất 05 ngày làm việc trước khi chính thức công nhận để sinh viên kiến nghị"
+      ],
+      "sourceNumber": 151,
+      "sourcePage": 67
+    },
+    {
+      "questionId": "quy-che-028",
+      "question": "Học phần \"FL1131 Tiếng Anh cơ sở 1\" có khối lượng thời lượng là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2(2-0-0-4)",
+        "3(3-0-0-6)",
+        "4(2-4-0-8)",
+        "5(0-10-0-10)"
+      ],
+      "answer": [
+        "3(3-0-0-6)"
+      ],
+      "sourceNumber": 152,
+      "sourcePage": 68
+    },
+    {
+      "questionId": "quy-che-070",
+      "question": "Việc xác nhận Giấy vay vốn ngân hàng cho sinh viên được Ban Công tác sinh viên trả kết quả tại địa điểm nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Nhà B9",
+        "Phòng 102 hoặc 103 - Nhà C1",
+        "Thư viện Tạ Quang Bửu",
+        "Nhà B8"
+      ],
+      "answer": [
+        "Nhà B8"
+      ],
+      "sourceNumber": 153,
+      "sourcePage": 68
+    },
+    {
+      "questionId": "quy-che-097",
+      "question": "Trong buổi bảo vệ Đồ án tốt nghiệp tại hội đồng, nếu có 1 thành viên hội đồng cho điểm dưới 5 thì điểm bảo vệ cuối kỳ của sinh viên được tính như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Vẫn tính trung bình cộng bình thường",
+        "Bị tính là điểm liệt và chỉ được ghi tối đa là 4,9 điểm",
+        "Bị hủy toàn bộ kết quả học tập",
+        "Bắt buộc bảo vệ lại vào ngày hôm sau"
+      ],
+      "answer": [
+        "Bị tính là điểm liệt và chỉ được ghi tối đa là 4,9 điểm"
+      ],
+      "sourceNumber": 154,
+      "sourcePage": 69
+    },
+    {
+      "questionId": "quy-che-117",
+      "question": "Điểm thay đổi quan trọng về cấu trúc học kỳ chính trong năm học từ Quy chế 2023 sang Quy chế 2025 là gì?",
+      "type": "single_choice",
+      "options": [
+        "Bỏ chia đợt A và B, một năm học bao gồm hai học kỳ chính và một học kỳ hè",
+        "Chia một học kỳ chính thành 3 đợt học A, B, C",
+        "Bỏ hoàn toàn học kỳ hè",
+        "Bổ sung thêm học kỳ chính thứ 3"
+      ],
+      "answer": [
+        "Bỏ chia đợt A và B, một năm học bao gồm hai học kỳ chính và một học kỳ hè"
+      ],
+      "sourceNumber": 155,
+      "sourcePage": 69
+    },
+    {
+      "questionId": "quy-che-091",
+      "question": "Không gian sinh hoạt chung dành cho sinh viên nội trú Ký túc xá nằm tại tầng mấy của tòa nhà B10?",
+      "type": "single_choice",
+      "options": [
+        "Tầng 1",
+        "Tầng 3",
+        "Tầng 5 - Tòa nhà B10",
+        "Tầng thượng"
+      ],
+      "answer": [
+        "Tầng 5 - Tòa nhà B10"
+      ],
+      "sourceNumber": 156,
+      "sourcePage": 69
+    },
+    {
+      "questionId": "quy-che-077",
+      "question": "Sinh viên học cùng lúc hai chương trình phải đăng ký học chương trình thứ hai muộn nhất trước thời điểm xét tốt nghiệp chương trình thứ nhất là bao lâu?",
+      "type": "single_choice",
+      "options": [
+        "Muộn nhất 06 tháng",
+        "Muộn nhất 01 năm",
+        "Muộn nhất 02 năm trước thời điểm xét tốt nghiệp",
+        "Không giới hạn thời gian"
+      ],
+      "answer": [
+        "Muộn nhất 02 năm trước thời điểm xét tốt nghiệp"
+      ],
+      "sourceNumber": 157,
+      "sourcePage": 70
+    },
+    {
+      "questionId": "quy-che-166",
+      "question": "Sinh viên có được tự ý hủy lớp học phần ngoại ngữ cơ bản đã đăng ký học song hành trong học kỳ không?",
+      "type": "single_choice",
+      "options": [
+        "Được hủy tự do trên hệ thống",
+        "Không được phép hủy, trừ trường hợp xin rút hoặc chủ động rút toàn bộ đăng ký học tập trong học kỳ",
+        "Được hủy nếu đóng phí phạt",
+        "Được hủy ở tuần thứ 5"
+      ],
+      "answer": [
+        "Không được phép hủy, trừ trường hợp xin rút hoặc chủ động rút toàn bộ đăng ký học tập trong học kỳ"
+      ],
+      "sourceNumber": 158,
+      "sourcePage": 70
+    },
+    {
+      "questionId": "quy-che-132",
+      "question": "Trường hợp lớp học phần bị hủy do không đủ sĩ số tối thiểu theo quy định thì số tiền học phí sinh viên đã nộp xử lý ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Bị thu hồi vào quỹ trường",
+        "Được hoàn trả hoặc trừ vào nghĩa vụ học phí của học kỳ tiếp theo",
+        "Chuyển thành tiền phạt",
+        "Mua sách thư viện"
+      ],
+      "answer": [
+        "Được hoàn trả hoặc trừ vào nghĩa vụ học phí của học kỳ tiếp theo"
+      ],
+      "sourceNumber": 159,
+      "sourcePage": 71
+    },
+    {
+      "questionId": "quy-che-011",
+      "question": "Điểm chữ \"W\" xuất hiện trong bảng điểm của sinh viên mang ý nghĩa gì?",
+      "type": "single_choice",
+      "options": [
+        "Học phần bị hủy do không đủ sĩ số",
+        "Học học phần bằng tiếng Anh",
+        "Điểm học phần sinh viên đã đăng ký rút thành công trong thời gian quy định",
+        "Học phần bị hoãn thi"
+      ],
+      "answer": [
+        "Điểm học phần sinh viên đã đăng ký rút thành công trong thời gian quy định"
+      ],
+      "sourceNumber": 160,
+      "sourcePage": 71
+    },
+    {
+      "questionId": "quy-che-030",
+      "question": "Theo Thông tư số 40/2026/TT-BGDĐT được trích dẫn trong Sổ tay sinh viên, có bao nhiêu hình thức xử lý kỷ luật đối với sinh viên?",
+      "type": "single_choice",
+      "options": [
+        "02 hình thức (Khiển trách, Cảnh cáo)",
+        "03 hình thức (Khiển trách, Cảnh cáo, Buộc thôi học)",
+        "04 hình thức (Khiển trách, Cảnh cáo, Đình chỉ học tập có thời hạn, Buộc thôi học)",
+        "05 hình thức"
+      ],
+      "answer": [
+        "04 hình thức (Khiển trách, Cảnh cáo, Đình chỉ học tập có thời hạn, Buộc thôi học)"
+      ],
+      "sourceNumber": 161,
+      "sourcePage": 72
+    },
+    {
+      "questionId": "quy-che-194",
+      "question": "Sinh viên được điều động vào lực lượng vũ trang nghỉ học tạm thời thì thời gian nghỉ được tính như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Tính hoàn toàn vào thời gian chậm tiến độ",
+        "Không tính vào thời gian học chậm tiến độ",
+        "Bị tính bằng 50% thời gian chậm tiến độ",
+        "Phải làm đơn xin nghỉ lại mỗi kỳ"
+      ],
+      "answer": [
+        "Không tính vào thời gian học chậm tiến độ"
+      ],
+      "sourceNumber": 162,
+      "sourcePage": 72
+    },
+    {
+      "questionId": "quy-che-122",
+      "question": "Trong Bảng đánh giá điểm rèn luyện sinh viên, Tiêu chí 1 \"Chấp hành pháp luật và nội quy, quy chế của nhà trường\" có điểm cộng tối đa là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Tối đa 15 điểm",
+        "Tối đa 20 điểm",
+        "Tối đa 25 điểm",
+        "Tối đa 30 điểm"
+      ],
+      "answer": [
+        "Tối đa 30 điểm"
+      ],
+      "sourceNumber": 163,
+      "sourcePage": 72
+    },
+    {
+      "questionId": "quy-che-008",
+      "question": "Địa điểm tiếp nhận hồ sơ Chế độ chính sách và phát Giấy xác nhận ưu đãi giáo dục cho sinh viên là phòng nào?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 102 - Nhà C1",
+        "Phòng 101 - Nhà B8",
+        "Phòng 202 - Nhà D3",
+        "Phòng 105 - Nhà C2"
+      ],
+      "answer": [
+        "Phòng 101 - Nhà B8"
+      ],
+      "sourceNumber": 164,
+      "sourcePage": 73
+    },
+    {
+      "questionId": "quy-che-019",
+      "question": "Sinh viên bị buộc thôi học do kết quả học tập yếu kém có quyền đề nghị chuyển sang hình thức đào tạo nào của Nhà trường?",
+      "type": "single_choice",
+      "options": [
+        "Chuyển sang hệ Tài năng",
+        "Chuyển sang hình thức Vừa làm vừa học (VLVH)",
+        "Chuyển sang hệ đào tạo Quốc tế TROY",
+        "Không được chuyển sang bất kỳ hình thức nào"
+      ],
+      "answer": [
+        "Chuyển sang hình thức Vừa làm vừa học (VLVH)"
+      ],
+      "sourceNumber": 165,
+      "sourcePage": 73
+    },
+    {
+      "questionId": "quy-che-100",
+      "question": "Quy định về phương tiện giao thông di chuyển vào khuôn viên Trường Bách khoa như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Xe taxi được tự do di chuyển trong trường",
+        "Xe đạp, xe máy, ô tô phải giảm tốc độ, quan sát và gửi xe đúng nơi quy định; xe taxi KHÔNG được vào trường",
+        "Cấm tất cả phương tiện cơ giới",
+        "Đi xe máy tốc độ tùy ý"
+      ],
+      "answer": [
+        "Xe đạp, xe máy, ô tô phải giảm tốc độ, quan sát và gửi xe đúng nơi quy định; xe taxi KHÔNG được vào trường"
+      ],
+      "sourceNumber": 166,
+      "sourcePage": 74
+    },
+    {
+      "questionId": "quy-che-051",
+      "question": "Ứng dụng di động chính thức hỗ trợ sinh viên theo dõi Điểm rèn luyện, cập nhật minh chứng và đăng ký hoạt động ngoại khóa là gì?",
+      "type": "single_choice",
+      "options": [
+        "App BusMap",
+        "App iCTSV",
+        "App BK-Pay",
+        "App HUST-News"
+      ],
+      "answer": [
+        "App iCTSV"
+      ],
+      "sourceNumber": 167,
+      "sourcePage": 74
+    },
+    {
+      "questionId": "quy-che-002",
+      "question": "Vị trí của Tiệm giặt là công cộng thuộc Ký túc xá Bách khoa được đặt ở đâu?",
+      "type": "single_choice",
+      "options": [
+        "Tầng 1 nhà C1",
+        "Nhà hồng xanh phía sau hội trường B6 (cạnh B7) - sát đường Trần Đại Nghĩa",
+        "Tầng 5 nhà B10",
+        "Trong nhà ăn A15"
+      ],
+      "answer": [
+        "Nhà hồng xanh phía sau hội trường B6 (cạnh B7) - sát đường Trần Đại Nghĩa"
+      ],
+      "sourceNumber": 168,
+      "sourcePage": 75
+    },
+    {
+      "questionId": "quy-che-035",
+      "question": "Chuẩn Ngoại ngữ 2 bắt buộc đối với sinh viên ngành Ngôn ngữ Anh hoặc Tiếng Anh KHKT&CN khi xét tốt nghiệp tối thiểu đạt Bậc mấy?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 1",
+        "Bậc 2",
+        "Bậc 3",
+        "Bậc 4"
+      ],
+      "answer": [
+        "Bậc 3"
+      ],
+      "sourceNumber": 169,
+      "sourcePage": 75
+    },
+    {
+      "questionId": "quy-che-062",
+      "question": "Sinh viên thuộc Nhóm 6 trong phân loại ngoại ngữ đầu vào sẽ nhận được quyền lợi gì?",
+      "type": "single_choice",
+      "options": [
+        "Được tặng 100% học phí kỳ 1",
+        "Được miễn học toàn bộ các học phần Tiếng Anh cơ sở (từ FL1131 đến FL1135)",
+        "Được cấp bằng tốt nghiệp ngay",
+        "Miễn học môn Thể dục"
+      ],
+      "answer": [
+        "Được miễn học toàn bộ các học phần Tiếng Anh cơ sở (từ FL1131 đến FL1135)"
+      ],
+      "sourceNumber": 170,
+      "sourcePage": 76
+    },
+    {
+      "questionId": "quy-che-078",
+      "question": "Trụ sở làm việc của Tổ hỗ trợ triển khai hệ thống iCTSV đặt tại vị trí nào trong trường?",
+      "type": "single_choice",
+      "options": [
+        "Phòng 101 - Nhà C1",
+        "Phòng 102 - Nhà D3-5",
+        "Tầng 2 - Nhà C3",
+        "Phòng 208 - Nhà C2"
+      ],
+      "answer": [
+        "Phòng 102 - Nhà D3-5"
+      ],
+      "sourceNumber": 171,
+      "sourcePage": 76
+    },
+    {
+      "questionId": "quy-che-178",
+      "question": "Học viên thuộc chương trình tích hợp Cử nhân - Thạc sĩ được đăng ký học trước tối đa bao nhiêu tín chỉ thuộc CTĐT thạc sĩ khi còn ở giai đoạn cử nhân?",
+      "type": "single_choice",
+      "options": [
+        "Tối đa 10 tín chỉ",
+        "Tối đa 15 tín chỉ",
+        "Tối đa 20 tín chỉ",
+        "Tối đa 30 tín chỉ"
+      ],
+      "answer": [
+        "Tối đa 15 tín chỉ"
+      ],
+      "sourceNumber": 172,
+      "sourcePage": 76
+    },
+    {
+      "questionId": "quy-che-082",
+      "question": "Sinh viên xin nghỉ học tạm thời vì lý do cá nhân thông thường (ngoài y tế và nghĩa vụ quân sự) cần đáp ứng điều kiện tối thiểu nào?",
+      "type": "single_choice",
+      "options": [
+        "Đã học ít nhất một học kỳ tại trường",
+        "Phải có CPA ≥ 3,2",
+        "Đã học xong năm thứ 3",
+        "Không nợ bất kỳ tín chỉ nào"
+      ],
+      "answer": [
+        "Đã học ít nhất một học kỳ tại trường"
+      ],
+      "sourceNumber": 173,
+      "sourcePage": 77
+    },
+    {
+      "questionId": "quy-che-012",
+      "question": "Theo Quy chế đào tạo 2025, \"Lớp học phần rút gọn\" dành cho sinh viên học lại được mở khi đáp ứng những điều kiện nào?",
+      "type": "single_choice",
+      "options": [
+        "Học lại ít nhất 01 lần, điểm quá trình ≥ 3,0, sinh viên năm thứ 1",
+        "Học lại ít nhất 02 lần chưa đạt, điểm quá trình từ 2,0 trở lên, sinh viên từ năm thứ 3 trở lên",
+        "Bị điểm F tất cả các môn trong kỳ liền trước",
+        "Sinh viên bị cảnh báo học tập mức 3"
+      ],
+      "answer": [
+        "Học lại ít nhất 02 lần chưa đạt, điểm quá trình từ 2,0 trở lên, sinh viên từ năm thứ 3 trở lên"
+      ],
+      "sourceNumber": 174,
+      "sourcePage": 77
+    },
+    {
+      "questionId": "quy-che-038",
+      "question": "Điều kiện về điểm CPA để sinh viên đại học đề nghị xét chuyển vào học Chương trình đào tạo Tài năng sau năm thứ hai là gì?",
+      "type": "single_choice",
+      "options": [
+        "CPA ≥ 2,5",
+        "CPA ≥ 3,0",
+        "CPA ≥ 3,2",
+        "CPA ≥ 3,6"
+      ],
+      "answer": [
+        "CPA ≥ 3,2"
+      ],
+      "sourceNumber": 175,
+      "sourcePage": 78
+    },
+    {
+      "questionId": "quy-che-199",
+      "question": "Mức điểm IELTS Academic đạt từ 8.5 đến 9.0 được Bảng 2.1 quy đổi tương đương Bậc mấy theo Khung 6 bậc?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 4",
+        "Bậc 5",
+        "Bậc 6 (CEFR C2)",
+        "Bậc 5.2"
+      ],
+      "answer": [
+        "Bậc 6 (CEFR C2)"
+      ],
+      "sourceNumber": 176,
+      "sourcePage": 78
+    },
+    {
+      "questionId": "quy-che-059",
+      "question": "Trường hợp hai sinh viên có cùng điểm GPA ở cuối danh sách xét học bổng, tiêu chí ưu tiên nào được sử dụng để xếp hạng?",
+      "type": "single_choice",
+      "options": [
+        "Ưu tiên sinh viên có hoàn cảnh khó khăn hơn",
+        "Ưu tiên sinh viên có điểm rèn luyện cao hơn",
+        "Ưu tiên sinh viên tích lũy nhiều tín chỉ hơn",
+        "Bốc thăm ngẫu nhiên"
+      ],
+      "answer": [
+        "Ưu tiên sinh viên có điểm rèn luyện cao hơn"
+      ],
+      "sourceNumber": 177,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "quy-che-163",
+      "question": "Mức Học bổng Chính phủ (Nghị định 179/2026/NĐ-CP) hỗ trợ hàng tháng cho sinh viên ngành Kỹ thuật then chốt & Công nghệ chiến lược là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "3.000.000 đồng / tháng",
+        "3.700.000 đồng / tháng",
+        "4.200.000 đồng / tháng",
+        "5.500.000 đồng / tháng"
+      ],
+      "answer": [
+        "5.500.000 đồng / tháng"
+      ],
+      "sourceNumber": 178,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "quy-che-127",
+      "question": "Hành vi nào sau đây bị NGHIÊM CẤM đối với sinh viên trong giờ học trên lớp?",
+      "type": "single_choice",
+      "options": [
+        "Tự ý ghi âm, ghi hình, chụp ảnh trong giờ học khi chưa được sự đồng ý của giáo viên",
+        "Lắng nghe giảng bài",
+        "Phát biểu ý kiến khi giảng viên yêu cầu",
+        "Ghi chép bài"
+      ],
+      "answer": [
+        "Tự ý ghi âm, ghi hình, chụp ảnh trong giờ học khi chưa được sự đồng ý của giáo viên"
+      ],
+      "sourceNumber": 179,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "quy-che-140",
+      "question": "Học phần \"FL1132 Tiếng Anh cơ sở 2\" có thời lượng và số tín chỉ quy định là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "2(2-0-0-4)",
+        "3(3-0-0-6)",
+        "4(2-4-0-8)",
+        "5(5-0-0-10)"
+      ],
+      "answer": [
+        "3(3-0-0-6)"
+      ],
+      "sourceNumber": 180,
+      "sourcePage": 80
+    },
+    {
+      "questionId": "quy-che-047",
+      "question": "Chứng chỉ tiếng Nhật JLPT trình độ N2 tương đương với Bậc mấy theo Khung 6 bậc?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5",
+        "Bậc 6"
+      ],
+      "answer": [
+        "Bậc 4"
+      ],
+      "sourceNumber": 181,
+      "sourcePage": 80
+    },
+    {
+      "questionId": "quy-che-120",
+      "question": "Sinh viên đang chịu hình thức kỷ luật nào tại thời điểm xét học bổng KKHT sẽ KHÔNG được xét cấp học bổng?",
+      "type": "single_choice",
+      "options": [
+        "Bị trừ 2 điểm rèn luyện",
+        "Chịu hình thức kỷ luật từ mức Khiển trách trở lên",
+        "Bị nhắc nhở vì đi muộn",
+        "Thi trượt 1 bài kiểm tra giữa kỳ"
+      ],
+      "answer": [
+        "Chịu hình thức kỷ luật từ mức Khiển trách trở lên"
+      ],
+      "sourceNumber": 182,
+      "sourcePage": 81
+    },
+    {
+      "questionId": "quy-che-033",
+      "question": "Quy định về việc quản lý và sử dụng Thẻ sinh viên khi vào trường như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Phải đeo thẻ sinh viên; Tuyệt đối không cho người khác mượn hoặc mượn thẻ người khác; Không được cầm cố thẻ sinh viên",
+        "Được phép cho bạn cùng phòng mượn thẻ",
+        "Cầm cố thẻ sinh viên để vay tiền",
+        "Không cần mang thẻ sinh viên"
+      ],
+      "answer": [
+        "Phải đeo thẻ sinh viên; Tuyệt đối không cho người khác mượn hoặc mượn thẻ người khác; Không được cầm cố thẻ sinh viên"
+      ],
+      "sourceNumber": 183,
+      "sourcePage": 81
+    },
+    {
+      "questionId": "quy-che-006",
+      "question": "Mức giá trị của Học bổng KKHT loại Giỏi (loại B) được tính như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Bằng đúng mức học bổng loại Khá",
+        "Bằng 1,2 lần mức học bổng loại Khá",
+        "Bằng 1,5 lần mức học bổng loại Khá",
+        "Bằng 2,0 lần mức học bổng loại Khá"
+      ],
+      "answer": [
+        "Bằng 1,2 lần mức học bổng loại Khá"
+      ],
+      "sourceNumber": 184,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "quy-che-175",
+      "question": "Điều kiện về ngoại ngữ để sinh viên chương trình Việt - Pháp PFIEV được đăng ký nhận Phụ lục văn bằng kỹ sư của phía Pháp là gì?",
+      "type": "single_choice",
+      "options": [
+        "Đạt DELF A2 và TOEIC 450",
+        "Đạt tối thiểu DELF B1 và Chứng chỉ TOEIC quốc tế (Nghe & Đọc) đạt từ 600 điểm trở lên",
+        "Đạt DELF B2",
+        "Chỉ cần qua các môn chuyên ngành"
+      ],
+      "answer": [
+        "Đạt tối thiểu DELF B1 và Chứng chỉ TOEIC quốc tế (Nghe & Đọc) đạt từ 600 điểm trở lên"
+      ],
+      "sourceNumber": 185,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "quy-che-081",
+      "question": "Pháp lệnh của Ủy ban Thường vụ Quốc hội quy định ưu đãi người có công với cách mạng được áp dụng trong xét miễn giảm học phí là văn bản nào?",
+      "type": "single_choice",
+      "options": [
+        "Pháp lệnh số 01/2012/UBTVQH13",
+        "Pháp lệnh số 02/2020/UBTVQH14 ngày 09/12/2020",
+        "Pháp lệnh số 05/2018/UBTVQH14",
+        "Pháp lệnh số 10/2022/UBTVQH15"
+      ],
+      "answer": [
+        "Pháp lệnh số 02/2020/UBTVQH14 ngày 09/12/2020"
+      ],
+      "sourceNumber": 186,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "quy-che-073",
+      "question": "Chứng chỉ IELTS Academic đạt từ 7.0 đến 8.0 được quy đổi tương đương với Bậc mấy theo Phụ lục II Quy định ngoại ngữ K71?",
+      "type": "single_choice",
+      "options": [
+        "Bậc 3",
+        "Bậc 4",
+        "Bậc 5",
+        "Bậc 6"
+      ],
+      "answer": [
+        "Bậc 5"
+      ],
+      "sourceNumber": 187,
+      "sourcePage": 83
+    },
+    {
+      "questionId": "quy-che-181",
+      "question": "Sinh viên có hành vi nộp chứng chỉ ngoại ngữ giả mạo để gian lận chuẩn đầu ra sẽ chịu mức xử lý kỷ luật nào?",
+      "type": "single_choice",
+      "options": [
+        "Trừ 5 điểm rèn luyện",
+        "Nhắc nhở nội bộ",
+        "Bị đình chỉ học tập hoặc buộc thôi học tùy mức độ nghiêm trọng",
+        "Phải nộp phạt 1 triệu đồng"
+      ],
+      "answer": [
+        "Bị đình chỉ học tập hoặc buộc thôi học tùy mức độ nghiêm trọng"
+      ],
+      "sourceNumber": 188,
+      "sourcePage": 83
+    },
+    {
+      "questionId": "quy-che-010",
+      "question": "Hệ số học phí áp dụng đối với các lớp học lại tổ chức ngoài kế hoạch theo đề nghị của sinh viên có sĩ số dưới 10 sinh viên là bao nhiêu?",
+      "type": "single_choice",
+      "options": [
+        "Hệ số 1,2",
+        "Hệ số 1,5",
+        "Hệ số 2,0",
+        "Hệ số 2,5"
+      ],
+      "answer": [
+        "Hệ số 2,0"
+      ],
+      "sourceNumber": 189,
+      "sourcePage": 84
+    },
+    {
+      "questionId": "quy-che-118",
+      "question": "Trường hợp nào sau đây KHÔNG thuộc diện xét cấp Học bổng Trần Đại Nghĩa?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên mồ côi cả cha lẫn mẹ",
+        "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên hoặc đã nhận học bổng khác trên 10 triệu đồng",
+        "Sinh viên đạt giải Học sinh giỏi cấp tỉnh",
+        "Sinh viên gặp thiên tai, hỏa hoạn"
+      ],
+      "answer": [
+        "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên hoặc đã nhận học bổng khác trên 10 triệu đồng"
+      ],
+      "sourceNumber": 190,
+      "sourcePage": 84
+    },
+    {
+      "questionId": "quy-che-162",
+      "question": "Theo Quy chế đào tạo, \"Học phần tiên quyết\" của một học phần B được hiểu như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Sinh viên chỉ cần đăng ký học học phần A là đủ điều kiện học B",
+        "Sinh viên phải học xong học phần A và đạt điểm đạt trở lên mới được đăng ký học học phần B",
+        "Sinh viên phải học song song học phần A và học phần B trong cùng một kỳ",
+        "Sinh viên bị điểm F học phần A vẫn được học học phần B"
+      ],
+      "answer": [
+        "Sinh viên phải học xong học phần A và đạt điểm đạt trở lên mới được đăng ký học học phần B"
+      ],
+      "sourceNumber": 191,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "quy-che-004",
+      "question": "Tổ tư vấn tâm lý sinh viên (tiền thân của Tổ tư vấn và hỗ trợ sinh viên SSU) được thành lập vào ngày tháng năm nào?",
+      "type": "single_choice",
+      "options": [
+        "Ngày 10/10/2015",
+        "Ngày 26/03/2019",
+        "Ngày 01/01/2020",
+        "Ngày 15/08/2022"
+      ],
+      "answer": [
+        "Ngày 26/03/2019"
+      ],
+      "sourceNumber": 192,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "quy-che-027",
+      "question": "Sinh viên không đáp ứng điều kiện phân loại trình độ ngoại ngữ đầu vào sẽ được xếp học như thế nào?",
+      "type": "single_choice",
+      "options": [
+        "Được miễn toàn bộ khối ngoại ngữ cơ bản",
+        "Được xếp học từ học phần đầu tiên của khối Ngoại ngữ cơ bản tương ứng",
+        "Bị hoãn đăng ký học tập toàn bộ các môn khác",
+        "Bị buộc dừng học 1 học kỳ"
+      ],
+      "answer": [
+        "Được xếp học từ học phần đầu tiên của khối Ngoại ngữ cơ bản tương ứng"
+      ],
+      "sourceNumber": 193,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "quy-che-101",
+      "question": "Nếu trung bình cộng điểm của người hướng dẫn và người phản biện đồ án tốt nghiệp cho dưới 5,0 thì sinh viên sẽ bị xử lý ra sao?",
+      "type": "single_choice",
+      "options": [
+        "Được điểm 5,0 để vào bảo vệ",
+        "Không được phép tham gia bảo vệ và điểm bảo vệ tại hội đồng tính là 0 điểm",
+        "Được xin hoãn bảo vệ sang kỳ sau",
+        "Được nộp lại đồ án sau 1 tuần"
+      ],
+      "answer": [
+        "Không được phép tham gia bảo vệ và điểm bảo vệ tại hội đồng tính là 0 điểm"
+      ],
+      "sourceNumber": 194,
+      "sourcePage": 86
+    },
+    {
+      "questionId": "quy-che-135",
+      "question": "Sinh viên xin nghỉ học tạm thời vì lý do cá nhân sẽ bị xét buộc thôi học nếu tổng thời gian nghỉ vượt quá bao nhiêu học kỳ chính?",
+      "type": "single_choice",
+      "options": [
+        "Nghỉ quá 02 học kỳ chính",
+        "Nghỉ quá 03 học kỳ chính",
+        "Nghỉ quá 04 học kỳ chính",
+        "Nghỉ quá 05 học kỳ chính"
+      ],
+      "answer": [
+        "Nghỉ quá 04 học kỳ chính"
+      ],
+      "sourceNumber": 195,
+      "sourcePage": 86
+    },
+    {
+      "questionId": "quy-che-152",
+      "question": "Sinh viên K71 đăng ký học các lớp tiếng Anh tăng cường/dịch vụ ngoài giờ có phải nộp học phí không?",
+      "type": "single_choice",
+      "options": [
+        "Được miễn phí hoàn toàn",
+        "Phải nộp học phí theo quy định đối với lớp học phần dịch vụ/tăng cường",
+        "Được trừ vào tiền học bổng",
+        "Do Đoàn Thanh niên chi trả"
+      ],
+      "answer": [
+        "Phải nộp học phí theo quy định đối với lớp học phần dịch vụ/tăng cường"
+      ],
+      "sourceNumber": 196,
+      "sourcePage": 87
+    },
+    {
+      "questionId": "quy-che-060",
+      "question": "Khi tham gia các sự kiện, hội họp trong nhà trường, sinh viên phải có mặt trước giờ khai mạc ít nhất bao nhiêu phút?",
+      "type": "single_choice",
+      "options": [
+        "Trước 2 phút",
+        "Trước 5 phút",
+        "Trước 15 phút",
+        "Đúng giờ khai mạc"
+      ],
+      "answer": [
+        "Trước 15 phút"
+      ],
+      "sourceNumber": 197,
+      "sourcePage": 87
+    },
+    {
+      "questionId": "quy-che-049",
+      "question": "Mức học phí áp dụng đối với sinh viên nước ngoài tự chi trả kinh phí học tập được tính bằng bao nhiêu lần so với quy định chuẩn?",
+      "type": "single_choice",
+      "options": [
+        "1,0 lần",
+        "1,2 lần",
+        "1,5 lần",
+        "2,0 lần"
+      ],
+      "answer": [
+        "1,5 lần"
+      ],
+      "sourceNumber": 198,
+      "sourcePage": 88
+    },
+    {
+      "questionId": "quy-che-105",
+      "question": "Sinh viên đăng ký học lại học phần đã đạt điểm D để cải thiện điểm CPA có phải đóng học phí không?",
+      "type": "single_choice",
+      "options": [
+        "Được miễn phí hoàn toàn",
+        "Phải đóng 100% học phí theo số TCHP đăng ký",
+        "Phải đóng 150% học phí",
+        "Chỉ đóng 50%"
+      ],
+      "answer": [
+        "Phải đóng 100% học phí theo số TCHP đăng ký"
+      ],
+      "sourceNumber": 199,
+      "sourcePage": 88
+    },
+    {
+      "questionId": "quy-che-005",
+      "question": "Việc nộp chứng chỉ ngoại ngữ quốc tế để quy đổi miễn học và công nhận chuẩn đầu ra được sinh viên thực hiện qua kênh nào?",
+      "type": "single_choice",
+      "options": [
+        "Nộp trực tiếp bản giấy tại phòng bảo vệ",
+        "Đăng ký trực tuyến trên hệ thống quản lý đào tạo (eHUST/QLDT) theo các đợt thông báo",
+        "Gửi qua bưu điện",
+        "Đưa cho lớp trưởng giữ"
+      ],
+      "answer": [
+        "Đăng ký trực tuyến trên hệ thống quản lý đào tạo (eHUST/QLDT) theo các đợt thông báo"
+      ],
+      "sourceNumber": 200,
+      "sourcePage": 89
+    }
+  ],
+  "matching": "document_ocr",
+  "sourceForm": {
+    "platform": "microsoft_forms",
+    "formId": "n7jxBugHT0a0COwbRXA_MYHyGUaEfhNNu2j97QvQaYlUOUxLS1VGWEJOVURPM0pUWTRJWks3S0pBRy4u"
+  }
+}
