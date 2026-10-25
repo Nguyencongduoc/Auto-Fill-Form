@@ -1,5 +1,7 @@
 # Báo cáo đánh giá khả thi: nhập đáp án PDF hoặc JSON để hỗ trợ điền form
 
+**Cập nhật:** phương án JSON đã được phê duyệt và triển khai ở v0.3.0. Xem [báo cáo triển khai](./IMPLEMENTATION_REPORT.md); phần dưới là đánh giá tại thời điểm trước triển khai.
+
 **Dự án:** Auto Fill Form  
 **Ngày đánh giá:** 26/10/2026  
 **Phiên bản được xem xét:** 0.2.2  

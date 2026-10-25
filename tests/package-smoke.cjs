@@ -17,7 +17,16 @@ let context;
   execFileSync("powershell.exe",["-NoProfile","-Command",`Expand-Archive -LiteralPath ${quote(zip)} -DestinationPath ${quote(extracted)}`]);
   assert.ok(fs.existsSync(path.join(extracted,"manifest.json")),"manifest.json must be directly inside extracted folder");
   const manifest=JSON.parse(fs.readFileSync(path.join(extracted,"manifest.json"),"utf8"));
-  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json"]){
+  let sourceFiles = 0;
+  function verifySource(directory, relative = "") {
+    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+      const child = path.join(relative, entry.name), sourcePath = path.join(directory, entry.name);
+      if (entry.isDirectory()) verifySource(sourcePath, child);
+      else { assert.deepEqual(fs.readFileSync(path.join(extracted, child)), fs.readFileSync(sourcePath), `Packaged source differs: ${child}`); sourceFiles++; }
+    }
+  }
+  verifySource(path.join(root, "extension"));
+  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","library.js","bank-editor.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json"]){
     assert.ok(fs.existsSync(path.join(extracted,asset)),`Missing packaged asset: ${asset}`);
   }
   const C=require(path.join(extracted,"core.js"));
@@ -33,9 +42,10 @@ let context;
   assert.ok(extensions.some((item)=>item.id===id&&item.enabled&&item.version===version));
   const page=await context.newPage();
   await page.goto(`chrome-extension://${id}/panel.html`);
-  await page.waitForFunction(()=>document.getElementById("bankName")?.textContent.includes("200"));
+  await page.waitForFunction(()=>document.querySelector('#bankSelect option[value="@bundled"]') && !document.getElementById("scan").disabled);
+  assert.equal(await page.locator("#libraryCount").textContent(), "(0 bộ riêng)");
   assert.match(await page.locator(".brand p").textContent(),new RegExp(version.replace(/\./gu,"\\.")));
-  const result={version,zip,rootManifest:true,chromeLoad:true,bundledAnswers:bank.answers.length};
+  const result={version,zip,rootManifest:true,chromeLoad:true,bundledAnswers:bank.answers.length,sourceFilesVerified:sourceFiles};
   fs.writeFileSync(path.join(root,"test-results/package-summary.json"),JSON.stringify(result,null,2));
   console.log(JSON.stringify(result,null,2));
 })().catch((error)=>{console.error(error);process.exitCode=1;}).finally(async()=>{

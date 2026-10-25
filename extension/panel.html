@@ -6,16 +6,18 @@
   <title>Auto Fill Form</title>
   <link rel="stylesheet" href="panel.css">
   <script src="core.js" defer></script>
+  <script src="library.js" defer></script>
   <script src="bundled.js" defer></script>
+  <script src="bank-editor.js" defer></script>
   <script src="panel.js" defer></script>
 </head>
 <body>
   <header class="masthead">
-    <div class="brand"><span class="mark" aria-hidden="true">f<span>↗</span></span><div><h1>Auto Fill Form</h1><p>Microsoft Forms · v0.2.2</p></div></div>
+    <div class="brand"><span class="mark" aria-hidden="true">f<span>↗</span></span><div><h1>Auto Fill Form</h1><p>Microsoft Forms · v0.3.0</p></div></div>
     <span class="local-badge"><i></i> LOCAL</span>
   </header>
   <main>
-    <section class="intro"><p class="eyebrow">QUY CHẾ 2026.1 · 200 ĐÁP ÁN CÓ SẴN</p><h2>Mở form.<br>Đáp án đã sẵn sàng.</h2><p>Tự quét và ghép đáp án từ PDF đã tích hợp.<br>Kiểm tra rồi bấm Điền các câu đã chọn.</p></section>
+    <section class="intro"><p class="eyebrow">THƯ VIỆN ĐÁP ÁN CỦA BẠN</p><h2>Một bộ JSON.<br>Dùng đúng form.</h2><p>Nhập, biên soạn và lưu nhiều bộ đáp án.<br>Xem trước rồi điền những câu bạn chọn.</p></section>
     <section class="target-box" aria-label="Form đang chọn"><span class="target-dot"></span><div><strong id="targetTitle">Chưa chọn form</strong><p id="targetUrl">Mở form và bấm biểu tượng extension.</p></div></section>
     <div class="toolbar"><button id="scan" class="primary">↻ &nbsp; Quét form</button><button id="template" disabled>Xuất mẫu JSON</button></div>
     <p style="margin-top:10px"><button id="openTarget" class="link">Mở form Quy chế 2026.1 →</button></p>
@@ -23,17 +25,38 @@
     <div id="notice" role="status" aria-live="polite" class="notice">Bắt đầu bằng Quét form.</div>
     <details class="bank-box" open>
       <summary><span>01 &nbsp; Nguồn đáp án</span><span id="bankName" class="muted">Chưa nạp</span></summary>
-      <div class="bank-content"><label class="file-button" for="bankFile">＋ &nbsp; Chọn file JSON<input id="bankFile" type="file" accept=".json,application/json"></label>
+      <div class="bank-content">
+      <label class="editor-label" for="bankSelect">Bộ đang áp dụng <span id="libraryCount"></span></label>
+      <select id="bankSelect" class="full-width"><option value="@none">Chọn bộ đáp án…</option></select>
+      <p id="bankScope" class="hint">Mỗi form nhớ bộ đáp án đã chọn.</p>
+      <div class="library-buttons"><button id="newBank" class="small">＋ Tạo bộ mới</button><button id="editBank" class="small" disabled>Chỉnh bộ này</button></div>
+      <label class="file-button" for="bankFile">＋ &nbsp; Nhập file JSON vào thư viện<input id="bankFile" type="file" accept=".json,application/json"></label>
       <details class="paste-box"><summary>Hoặc dán nội dung JSON</summary><label for="bankText" class="sr-only">Nội dung bộ đáp án JSON</label><textarea id="bankText" rows="5" placeholder='{"schemaVersion":1,"name":"Đáp án",…}' spellcheck="false"></textarea><button id="importText">Nạp nội dung</button></details>
-      <div class="bank-actions"><button id="exportBank" class="link" disabled>Xuất bộ đáp án</button><button id="clearBank" class="link danger" disabled>Xóa bộ đã nhập</button></div>
-      <p class="hint">Bộ Quy chế 2026.1 đã có sẵn, không cần nhập file. Có thể nạp bộ riêng khi dùng form khác.</p></div>
+      <div class="bank-actions"><button id="exportBank" class="link" disabled>Xuất bộ JSON</button><button id="clearBank" class="link danger" disabled>Xóa bộ này</button></div>
+      <div id="deleteConfirm" class="inline-confirm" hidden><p id="deleteMessage"></p><button id="deleteBank" class="small danger">Xóa khỏi thư viện</button> <button id="cancelDelete" class="small">Hủy</button></div>
+      <p class="hint">Có sẵn 200 đáp án Quy chế. Bộ nhập riêng được lưu trên máy và có thể dùng lại mà không cài lại extension.</p></div>
     </details>
+    <section id="bankEditor" class="bank-editor" hidden>
+      <div class="section-heading"><h3 id="editorTitle">Biên soạn bộ đáp án</h3><span id="editorCount" class="muted"></span></div>
+      <p id="editorHint" class="hint"></p>
+      <label class="editor-label">Tên bộ đáp án<input id="editorName" maxlength="200" placeholder="Ví dụ: Đáp án lớp A"></label>
+      <label class="editor-label">Phạm vi<select id="editorScope"><option value="generic">Dùng chung, ghép theo nội dung</option><option value="bound">Chỉ áp dụng cho một form</option></select></label>
+      <label class="sr-only" for="editorFormId">ID form liên kết</label><input id="editorFormId" class="full-width" placeholder="ID trong tham số id= của link form" hidden>
+      <label class="sr-only" for="editorSearch">Tìm câu trong bản soạn</label><input id="editorSearch" type="search" class="full-width" placeholder="Tìm câu trong bản soạn…">
+      <div id="editorError" role="alert" class="notice error" hidden></div>
+      <div id="editorQuestions"></div>
+      <button id="editorAdd" class="small">＋ Thêm câu hỏi</button>
+      <div class="editor-actions"><button id="editorSave" class="primary">Lưu bộ đáp án</button><button id="editorSaveCopy" hidden>Lưu thành bộ mới</button><button id="editorCancel">Đóng bản soạn</button></div>
+      <p class="hint">Bản soạn chỉ được lưu khi bấm Lưu. Hãy lưu trước khi đóng bảng bên.</p>
+    </section>
     <section class="questions-section">
       <div class="section-heading"><h3>02 &nbsp; Xem trước &amp; chỉnh đáp án</h3><span id="total" class="count">0 câu</span></div>
       <div class="stats"><div><strong id="matchedCount">0</strong><span>Khớp JSON</span></div><div><strong id="selectedCount">0</strong><span>Đã chọn</span></div><div><strong id="unsupportedCount">0</strong><span>Chưa hỗ trợ</span></div></div>
       <label class="overwrite"><input id="overwrite" type="checkbox"><span>Cho phép ghi đè câu đã có đáp án</span></label>
       <div class="filters"><label class="sr-only" for="search">Tìm câu hỏi</label><input id="search" type="search" placeholder="Tìm nội dung câu hỏi…"><label class="sr-only" for="filter">Lọc trạng thái</label><select id="filter"><option value="all">Tất cả</option><option value="ready">Có đáp án</option><option value="missing">Chưa có đáp án</option><option value="unsupported">Chưa hỗ trợ</option></select></div>
       <div class="selection-tools"><button id="selectReady" class="link" disabled>Chọn câu có đáp án</button><button id="deselect" class="link" disabled>Bỏ chọn</button></div>
+      <p id="previewDirty" class="hint" hidden>Đáp án đang chỉnh chưa được lưu vào thư viện.</p>
+      <button id="savePreview" class="small full-width" disabled>Lưu thành bộ mới từ các câu trên form</button>
       <div id="questions" class="question-list"><div class="empty"><span aria-hidden="true">☷</span><h3>Form của bạn sẽ hiện ở đây</h3><p>Mở Microsoft Forms rồi chọn Quét form.<br>Bạn cũng có thể mở demo để thử trước.</p></div></div>
       <p id="noResults" class="hint" hidden>Không có câu phù hợp bộ lọc.</p>
     </section>

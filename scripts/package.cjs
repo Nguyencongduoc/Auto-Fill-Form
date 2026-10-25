@@ -14,6 +14,8 @@ fs.writeFileSync(path.join(destination, "README.md"), fs.readFileSync(path.join(
 fs.copyFileSync(path.join(root, "REPORT.md"), path.join(destination, "REPORT.md"));
 fs.copyFileSync(path.join(root, "INSTALL.txt"), path.join(destination, "INSTALL.txt"));
 fs.copyFileSync(path.join(root, "ROADMAP.md"), path.join(destination, "ROADMAP.md"));
+fs.copyFileSync(path.join(root, "IMPLEMENTATION_REPORT.md"), path.join(destination, "IMPLEMENTATION_REPORT.md"));
+fs.copyFileSync(path.join(root, "FEASIBILITY_REPORT.md"), path.join(destination, "FEASIBILITY_REPORT.md"));
 const zip = `${destination}.zip`;
 if (process.platform === "win32") {
   const literal = (s) => `'${s.replace(/'/g, "''")}'`;
