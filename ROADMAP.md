@@ -1,10 +1,13 @@
 # Lộ trình phát triển
 
-## Hiện có trong v0.2.2
+## Hiện có trong v0.3.0
 
 - Điền Microsoft Forms từ bộ 200 đáp án Quy chế 2026.1 đã tích hợp.
 - Nạp/xuất JSON theo mẫu, nhập đáp án trực tiếp, xem trước và hoàn tác.
 - Ghép bằng nội dung câu hỏi/lựa chọn; không phụ thuộc số thứ tự.
+- Thư viện tối đa 50 bộ JSON, chuyển dữ liệu cũ và ghi nhớ lựa chọn theo form.
+- Tạo/chỉnh bộ trong giao diện, lưu đáp án xem trước thành bộ mới, sao chép bộ tích hợp.
+- Kiểm tra lỗi JSON, liên kết sai form, bản soạn xung đột; xuất và xóa từng bộ.
 
 ## Để ngỏ: nhập PDF đáp án cho form khác
 
@@ -23,7 +26,7 @@ Các điểm cần giải quyết khi triển khai:
 - PDF có nhiều bố cục, dấu chọn và chất lượng ảnh khác nhau; không thể giả định một bộ phân tích dùng đúng cho mọi tài liệu.
 - PDF chỉ có “Câu 1: A” mà thiếu nội dung câu hỏi/lựa chọn cần thêm bước ánh xạ thủ công; thứ tự có thể khác form.
 - Kiểm tra các số, dấu so sánh, từ phủ định và đáp án nhiều lựa chọn trước khi cho điền.
-- Cho người dùng quản lý nhiều bộ đáp án, xác định form áp dụng và đổi/xóa nguồn.
+- Tận dụng thư viện và trình soạn đã có để duyệt kết quả trích xuất PDF.
 - Công bố định dạng và bố cục đã kiểm chứng. Cần adapter riêng để mở rộng sang Google Forms hoặc nền tảng khác.
 
 Điều kiện hoàn thành tính năng tương lai: người dùng tự nhập PDF, duyệt và lưu bộ đáp án trong giao diện; không cần sửa mã nguồn hay đóng gói lại extension. Chưa ấn định thời gian thực hiện.
@@ -31,5 +34,5 @@ Các điểm cần giải quyết khi triển khai:
 ## Các hướng mở rộng khác
 
 - Hỗ trợ thêm loại control và form nhiều phần/phân nhánh.
-- Nhập CSV, nhiều hồ sơ đáp án và adapter cho nền tảng khác.
+- Nhập CSV và adapter cho nền tảng khác.
 - AI đề xuất đáp án như một nguồn tùy chọn, có bước duyệt trước khi điền.

@@ -1,49 +1,40 @@
-AUTO FILL FORM v0.2.2 — ĐÁP ÁN PDF MỚI CẬP NHẬT 26/10/2026
+AUTO FILL FORM v0.3.0 — THƯ VIỆN ĐÁP ÁN JSON
 
-1. Giải nén file ZIP nếu bạn dùng bản đóng gói.
-2. Mở Chrome, nhập chrome://extensions vào thanh địa chỉ.
-3. Bật Developer mode / Chế độ dành cho nhà phát triển.
-4. Bấm Load unpacked / Tải tiện ích đã giải nén.
-5. Nếu dùng ZIP 0.2.2: chọn CHÍNH THƯ MỤC VỪA GIẢI NÉN.
-   Thư mục đó phải chứa trực tiếp manifest.json, background.js và panel.html.
-   Nếu dùng mã nguồn tại máy này: D:\D\Auto Fill Form\extension
-6. Ghim tiện ích Auto Fill Form — Microsoft Forms lên thanh công cụ.
-7. Mở form Microsoft Forms và đăng nhập nếu cần.
-8. Bấm biểu tượng extension. Bảng bên tự quét và tự nạp đáp án cho đúng form.
-9. Kiểm tra số câu khớp → Điền các câu đã chọn. KHÔNG CẦN nhập JSON.
-10. Bạn tự nhập họ tên/MSSV nếu được yêu cầu, kiểm tra và tự nộp bài.
+1. Giải nén auto-fill-form-0.3.0.zip.
+2. Mở chrome://extensions, bật Developer mode.
+3. Chọn Load unpacked, chọn CHÍNH thư mục chứa trực tiếp manifest.json.
+   Mã nguồn tại máy: D:\D\Auto Fill Form\extension
+4. Ghim extension, mở trang trả lời Microsoft Forms, tự đăng nhập nếu cần.
+5. Bấm biểu tượng extension trên tab form; quét nếu chưa tự quét.
+6. Nhập file JSON hoặc chọn bộ trong thư viện; kiểm tra đáp án xem trước.
+7. Bấm Điền các câu đã chọn. Bạn kiểm tra và tự nộp bài.
 
-ĐÃ CÀI BẢN CŨ?
-Nếu nạp từ D:\D\Auto Fill Form\extension: bấm Reload trên thẻ tiện ích,
-rồi tải lại tab form. Nếu đang dùng thư mục bản cũ khác, gỡ bản cũ và nạp
-thư mục vừa giải nén của bản 0.2.2 để tránh mở nhầm hai phiên bản.
+Không cần Node.js, npm, build, tài khoản AI hay file CRX.
+Không chọn Pack extension. Không di chuyển thư mục sau khi nạp.
 
-Nếu trang chưa tải xong khi mở bảng bên: đợi câu hỏi xuất hiện rồi Quét form.
-Trong bảng bên có nút “Mở form Quy chế 2026.1” để mở đúng link đã gửi.
+CẬP NHẬT GIỮ DỮ LIỆU
+Thay file trong cùng thư mục đã nạp, bấm Reload trên thẻ tiện ích và tải lại
+tab form. Bộ JSON đơn cũ sẽ được chuyển vào thư viện. Nạp từ đường dẫn mới
+có thể tạo ID khác: xuất JSON ở bản cũ để nhập lại. Gỡ tiện ích xóa dữ liệu.
 
-KHÔNG CẦN cài Node.js, chạy npm hoặc build.
-Không chọn Pack extension; không cần file .crx.
+TẠO ĐÁP ÁN
+Chọn/nhập đáp án trong bảng bên → Lưu thành bộ mới từ các câu trên form.
+Hoặc Tạo bộ mới → thêm câu/lựa chọn/đáp án → Lưu.
+Có thể Chỉnh bộ này, Xuất JSON để sao lưu và Xóa từng bộ có xác nhận.
+Các thay đổi ở bản xem trước chưa nằm trong file Xuất JSON cho đến khi lưu.
+Giới hạn: 50 bộ riêng, thư viện 8 MB, file nhập 2 MB, 1–500 câu mỗi bộ.
+
+BỘ QUY CHẾ CŨ
+200 đáp án vẫn tích hợp; tự chọn khi mở đúng form Quy chế 2026.1 cũ.
+Thông tin cá nhân do bạn tự nhập. Không cần JSON cho bộ tích hợp.
 
 THỬ DEMO
-Trong bảng bên, bấm “Thử tính năng bằng bản demo”.
-Quét form → nạp examples/demo-answers.json → Điền 3 câu → Hoàn tác.
-Trên trang demo cũng có nút tải đáp án demo.
-
-TẠO BỘ ĐÁP ÁN RIÊNG CHO FORM KHÁC (TÙY CHỌN)
-Quét form → Xuất mẫu JSON → điền answer → xóa câu chưa có đáp án → nạp lại.
-Đáp án lựa chọn dùng nguyên nội dung, không chỉ nhập A/B/C/D.
-Mẫu vừa xuất có answer trống nên cần điền trước khi nhập.
-File demo chỉ dùng cho demo, không dùng với form thật.
+Bấm Thử tính năng bằng bản demo → Quét form → nhập examples/demo-answers.json
+→ Điền 3 câu → Hoàn tác.
 
 PHẠM VI
-Chrome 116+. Trang trả lời Microsoft Forms (ResponsePage.aspx).
-Hỗ trợ Choice một/nhiều đáp án và Text ngắn; chưa có AI tự giải.
-Đã tích hợp đủ 200 câu theo PDF đáp án người dùng cung cấp.
-Nguồn mới: KIỂM TRA QUY CHẾ KỲ 2026.1.pdf (89 trang).
-Chưa hỗ trợ nhập trực tiếp PDF bất kỳ; xem ROADMAP.md cho tính năng tương lai.
-Đáp án được ghép theo nội dung, không dựa vào thứ tự câu hoặc A/B/C/D.
-Đã kiểm thử Chrome với fixture cục bộ. Form mẫu thực tế yêu cầu đăng nhập
-trong trình duyệt kiểm thử, nên chưa xác nhận tương thích trên form đó.
-Bạn tự kiểm tra và nộp bài trên form. Extension không tự nộp.
-
-Xem README.md để biết chi tiết và cách xử lý lỗi.
+Trang trả lời ResponsePage.aspx trên forms.cloud.microsoft hoặc forms.office.com.
+ResponseDetailPage.aspx là trang kết quả chỉ đọc, không dùng để điền.
+Hỗ trợ Choice một/nhiều đáp án và Text ngắn. Chưa có nhập PDF trực tiếp.
+Chưa xác nhận điền trên trang trả lời Microsoft thật; đã thử fixture Chrome.
+Xem README.md, IMPLEMENTATION_REPORT.md và ROADMAP.md.

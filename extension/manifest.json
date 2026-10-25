@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Auto Fill Form — Microsoft Forms",
-  "version": "0.2.2",
-  "description": "Tích hợp sẵn 200 đáp án Quy chế 2026.1. Tự quét Microsoft Forms, điền và hoàn tác. Xử lý trên máy.",
+  "version": "0.3.0",
+  "description": "Thư viện đáp án JSON cho Microsoft Forms: nhập, biên soạn, lưu theo form, điền và hoàn tác. Có sẵn bộ Quy chế 2026.1.",
   "minimum_chrome_version": "116",
   "permissions": ["activeTab", "scripting", "storage", "sidePanel"],
   "background": { "service_worker": "background.js" },

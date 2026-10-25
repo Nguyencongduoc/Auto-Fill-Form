@@ -1,7 +1,10 @@
 "use strict";
 const C = globalThis.AutoFillCore;
+const L = globalThis.AutoFillLibrary;
 const $ = (id) => document.getElementById(id);
-const state = { tabId: null, windowId: null, tabUrl: "", scan: null, bank: null, bundledBank: null, importedBank: null, preferImported: false, rows: [], busy: false, consumed: false, undoAvailable: false };
+const state = { tabId: null, windowId: null, tabUrl: "", scan: null, bank: null, bankId: L.NONE, bundledBank: null, library: L.initialize(null).library, pendingLibrary: null, drafts: new Map(), rows: [], busy: false, consumed: false, undoAvailable: false };
+const editor = new BankEditor($("bankEditor"));
+let deleteCandidate = null;
 const labels = { single_choice: "Một đáp án", multiple_choice: "Nhiều đáp án", short_text: "Văn bản", unsupported: "Chưa hỗ trợ" };
 const statusLabels = { matched: "Khớp JSON", manual: "Nhập trực tiếp", missing: "Chưa có đáp án", ambiguous: "Cần duyệt", unsupported: "Chưa hỗ trợ" };
 function node(tag, className, text) {
@@ -32,9 +35,17 @@ function sync() {
   $("bankFile").disabled = state.busy;
   $("bankText").disabled = state.busy;
   $("importText").disabled = state.busy;
-  $("clearBank").disabled = state.busy || !state.importedBank;
+  $("clearBank").disabled = state.busy || !state.library.banks.some((entry) => entry.id === state.bankId);
   $("exportBank").disabled = state.busy || !state.bank;
   $("bankName").textContent = state.bank ? `${state.bank === state.bundledBank ? "Có sẵn · " : ""}${state.bank.answers.length} câu · ${state.bank.name}` : "Chưa nạp";
+  $("bankSelect").disabled = state.busy;
+  $("newBank").disabled = state.busy;
+  $("editBank").disabled = state.busy || !state.bank;
+  $("editBank").textContent = state.bankId === L.BUNDLED ? "Sao chép & chỉnh" : "Chỉnh bộ này";
+  $("savePreview").disabled = state.busy || !state.scan?.questions.some((q) => q.supported);
+  $("previewDirty").hidden = !state.rows.some((row) => row.status === "manual");
+  $("deleteBank").disabled = state.busy;
+  editor.setBusy(state.busy);
   for (const row of state.rows) {
     if (!row.card) continue;
     row.checkbox.disabled = state.busy || state.consumed || !canSelect(row);
@@ -59,6 +70,11 @@ function edited(row, answer) {
   row.chip.className = "chip manual";
   row.reason.textContent = "Đáp án do bạn chọn trực tiếp.";
   row.selected = canSelect(row);
+  if (state.scan) {
+    if (!state.drafts.has(state.scan.documentToken)) state.drafts.set(state.scan.documentToken, new Map());
+    state.drafts.get(state.scan.documentToken).set(row.id, { signature: row.q.signature, answer: L.copy(answer) });
+    if (state.drafts.size > 10) state.drafts.delete(state.drafts.keys().next().value);
+  }
   sync(); applyFilter();
 }
 function renderRows() {
@@ -72,13 +88,15 @@ function renderRows() {
   state.rows = state.scan.questions.map((q, index) => {
     const match = matches[index];
     const row = { q, ...match, selected: match.status === "matched" && (C.isEmpty(q.current) || $("overwrite").checked) };
+    const draft = state.drafts.get(state.scan.documentToken)?.get(q.id);
+    if (draft && draft.signature === q.signature) { row.answer = L.copy(draft.answer); row.status = "manual"; row.reason = "Đáp án đang chỉnh, chưa lưu vào thư viện."; row.selected = canSelect(row); }
     const card = node("article", "question-card"); row.card = card;
     const top = node("div", "question-top");
     const checkbox = node("input"); checkbox.type = "checkbox"; checkbox.setAttribute("aria-label", `Chọn câu ${index + 1}`);
     checkbox.addEventListener("change", () => { row.selected = checkbox.checked; sync(); }); row.checkbox = checkbox;
     const heading = node("div");
     heading.append(node("div", "question-number", `Câu ${index + 1}${q.required ? " · Bắt buộc" : ""}`), node("div", "question-title", q.question));
-    const meta = node("div", "question-meta"); row.chip = node("span", `chip ${match.status}`, statusLabels[match.status]);
+    const meta = node("div", "question-meta"); row.chip = node("span", `chip ${row.status}`, statusLabels[row.status]);
     meta.append(node("span", "chip", labels[q.type]), row.chip);
     if (q.supported && !C.isEmpty(q.current)) meta.append(node("span", "chip", "Đã có câu trả lời"));
     heading.append(meta); top.append(checkbox, heading); card.append(top);
@@ -103,7 +121,7 @@ function renderRows() {
       }
       card.append(editor);
     }
-    row.reason = node("p", "question-reason", match.reason);
+    row.reason = node("p", "question-reason", row.reason);
     const current = q.supported && !C.isEmpty(q.current) ? ` Hiện tại: ${Array.isArray(q.current) ? q.current.join("; ") : q.current}` : "";
     row.reason.textContent += current;
     card.append(row.reason); list.append(card);
@@ -124,6 +142,7 @@ async function target(tabId) {
   $("targetTitle").textContent = tab.title || "Tab đang chọn";
   try { const url = new URL(tab.url); $("targetUrl").textContent = url.protocol === "chrome-extension:" ? "Form demo cục bộ" : `${url.hostname}${url.pathname}`; } catch { $("targetUrl").textContent = "Bấm biểu tượng extension trên tab form để cấp quyền."; }
   if (changed) resetScan("Đã đổi tab. Chọn Quét form để đọc câu hỏi.");
+  applyBank();
   return tab;
 }
 async function command(command, payload = {}) {
@@ -136,6 +155,7 @@ async function command(command, payload = {}) {
   } else {
     let url;
     try { url = new URL(tab.url); } catch { throw new Error("Bấm biểu tượng extension trên tab Microsoft Forms để cấp quyền, rồi quét lại."); }
+    if (["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) && /\/pages\/responsedetailpage\.aspx\/?$/iu.test(url.pathname)) throw new Error("Đây là trang chi tiết kết quả (chỉ đọc). Hãy mở link trả lời của form — ResponsePage.aspx — rồi bấm biểu tượng extension và quét lại.");
     if (url.protocol !== "https:" || !["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) || !/\/pages\/responsepage\.aspx\/?$/iu.test(url.pathname)) throw new Error("Hãy mở trang trả lời Microsoft Forms, đăng nhập nếu cần và bấm biểu tượng extension trên tab đó.");
     await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["core.js", "adapter.js", "content.js"] });
     response = await chrome.tabs.sendMessage(tab.id, { channel: "aff-content", command, payload });
@@ -150,12 +170,46 @@ async function task(fn) {
     const message = /Cannot access|Missing host permission|Cannot read properties|Receiving end does not exist|Could not establish connection/iu.test(error.message)
       ? "Chưa có quyền hoặc trang chưa sẵn sàng. Bấm biểu tượng extension trên tab form; nếu vừa cài/cập nhật, tải lại trang rồi quét lại." : error.message;
     notice(message, "error");
-  } finally { state.busy = false; sync(); }
+  } finally {
+    state.busy = false;
+    if (state.pendingLibrary) { const pending = state.pendingLibrary; state.pendingLibrary = null; if (pending.revision > state.library.revision) updateLibrary(pending); }
+    sync();
+  }
 }
-function selectBank(formId) {
-  if (state.preferImported && state.importedBank && (!state.importedBank.sourceForm || state.importedBank.sourceForm.formId === formId)) return state.importedBank;
-  if (state.bundledBank?.sourceForm.formId === formId) return state.bundledBank;
-  return state.importedBank || state.bundledBank;
+function currentFormId() {
+  if (state.scan) return state.scan.formId || "";
+  try { const url = new URL(state.tabUrl); if (url.href.split(/[?#]/u)[0] === chrome.runtime.getURL("demo.html")) return "local-demo"; return [...url.searchParams].find(([key]) => key.toLowerCase() === "id")?.[1] || ""; } catch { return ""; }
+}
+async function libraryRequest(change) {
+  const response = await chrome.runtime.sendMessage({ channel: "aff-library", ...change });
+  if (!response?.ok) throw new Error(response?.error || "Không kết nối được với thư viện. Hãy mở lại bảng bên.");
+  return response.data;
+}
+function renderLibrary() {
+  const select = $("bankSelect"); select.replaceChildren();
+  const add = (id, label, bank) => { const option = node("option", "", label); option.value = id; option.disabled = bank ? !L.compatible(bank, currentFormId()) : false; select.append(option); };
+  add(L.NONE, "— Chọn bộ đáp án —");
+  if (state.bundledBank) add(L.BUNDLED, `Có sẵn · ${state.bundledBank.name}`, state.bundledBank);
+  for (const entry of state.library.banks) add(entry.id, `${entry.bank.name} · ${entry.bank.answers.length} câu${L.compatible(entry.bank, currentFormId()) ? "" : " · Form khác"}`, entry.bank);
+  select.value = state.bankId;
+  $("libraryCount").textContent = `(${state.library.banks.length} bộ riêng)`;
+  $("bankScope").textContent = state.bank
+    ? state.bank.sourceForm ? `Liên kết form: ${state.bank.sourceForm.formId}. Mỗi form nhớ bộ đã chọn.` : "Dùng chung: ghép theo nội dung và lựa chọn. Form hiện tại sẽ nhớ bộ đã chọn."
+    : "Chọn bộ trong thư viện, nhập JSON hoặc tạo bộ từ form. Bộ liên kết form khác không được áp dụng ở đây.";
+}
+function applyBank() {
+  const resolved = L.resolve(state.library, currentFormId(), state.bundledBank);
+  state.bankId = resolved.id; state.bank = resolved.bank; renderLibrary();
+}
+function updateLibrary(library, refresh = false) {
+  const before = state.bank;
+  state.library = library; applyBank();
+  if (state.scan && (refresh || JSON.stringify(before) !== JSON.stringify(state.bank))) renderRows();
+}
+function discardPreview() {
+  if (state.rows.some((row) => row.status === "manual") && !window.confirm("Đáp án đang chỉnh chưa lưu. Tiếp tục đổi bộ sẽ bỏ bản chỉnh trên form này. Bạn có thể hủy rồi lưu thành bộ mới trước.")) return false;
+  if (state.scan) state.drafts.delete(state.scan.documentToken);
+  return true;
 }
 function supportedTarget() {
   try { const url = new URL(state.tabUrl); return url.protocol === "https:" && ["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) && /\/pages\/responsepage\.aspx\/?$/iu.test(url.pathname); } catch { return false; }
@@ -163,7 +217,7 @@ function supportedTarget() {
 async function scanForm() {
   await target(); notice("Đang đọc câu hỏi trên form…");
   state.scan = await command("scan"); state.consumed = false; state.undoAvailable = state.scan.undoAvailable;
-  state.bank = selectBank(state.scan.formId);
+  applyBank();
   $("targetTitle").textContent = state.scan.title;
   $("resultsSection").hidden = true; renderRows();
   const count = state.rows.filter((row) => row.status === "matched").length;
@@ -173,15 +227,22 @@ async function scanForm() {
 }
 function download(name, value) {
   const url = URL.createObjectURL(new Blob([JSON.stringify(value, null, 2)], { type: "application/json;charset=utf-8" }));
-  const anchor = node("a"); anchor.href = url; anchor.download = name; anchor.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const anchor = node("a"); anchor.href = url; anchor.download = name; anchor.hidden = true;
+  document.body.append(anchor); anchor.click(); anchor.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 async function importBank(value) {
   const bank = C.validateBank(value);
-  await chrome.storage.local.set({ answerBank: bank });
-  state.bank = bank;
-  state.importedBank = bank; state.preferImported = true;
-  if (state.scan && !state.consumed) renderRows();
-  notice(`Đã nạp “${bank.name}” (${bank.answers.length} câu).${bank.sourceForm ? " Bộ đáp án có liên kết với một form cụ thể." : " Bộ đáp án dùng chung; hãy kiểm tra nội dung trước khi điền."}`, "success");
+  if (!discardPreview()) return;
+  const formId = currentFormId();
+  const equivalent = L.equivalent(state.library, bank);
+  const result = equivalent ? await libraryRequest({ op: "select", id: equivalent.id, formId: L.compatible(bank, formId) ? formId : "" })
+    : await libraryRequest({ op: "save", bank, formId });
+  if (formId && !L.compatible(bank, formId)) {
+    const cleared = await libraryRequest({ op: "select", id: L.NONE, formId });
+    updateLibrary(cleared.library, true);
+    notice(`Đã lưu “${bank.name}” vào thư viện, nhưng bộ này thuộc form khác nên chưa áp dụng. Mở đúng form hoặc sửa liên kết trong bộ đáp án.`);
+  } else { updateLibrary(result.library, true); notice(`Đã ${equivalent ? "chọn bộ đã có" : "nhập vào thư viện"}: “${bank.name}” (${bank.answers.length} câu). Lựa chọn được nhớ cho form này.`, "success"); }
 }
 function results(data, undo = false) {
   state.undoAvailable = data.undoAvailable;
@@ -204,14 +265,66 @@ $("template").addEventListener("click", () => { if (state.scan) { download("answ
 $("demo").addEventListener("click", () => task(async () => { const tab = await chrome.tabs.create({ url: chrome.runtime.getURL("demo.html") }); await target(tab.id); notice("Đã mở demo. Chọn Quét form, rồi nạp file examples/demo-answers.json hoặc nhập trực tiếp."); }));
 $("bankFile").addEventListener("change", () => task(async () => {
   const file = $("bankFile").files[0]; if (!file) return;
-  try { if (file.size > 2 * 1024 * 1024) throw new Error("File quá lớn; giới hạn 2 MB."); await importBank(JSON.parse((await file.text()).replace(/^\uFEFF/u, ""))); }
+  try { if (file.size > 2 * 1024 * 1024) throw new Error("File quá lớn; giới hạn 2 MB."); await importBank(L.parseText(await file.text())); }
   finally { $("bankFile").value = ""; }
 }));
 $("importText").addEventListener("click", () => task(async () => {
-  if ($("bankText").value.length > 2 * 1024 * 1024) throw new Error("Nội dung quá lớn; giới hạn 2 MB.");
-  await importBank(JSON.parse($("bankText").value.replace(/^\uFEFF/u, "")));
+  await importBank(L.parseText($("bankText").value));
 }));
-$("clearBank").addEventListener("click", () => task(async () => { await chrome.storage.local.remove("answerBank"); state.importedBank = null; state.preferImported = false; state.bank = state.bundledBank; $("bankText").value = ""; if (!state.consumed) renderRows(); notice("Đã xóa bộ nhập riêng. Bộ Quy chế 2026.1 tích hợp sẵn vẫn có thể sử dụng."); }));
+$("bankSelect").addEventListener("change", () => task(async () => {
+  const id = $("bankSelect").value;
+  if (!discardPreview()) { renderLibrary(); return; }
+  const result = await libraryRequest({ op: "select", id, formId: currentFormId() });
+  state.library = result.library;
+  // With no form open, keep the requested library item available for management.
+  applyBank();
+  if (!currentFormId()) { state.bankId = id; state.bank = id === L.BUNDLED ? state.bundledBank : result.library.banks.find((entry) => entry.id === id)?.bank || null; renderLibrary(); }
+  if (state.scan) renderRows();
+  notice(state.bank ? `Đã chọn “${state.bank.name}”. ${currentFormId() ? "Đã nhớ lựa chọn cho form này." : "Quét form trước khi điền."}` : "Chưa áp dụng bộ đáp án. Bạn có thể chọn bộ khác hoặc nhập trực tiếp.");
+}));
+$("clearBank").addEventListener("click", () => {
+  const entry = state.library.banks.find((item) => item.id === state.bankId);
+  if (!entry) return;
+  deleteCandidate = { id: entry.id, expectedVersion: entry.version };
+  $("deleteMessage").textContent = `Xóa “${entry.bank.name}” khỏi thư viện trên máy? File đã xuất không bị xóa.`;
+  $("deleteConfirm").hidden = false;
+});
+$("cancelDelete").addEventListener("click", () => { $("deleteConfirm").hidden = true; deleteCandidate = null; });
+$("deleteBank").addEventListener("click", () => task(async () => {
+  if (!deleteCandidate) throw new Error("Chọn một bộ nhập riêng để xóa.");
+  if (!discardPreview()) return;
+  const result = await libraryRequest({ op: "delete", ...deleteCandidate });
+  deleteCandidate = null;
+  updateLibrary(result.library); $("deleteConfirm").hidden = true; notice("Đã xóa bộ khỏi thư viện. Bộ Quy chế tích hợp vẫn được giữ nguyên.");
+}));
+function openEditor(bank, metadata = {}) {
+  if (editor.dirty && !window.confirm("Bản soạn chưa lưu. Bạn muốn bỏ bản đang soạn để mở bộ khác?")) return;
+  editor.open(bank, { formId: currentFormId(), ...metadata });
+  $("bankEditor").scrollIntoView({ block: "start" });
+}
+$("newBank").addEventListener("click", () => openEditor({ schemaVersion: 1, name: "Bộ đáp án mới", answers: [] }));
+$("editBank").addEventListener("click", () => {
+  if (!state.bank) return;
+  const entry = state.library.banks.find((item) => item.id === state.bankId);
+  openEditor(entry ? entry.bank : { ...L.copy(state.bank), name: `${state.bank.name} — Bản sao` }, entry ? { id: entry.id, version: entry.version } : {});
+});
+$("savePreview").addEventListener("click", () => {
+  if (!state.scan) return;
+  const bank = C.makeTemplate(state.scan);
+  bank.name = `${state.scan.title} — Đáp án`.slice(0, 200);
+  const supported = state.rows.filter((row) => row.q.supported);
+  bank.answers.forEach((record, i) => { if (ready(supported[i])) record.answer = L.copy(supported[i].answer); });
+  openEditor(bank, { fromPreview: true });
+});
+$("bankEditor").addEventListener("cancel-bank", () => { if (!editor.dirty || window.confirm("Bản soạn chưa lưu. Đóng và bỏ bản đang soạn?")) editor.close(); });
+$("bankEditor").addEventListener("save-bank", (event) => task(async () => {
+  try {
+    const result = await libraryRequest({ op: "save", ...event.detail, formId: currentFormId() });
+    if (state.scan) state.drafts.delete(state.scan.documentToken);
+    editor.close(); updateLibrary(result.library, true);
+    notice(`Đã lưu “${event.detail.bank.name}” vào thư viện.${L.compatible(event.detail.bank, currentFormId()) ? " Bộ này đã sẵn sàng cho form hiện tại." : " Bộ liên kết form khác nên chưa áp dụng ở đây."}`, "success");
+  } catch (error) { editor.showError(error.message); throw error; }
+}));
 $("exportBank").addEventListener("click", () => { if (state.bank) download("answers.json", state.bank); });
 $("overwrite").addEventListener("change", () => { for (const row of state.rows) if (!canSelect(row)) row.selected = false; sync(); });
 $("selectReady").addEventListener("click", () => { state.rows.forEach((row) => { row.selected = canSelect(row); }); sync(); });
@@ -238,13 +351,20 @@ chrome.tabs.onActivated.addListener((info) => {
 chrome.tabs.onUpdated.addListener((tabId, info) => {
   if (tabId === state.tabId && (info.status === "loading" || info.url) && !state.busy) resetScan("Trang đang tải hoặc đã đổi địa chỉ. Đợi form hiển thị rồi quét lại.");
 });
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area !== "local" || !changes.answerLibrary?.newValue) return;
+  try {
+    const library = L.validate(changes.answerLibrary.newValue);
+    if (state.busy) state.pendingLibrary = library;
+    else if (library.revision > state.library.revision) { updateLibrary(library); sync(); }
+  } catch (error) { notice(error.message, "error"); }
+});
 task(async () => {
   const response = await fetch(chrome.runtime.getURL(AutoFillBundled.bankPath));
-  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.2.2.");
+  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.3.0.");
   state.bundledBank = C.validateBank(await response.json());
-  const saved = await chrome.storage.local.get("answerBank");
-  if (saved.answerBank) { try { state.importedBank = C.validateBank(saved.answerBank); } catch { notice("Bộ đáp án lưu trước đó không hợp lệ; hãy nạp lại.", "error"); } }
-  state.bank = state.bundledBank;
+  const saved = await libraryRequest({ op: "list" }); state.library = saved.library;
   await target(); sync();
   if (supportedTarget()) await scanForm();
+  if (saved.warning) notice(saved.warning);
 });

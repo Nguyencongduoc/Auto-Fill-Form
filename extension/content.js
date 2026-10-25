@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  if (globalThis.AutoFillContent?.version === "0.2.2") return;
+  if (globalThis.AutoFillContent?.version === "0.3.0") return;
   const C = globalThis.AutoFillCore, A = globalThis.AutoFillAdapter;
   const documentToken = crypto.randomUUID();
   let lastScan = null, undo = null, busy = false;
@@ -108,5 +108,5 @@
     handle(message.command, message.payload).then((data) => respond({ ok: true, data }), (error) => respond({ ok: false, error: error.message }));
     return true;
   });
-  globalThis.AutoFillContent = { version: "0.2.2", handle };
+  globalThis.AutoFillContent = { version: "0.3.0", handle };
 })();

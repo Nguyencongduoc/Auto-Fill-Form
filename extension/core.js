@@ -95,7 +95,14 @@
       const byId = candidates.filter((item) => item.platformQuestionId && item.platformQuestionId === q.platformQuestionId);
       if (byId.length === 1) candidates = byId;
       if (candidates.length > 1 || (candidates.length === 1 && counts.get(key) > 1 && byId.length !== 1)) return { id: q.id, status: "ambiguous", reason: "Câu hỏi hoặc bản ghi trùng nội dung. Hãy chọn đáp án thủ công.", answer: null };
-      if (!candidates.length) return { id: q.id, status: "missing", reason: "Chưa tìm thấy câu khớp chính xác trong bộ đáp án.", answer: null };
+      if (!candidates.length) {
+        const sameText = bank.answers.filter((item) => normalize(item.question) === normalize(q.question));
+        const reason = sameText.some((item) => item.type === q.type)
+          ? "Nội dung câu khớp nhưng các lựa chọn đã khác. Xuất mẫu từ form hoặc sửa danh sách lựa chọn trong bộ đáp án."
+          : sameText.length ? "Nội dung câu khớp nhưng loại câu khác bộ đáp án. Kiểm tra một/nhiều đáp án hoặc văn bản."
+          : "Chưa có câu khớp nội dung. Kiểm tra văn bản hoặc tạo bộ từ form này.";
+        return { id: q.id, status: "missing", reason, answer: null };
+      }
       const source = candidates[0];
       return { id: q.id, status: "matched", reason: `Nguồn: ${bank.name}${source.sourceNumber ? ` · Câu PDF ${source.sourceNumber}, trang ${source.sourcePage}` : ""}`, answer: desiredAnswer(q, source.answer) };
     });

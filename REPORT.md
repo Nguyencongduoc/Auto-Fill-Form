@@ -1,5 +1,7 @@
 # Báo cáo ý tưởng: Auto Fill Form
 
+**Cập nhật 26/10/2026:** bản JSON v0.3.0 đã được triển khai trên nhánh `feat/json-answer-workflow`. Xem [báo cáo triển khai và giới hạn kiểm thử](./IMPLEMENTATION_REPORT.md). Các mốc 0.2.x bên dưới mô tả thiết kế và kết quả trước đợt này; [README](./README.md) phản ánh cách dùng hiện tại.
+
 **Ngày lập:** 25/10/2026  
 **Loại tài liệu:** Đề xuất sản phẩm và thiết kế kỹ thuật  
 **Trạng thái:** Đã triển khai bản thử nghiệm v0.2.2, cập nhật 200 đáp án từ PDF mới 89 trang ngày 26/10/2026. Đã đối chiếu theo nội dung và cập nhật một lựa chọn khác bộ trước; chữ và trạng thái chọn được trích xuất trực tiếp từ PDF. ZIP giữ manifest tại gốc để nạp được ngay. Đây là báo cáo thiết kế và định hướng mở rộng; hướng dẫn cài, phạm vi thực tế và kết quả kiểm thử xem [README](./README.md).
