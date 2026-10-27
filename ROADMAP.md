@@ -1,6 +1,6 @@
 # Lộ trình phát triển
 
-## Hiện có trong v0.4.0
+## Hiện có trong v0.5.0
 
 - Điền Microsoft Forms từ bộ 200 đáp án Quy chế 2026.1 đã tích hợp.
 - Nạp/xuất JSON theo mẫu, nhập đáp án trực tiếp, xem trước và hoàn tác.
@@ -10,6 +10,7 @@
 - Kiểm tra lỗi JSON, liên kết sai form, bản soạn xung đột; xuất và xóa từng bộ.
 - LMS HUST: trang attempt.php, một/nhiều đáp án, Đúng/Sai và trả lời ngắn; nút nạp bộ CNPM 351 câu.
 - Ghi nhớ bộ theo quiz hoặc lượt làm; quét từng trang, xác minh và hoàn tác. Kiểm thử cục bộ Moodle 3/4; cần kiểm chứng phiên HUST đã đăng nhập.
+- Tự chạy riêng LMS: quét/điền/xác minh/Next, dừng chờ đáp án bổ sung rồi Tiếp tục; có Tạm dừng/Dừng, không bấm kết thúc/nộp bài.
 
 ## Để ngỏ: nhập PDF đáp án cho form khác
 

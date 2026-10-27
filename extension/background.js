@@ -1,4 +1,4 @@
-importScripts("core.js", "library.js", "bundled.js");
+importScripts("core.js", "library.js", "platform.js", "lms-flow.js", "bundled.js", "lms-runner.js");
 
 /* Serialize read/modify/write operations across all side panels. */
 let libraryQueue = Promise.resolve();

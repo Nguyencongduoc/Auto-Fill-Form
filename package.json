@@ -1,13 +1,14 @@
 {
   "name": "auto-fill-form",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "Dependency-free Microsoft Forms Chrome Extension",
   "scripts": {
-    "test": "node --test tests/core.test.cjs tests/bundled.test.cjs tests/library.test.cjs tests/platform.test.cjs",
+    "test": "node --test tests/core.test.cjs tests/bundled.test.cjs tests/library.test.cjs tests/platform.test.cjs tests/lms-flow.test.cjs",
     "test:browser": "node tests/browser.test.cjs",
     "test:json": "node tests/json-workflow.test.cjs",
     "test:lms": "node tests/moodle.test.cjs",
+    "test:auto": "node tests/lms-auto.test.cjs",
     "package": "node scripts/package.cjs"
   }
 }

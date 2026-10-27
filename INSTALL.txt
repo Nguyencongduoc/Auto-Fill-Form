@@ -1,6 +1,6 @@
-AUTO FILL FORM v0.4.0 — MICROSOFT FORMS & LMS HUST
+AUTO FILL FORM v0.5.0 — TỰ CHẠY QUIZ LMS HUST
 
-1. Giải nén auto-fill-form-0.4.0.zip.
+1. Giải nén auto-fill-form-0.5.0.zip.
 2. Mở chrome://extensions, bật Developer mode.
 3. Chọn Load unpacked, chọn CHÍNH thư mục chứa trực tiếp manifest.json.
    Mã nguồn tại máy: D:\D\Auto Fill Form\extension
@@ -28,10 +28,18 @@ LMS HUST
 Mở https://lms.hust.edu.vn/mod/quiz/view.php?id=49373 hoặc quiz của bạn.
 Tự bấm Bắt đầu/Tiếp tục làm bài để vào trang attempt.php có câu hỏi.
 Bấm biểu tượng extension → Nạp đáp án CNPM · 351 câu → xem trước → Điền.
-Quiz nhiều trang: tự chuyển trang rồi Quét lại. Có Hoàn tác trên trang hiện tại.
+Chọn Bắt đầu tự chạy: tự quét → điền/xác minh → Next page.
+Câu thiếu hoặc mơ hồ: dừng chờ bạn nhập đáp án trong extension rồi Tiếp tục.
+Câu chưa hỗ trợ: trả lời trực tiếp trên LMS và đánh dấu xác nhận để Tiếp tục.
+Có Tạm dừng/Dừng. Trang cuối được điền, bạn tự kết thúc/nộp bài.
+Đóng bảng bên không dừng phiên; đóng tab hoặc Chrome sẽ kết thúc phiên.
+Nếu Next không chuyển sau 15 giây, phiên tạm dừng để bạn kiểm tra.
 Hỗ trợ một/nhiều đáp án, Đúng/Sai và trả lời ngắn. Chưa hỗ trợ lựa chọn chỉ có hình.
 Không điền trang review.php (xem lại), view.php (giới thiệu) hoặc câu đang khóa.
-LMS có thể tự lưu thay đổi. Extension không tự chuyển trang hoặc nộp bài.
+LMS có thể tự lưu thay đổi. Tự chạy chỉ chuyển Next, không bấm Finish/nộp bài.
+Tính năng này chỉ áp dụng LMS; Microsoft Forms vẫn dùng cách điền cũ.
+Quyền mới đã duyệt: https://lms.hust.edu.vn/*, để tiếp tục đọc sau Next.
+Nếu Chrome tắt extension sau cập nhật quyền, xác nhận/bật lại ở chrome://extensions.
 Link thật yêu cầu đăng nhập trong phiên kiểm thử; đã thử bằng fixture Moodle.
 
 BỘ QUY CHẾ CŨ

@@ -54,6 +54,7 @@ function sync() {
     row.checkbox.checked = row.selected && canSelect(row);
     row.card.querySelectorAll(".editor input, .editor select").forEach((el) => { el.disabled = state.busy || state.consumed; });
   }
+  globalThis.AutoFillAutoUI?.sync();
 }
 function applyFilter() {
   const query = C.normalize($("search").value), filter = $("filter").value;
@@ -147,6 +148,7 @@ async function target(tabId) {
   applyBank();
   const identified = P.identify(tab.url);
   if (changed && identified.platform === "moodle" && !identified.supported) notice(identified.reason);
+  await globalThis.AutoFillAutoUI?.target(tab.id);
   return tab;
 }
 async function command(command, payload = {}) {
@@ -160,7 +162,8 @@ async function command(command, payload = {}) {
     const identified = P.identify(tab.url);
     if (!identified.supported) throw new Error(identified.reason);
     const adapter = identified.platform === "moodle" ? "moodle-adapter.js" : "adapter.js";
-    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["core.js", "platform.js", adapter, "content.js"] });
+    const files = identified.platform === "moodle" ? ["core.js", "platform.js", "lms-flow.js", adapter, "lms-navigation.js", "content.js"] : ["core.js", "platform.js", adapter, "content.js"];
+    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files });
     response = await chrome.tabs.sendMessage(tab.id, { channel: "aff-content", command, payload });
   }
   if (!response?.ok) throw new Error(response?.error || "Chưa kết nối được với form. Hãy tải lại trang, bấm biểu tượng extension và thử quét lại.");
@@ -352,12 +355,15 @@ $("undo").addEventListener("click", () => task(async () => {
   results(await command("undo", { documentToken: state.scan.documentToken }), true);
 }));
 chrome.runtime.onMessage.addListener((message, sender) => {
-  if (sender.id === chrome.runtime.id && message.channel === "aff-ui" && message.type === "target" && message.windowId === state.windowId && !state.busy) task(async () => { await target(message.tabId); if (supportedTarget()) await scanForm(); });
+  if (sender.id === chrome.runtime.id && message.channel === "aff-ui" && message.type === "target" && message.windowId === state.windowId && !state.busy) task(async () => { await target(message.tabId); if (supportedTarget() && !globalThis.AutoFillAutoUI?.running()) await scanForm(); });
 });
 chrome.tabs.onActivated.addListener((info) => {
   if (info.windowId === state.windowId && !state.busy) task(() => target(info.tabId));
 });
 chrome.tabs.onUpdated.addListener((tabId, info) => {
+  if (tabId === state.tabId && info.status === "loading" && !info.url) { state.tabUrl = ""; globalThis.AutoFillAutoUI?.sync(); }
+  if (tabId === state.tabId && info.url) { state.tabUrl = info.url; globalThis.AutoFillAutoUI?.sync(); }
+  if (tabId === state.tabId && info.status === "complete") chrome.tabs.get(tabId).then(tab => { if (tabId === state.tabId) { state.tabUrl = tab.url || ""; globalThis.AutoFillAutoUI?.refresh(); } }).catch(() => {});
   if (tabId === state.tabId && (info.status === "loading" || info.url) && !state.busy) resetScan("Trang đang tải hoặc đã đổi địa chỉ. Đợi form hiển thị rồi quét lại.");
 });
 chrome.storage.onChanged.addListener((changes, area) => {
@@ -370,10 +376,10 @@ chrome.storage.onChanged.addListener((changes, area) => {
 });
 task(async () => {
   const response = await fetch(chrome.runtime.getURL(AutoFillBundled.bankPath));
-  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.4.0.");
+  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.5.0.");
   state.bundledBank = C.validateBank(await response.json());
   const saved = await libraryRequest({ op: "list" }); state.library = saved.library;
   await target(); sync();
-  if (supportedTarget()) await scanForm();
+  if (supportedTarget() && !globalThis.AutoFillAutoUI?.running()) await scanForm();
   if (saved.warning) notice(saved.warning);
 });

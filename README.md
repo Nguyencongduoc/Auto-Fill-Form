@@ -2,13 +2,13 @@
 
 # Auto Fill Form
 
-Extension Chrome **v0.4.0** hỗ trợ điền **Microsoft Forms và LMS HUST (Moodle)** từ JSON. Có thư viện nhiều bộ, trình chỉnh sửa và ghi nhớ bộ đã chọn cho từng form/quiz. Không cần build, Node.js, tài khoản AI hoặc máy chủ để sử dụng.
+Extension Chrome **v0.5.0** hỗ trợ điền **Microsoft Forms và LMS HUST (Moodle)** từ JSON. LMS có thêm luồng tự quét → điền → Next page, dừng chờ khi thiếu đáp án. Không cần build, Node.js, tài khoản AI hoặc máy chủ để sử dụng.
 
 Bộ **200 đáp án Quy chế 2026.1** vẫn tích hợp cho đúng form cũ. Có thêm nút **Nạp đáp án CNPM · 351 câu** dùng bộ đã trích từ PDF. **Nhập PDF trực tiếp chưa có**, được giữ trong [lộ trình](./ROADMAP.md).
 
 ## Cài và cập nhật
 
-1. Giải nén `auto-fill-form-0.4.0.zip`.
+1. Giải nén `auto-fill-form-0.5.0.zip`.
 2. Mở `chrome://extensions`, bật **Developer mode**.
 3. Bấm **Load unpacked**, chọn thư mục chứa trực tiếp `manifest.json`, `background.js`, `panel.html`, `library.js` và `data/`.
 4. Nếu dùng mã nguồn tại máy, chọn `D:\D\Auto Fill Form\extension`.
@@ -25,11 +25,25 @@ Dùng **Load unpacked**, không cần Pack extension hoặc `.crx`. Giữ nguyê
 3. Bấm biểu tượng extension trên tab LMS; bảng bên tự quét câu đang hiển thị.
 4. Bấm **Nạp đáp án CNPM · 351 câu** hoặc nhập JSON riêng. Không cần tải JSON hay sửa mã nếu dùng bộ CNPM đi kèm.
 5. Xem các câu khớp, chọn câu cần điền rồi bấm **Điền**. Có **Hoàn tác**; câu đã trả lời được giữ mặc định.
-6. Với quiz nhiều trang, tự chuyển trang rồi quét lại. Bạn kiểm tra và tự kết thúc/nộp bài trên LMS.
+6. Muốn chạy liên tục, bấm **Bắt đầu tự chạy** trong mục **Tự chạy quiz LMS**. Muốn điền thủ công từng trang, tiếp tục dùng nút Điền như cũ.
 
 Hỗ trợ trắc nghiệm một/nhiều đáp án, Đúng/Sai và trả lời ngắn. Không dùng nhãn a/b/c/d để ghép. Loại Đúng/Sai chuẩn Moodle được chuẩn hóa True/False theo giá trị điều khiển, dùng được khi giao diện đổi ngôn ngữ. Lựa chọn chỉ bằng hình, ghép đôi, kéo thả, Cloze, bài luận và câu số có đơn vị chưa hỗ trợ.
 
-`view.php` là trang giới thiệu, `review.php` chỉ xem kết quả; tiện ích hướng dẫn mở lượt làm bài. LMS có thể tự lưu khi thay đổi đáp án; tiện ích không bấm Check/Next/Finish/gửi bài. Link thật dẫn tới màn hình đăng nhập trong phiên kiểm thử; chưa xác nhận điền sau đăng nhập HUST. Xem [chi tiết triển khai và kiểm thử](./LMS_HUST.md).
+`view.php` là trang giới thiệu, `review.php` chỉ xem kết quả; tiện ích hướng dẫn mở lượt làm bài. LMS có thể tự lưu khi thay đổi đáp án. Tự chạy chỉ bấm Next để chuyển trang, dừng trước nút kết thúc/nộp bài. Link thật dẫn tới màn hình đăng nhập trong phiên kiểm thử; chưa xác nhận điền sau đăng nhập HUST. Xem [chi tiết triển khai và kiểm thử](./LMS_HUST.md).
+
+## Tự chạy LMS: thiếu đáp án thì chờ
+
+1. Chọn bộ JSON/CNPM, mở lượt làm bài và bấm **Bắt đầu tự chạy**.
+2. Extension quét trang, điền và kiểm tra các câu tìm thấy đáp án. Câu đã trả lời được giữ mặc định; tùy chọn ghi đè được lấy tại lúc bắt đầu/tiếp tục.
+3. Nếu còn câu thiếu/mơ hồ, dừng ở trang đó. Nhập/chọn đáp án trong bảng bên; khi các câu đã đủ đáp án, bấm **Tiếp tục**.
+4. Câu thuộc loại chưa hỗ trợ cần trả lời trực tiếp trên LMS rồi đánh dấu xác nhận trong bảng bên. Với câu hỗ trợ được điền trực tiếp trên LMS, quét lại để nút Tiếp tục nhận trạng thái mới.
+5. Khi cả trang đã được xử lý, extension bấm đúng Next page/icon chuyển tiếp, đợi trang mới tải rồi lặp lại. Trang cuối được điền nhưng không bấm Finish/Kết thúc/Nộp bài.
+
+Có **Tạm dừng** và **Dừng**. Phiên gắn với tab/lượt làm bài; vẫn tiếp tục khi đóng bảng bên, và khôi phục trạng thái chờ khi mở lại. Đóng tab/Chrome kết thúc phiên. Nếu Next không chuyển sau 15 giây, phiên tạm dừng để bạn kiểm tra, không bấm lặp tự động. Thay đổi tab đích/lượt làm hoặc lỗi xác minh cũng dừng để kiểm tra.
+
+Đáp án bổ sung chỉ dùng cho trang hiện tại trong phiên chạy; chưa tự ghi vào bộ JSON. Muốn giữ lâu dài, lưu/chỉnh bộ riêng. Bản nhập đang soạn chưa bấm Tiếp tục vẫn theo vòng đời bản xem trước của bảng bên. Hoàn tác chỉ có trên tài liệu/trang hiện tại; không hoàn tác những trang đã chuyển.
+
+Quyền mới đã được người dùng phê duyệt: truy cập thường trực **chỉ `https://lms.hust.edu.vn/*`**, cần để đọc trang mới sau POST/redirect của Next. Microsoft Forms vẫn dùng activeTab; luồng tự chạy không áp dụng cho Forms. Khi cập nhật, nếu Chrome tắt tiện ích để chờ xác nhận quyền mới, mở chrome://extensions và xác nhận/bật lại.
 
 ## Dùng bộ JSON riêng
 
@@ -135,6 +149,7 @@ npm test
 npm run test:browser
 npm run test:json
 npm run test:lms
+npm run test:auto
 npm run package
 node tests/package-smoke.cjs
 ```

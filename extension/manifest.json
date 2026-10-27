@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Auto Fill Form — Microsoft Forms & LMS HUST",
-  "version": "0.4.0",
-  "description": "Điền Microsoft Forms và quiz LMS HUST từ JSON; thư viện, xem trước, xác minh, hoàn tác. Có sẵn đáp án Quy chế và CNPM.",
+  "version": "0.5.0",
+  "description": "JSON cho Forms và LMS HUST. Tự chạy quiz LMS: quét, điền, Next; thiếu đáp án thì chờ bổ sung. Có sẵn bộ Quy chế và CNPM.",
   "minimum_chrome_version": "116",
   "permissions": ["activeTab", "scripting", "storage", "sidePanel"],
+  "host_permissions": ["https://lms.hust.edu.vn/*"],
   "background": { "service_worker": "background.js" },
   "action": { "default_title": "Mở Auto Fill Form" },
   "side_panel": { "default_path": "panel.html" },

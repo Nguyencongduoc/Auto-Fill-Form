@@ -69,7 +69,7 @@
     const title = text(document.querySelector('.page-header-headings h1, #page-header h1, h1')) || document.title || "LMS HUST Quiz";
     const questions = refs.map(ref => ref.data);
     const fingerprint = JSON.stringify([location.href, formId, title, refs.map(ref => [ref.data.id, ref.data.signature, ref.data.supported, ref.controls.map(node => [node.id, node.name, node.getAttribute('value')]), [...ref.root.querySelectorAll('.qtext img, .answer img')].map(node => [node.getAttribute('src'), node.alt])])]);
-    return { platform: "moodle", refs, title, formId, fingerprint, url: location.href, questions, demo: false };
+    return { platform: "moodle", refs, title, formId, fingerprint, url: location.href, questions, demo: false, navigation: globalThis.AutoFillLmsNavigation?.inspect().data };
   }
   function events(node) { node.dispatchEvent(new Event("input", { bubbles: true })); node.dispatchEvent(new Event("change", { bubbles: true })); }
   async function setValue(ref, answer) {

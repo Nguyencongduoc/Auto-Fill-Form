@@ -26,12 +26,13 @@ let context;
     }
   }
   verifySource(path.join(root, "extension"));
-  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","platform.js","moodle-adapter.js","library.js","bank-editor.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json","data/cnpm-lms-20242-vn.json"]){
+  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","platform.js","moodle-adapter.js","lms-flow.js","lms-navigation.js","lms-runner.js","auto-panel.js","library.js","bank-editor.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json","data/cnpm-lms-20242-vn.json"]){
     assert.ok(fs.existsSync(path.join(extracted,asset)),`Missing packaged asset: ${asset}`);
   }
   const C=require(path.join(extracted,"core.js"));
   const bank=C.validateBank(JSON.parse(fs.readFileSync(path.join(extracted,"data/quy-che-2026.1.json"),"utf8")));
   assert.equal(bank.answers.length,200);
+  assert.deepEqual(manifest.host_permissions,["https://lms.hust.edu.vn/*"]);
   context=await chromium.launchPersistentContext(path.join(owned,"profile"),{
     executablePath:process.env.CHROME_PATH||"C:/Program Files/Google/Chrome/Application/chrome.exe",headless:true,
     args:["--enable-unsafe-extension-debugging"],ignoreDefaultArgs:["--disable-extensions"]
