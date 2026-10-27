@@ -1,41 +1,35 @@
-# Lộ trình phát triển
+# Lộ trình
 
-## Hiện có trong v0.5.0
+Phạm vi hiện tại: **v0.5.0**. Các mục tương lai chưa có thời hạn cam kết.
 
-- Điền Microsoft Forms từ bộ 200 đáp án Quy chế 2026.1 đã tích hợp.
-- Nạp/xuất JSON theo mẫu, nhập đáp án trực tiếp, xem trước và hoàn tác.
-- Ghép bằng nội dung câu hỏi/lựa chọn; không phụ thuộc số thứ tự.
-- Thư viện tối đa 50 bộ JSON, chuyển dữ liệu cũ và ghi nhớ lựa chọn theo form.
-- Tạo/chỉnh bộ trong giao diện, lưu đáp án xem trước thành bộ mới, sao chép bộ tích hợp.
-- Kiểm tra lỗi JSON, liên kết sai form, bản soạn xung đột; xuất và xóa từng bộ.
-- LMS HUST: trang attempt.php, một/nhiều đáp án, Đúng/Sai và trả lời ngắn; nút nạp bộ CNPM 351 câu.
-- Ghi nhớ bộ theo quiz hoặc lượt làm; quét từng trang, xác minh và hoàn tác. Kiểm thử cục bộ Moodle 3/4; cần kiểm chứng phiên HUST đã đăng nhập.
-- Tự chạy riêng LMS: quét/điền/xác minh/Next, dừng chờ đáp án bổ sung rồi Tiếp tục; có Tạm dừng/Dừng, không bấm kết thúc/nộp bài.
+## Đã có
 
-## Để ngỏ: nhập PDF đáp án cho form khác
+- Forms: quét, ghép JSON, xem trước, điền/xác minh và hoàn tác.
+- Thư viện nhiều bộ, nhập/dán/xuất JSON, trình soạn, sao chép/xóa, liên kết theo form/quiz.
+- Chuyển dữ liệu cũ, ghi tuần tự và phát hiện bản soạn xung đột.
+- LMS HUST: multichoice một/nhiều đáp án, truefalse, shortanswer; giữ bộ theo quiz/lượt.
+- Tự chạy riêng LMS: quét/điền/Next, chờ bổ sung, tiếp tục/tạm dừng/dừng, dừng trước nộp bài.
+- Bộ 200 đáp án Quy chế và nút nạp 351 đáp án CNPM.
+- Unit/browser fixture và kiểm tra ZIP nạp trực tiếp vào Chrome.
 
-**Trạng thái: ý tưởng cho tương lai, chưa triển khai trong extension.** Người dùng đã yêu cầu giữ mở hướng phát triển này, không xây trong đợt cập nhật đáp án hiện tại.
+## Ưu tiên kiểm chứng tiếp
 
-Luồng sản phẩm dự kiến:
+1. Xác nhận luồng sau đăng nhập trên form/quiz thật được phép thử.
+2. Kiểm tra thêm theme Moodle, ngôn ngữ, icon Next, tự lưu và mạng chậm.
+3. Mở rộng fixture khi câu đổi cấu trúc hoặc có phân nhánh; công bố tổ hợp giao diện đã xác nhận.
 
-1. Chọn PDF có đáp án và chọn form Microsoft Forms đang mở.
-2. Đọc lớp chữ; dùng OCR nếu PDF chỉ chứa ảnh.
-3. Nhận dạng câu hỏi, lựa chọn và cách đánh dấu đáp án: tick, radio đã chọn, tô màu hoặc bảng đáp án.
-4. Hiển thị kết quả trích xuất để người dùng sửa, xác nhận và xử lý các câu mơ hồ.
-5. Ghép với câu hỏi/lựa chọn trên form, lưu thành bộ đáp án riêng rồi dùng luồng điền hiện tại.
+## PDF đáp án — để ngỏ
 
-Các điểm cần giải quyết khi triển khai:
+Chưa nhập PDF trực tiếp trong extension. Script PDF của dự án phục vụ bố cục đã kiểm tra, không phải bộ nhập mọi tài liệu.
 
-- PDF có nhiều bố cục, dấu chọn và chất lượng ảnh khác nhau; không thể giả định một bộ phân tích dùng đúng cho mọi tài liệu.
-- PDF chỉ có “Câu 1: A” mà thiếu nội dung câu hỏi/lựa chọn cần thêm bước ánh xạ thủ công; thứ tự có thể khác form.
-- Kiểm tra các số, dấu so sánh, từ phủ định và đáp án nhiều lựa chọn trước khi cho điền.
-- Tận dụng thư viện và trình soạn đã có để duyệt kết quả trích xuất PDF.
-- Công bố định dạng và bố cục đã kiểm chứng. Cần adapter riêng để mở rộng sang Google Forms hoặc nền tảng khác.
+Luồng dự kiến: chọn PDF → lớp chữ/OCR → nhận diện câu/lựa chọn/dấu đáp án → người dùng duyệt/sửa → ghép với form/quiz → lưu thư viện JSON.
 
-Điều kiện hoàn thành tính năng tương lai: người dùng tự nhập PDF, duyệt và lưu bộ đáp án trong giao diện; không cần sửa mã nguồn hay đóng gói lại extension. Chưa ấn định thời gian thực hiện.
+Cần giải quyết bố cục đa dạng, ảnh mờ, dấu chọn, câu nhiều đáp án và tài liệu chỉ ghi “Câu 1: A”. Số, dấu so sánh, từ phủ định cần đối chiếu; câu mơ hồ phải đưa ra duyệt. Bắt đầu với một số bố cục công bố hỗ trợ, không cam kết mọi PDF/website.
 
-## Các hướng mở rộng khác
+## Các hướng khác
 
-- Hỗ trợ thêm loại control và form nhiều phần/phân nhánh.
-- Nhập CSV và adapter cho nền tảng khác.
-- AI đề xuất đáp án như một nguồn tùy chọn, có bước duyệt trước khi điền.
+- Thêm loại câu theo từng adapter có fixture và khả năng xác minh rõ.
+- Nhập CSV, sao lưu thư viện thuận tiện hơn, adapter nền tảng khác.
+- AI đề xuất tùy chọn có bước duyệt và thông tin dữ liệu gửi đi; chưa có trong bản hiện tại.
+
+[README](./README.md) · [Lịch sử](./CHANGELOG.md) · [Kiến trúc](./REPORT.md)

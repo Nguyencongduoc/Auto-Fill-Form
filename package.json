@@ -2,7 +2,7 @@
   "name": "auto-fill-form",
   "version": "0.5.0",
   "private": true,
-  "description": "Dependency-free Microsoft Forms Chrome Extension",
+  "description": "Chrome extension for JSON-based Microsoft Forms and HUST LMS quiz autofill",
   "scripts": {
     "test": "node --test tests/core.test.cjs tests/bundled.test.cjs tests/library.test.cjs tests/platform.test.cjs tests/lms-flow.test.cjs",
     "test:browser": "node tests/browser.test.cjs",

@@ -9,6 +9,8 @@ const destination = path.join(release, `auto-fill-form-${manifest.version}`);
 fs.mkdirSync(destination, { recursive: true });
 fs.cpSync(source, destination, { recursive: true });
 fs.cpSync(path.join(root, "examples"), path.join(destination, "examples"), { recursive: true });
+fs.cpSync(path.join(root, "docs"), path.join(destination, "docs"), { recursive: true });
+fs.copyFileSync(path.join(root, "CHANGELOG.md"), path.join(destination, "CHANGELOG.md"));
 if (fs.existsSync(path.join(root, "data"))) fs.cpSync(path.join(root, "data"), path.join(destination, "data"), { recursive: true });
 fs.writeFileSync(path.join(destination, "README.md"), fs.readFileSync(path.join(root, "README.md"), "utf8").replaceAll("(./extension/", "(./"));
 fs.copyFileSync(path.join(root, "REPORT.md"), path.join(destination, "REPORT.md"));

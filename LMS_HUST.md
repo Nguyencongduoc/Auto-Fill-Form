@@ -1,93 +1,74 @@
-# Auto Fill Form 0.5.0 — Tự chạy LMS HUST
+# Hướng dẫn LMS HUST — v0.5.0
 
-Ngày hoàn thiện: 28/10/2026. Nhánh: `feat/hust-lms-autofill`, được người dùng duyệt trước khi tạo nhánh và sửa mã.
+Tự chạy chỉ áp dụng cho **https://lms.hust.edu.vn/mod/quiz/attempt.php** có ID lượt làm hợp lệ. Microsoft Forms dùng luồng điền thủ công.
 
-## Dùng ngay
+## Bắt đầu
 
-1. Giải nén `auto-fill-form-0.5.0.zip` và Load unpacked trong chrome://extensions, hoặc nạp thư mục `extension` của dự án.
-2. Mở `https://lms.hust.edu.vn/mod/quiz/view.php?id=49373`, tự đăng nhập và vào **Bắt đầu làm bài / Tiếp tục lần làm bài**.
-3. Khi các câu hỏi hiện trên trang `attempt.php`, bấm biểu tượng Auto Fill Form trên tab đó. Bản mới dùng quyền LMS HUST thường trực đã được người dùng phê duyệt để tiếp tục đọc sau Next.
-4. Bấm **Nạp đáp án CNPM · 351 câu** hoặc nhập JSON riêng. Kiểm tra số câu khớp, lựa chọn và những câu đã có đáp án.
-5. Bấm **Bắt đầu tự chạy**: quét → điền và xác minh → Next page → quét trang kế tiếp.
-6. Câu thiếu/mơ hồ: phiên dừng ở trang đó, đưa câu cần bổ sung vào bảng bên. Nhập đủ đáp án rồi bấm **Tiếp tục**. Trang cuối được điền, bạn tự kiểm tra và nộp bài.
+1. Đăng nhập bằng trình duyệt của bạn, mở quiz và chọn Bắt đầu làm bài/Tiếp tục lần làm bài.
+2. Đợi câu hỏi hiện trong attempt.php, bấm biểu tượng Auto Fill Form.
+3. Chọn bộ JSON hoặc **Nạp đáp án CNPM · 351 câu**. Nút Mở quiz LMS HUST mở quiz mẫu đã cấu hình; bạn có thể mở quiz khác bằng link của mình.
+4. Kiểm tra bộ và ghi đè, bấm **Bắt đầu tự chạy**.
 
-Có **Tạm dừng** và **Dừng**. Nếu có loại câu chưa hỗ trợ, trả lời trực tiếp trên LMS rồi bật xác nhận trong bảng bên để tiếp tục. Nếu nhập một câu hỗ trợ trực tiếp trên LMS, quét lại để bảng bên nhận giá trị đó. Câu đã trả lời được giữ mặc định; tùy chọn ghi đè chỉ được lấy khi bắt đầu/tiếp tục.
+Mỗi trang được quét, điền và đọc lại giá trị. Khi cả trang đã được xử lý, tiện ích bấm Next rồi đợi trang mới. Trang cuối được điền nhưng không bấm kết thúc/nộp bài. Vẫn có thể dùng Quét form, Điền các câu đã chọn và Hoàn tác để điền thủ công từng trang.
 
-Phiên chạy gắn với tab và ID lượt làm, tiếp tục khi bảng bên đóng. Trạng thái nằm trong chrome.storage.session để khôi phục khi worker ngủ/mở lại bảng bên; đóng Chrome hoặc tab sẽ kết thúc phiên. Đáp án bổ sung không tự ghi vào JSON bền vững. Bạn có thể lưu/chỉnh bộ riêng bằng công cụ có sẵn.
+## Khi thiếu đáp án
 
-Không cần build, Node.js, tài khoản AI, khóa API hoặc máy chủ. Bộ 351 câu đi kèm gói cài; không cần chọn lại file nếu dùng nút CNPM. Nút này chỉ nhập/chọn bộ trong thư viện sau khi người dùng bấm, không tự áp dụng bộ CNPM cho mọi quiz.
+Tiện ích điền câu đã biết rồi dừng ở câu thiếu/mơ hồ. Nhập/chọn đáp án trong bảng bên; **Tiếp tục** chỉ bật khi các câu chờ đã có đáp án hợp lệ.
 
-Để giữ dữ liệu cũ, thay các file trong cùng thư mục đã nạp, Reload tiện ích và tải lại tab LMS/Forms. Nếu nạp từ thư mục mới, Chrome có thể cấp ID khác; hãy xuất JSON từ bản cũ trước khi gỡ.
+- Một/nhiều đáp án: chọn nội dung lựa chọn, không nhập A/B/C/D thay thế.
+- Trả lời ngắn: nhập chuỗi không trống.
+- Câu hỗ trợ được điền trực tiếp trên LMS: Quét form lại để bảng bên nhận giá trị mới.
+- Loại chưa hỗ trợ: xử lý trên LMS, bật **Tôi đã xử lý các câu chưa hỗ trợ trực tiếp trên LMS**, rồi Tiếp tục. Tiện ích không xác minh được đáp án của loại này.
 
-## Phạm vi đã triển khai
+Đáp án đã bấm Tiếp tục chỉ dùng cho trang hiện tại trong phiên, không tự thêm vào JSON. Lưu/chỉnh bộ riêng nếu muốn dùng lại. Bản đang nhập chưa bấm Tiếp tục có thể mất khi đóng bảng bên.
 
-| Trường hợp | Hành vi |
+## Điều khiển và trạng thái
+
+| Trạng thái | Ý nghĩa / thao tác |
 | --- | --- |
-| Trắc nghiệm một đáp án | Đọc radio, loại nhãn a/b/c/d khỏi nội dung ghép, bỏ radio ẩn “Clear my choice” |
-| Trắc nghiệm nhiều đáp án | Đọc checkbox trong vùng trả lời, bỏ input hidden và cờ đánh dấu câu |
-| Đúng/Sai chuẩn Moodle | Chuẩn hóa True/False theo giá trị 1/0; vẫn chọn đúng điều khiển khi nhãn hiển thị Đúng/Sai |
-| Trả lời ngắn | Đọc/điền một input văn bản, phát input/change, kiểm tra giới hạn độ dài |
-| Câu đã trả lời | Giữ mặc định; chỉ thay khi bật ghi đè và chọn câu |
-| Câu thay đổi sau quét | Chặn hoặc bỏ qua để giữ sửa đổi mới của người dùng |
-| Hoàn tác | Khôi phục lần điền gần nhất, giữ các trường đã sửa sau đó; hỗ trợ radio ẩn giá trị -1 của Moodle |
-| Quiz nhiều trang | Tự bấm đúng Next của cùng lượt làm sau khi cả trang đã được xử lý; không bấm Finish/Check/nộp bài |
-| Thư viện | Dùng chung bộ JSON cũ; lưu được bộ gắn riêng quiz/lượt làm |
-| Trang giới thiệu/kết quả | Thông báo mở attempt.php; không chèn bộ điền vào view.php/review.php |
+| Chưa chạy | Chọn bộ, Bắt đầu tự chạy |
+| Đang chạy | Quét/điền/xác minh; có Tạm dừng và Dừng |
+| Đang chuyển trang | Next đã được chuẩn bị/gửi, đang chờ trang đích |
+| Chờ bổ sung | Nhập đủ đáp án/xử lý câu chưa hỗ trợ, rồi Tiếp tục |
+| Tạm dừng | Kiểm tra lỗi/trang/đáp án, Tiếp tục hoặc Dừng |
+| Đã dừng | Phiên kết thúc; có thể bắt đầu mới từ trang hiện tại |
+| Trang cuối | Hoàn tất phần điền; bạn tự kết thúc/nộp bài |
 
-Đọc DOM Moodle 3.x dùng label/for và Moodle 4.x dùng aria-labelledby/data-region. Quyền mới `https://lms.hust.edu.vn/*` cho phép đọc/sửa nội dung trên LMS HUST, đã được người dùng phê duyệt riêng sau khi thử nghiệm activeTab không đủ qua Next/redirect. Không thêm tên miền khác; Microsoft Forms giữ activeTab. Không đổi đăng nhập hoặc yêu cầu mật khẩu. Nếu Chrome tắt extension sau cập nhật quyền, xác nhận/bật lại trong chrome://extensions.
+Phiên gắn với tab và ID lượt làm. Đóng bảng bên/chuyển tab khác không dừng phiên ở tab ban đầu. Mở lại bảng bên trên tab đó để xem tiến độ. Đóng tab/Chrome kết thúc phiên; thư viện JSON vẫn lưu.
 
-## Quy tắc chuyển trang
+Tạm dừng/Dừng sau khi Next đã gửi không hủy được lần tải đang diễn ra, nhưng ngăn các hành động tiếp theo. Hoàn tác chỉ có trên tài liệu/trang hiện tại, không khôi phục trang đã chuyển.
 
-- Chỉ chạy khi người dùng bấm Bắt đầu/Tiếp tục, trên attempt.php có ID lượt làm hợp lệ; không tự bắt đầu/nộp bài.
-- Điền và đọc lại giá trị trước Next. Thiếu/mơ hồ, lỗi xác minh hoặc sửa sau quét sẽ dừng chờ kiểm tra.
-- Nút Next chuẩn Moodle được kiểm tra form đích, hidden thispage/nextpage và trang tăng đúng một bước. Icon/link chỉ được đi tới attempt.php của cùng lượt và trang kế tiếp.
-- Moodle dùng cùng tên nút next cho nút kết thúc ở trang cuối. nextpage=-1 hoặc nhãn Finish/Kết thúc/Nộp bài được nhận diện để dừng, không click.
-- Lưu trạng thái trước khi click; đợi trang mới tải, không phát lại Next trên cùng trang. Sau 15 giây không chuyển/tải xong thì tạm dừng, chờ người dùng kiểm tra và Tiếp tục.
-- Khi tạm dừng trong lúc Next đã gửi, trang đó vẫn có thể tải xong; không điền/chuyển thêm trang cho đến khi người dùng tiếp tục. Đổi lượt/quiz hoặc quay lại trang đã xử lý sẽ dừng để tránh lặp.
-- Hoàn tác chỉ áp dụng trên tài liệu/trang hiện tại, không kéo lại các trang đã chuyển. Mỗi lệnh điền được giới hạn tối đa 20 câu để phản hồi Dừng nhanh hơn.
+## Giữ đáp án cũ và chuyển trang
 
-Chưa hỗ trợ lựa chọn chỉ có hình hoặc nhãn trùng, ghép đôi, kéo thả, Cloze, bài luận/rich text, câu số kèm đơn vị, iframe hoặc trang không theo cấu trúc Moodle đã nhận diện. Câu có hình với lựa chọn chữ cần người dùng tự đối chiếu đúng hình trước khi điền.
+Câu đã trả lời hợp lệ được giữ mặc định. Muốn thay bằng JSON, bật ghi đè trước khi bắt đầu/tiếp tục. Sửa đáp án trong bản xem trước là lựa chọn bổ sung có chủ ý cho trang đó.
 
-## Nhận diện quiz và JSON
+Trước Next, tiện ích kiểm tra lại câu và giá trị. Nút chuẩn Moodle được kiểm tra form đích, thispage/nextpage và trang tăng đúng một bước. Icon/link phải tới trang kế tiếp của cùng lượt. nextpage=-1 hoặc nhãn Finish/Kết thúc/Nộp bài được nhận diện để dừng.
 
-Ưu tiên ID cmid trong URL/field hoặc link quiz trong breadcrumb để tạo khóa `moodle:hust:quiz:49373`. Khóa này dùng lại giữa các trang và lượt làm của cùng quiz. Nếu không đọc được quiz ID, dùng `moodle:hust:attempt:123`, chỉ ổn định trong lượt đó.
+Không chuyển/tải xong sau **15 giây**: tạm dừng, không bấm lặp. Đổi lượt/quiz trên chính tab chạy, quay lại trang đã xử lý, lỗi xác minh hoặc bộ JSON thay đổi cũng yêu cầu kiểm tra trước khi tiếp tục.
 
-Ví dụ liên kết:
+## Loại câu và liên kết JSON
+
+Hỗ trợ multichoice một/nhiều đáp án, truefalse và shortanswer. Loại truefalse chuẩn được chuẩn hóa thành True/False theo giá trị điều khiển, kể cả khi trang hiển thị Đúng/Sai. Nhãn a/b/c/d được loại khỏi khóa ghép.
+
+Chưa hỗ trợ lựa chọn chỉ bằng hình/nhãn trùng, ghép đôi, kéo thả, Cloze, bài luận/rich text, câu số có đơn vị và form nhúng. Câu có hình với lựa chọn chữ cần tự đối chiếu hình.
+
+Bộ dùng chung bỏ sourceForm và được chọn rõ trên quiz mới. Bộ gắn quiz dùng sourceForm như sau:
 
 ```json
-"sourceForm": {
+{
   "platform": "moodle",
   "formId": "moodle:hust:quiz:49373"
 }
 ```
 
-Xuất mẫu hoặc lưu bản xem trước trên LMS tự tạo đúng platform và formId. ID có namespace để tránh nhầm với Microsoft Forms. Bộ JSON không có sourceForm dùng chung; phải chọn rõ trên quiz mới. Bộ gắn quiz khác bị vô hiệu hóa trong danh sách.
+Đây là giá trị của trường sourceForm, không phải toàn bộ file nhập. Tiện ích ưu tiên cmid/breadcrumb của quiz; nếu không thấy, dùng moodle:hust:attempt:123, chỉ ổn định trong lượt đó. Xuất mẫu/lưu bản xem trước tự tạo liên kết. Xem [JSON_FORMAT.md](./docs/JSON_FORMAT.md).
 
-Bộ CNPM đi kèm giữ nguyên 351 câu đã xuất: 321 câu một đáp án, 30 câu nhiều đáp án. Đã gộp 83 lượt lặp từ 450 lượt câu trong PDF; 16 lượt hình/thiếu đáp án/loại câu không rõ không có trong file chạy. Không bổ sung đáp án suy đoán cho các trường hợp đó.
+## Quyền, dữ liệu và giới hạn kiểm chứng
 
-## Kiểm thử và giới hạn xác nhận
+Quyền thường trực **https://lms.hust.edu.vn/** cho phép đọc/sửa nội dung trên LMS để tiếp tục sau Next/redirect; không mở rộng sang tên miền khác. Phạm vi khai báo trong manifest là `https://lms.hust.edu.vn/*`. Forms giữ activeTab. Nếu Chrome tắt tiện ích sau cập nhật quyền, xác nhận/bật lại trong chrome://extensions.
 
-- 41 unit test: schema cũ/mới, liên kết, thư viện, bộ 200 câu, URL/platform/ID quiz và kế hoạch tự chạy.
-- 10 bước trình duyệt Moodle: quyền activeTab, nhãn mới/cũ, radio/checkbox/Đúng-Sai/trả lời ngắn, phát sự kiện, hoàn tác, ghi đè, sửa sau quét, thay cấu trúc, trang kế tiếp, lưu bộ gắn quiz, trang chỉ đọc và nút CNPM.
-- Bộ CNPM được thử với 14 câu hỗn hợp, gồm câu một/nhiều đáp án và Đúng/Sai, lựa chọn đảo thứ tự; toàn bộ giá trị được đọc lại và đối chiếu đáp án.
-- Hồi quy Microsoft Forms và thư viện JSON dùng các script hiện có. Kết quả cụ thể nằm trong `test-results/`.
-- Test tự chạy dùng biểu mẫu Next gửi POST thật tới máy chủ fixture cục bộ, sau đó chuyển hướng sang trang mới. Kiểm tra đóng bảng bên khi chạy, khôi phục lúc chờ, nhập đáp án rồi tiếp tục, Dừng/Tạm dừng, xác nhận câu chưa hỗ trợ, timeout, icon Next và chặn Microsoft Forms. Không gọi máy chủ HUST thật.
-- Kiểm thử ZIP giải nén chính gói phát hành, đối chiếu từng file chạy với mã nguồn, nạp Chrome và kiểm tra nạp bộ CNPM 351 câu.
+Trạng thái chạy nằm trong chrome.storage.session để khôi phục khi worker được đánh thức. Bộ JSON nằm trong chrome.storage.local. Không gọi AI/trung gian. LMS có thể tự lưu sau input/change; Next gửi biểu mẫu trang. Xác minh DOM không xác nhận máy chủ lưu/chấm đúng. Đồng hồ quiz do LMS điều khiển.
 
-Các bài test dùng profile Chrome riêng và dữ liệu giả trả tại hostname HUST; không thay đổi hoặc nộp bài trên máy chủ LMS thật. Test thủ công cũ không bấm Next; test tự chạy có Next/POST lưu trang và không có click Finish hoặc POST nextpage=-1. Ảnh QA: `test-results/auto-waiting.png`. Kết quả tự chạy: `test-results/lms-auto-summary.json`.
+Đã có 10 bước kiểm thử điền Moodle và 8 bước tự chạy bằng fixture; không có click Finish trong kiểm thử. Link HUST thật chỉ dẫn tới màn hình đăng nhập trong phiên thử, nên **chưa xác nhận điền sau đăng nhập**. Cách chạy và bằng chứng: [DEVELOPMENT.md](./docs/DEVELOPMENT.md).
 
-Link quiz thật đã được mở trong trình duyệt kiểm thử và dẫn tới màn hình **Log in to the site | LMS HUST**; không có câu hỏi ở phiên đó. Vì vậy chưa xác nhận điền trên HUST sau đăng nhập. Bản cài chạy trực tiếp trên Chrome, nhưng tương thích giao diện tài khoản thực tế vẫn cần kiểm tra khi người dùng mở lượt làm bài.
-
-LMS có thể tự lưu giá trị sau input/change. Xác minh của tiện ích là đọc lại DOM, không phải xác nhận máy chủ đã lưu hoặc chấm đúng. Hoàn tác mất khi tải lại/đóng tab và không bảo đảm thu hồi bản nháp máy chủ đã nhận. Đồng hồ quiz thuộc LMS, không được tiện ích điều khiển.
-
-## Thay đổi mã
-
-`platform.js` nhận diện URL; `moodle-adapter.js` đọc/điền quiz. `lms-flow.js` lập kế hoạch và chặn câu thiếu; `lms-navigation.js` kiểm tra Next/trang cuối; `lms-runner.js` chạy trong service worker và lưu trạng thái theo tab; `auto-panel.js` điều khiển Bắt đầu/Tiếp tục/Tạm dừng/Dừng. `content.js` kiểm tra snapshot và hủy các hành động còn lại khi dừng. Không thêm phụ thuộc chạy.
-
-Chạy kiểm thử: `npm test`, `npm run test:lms`, `npm run test:auto`, `npm run test:browser`, `npm run test:json`. Đóng gói: `npm run package`; kiểm tra gói: `node tests/package-smoke.cjs`.
-
-## Nguồn kỹ thuật
-
-Đối chiếu cấu trúc với renderer chính thức Moodle: [Multichoice](https://github.com/moodle/moodle/blob/MOODLE_405_STABLE/question/type/multichoice/renderer.php), [True/False](https://github.com/moodle/moodle/blob/MOODLE_405_STABLE/question/type/truefalse/renderer.php), [Short answer](https://github.com/moodle/moodle/blob/MOODLE_405_STABLE/question/type/shortanswer/renderer.php). Đây là cơ sở tạo fixture, không phải xác nhận phiên bản Moodle đang chạy trên tài khoản HUST của người dùng.
-
-Đối chiếu hidden thispage/nextpage và nút Next/Finish trong [renderer quiz chính thức](https://github.com/moodle/moodle/blob/MOODLE_405_STABLE/mod/quiz/classes/output/renderer.php).
+[README](./README.md) · [Kiến trúc](./REPORT.md) · [Lịch sử](./CHANGELOG.md)
