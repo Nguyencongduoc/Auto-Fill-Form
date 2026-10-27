@@ -1,6 +1,7 @@
 "use strict";
 const C = globalThis.AutoFillCore;
 const L = globalThis.AutoFillLibrary;
+const P = globalThis.AutoFillPlatform;
 const $ = (id) => document.getElementById(id);
 const state = { tabId: null, windowId: null, tabUrl: "", scan: null, bank: null, bankId: L.NONE, bundledBank: null, library: L.initialize(null).library, pendingLibrary: null, drafts: new Map(), rows: [], busy: false, consumed: false, undoAvailable: false };
 const editor = new BankEditor($("bankEditor"));
@@ -35,6 +36,7 @@ function sync() {
   $("bankFile").disabled = state.busy;
   $("bankText").disabled = state.busy;
   $("importText").disabled = state.busy;
+  $("loadCnpm").disabled = state.busy;
   $("clearBank").disabled = state.busy || !state.library.banks.some((entry) => entry.id === state.bankId);
   $("exportBank").disabled = state.busy || !state.bank;
   $("bankName").textContent = state.bank ? `${state.bank === state.bundledBank ? "Có sẵn · " : ""}${state.bank.answers.length} câu · ${state.bank.name}` : "Chưa nạp";
@@ -81,7 +83,7 @@ function renderRows() {
   const list = $("questions"); list.replaceChildren();
   if (!state.scan) {
     const empty = node("div", "empty");
-    empty.append(node("span", "", "☷"), node("h3", "", "Form của bạn sẽ hiện ở đây"), node("p", "", "Mở Microsoft Forms rồi chọn Quét form. Hoặc mở demo để thử trước."));
+    empty.append(node("span", "", "☷"), node("h3", "", "Câu hỏi sẽ hiện ở đây"), node("p", "", "Mở Microsoft Forms hoặc lượt làm quiz LMS HUST rồi chọn Quét form."));
     list.append(empty); sync(); return;
   }
   const matches = C.matchQuestions(state.scan, state.bank);
@@ -143,6 +145,8 @@ async function target(tabId) {
   try { const url = new URL(tab.url); $("targetUrl").textContent = url.protocol === "chrome-extension:" ? "Form demo cục bộ" : `${url.hostname}${url.pathname}`; } catch { $("targetUrl").textContent = "Bấm biểu tượng extension trên tab form để cấp quyền."; }
   if (changed) resetScan("Đã đổi tab. Chọn Quét form để đọc câu hỏi.");
   applyBank();
+  const identified = P.identify(tab.url);
+  if (changed && identified.platform === "moodle" && !identified.supported) notice(identified.reason);
   return tab;
 }
 async function command(command, payload = {}) {
@@ -153,11 +157,10 @@ async function command(command, payload = {}) {
   if (isDemo) {
     response = await chrome.runtime.sendMessage({ channel: "aff-demo", tabId: tab.id, command, payload });
   } else {
-    let url;
-    try { url = new URL(tab.url); } catch { throw new Error("Bấm biểu tượng extension trên tab Microsoft Forms để cấp quyền, rồi quét lại."); }
-    if (["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) && /\/pages\/responsedetailpage\.aspx\/?$/iu.test(url.pathname)) throw new Error("Đây là trang chi tiết kết quả (chỉ đọc). Hãy mở link trả lời của form — ResponsePage.aspx — rồi bấm biểu tượng extension và quét lại.");
-    if (url.protocol !== "https:" || !["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) || !/\/pages\/responsepage\.aspx\/?$/iu.test(url.pathname)) throw new Error("Hãy mở trang trả lời Microsoft Forms, đăng nhập nếu cần và bấm biểu tượng extension trên tab đó.");
-    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["core.js", "adapter.js", "content.js"] });
+    const identified = P.identify(tab.url);
+    if (!identified.supported) throw new Error(identified.reason);
+    const adapter = identified.platform === "moodle" ? "moodle-adapter.js" : "adapter.js";
+    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["core.js", "platform.js", adapter, "content.js"] });
     response = await chrome.tabs.sendMessage(tab.id, { channel: "aff-content", command, payload });
   }
   if (!response?.ok) throw new Error(response?.error || "Chưa kết nối được với form. Hãy tải lại trang, bấm biểu tượng extension và thử quét lại.");
@@ -178,7 +181,7 @@ async function task(fn) {
 }
 function currentFormId() {
   if (state.scan) return state.scan.formId || "";
-  try { const url = new URL(state.tabUrl); if (url.href.split(/[?#]/u)[0] === chrome.runtime.getURL("demo.html")) return "local-demo"; return [...url.searchParams].find(([key]) => key.toLowerCase() === "id")?.[1] || ""; } catch { return ""; }
+  try { const url = new URL(state.tabUrl); if (url.href.split(/[?#]/u)[0] === chrome.runtime.getURL("demo.html")) return "local-demo"; if (P.identify(url.href).platform === "moodle") return P.lmsFormId(url); return [...url.searchParams].find(([key]) => key.toLowerCase() === "id")?.[1] || ""; } catch { return ""; }
 }
 async function libraryRequest(change) {
   const response = await chrome.runtime.sendMessage({ channel: "aff-library", ...change });
@@ -212,7 +215,7 @@ function discardPreview() {
   return true;
 }
 function supportedTarget() {
-  try { const url = new URL(state.tabUrl); return url.protocol === "https:" && ["forms.cloud.microsoft", "forms.office.com"].includes(url.hostname) && /\/pages\/responsepage\.aspx\/?$/iu.test(url.pathname); } catch { return false; }
+  return P.identify(state.tabUrl).supported;
 }
 async function scanForm() {
   await target(); notice("Đang đọc câu hỏi trên form…");
@@ -223,7 +226,7 @@ async function scanForm() {
   const count = state.rows.filter((row) => row.status === "matched").length;
   notice(state.bank === state.bundledBank && state.scan.formId === state.bundledBank.sourceForm.formId
     ? `Đã tự nạp đáp án Quy chế 2026.1: khớp ${count}/${state.scan.questions.length} câu đang hiển thị. Kiểm tra rồi bấm Điền các câu đã chọn.`
-    : `Đã đọc ${state.scan.questions.length} câu. Nhập JSON hoặc chọn đáp án trực tiếp bên dưới.`, "success");
+    : `Đã đọc ${state.scan.questions.length} câu${state.scan.platform === "moodle" ? " LMS trên trang này" : ""}, khớp ${count} câu. ${state.scan.platform === "moodle" ? "Chọn bộ JSON/CNPM; nếu có nhiều trang, tự chuyển trang rồi quét lại." : "Nhập JSON hoặc chọn đáp án trực tiếp bên dưới."}`, "success");
 }
 function download(name, value) {
   const url = URL.createObjectURL(new Blob([JSON.stringify(value, null, 2)], { type: "application/json;charset=utf-8" }));
@@ -261,6 +264,12 @@ function results(data, undo = false) {
 
 $("scan").addEventListener("click", () => task(scanForm));
 $("openTarget").addEventListener("click", () => task(async () => { const tab = await chrome.tabs.create({ url: AutoFillBundled.formUrl }); await target(tab.id); notice("Đã mở form. Đăng nhập nếu được yêu cầu, rồi bấm biểu tượng extension để tự quét và nạp đáp án."); }));
+$("openLms").addEventListener("click", () => task(async () => { const tab = await chrome.tabs.create({ url: "https://lms.hust.edu.vn/mod/quiz/view.php?id=49373" }); await target(tab.id); notice("Đã mở quiz LMS. Bạn tự đăng nhập và bấm Bắt đầu/Tiếp tục làm bài, rồi mở extension trên trang câu hỏi."); }));
+$("loadCnpm").addEventListener("click", () => task(async () => {
+  const response = await fetch(chrome.runtime.getURL("data/cnpm-lms-20242-vn.json"));
+  if (!response.ok) throw new Error("Thiếu file đáp án CNPM trong gói cài. Hãy nạp lại đầy đủ thư mục extension.");
+  await importBank(await response.json());
+}));
 $("template").addEventListener("click", () => { if (state.scan) { download("answers-template.json", C.makeTemplate(state.scan)); notice("Đã xuất mẫu. Điền answer, xóa những câu chưa có đáp án rồi nạp lại file JSON."); } });
 $("demo").addEventListener("click", () => task(async () => { const tab = await chrome.tabs.create({ url: chrome.runtime.getURL("demo.html") }); await target(tab.id); notice("Đã mở demo. Chọn Quét form, rồi nạp file examples/demo-answers.json hoặc nhập trực tiếp."); }));
 $("bankFile").addEventListener("change", () => task(async () => {
@@ -361,7 +370,7 @@ chrome.storage.onChanged.addListener((changes, area) => {
 });
 task(async () => {
   const response = await fetch(chrome.runtime.getURL(AutoFillBundled.bankPath));
-  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.3.0.");
+  if (!response.ok) throw new Error("Thiếu file đáp án tích hợp. Hãy nạp lại đầy đủ thư mục tiện ích bản v0.4.0.");
   state.bundledBank = C.validateBank(await response.json());
   const saved = await libraryRequest({ op: "list" }); state.library = saved.library;
   await target(); sync();

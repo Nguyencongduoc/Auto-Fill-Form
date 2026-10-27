@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="panel.css">
   <script src="core.js" defer></script>
   <script src="library.js" defer></script>
+  <script src="platform.js" defer></script>
   <script src="bundled.js" defer></script>
   <script src="bank-editor.js" defer></script>
   <script src="panel.js" defer></script>
 </head>
 <body>
   <header class="masthead">
-    <div class="brand"><span class="mark" aria-hidden="true">f<span>↗</span></span><div><h1>Auto Fill Form</h1><p>Microsoft Forms · v0.3.0</p></div></div>
+    <div class="brand"><span class="mark" aria-hidden="true">f<span>↗</span></span><div><h1>Auto Fill Form</h1><p>Microsoft Forms &amp; LMS HUST · v0.4.0</p></div></div>
     <span class="local-badge"><i></i> LOCAL</span>
   </header>
   <main>
@@ -21,6 +22,7 @@
     <section class="target-box" aria-label="Form đang chọn"><span class="target-dot"></span><div><strong id="targetTitle">Chưa chọn form</strong><p id="targetUrl">Mở form và bấm biểu tượng extension.</p></div></section>
     <div class="toolbar"><button id="scan" class="primary">↻ &nbsp; Quét form</button><button id="template" disabled>Xuất mẫu JSON</button></div>
     <p style="margin-top:10px"><button id="openTarget" class="link">Mở form Quy chế 2026.1 →</button></p>
+    <p style="margin-top:8px"><button id="openLms" class="link">Mở quiz LMS HUST →</button></p>
     <p style="margin-top:6px"><button id="demo" class="link">Thử tính năng bằng bản demo →</button></p>
     <div id="notice" role="status" aria-live="polite" class="notice">Bắt đầu bằng Quét form.</div>
     <details class="bank-box" open>
@@ -30,6 +32,7 @@
       <select id="bankSelect" class="full-width"><option value="@none">Chọn bộ đáp án…</option></select>
       <p id="bankScope" class="hint">Mỗi form nhớ bộ đáp án đã chọn.</p>
       <div class="library-buttons"><button id="newBank" class="small">＋ Tạo bộ mới</button><button id="editBank" class="small" disabled>Chỉnh bộ này</button></div>
+      <button id="loadCnpm" class="full-width small">Nạp đáp án CNPM · 351 câu</button>
       <label class="file-button" for="bankFile">＋ &nbsp; Nhập file JSON vào thư viện<input id="bankFile" type="file" accept=".json,application/json"></label>
       <details class="paste-box"><summary>Hoặc dán nội dung JSON</summary><label for="bankText" class="sr-only">Nội dung bộ đáp án JSON</label><textarea id="bankText" rows="5" placeholder='{"schemaVersion":1,"name":"Đáp án",…}' spellcheck="false"></textarea><button id="importText">Nạp nội dung</button></details>
       <div class="bank-actions"><button id="exportBank" class="link" disabled>Xuất bộ JSON</button><button id="clearBank" class="link danger" disabled>Xóa bộ này</button></div>
@@ -41,7 +44,7 @@
       <p id="editorHint" class="hint"></p>
       <label class="editor-label">Tên bộ đáp án<input id="editorName" maxlength="200" placeholder="Ví dụ: Đáp án lớp A"></label>
       <label class="editor-label">Phạm vi<select id="editorScope"><option value="generic">Dùng chung, ghép theo nội dung</option><option value="bound">Chỉ áp dụng cho một form</option></select></label>
-      <label class="sr-only" for="editorFormId">ID form liên kết</label><input id="editorFormId" class="full-width" placeholder="ID trong tham số id= của link form" hidden>
+      <label class="sr-only" for="editorFormId">ID form liên kết</label><input id="editorFormId" class="full-width" placeholder="ID Microsoft hoặc moodle:hust:quiz:49373" hidden>
       <label class="sr-only" for="editorSearch">Tìm câu trong bản soạn</label><input id="editorSearch" type="search" class="full-width" placeholder="Tìm câu trong bản soạn…">
       <div id="editorError" role="alert" class="notice error" hidden></div>
       <div id="editorQuestions"></div>

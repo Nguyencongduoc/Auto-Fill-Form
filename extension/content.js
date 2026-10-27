@@ -1,7 +1,7 @@
 (function () {
   "use strict";
-  if (globalThis.AutoFillContent?.version === "0.3.0") return;
-  const C = globalThis.AutoFillCore, A = globalThis.AutoFillAdapter;
+  if (globalThis.AutoFillContent?.version === "0.4.0") return;
+  const C = globalThis.AutoFillCore, A = location.hostname === "lms.hust.edu.vn" ? globalThis.AutoFillMoodleAdapter : globalThis.AutoFillAdapter;
   const documentToken = crypto.randomUUID();
   let lastScan = null, undo = null, busy = false;
   function scan() {
@@ -12,7 +12,7 @@
       && lastScan.questions.length === page.questions.length
       && page.questions.every((q, i) => C.sameState(q.current, lastScan.questions[i].current));
     lastScan = { ...page, scanToken: unchanged ? lastScan.scanToken : crypto.randomUUID() };
-    return { title: page.title, formId: page.formId, url: page.url, questions: page.questions, fingerprint: page.fingerprint, documentToken, scanToken: lastScan.scanToken, undoAvailable: Boolean(undo?.entries.length), demo: page.demo };
+    return { title: page.title, platform: page.platform || "microsoft_forms", formId: page.formId, url: page.url, questions: page.questions, fingerprint: page.fingerprint, documentToken, scanToken: lastScan.scanToken, undoAvailable: Boolean(undo?.entries.length), demo: page.demo };
   }
   function verifyDocument(payload) {
     if (payload.documentToken !== documentToken) throw new Error("Trang đã tải lại. Hãy quét form mới.");
@@ -108,5 +108,5 @@
     handle(message.command, message.payload).then((data) => respond({ ok: true, data }), (error) => respond({ ok: false, error: error.message }));
     return true;
   });
-  globalThis.AutoFillContent = { version: "0.3.0", handle };
+  globalThis.AutoFillContent = { version: "0.4.0", handle };
 })();

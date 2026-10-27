@@ -1,12 +1,12 @@
-AUTO FILL FORM v0.3.0 — THƯ VIỆN ĐÁP ÁN JSON
+AUTO FILL FORM v0.4.0 — MICROSOFT FORMS & LMS HUST
 
-1. Giải nén auto-fill-form-0.3.0.zip.
+1. Giải nén auto-fill-form-0.4.0.zip.
 2. Mở chrome://extensions, bật Developer mode.
 3. Chọn Load unpacked, chọn CHÍNH thư mục chứa trực tiếp manifest.json.
    Mã nguồn tại máy: D:\D\Auto Fill Form\extension
-4. Ghim extension, mở trang trả lời Microsoft Forms, tự đăng nhập nếu cần.
+4. Ghim extension, mở Microsoft Forms hoặc lượt làm bài LMS HUST, tự đăng nhập nếu cần.
 5. Bấm biểu tượng extension trên tab form; quét nếu chưa tự quét.
-6. Nhập file JSON hoặc chọn bộ trong thư viện; kiểm tra đáp án xem trước.
+6. Nhập JSON, chọn bộ đã lưu hoặc Nạp đáp án CNPM · 351 câu; kiểm tra đáp án.
 7. Bấm Điền các câu đã chọn. Bạn kiểm tra và tự nộp bài.
 
 Không cần Node.js, npm, build, tài khoản AI hay file CRX.
@@ -24,6 +24,16 @@ Có thể Chỉnh bộ này, Xuất JSON để sao lưu và Xóa từng bộ có
 Các thay đổi ở bản xem trước chưa nằm trong file Xuất JSON cho đến khi lưu.
 Giới hạn: 50 bộ riêng, thư viện 8 MB, file nhập 2 MB, 1–500 câu mỗi bộ.
 
+LMS HUST
+Mở https://lms.hust.edu.vn/mod/quiz/view.php?id=49373 hoặc quiz của bạn.
+Tự bấm Bắt đầu/Tiếp tục làm bài để vào trang attempt.php có câu hỏi.
+Bấm biểu tượng extension → Nạp đáp án CNPM · 351 câu → xem trước → Điền.
+Quiz nhiều trang: tự chuyển trang rồi Quét lại. Có Hoàn tác trên trang hiện tại.
+Hỗ trợ một/nhiều đáp án, Đúng/Sai và trả lời ngắn. Chưa hỗ trợ lựa chọn chỉ có hình.
+Không điền trang review.php (xem lại), view.php (giới thiệu) hoặc câu đang khóa.
+LMS có thể tự lưu thay đổi. Extension không tự chuyển trang hoặc nộp bài.
+Link thật yêu cầu đăng nhập trong phiên kiểm thử; đã thử bằng fixture Moodle.
+
 BỘ QUY CHẾ CŨ
 200 đáp án vẫn tích hợp; tự chọn khi mở đúng form Quy chế 2026.1 cũ.
 Thông tin cá nhân do bạn tự nhập. Không cần JSON cho bộ tích hợp.
@@ -37,4 +47,4 @@ Trang trả lời ResponsePage.aspx trên forms.cloud.microsoft hoặc forms.off
 ResponseDetailPage.aspx là trang kết quả chỉ đọc, không dùng để điền.
 Hỗ trợ Choice một/nhiều đáp án và Text ngắn. Chưa có nhập PDF trực tiếp.
 Chưa xác nhận điền trên trang trả lời Microsoft thật; đã thử fixture Chrome.
-Xem README.md, IMPLEMENTATION_REPORT.md và ROADMAP.md.
+Xem README.md, LMS_HUST.md, IMPLEMENTATION_REPORT.md và ROADMAP.md.

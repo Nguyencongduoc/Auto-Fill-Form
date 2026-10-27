@@ -2,25 +2,38 @@
 
 # Auto Fill Form
 
-Extension Chrome **v0.3.0** hỗ trợ điền Microsoft Forms từ đáp án JSON của người dùng. Có thư viện nhiều bộ, trình chỉnh sửa và ghi nhớ bộ đã chọn cho từng form. Không cần build, Node.js, tài khoản AI hoặc máy chủ để sử dụng.
+Extension Chrome **v0.4.0** hỗ trợ điền **Microsoft Forms và LMS HUST (Moodle)** từ JSON. Có thư viện nhiều bộ, trình chỉnh sửa và ghi nhớ bộ đã chọn cho từng form/quiz. Không cần build, Node.js, tài khoản AI hoặc máy chủ để sử dụng.
 
-Bộ **200 đáp án Quy chế 2026.1** tiếp tục được tích hợp và tự chọn trên đúng form cũ. **Nhập PDF trực tiếp chưa có**, được giữ trong [lộ trình](./ROADMAP.md).
+Bộ **200 đáp án Quy chế 2026.1** vẫn tích hợp cho đúng form cũ. Có thêm nút **Nạp đáp án CNPM · 351 câu** dùng bộ đã trích từ PDF. **Nhập PDF trực tiếp chưa có**, được giữ trong [lộ trình](./ROADMAP.md).
 
 ## Cài và cập nhật
 
-1. Giải nén `auto-fill-form-0.3.0.zip`.
+1. Giải nén `auto-fill-form-0.4.0.zip`.
 2. Mở `chrome://extensions`, bật **Developer mode**.
 3. Bấm **Load unpacked**, chọn thư mục chứa trực tiếp `manifest.json`, `background.js`, `panel.html`, `library.js` và `data/`.
 4. Nếu dùng mã nguồn tại máy, chọn `D:\D\Auto Fill Form\extension`.
-5. Ghim tiện ích. Mở trang trả lời Microsoft Forms, tự đăng nhập nếu cần, đợi câu hỏi hiện rồi bấm biểu tượng tiện ích.
+5. Ghim tiện ích. Mở trang trả lời Microsoft Forms hoặc lượt làm quiz LMS HUST, tự đăng nhập nếu cần, đợi câu hỏi hiện rồi bấm biểu tượng tiện ích.
 
 Dùng **Load unpacked**, không cần Pack extension hoặc `.crx`. Giữ nguyên thư mục đã nạp. Chrome tối thiểu 116. ZIP đặt manifest ngay tại gốc để tránh lỗi **Manifest file is missing or unreadable**.
 
 **Cập nhật bản cũ:** thay file trong chính thư mục đã nạp, bấm **Reload** trên thẻ tiện ích và tải lại tab form. Cách này giữ ID tiện ích và dữ liệu. Nạp từ đường dẫn khác có thể tạo ID khác; hãy xuất JSON ở bản cũ rồi nhập vào bản mới. Gỡ tiện ích sẽ xóa dữ liệu lưu của tiện ích đó.
 
+## Dùng ngay trên LMS HUST
+
+1. Mở quiz hoặc bấm **Mở quiz LMS HUST** trong bảng bên. Link đã cung cấp: `https://lms.hust.edu.vn/mod/quiz/view.php?id=49373`.
+2. Tự đăng nhập, bấm **Bắt đầu làm bài / Tiếp tục lần làm bài** để vào trang câu hỏi `mod/quiz/attempt.php`.
+3. Bấm biểu tượng extension trên tab LMS; bảng bên tự quét câu đang hiển thị.
+4. Bấm **Nạp đáp án CNPM · 351 câu** hoặc nhập JSON riêng. Không cần tải JSON hay sửa mã nếu dùng bộ CNPM đi kèm.
+5. Xem các câu khớp, chọn câu cần điền rồi bấm **Điền**. Có **Hoàn tác**; câu đã trả lời được giữ mặc định.
+6. Với quiz nhiều trang, tự chuyển trang rồi quét lại. Bạn kiểm tra và tự kết thúc/nộp bài trên LMS.
+
+Hỗ trợ trắc nghiệm một/nhiều đáp án, Đúng/Sai và trả lời ngắn. Không dùng nhãn a/b/c/d để ghép. Loại Đúng/Sai chuẩn Moodle được chuẩn hóa True/False theo giá trị điều khiển, dùng được khi giao diện đổi ngôn ngữ. Lựa chọn chỉ bằng hình, ghép đôi, kéo thả, Cloze, bài luận và câu số có đơn vị chưa hỗ trợ.
+
+`view.php` là trang giới thiệu, `review.php` chỉ xem kết quả; tiện ích hướng dẫn mở lượt làm bài. LMS có thể tự lưu khi thay đổi đáp án; tiện ích không bấm Check/Next/Finish/gửi bài. Link thật dẫn tới màn hình đăng nhập trong phiên kiểm thử; chưa xác nhận điền sau đăng nhập HUST. Xem [chi tiết triển khai và kiểm thử](./LMS_HUST.md).
+
 ## Dùng bộ JSON riêng
 
-1. Mở trang trả lời `ResponsePage.aspx` trên `forms.cloud.microsoft` hoặc `forms.office.com`, bấm biểu tượng tiện ích và **Quét form** nếu chưa tự quét.
+1. Mở trang trả lời Microsoft Forms hoặc `attempt.php` trên `lms.hust.edu.vn`, bấm biểu tượng tiện ích và **Quét form** nếu chưa tự quét.
 2. Chọn file hoặc dán JSON. Bộ hợp lệ được lưu vào thư viện; nhập lại bộ giống hệt sẽ dùng mục đã có.
 3. Chọn bộ muốn áp dụng; lựa chọn được nhớ riêng theo ID form.
 4. Kiểm tra câu khớp, đáp án và câu được chọn. Có thể sửa đáp án ngay trong bản xem trước.
@@ -70,6 +83,8 @@ Giới hạn: **50 bộ riêng**, tổng thư viện **8 MB**, file nhập **2 M
 
 `questionId` duy nhất trong mỗi bộ, không cần giống ID Microsoft. `sourceForm` tùy chọn; bỏ trường này để dùng chung. ID form là giá trị tham số `id` trong link trả lời, không phải toàn bộ URL. `platformQuestionId` có thể được xuất nếu đọc được để phân biệt một số câu trùng.
 
+Bộ gắn quiz LMS dùng `"sourceForm": {"platform":"moodle","formId":"moodle:hust:quiz:49373"}`. Xuất mẫu hoặc lưu từ bản xem trước trên LMS sẽ tự điền cấu trúc này. Nếu không đọc được ID quiz, liên kết theo `moodle:hust:attempt:123`; khi đổi lượt cần chọn lại bộ. JSON dùng chung phiên bản cũ tiếp tục nhập được.
+
 **Xuất mẫu JSON** lấy cấu trúc từ form hiện tại. Điền các answer rỗng và xóa bản ghi chưa có đáp án trước khi nhập lại. Hoặc chọn đáp án trong bảng bên rồi **Lưu thành bộ mới từ các câu trên form**.
 
 ## Thử nhanh
@@ -109,6 +124,7 @@ JavaScript thuần, Manifest V3, không có bước build. Quyền: activeTab, s
 | background.js | Lưu tuần tự để tránh ghi đè giữa các bảng bên |
 | bank-editor.js | Soạn và kiểm tra bộ đáp án |
 | adapter.js, content.js | Quét, điền, xác minh, hoàn tác |
+| platform.js, moodle-adapter.js | Nhận diện URL, đọc/điền các câu Moodle của LMS HUST |
 | panel.html/.css/.js | Thư viện, xem trước và điều khiển |
 | bundled.js, data/ | Bộ tích hợp và nguồn |
 
@@ -118,6 +134,7 @@ Node.js 20+ dùng cho phát triển:
 npm test
 npm run test:browser
 npm run test:json
+npm run test:lms
 npm run package
 node tests/package-smoke.cjs
 ```

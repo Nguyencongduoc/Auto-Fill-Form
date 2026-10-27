@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Auto Fill Form — Microsoft Forms",
-  "version": "0.3.0",
-  "description": "Thư viện đáp án JSON cho Microsoft Forms: nhập, biên soạn, lưu theo form, điền và hoàn tác. Có sẵn bộ Quy chế 2026.1.",
+  "name": "Auto Fill Form — Microsoft Forms & LMS HUST",
+  "version": "0.4.0",
+  "description": "Điền Microsoft Forms và quiz LMS HUST từ JSON; thư viện, xem trước, xác minh, hoàn tác. Có sẵn đáp án Quy chế và CNPM.",
   "minimum_chrome_version": "116",
   "permissions": ["activeTab", "scripting", "storage", "sidePanel"],
   "background": { "service_worker": "background.js" },
