@@ -78,7 +78,7 @@
     read() {
       if (!this.draft) throw new Error("Chưa mở bộ đáp án để soạn.");
       const bank = { ...this.draft.meta, name: this.name.value, answers: this.draft.rows.filter((row) => row.enabled).map((row) => row.record) };
-      if (this.scope.value === "bound") bank.sourceForm = { platform: "microsoft_forms", formId: this.formId.value.trim() };
+      if (this.scope.value === "bound") bank.sourceForm = { platform: this.formId.value.trim().startsWith("moodle:") ? "moodle" : "microsoft_forms", formId: this.formId.value.trim() };
       else delete bank.sourceForm;
       delete bank._instructions;
       if (!bank.answers.length) throw new Error("Bật Lưu câu cho ít nhất một câu có đáp án trước khi lưu bộ.");

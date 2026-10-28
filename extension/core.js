@@ -59,8 +59,10 @@
     }
     if (raw.formKey != null) bank.formKey = text(raw.formKey, "formKey", 500);
     if (raw.sourceForm != null) {
-      if (typeof raw.sourceForm !== "object" || raw.sourceForm.platform !== "microsoft_forms") fail("sourceForm.platform phải là microsoft_forms.");
-      bank.sourceForm = { platform: "microsoft_forms", formId: text(raw.sourceForm.formId, "sourceForm.formId", 1000) };
+      if (typeof raw.sourceForm !== "object" || !["microsoft_forms", "moodle"].includes(raw.sourceForm.platform)) fail("sourceForm.platform phải là microsoft_forms hoặc moodle.");
+      bank.sourceForm = { platform: raw.sourceForm.platform, formId: text(raw.sourceForm.formId, "sourceForm.formId", 1000) };
+      if (bank.sourceForm.platform === "moodle" && !/^moodle:hust:(?:quiz|attempt):\d+$/u.test(bank.sourceForm.formId)) fail("ID Moodle phải có dạng moodle:hust:quiz:49373 hoặc moodle:hust:attempt:123.");
+      if (bank.sourceForm.platform === "microsoft_forms" && bank.sourceForm.formId.startsWith("moodle:")) fail("ID Moodle cần sourceForm.platform là moodle.");
     }
     return bank;
   }
@@ -81,7 +83,7 @@
 
   function matchQuestions(scan, bank) {
     const questions = scan.questions;
-    const wrongForm = Boolean(bank?.sourceForm && bank.sourceForm.formId !== scan.formId);
+    const wrongForm = Boolean(bank?.sourceForm && (bank.sourceForm.formId !== scan.formId || (scan.platform && bank.sourceForm.platform !== scan.platform)));
     const indexed = bank ? bank.answers.map((item) => ({ item, signature: signature(item) })) : [];
     const counts = new Map();
     questions.forEach((q) => { const key=signature(q);counts.set(key,(counts.get(key)||0)+1); });
@@ -193,7 +195,7 @@
         answer: q.type === "short_text" ? "" : []
       }))
     };
-    if (scan.formId) bank.sourceForm = { platform: "microsoft_forms", formId: scan.formId };
+    if (scan.formId) bank.sourceForm = { platform: scan.platform || "microsoft_forms", formId: scan.formId };
     return bank;
   }
   const api = { TYPES, normalize, signature, optionKey, sameState, isEmpty, validateBank, desiredAnswer, matchQuestions, makeTemplate, documentKey, similarity };

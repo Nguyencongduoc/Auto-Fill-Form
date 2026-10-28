@@ -1,9 +1,10 @@
 (function () {
   "use strict";
-  if (globalThis.AutoFillContent?.version === "0.3.0") return;
-  const C = globalThis.AutoFillCore, A = globalThis.AutoFillAdapter;
+  if (globalThis.AutoFillContent?.version === "0.5.0") return;
+  const C = globalThis.AutoFillCore, A = location.hostname === "lms.hust.edu.vn" ? globalThis.AutoFillMoodleAdapter : globalThis.AutoFillAdapter;
   const documentToken = crypto.randomUUID();
   let lastScan = null, undo = null, busy = false;
+  const cancelledRuns = new Set();
   function scan() {
     const page = A.inspect();
     // Multiple open panels may request the same snapshot at nearly the same time.
@@ -12,7 +13,7 @@
       && lastScan.questions.length === page.questions.length
       && page.questions.every((q, i) => C.sameState(q.current, lastScan.questions[i].current));
     lastScan = { ...page, scanToken: unchanged ? lastScan.scanToken : crypto.randomUUID() };
-    return { title: page.title, formId: page.formId, url: page.url, questions: page.questions, fingerprint: page.fingerprint, documentToken, scanToken: lastScan.scanToken, undoAvailable: Boolean(undo?.entries.length), demo: page.demo };
+    return { title: page.title, platform: page.platform || "microsoft_forms", formId: page.formId, url: page.url, questions: page.questions, fingerprint: page.fingerprint, documentToken, scanToken: lastScan.scanToken, undoAvailable: Boolean(undo?.entries.length), demo: page.demo, ...(page.navigation ? { navigation: page.navigation } : {}) };
   }
   function verifyDocument(payload) {
     if (payload.documentToken !== documentToken) throw new Error("Trang đã tải lại. Hãy quét form mới.");
@@ -37,6 +38,7 @@
     let changed = false;
     for (const action of payload.actions) {
       let now;
+      if (payload.runId && cancelledRuns.has(payload.runId)) { results.push({ id: action.id, status: "skipped", message: "Đã dừng chế độ tự chạy." }); continue; }
       try { now = A.inspect(); } catch { changed = true; }
       if (changed || now?.fingerprint !== previousScan.fingerprint) {
         changed = true;
@@ -95,6 +97,18 @@
       if (command === "scan") return scan();
       if (command === "fill") return await fill(payload);
       if (command === "undo") return await undoFill(payload);
+      if (command === "lms-next") {
+        verifyDocument(payload);
+        if (location.hostname !== "lms.hust.edu.vn" || !payload.runId || cancelledRuns.has(payload.runId)) throw new Error("Phiên tự chạy LMS đã dừng hoặc không hợp lệ.");
+        if (!lastScan || payload.scanToken !== lastScan.scanToken) throw new Error("Bản quét đã cũ; chưa chuyển trang.");
+        const now = A.inspect();
+        if (now.fingerprint !== lastScan.fingerprint || now.questions.some((q, i) => !C.sameState(q.current, lastScan.questions[i].current))) throw new Error("Câu hỏi hoặc đáp án vừa thay đổi; chưa chuyển trang.");
+        for (const q of now.questions) {
+          if (q.supported) C.desiredAnswer(q, q.current);
+          else if (!payload.acknowledged?.includes(q.id)) throw new Error("Còn câu chưa được xử lý; chưa chuyển trang.");
+        }
+        return AutoFillLmsNavigation.next(lastScan.navigation?.key);
+      }
       throw new Error("Lệnh không được hỗ trợ.");
     } finally { busy = false; }
   }
@@ -102,11 +116,12 @@
   if (A.isDemo()) chrome.tabs.getCurrent().then((tab) => { demoTabId = tab.id; });
   chrome.runtime.onMessage.addListener((message, sender, respond) => {
     if (sender.id !== chrome.runtime.id) return false;
+    if (message.channel === "aff-lms-cancel" && typeof message.runId === "string") { cancelledRuns.add(message.runId); respond({ ok: true }); return false; }
     if (message.channel === "aff-demo") {
       if (!A.isDemo() || message.tabId !== demoTabId) return false;
     } else if (message.channel !== "aff-content" || A.isDemo()) return false;
     handle(message.command, message.payload).then((data) => respond({ ok: true, data }), (error) => respond({ ok: false, error: error.message }));
     return true;
   });
-  globalThis.AutoFillContent = { version: "0.3.0", handle };
+  globalThis.AutoFillContent = { version: "0.5.0", handle };
 })();

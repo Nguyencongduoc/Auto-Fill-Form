@@ -1,6 +1,6 @@
 # Báo cáo đánh giá khả thi: nhập đáp án PDF hoặc JSON để hỗ trợ điền form
 
-**Cập nhật:** phương án JSON đã được phê duyệt và triển khai ở v0.3.0. Xem [báo cáo triển khai](./IMPLEMENTATION_REPORT.md); phần dưới là đánh giá tại thời điểm trước triển khai.
+**Tài liệu lịch sử:** đánh giá trước triển khai JSON, trên mã v0.2.2. JSON đã triển khai từ v0.3.0; bản v0.5.0 còn có LMS và tự Next. Phạm vi hiện tại xem [README](./README.md), [kiến trúc](./REPORT.md) và [lịch sử phiên bản](./CHANGELOG.md). Các giới hạn và kết quả thử ở phần dưới thuộc thời điểm đánh giá.
 
 **Dự án:** Auto Fill Form  
 **Ngày đánh giá:** 26/10/2026  
@@ -27,11 +27,11 @@ Kiểm tra mã nguồn cho thấy các thành phần cần thiết cho hướng 
 
 | Thành phần | Tình trạng và bằng chứng |
 | --- | --- |
-| Chọn file JSON hoặc dán JSON | Đã có trong [panel.html](./extension/panel.html) và [panel.js](./extension/panel.js) |
-| Kiểm tra cấu trúc và dữ liệu | `validateBank()` trong [core.js](./extension/core.js): phiên bản schema, ID trùng, loại câu hỏi, lựa chọn và đáp án |
+| Chọn file JSON hoặc dán JSON | Đã có trong `extension/panel.html` và `extension/panel.js` |
+| Kiểm tra cấu trúc và dữ liệu | `validateBank()` trong `extension/core.js`: phiên bản schema, ID trùng, loại câu hỏi, lựa chọn và đáp án |
 | Ghép câu hỏi với đáp án | Đã có; JSON thông thường ghép theo nội dung, loại câu và tập lựa chọn sau chuẩn hóa |
 | Bỏ qua câu thiếu hoặc mơ hồ | Đã có; không tự lấy bản ghi đầu tiên khi có xung đột |
-| Xem trước, chọn câu và điền | Đã có trong bảng bên và [content.js](./extension/content.js) |
+| Xem trước, chọn câu và điền | Đã có trong bảng bên và `extension/content.js` |
 | Đọc lại giá trị, bảo vệ câu đã trả lời và hoàn tác | Đã có; việc hoàn tác phụ thuộc tài liệu/trường còn hiệu lực |
 | Lưu và xuất bộ JSON đã nhập | Đã có; hiện lưu một bộ nhập riêng gần nhất, bên cạnh bộ tích hợp |
 | Nhập PDF ngay trong extension | Chưa có. Các script xử lý PDF trong dự án là công cụ phát triển cho bố cục đã khảo sát |
@@ -40,7 +40,7 @@ Phạm vi website hiện tại là trang trả lời `ResponsePage.aspx` trên `
 
 Chrome cho phép content script đọc và thay đổi DOM, làm nền tảng cho cơ chế quét và điền. Quyền `activeTab` được cấp tạm thời khi người dùng kích hoạt extension; vì vậy luồng sử dụng cần thao tác bấm biểu tượng trên tab form. [Content scripts](https://developer.chrome.com/docs/extensions/develop/concepts/content-scripts), [activeTab](https://developer.chrome.com/docs/extensions/develop/concepts/activeTab).
 
-Trong lần đánh giá này, **19 kiểm thử logic đạt**. Log tích hợp gần nhất ghi nhận **15 kiểm tra trình duyệt đạt**, gồm nhập JSON và điền 200 câu đã đảo thứ tự trên dữ liệu mô phỏng. Log đóng gói xác nhận ZIP 0.2.2 nạp được vào Chrome và có đủ 200 đáp án. Đây là bằng chứng về các luồng đã kiểm tra; chưa chứng minh tương thích với mọi form Microsoft thực tế. Xem [log trình duyệt](./test-results/browser-summary.json), [log gói phát hành](./test-results/package-summary.json).
+Trong lần đánh giá này, **19 kiểm thử logic đạt**. Log tích hợp tại thời điểm đó ghi nhận **15 kiểm tra trình duyệt đạt**, gồm nhập JSON và điền 200 câu đã đảo thứ tự trên dữ liệu mô phỏng. Log đóng gói xác nhận ZIP 0.2.2 nạp được vào Chrome và có đủ 200 đáp án. Đây là bằng chứng về các luồng đã kiểm tra; chưa chứng minh tương thích với mọi form Microsoft thực tế. Log là đầu ra cục bộ, không có trong Git/gói cài và có thể được ghi đè khi chạy lại. Cách tạo log hiện tại: [hướng dẫn kiểm thử](./docs/DEVELOPMENT.md).
 
 ## 3. Vì sao nhập PDF khả thi nhưng phức tạp hơn?
 

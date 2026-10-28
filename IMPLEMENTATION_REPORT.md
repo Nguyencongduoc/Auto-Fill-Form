@@ -1,5 +1,7 @@
 # Báo cáo triển khai Auto Fill Form v0.3.0
 
+**Tài liệu lịch sử:** ghi nhận mốc JSON v0.3.0, không đại diện toàn bộ tính năng/kiểm thử hiện tại. Bản v0.5.0 có thêm LMS và tự Next; xem [README](./README.md), [kiến trúc](./REPORT.md) và [lịch sử phiên bản](./CHANGELOG.md).
+
 Ngày: 26/10/2026. Nhánh: `feat/json-answer-workflow`, đã được người dùng phê duyệt trước khi chuyển nhánh. Phạm vi: hoàn thiện luồng JSON để người dùng tự cung cấp bộ đáp án cho Microsoft Forms.
 
 ## Kết quả

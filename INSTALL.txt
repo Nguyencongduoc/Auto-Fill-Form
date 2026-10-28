@@ -1,40 +1,46 @@
-AUTO FILL FORM v0.3.0 — THƯ VIỆN ĐÁP ÁN JSON
+AUTO FILL FORM v0.5.0 — CÀI NHANH TRÊN CHROME
 
-1. Giải nén auto-fill-form-0.3.0.zip.
+YÊU CẦU: Chrome 116+. Không cần Node.js, build, tài khoản AI hoặc CRX để dùng.
+
+CÀI MỚI
+1. Tải mã nguồn từ GitHub và giải nén, hoặc clone repository.
 2. Mở chrome://extensions, bật Developer mode.
-3. Chọn Load unpacked, chọn CHÍNH thư mục chứa trực tiếp manifest.json.
-   Mã nguồn tại máy: D:\D\Auto Fill Form\extension
-4. Ghim extension, mở trang trả lời Microsoft Forms, tự đăng nhập nếu cần.
-5. Bấm biểu tượng extension trên tab form; quét nếu chưa tự quét.
-6. Nhập file JSON hoặc chọn bộ trong thư viện; kiểm tra đáp án xem trước.
-7. Bấm Điền các câu đã chọn. Bạn kiểm tra và tự nộp bài.
+3. Load unpacked → chọn thư mục extension trong mã nguồn.
+   Thư mục được chọn phải chứa trực tiếp manifest.json.
+4. Nếu dùng auto-fill-form-0.5.0.zip do script đóng gói tạo ra, chọn CHÍNH
+   thư mục vừa giải nén vì manifest đã ở gốc.
+5. Xác nhận quyền LMS HUST nếu Chrome yêu cầu, rồi ghim tiện ích.
+6. Không chọn Pack extension. Giữ nguyên thư mục sau khi nạp.
 
-Không cần Node.js, npm, build, tài khoản AI hay file CRX.
-Không chọn Pack extension. Không di chuyển thư mục sau khi nạp.
+CẬP NHẬT
+Xuất JSON riêng để sao lưu, dừng tự chạy, thay file trong cùng thư mục đã nạp,
+bấm Reload trên thẻ tiện ích và tải lại tab câu hỏi. Nạp từ đường dẫn khác có
+thể tạo ID khác; cần nhập lại JSON đã xuất. Gỡ tiện ích sẽ xóa dữ liệu của nó.
 
-CẬP NHẬT GIỮ DỮ LIỆU
-Thay file trong cùng thư mục đã nạp, bấm Reload trên thẻ tiện ích và tải lại
-tab form. Bộ JSON đơn cũ sẽ được chuyển vào thư viện. Nạp từ đường dẫn mới
-có thể tạo ID khác: xuất JSON ở bản cũ để nhập lại. Gỡ tiện ích xóa dữ liệu.
+TỰ CHẠY LMS
+Đăng nhập → mở lượt làm bài attempt.php → bấm biểu tượng extension → chọn bộ
+JSON hoặc Nạp đáp án CNPM · 351 câu → kiểm tra → Bắt đầu tự chạy.
+Tiện ích quét/điền/xác minh/Next. Câu thiếu hoặc mơ hồ: nhập trong bảng bên,
+bổ sung đủ rồi Tiếp tục. Câu chưa hỗ trợ: xử lý trên LMS và bật xác nhận.
+Có Tạm dừng/Dừng. Trang cuối được giữ lại để bạn tự kiểm tra và nộp bài.
+Đóng bảng bên/chuyển tab khác không dừng phiên ở tab LMS đã chọn; đóng tab
+hoặc Chrome kết thúc phiên. Next chưa chuyển/tải xong sau 15 giây sẽ tạm dừng.
+Một Next đã gửi vẫn có thể tải xong sau khi bấm Tạm dừng/Dừng.
+Đáp án bổ sung không tự ghi vào JSON; lưu/chỉnh bộ riêng để giữ lâu dài.
 
-TẠO ĐÁP ÁN
-Chọn/nhập đáp án trong bảng bên → Lưu thành bộ mới từ các câu trên form.
-Hoặc Tạo bộ mới → thêm câu/lựa chọn/đáp án → Lưu.
-Có thể Chỉnh bộ này, Xuất JSON để sao lưu và Xóa từng bộ có xác nhận.
-Các thay đổi ở bản xem trước chưa nằm trong file Xuất JSON cho đến khi lưu.
-Giới hạn: 50 bộ riêng, thư viện 8 MB, file nhập 2 MB, 1–500 câu mỗi bộ.
+MICROSOFT FORMS
+ResponsePage.aspx → biểu tượng extension → chọn/nhập JSON → kiểm tra → Điền.
+Tự chuyển phần nếu cần; không có tự Next trên Forms. ResponseDetailPage.aspx
+là trang kết quả chỉ đọc. Bộ 200 câu Quy chế tự chọn khi ID form khớp.
 
-BỘ QUY CHẾ CŨ
-200 đáp án vẫn tích hợp; tự chọn khi mở đúng form Quy chế 2026.1 cũ.
-Thông tin cá nhân do bạn tự nhập. Không cần JSON cho bộ tích hợp.
+QUYỀN VÀ KIỂM CHỨNG
+Quyền thường trực chỉ cho https://lms.hust.edu.vn/* để đọc trang sau Next.
+Forms dùng activeTab. Website có thể tự lưu; Next LMS gửi biểu mẫu trang.
+Tiện ích không bấm Finish/nút nộp cuối. Đã thử fixture Chrome, chưa xác nhận
+điền trên phiên thật đã đăng nhập. Hoàn tác chỉ giữ lần điền gần nhất trên
+tài liệu/trang hiện tại, không khôi phục các trang đã chuyển.
 
-THỬ DEMO
-Bấm Thử tính năng bằng bản demo → Quét form → nhập examples/demo-answers.json
+DEMO: Thử tính năng bằng bản demo → Quét → nhập examples/demo-answers.json
 → Điền 3 câu → Hoàn tác.
 
-PHẠM VI
-Trang trả lời ResponsePage.aspx trên forms.cloud.microsoft hoặc forms.office.com.
-ResponseDetailPage.aspx là trang kết quả chỉ đọc, không dùng để điền.
-Hỗ trợ Choice một/nhiều đáp án và Text ngắn. Chưa có nhập PDF trực tiếp.
-Chưa xác nhận điền trên trang trả lời Microsoft thật; đã thử fixture Chrome.
-Xem README.md, IMPLEMENTATION_REPORT.md và ROADMAP.md.
+Chi tiết: README.md, LMS_HUST.md, docs/JSON_FORMAT.md, docs/DEVELOPMENT.md.

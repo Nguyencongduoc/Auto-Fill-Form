@@ -26,12 +26,13 @@ let context;
     }
   }
   verifySource(path.join(root, "extension"));
-  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","library.js","bank-editor.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json"]){
+  for(const asset of [manifest.background.service_worker,manifest.side_panel.default_path,"core.js","platform.js","moodle-adapter.js","lms-flow.js","lms-navigation.js","lms-runner.js","auto-panel.js","library.js","bank-editor.js","adapter.js","content.js","bundled.js","data/quy-che-2026.1.json","data/cnpm-lms-20242-vn.json"]){
     assert.ok(fs.existsSync(path.join(extracted,asset)),`Missing packaged asset: ${asset}`);
   }
   const C=require(path.join(extracted,"core.js"));
   const bank=C.validateBank(JSON.parse(fs.readFileSync(path.join(extracted,"data/quy-che-2026.1.json"),"utf8")));
   assert.equal(bank.answers.length,200);
+  assert.deepEqual(manifest.host_permissions,["https://lms.hust.edu.vn/*"]);
   context=await chromium.launchPersistentContext(path.join(owned,"profile"),{
     executablePath:process.env.CHROME_PATH||"C:/Program Files/Google/Chrome/Application/chrome.exe",headless:true,
     args:["--enable-unsafe-extension-debugging"],ignoreDefaultArgs:["--disable-extensions"]
@@ -45,7 +46,11 @@ let context;
   await page.waitForFunction(()=>document.querySelector('#bankSelect option[value="@bundled"]') && !document.getElementById("scan").disabled);
   assert.equal(await page.locator("#libraryCount").textContent(), "(0 bộ riêng)");
   assert.match(await page.locator(".brand p").textContent(),new RegExp(version.replace(/\./gu,"\\.")));
-  const result={version,zip,rootManifest:true,chromeLoad:true,bundledAnswers:bank.answers.length,sourceFilesVerified:sourceFiles};
+  await page.locator("#loadCnpm").click();
+  await page.waitForFunction(()=>document.getElementById("bankName").textContent.includes("351") && !document.getElementById("scan").disabled);
+  const cnpm=C.validateBank(JSON.parse(fs.readFileSync(path.join(extracted,"data/cnpm-lms-20242-vn.json"),"utf8")));
+  assert.equal(cnpm.answers.length,351);
+  const result={version,zip,rootManifest:true,chromeLoad:true,bundledAnswers:bank.answers.length,cnpmAnswers:cnpm.answers.length,sourceFilesVerified:sourceFiles};
   fs.writeFileSync(path.join(root,"test-results/package-summary.json"),JSON.stringify(result,null,2));
   console.log(JSON.stringify(result,null,2));
 })().catch((error)=>{console.error(error);process.exitCode=1;}).finally(async()=>{
