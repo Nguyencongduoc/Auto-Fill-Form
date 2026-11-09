@@ -1,0 +1,4213 @@
+{
+  "pdfPages": 254,
+  "sourceQuestionOccurrences": 450,
+  "ocrQuestionOccurrences": 60,
+  "exportedQuestions": 351,
+  "duplicateOccurrencesMerged": 83,
+  "excludedOccurrences": 16,
+  "types": {
+    "single_choice": 321,
+    "multiple_choice": 30
+  },
+  "bytes": 225446,
+  "schemaValidated": true,
+  "allQuestionsMatchWithReorderedOptions": true,
+  "formBinding": null,
+  "sourceMap": [
+    {
+      "questionId": "cnpm-001",
+      "occurrences": [
+        {
+          "page": 1,
+          "sourceNumber": 1,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-002",
+      "occurrences": [
+        {
+          "page": 1,
+          "sourceNumber": 2,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-003",
+      "occurrences": [
+        {
+          "page": 2,
+          "sourceNumber": 3,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-004",
+      "occurrences": [
+        {
+          "page": 2,
+          "sourceNumber": 4,
+          "ocr": false
+        },
+        {
+          "page": 14,
+          "sourceNumber": 24,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-005",
+      "occurrences": [
+        {
+          "page": 2,
+          "sourceNumber": 5,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-006",
+      "occurrences": [
+        {
+          "page": 4,
+          "sourceNumber": 6,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-007",
+      "occurrences": [
+        {
+          "page": 4,
+          "sourceNumber": 7,
+          "ocr": false
+        },
+        {
+          "page": 16,
+          "sourceNumber": 28,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-008",
+      "occurrences": [
+        {
+          "page": 5,
+          "sourceNumber": 8,
+          "ocr": false
+        },
+        {
+          "page": 16,
+          "sourceNumber": 29,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-009",
+      "occurrences": [
+        {
+          "page": 5,
+          "sourceNumber": 9,
+          "ocr": false
+        },
+        {
+          "page": 16,
+          "sourceNumber": 30,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-010",
+      "occurrences": [
+        {
+          "page": 5,
+          "sourceNumber": 10,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-011",
+      "occurrences": [
+        {
+          "page": 7,
+          "sourceNumber": 11,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-012",
+      "occurrences": [
+        {
+          "page": 7,
+          "sourceNumber": 12,
+          "ocr": false
+        },
+        {
+          "page": 17,
+          "sourceNumber": 33,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-013",
+      "occurrences": [
+        {
+          "page": 8,
+          "sourceNumber": 13,
+          "ocr": false
+        },
+        {
+          "page": 18,
+          "sourceNumber": 34,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-014",
+      "occurrences": [
+        {
+          "page": 8,
+          "sourceNumber": 14,
+          "ocr": false
+        },
+        {
+          "page": 18,
+          "sourceNumber": 35,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-015",
+      "occurrences": [
+        {
+          "page": 8,
+          "sourceNumber": 15,
+          "ocr": false
+        },
+        {
+          "page": 18,
+          "sourceNumber": 36,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-016",
+      "occurrences": [
+        {
+          "page": 10,
+          "sourceNumber": 16,
+          "ocr": false
+        },
+        {
+          "page": 19,
+          "sourceNumber": 37,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-017",
+      "occurrences": [
+        {
+          "page": 10,
+          "sourceNumber": 17,
+          "ocr": false
+        },
+        {
+          "page": 19,
+          "sourceNumber": 38,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-018",
+      "occurrences": [
+        {
+          "page": 11,
+          "sourceNumber": 18,
+          "ocr": false
+        },
+        {
+          "page": 19,
+          "sourceNumber": 39,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-019",
+      "occurrences": [
+        {
+          "page": 11,
+          "sourceNumber": 19,
+          "ocr": false
+        },
+        {
+          "page": 20,
+          "sourceNumber": 40,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-020",
+      "occurrences": [
+        {
+          "page": 11,
+          "sourceNumber": 20,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-021",
+      "occurrences": [
+        {
+          "page": 13,
+          "sourceNumber": 21,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-022",
+      "occurrences": [
+        {
+          "page": 13,
+          "sourceNumber": 22,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-023",
+      "occurrences": [
+        {
+          "page": 14,
+          "sourceNumber": 23,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-025",
+      "occurrences": [
+        {
+          "page": 14,
+          "sourceNumber": 25,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-026",
+      "occurrences": [
+        {
+          "page": 15,
+          "sourceNumber": 26,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-027",
+      "occurrences": [
+        {
+          "page": 15,
+          "sourceNumber": 27,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-031",
+      "occurrences": [
+        {
+          "page": 17,
+          "sourceNumber": 31,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-032",
+      "occurrences": [
+        {
+          "page": 17,
+          "sourceNumber": 32,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-041",
+      "occurrences": [
+        {
+          "page": 21,
+          "sourceNumber": 41,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-042",
+      "occurrences": [
+        {
+          "page": 21,
+          "sourceNumber": 42,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-043",
+      "occurrences": [
+        {
+          "page": 22,
+          "sourceNumber": 43,
+          "ocr": true
+        },
+        {
+          "page": 33,
+          "sourceNumber": 61,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-044",
+      "occurrences": [
+        {
+          "page": 22,
+          "sourceNumber": 44,
+          "ocr": true
+        },
+        {
+          "page": 33,
+          "sourceNumber": 62,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-045",
+      "occurrences": [
+        {
+          "page": 22,
+          "sourceNumber": 45,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-046",
+      "occurrences": [
+        {
+          "page": 24,
+          "sourceNumber": 46,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-047",
+      "occurrences": [
+        {
+          "page": 24,
+          "sourceNumber": 47,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-048",
+      "occurrences": [
+        {
+          "page": 25,
+          "sourceNumber": 48,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-049",
+      "occurrences": [
+        {
+          "page": 25,
+          "sourceNumber": 49,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-050",
+      "occurrences": [
+        {
+          "page": 25,
+          "sourceNumber": 50,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-051",
+      "occurrences": [
+        {
+          "page": 27,
+          "sourceNumber": 51,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-052",
+      "occurrences": [
+        {
+          "page": 27,
+          "sourceNumber": 52,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-053",
+      "occurrences": [
+        {
+          "page": 28,
+          "sourceNumber": 53,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-054",
+      "occurrences": [
+        {
+          "page": 28,
+          "sourceNumber": 54,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-055",
+      "occurrences": [
+        {
+          "page": 28,
+          "sourceNumber": 55,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-056",
+      "occurrences": [
+        {
+          "page": 30,
+          "sourceNumber": 56,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-057",
+      "occurrences": [
+        {
+          "page": 30,
+          "sourceNumber": 57,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-058",
+      "occurrences": [
+        {
+          "page": 31,
+          "sourceNumber": 58,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-059",
+      "occurrences": [
+        {
+          "page": 31,
+          "sourceNumber": 59,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-060",
+      "occurrences": [
+        {
+          "page": 31,
+          "sourceNumber": 60,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-063",
+      "occurrences": [
+        {
+          "page": 34,
+          "sourceNumber": 63,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-064",
+      "occurrences": [
+        {
+          "page": 34,
+          "sourceNumber": 64,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-065",
+      "occurrences": [
+        {
+          "page": 35,
+          "sourceNumber": 65,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-066",
+      "occurrences": [
+        {
+          "page": 35,
+          "sourceNumber": 66,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-067",
+      "occurrences": [
+        {
+          "page": 36,
+          "sourceNumber": 67,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-068",
+      "occurrences": [
+        {
+          "page": 36,
+          "sourceNumber": 68,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-069",
+      "occurrences": [
+        {
+          "page": 36,
+          "sourceNumber": 69,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-070",
+      "occurrences": [
+        {
+          "page": 37,
+          "sourceNumber": 70,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-071",
+      "occurrences": [
+        {
+          "page": 37,
+          "sourceNumber": 71,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-072",
+      "occurrences": [
+        {
+          "page": 37,
+          "sourceNumber": 72,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-073",
+      "occurrences": [
+        {
+          "page": 38,
+          "sourceNumber": 73,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-074",
+      "occurrences": [
+        {
+          "page": 38,
+          "sourceNumber": 74,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-075",
+      "occurrences": [
+        {
+          "page": 39,
+          "sourceNumber": 75,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-076",
+      "occurrences": [
+        {
+          "page": 40,
+          "sourceNumber": 76,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-077",
+      "occurrences": [
+        {
+          "page": 40,
+          "sourceNumber": 77,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-078",
+      "occurrences": [
+        {
+          "page": 41,
+          "sourceNumber": 78,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-079",
+      "occurrences": [
+        {
+          "page": 41,
+          "sourceNumber": 79,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-080",
+      "occurrences": [
+        {
+          "page": 41,
+          "sourceNumber": 80,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-081",
+      "occurrences": [
+        {
+          "page": 43,
+          "sourceNumber": 81,
+          "ocr": false
+        },
+        {
+          "page": 46,
+          "sourceNumber": 86,
+          "ocr": false
+        },
+        {
+          "page": 55,
+          "sourceNumber": 101,
+          "ocr": true
+        },
+        {
+          "page": 58,
+          "sourceNumber": 110,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-082",
+      "occurrences": [
+        {
+          "page": 43,
+          "sourceNumber": 82,
+          "ocr": false
+        },
+        {
+          "page": 55,
+          "sourceNumber": 102,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-083",
+      "occurrences": [
+        {
+          "page": 44,
+          "sourceNumber": 83,
+          "ocr": false
+        },
+        {
+          "page": 56,
+          "sourceNumber": 103,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-084",
+      "occurrences": [
+        {
+          "page": 44,
+          "sourceNumber": 84,
+          "ocr": false
+        },
+        {
+          "page": 56,
+          "sourceNumber": 104,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-085",
+      "occurrences": [
+        {
+          "page": 44,
+          "sourceNumber": 85,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-087",
+      "occurrences": [
+        {
+          "page": 46,
+          "sourceNumber": 87,
+          "ocr": false
+        },
+        {
+          "page": 59,
+          "sourceNumber": 112,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-088",
+      "occurrences": [
+        {
+          "page": 47,
+          "sourceNumber": 88,
+          "ocr": false
+        },
+        {
+          "page": 59,
+          "sourceNumber": 113,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-089",
+      "occurrences": [
+        {
+          "page": 47,
+          "sourceNumber": 89,
+          "ocr": false
+        },
+        {
+          "page": 59,
+          "sourceNumber": 114,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-090",
+      "occurrences": [
+        {
+          "page": 47,
+          "sourceNumber": 90,
+          "ocr": false
+        },
+        {
+          "page": 60,
+          "sourceNumber": 117,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-091",
+      "occurrences": [
+        {
+          "page": 49,
+          "sourceNumber": 91,
+          "ocr": false
+        },
+        {
+          "page": 56,
+          "sourceNumber": 105,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-092",
+      "occurrences": [
+        {
+          "page": 49,
+          "sourceNumber": 92,
+          "ocr": false
+        },
+        {
+          "page": 57,
+          "sourceNumber": 107,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-093",
+      "occurrences": [
+        {
+          "page": 50,
+          "sourceNumber": 93,
+          "ocr": false
+        },
+        {
+          "page": 57,
+          "sourceNumber": 106,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-094",
+      "occurrences": [
+        {
+          "page": 50,
+          "sourceNumber": 94,
+          "ocr": false
+        },
+        {
+          "page": 57,
+          "sourceNumber": 108,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-095",
+      "occurrences": [
+        {
+          "page": 50,
+          "sourceNumber": 95,
+          "ocr": false
+        },
+        {
+          "page": 58,
+          "sourceNumber": 111,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-096",
+      "occurrences": [
+        {
+          "page": 52,
+          "sourceNumber": 96,
+          "ocr": false
+        },
+        {
+          "page": 60,
+          "sourceNumber": 115,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-097",
+      "occurrences": [
+        {
+          "page": 52,
+          "sourceNumber": 97,
+          "ocr": false
+        },
+        {
+          "page": 60,
+          "sourceNumber": 116,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-098",
+      "occurrences": [
+        {
+          "page": 53,
+          "sourceNumber": 98,
+          "ocr": false
+        },
+        {
+          "page": 61,
+          "sourceNumber": 118,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-099",
+      "occurrences": [
+        {
+          "page": 53,
+          "sourceNumber": 99,
+          "ocr": false
+        },
+        {
+          "page": 61,
+          "sourceNumber": 119,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-100",
+      "occurrences": [
+        {
+          "page": 53,
+          "sourceNumber": 100,
+          "ocr": false
+        },
+        {
+          "page": 61,
+          "sourceNumber": 120,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-109",
+      "occurrences": [
+        {
+          "page": 58,
+          "sourceNumber": 109,
+          "ocr": true
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-121",
+      "occurrences": [
+        {
+          "page": 63,
+          "sourceNumber": 121,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-122",
+      "occurrences": [
+        {
+          "page": 63,
+          "sourceNumber": 122,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-123",
+      "occurrences": [
+        {
+          "page": 64,
+          "sourceNumber": 123,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-124",
+      "occurrences": [
+        {
+          "page": 64,
+          "sourceNumber": 124,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-125",
+      "occurrences": [
+        {
+          "page": 64,
+          "sourceNumber": 125,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-126",
+      "occurrences": [
+        {
+          "page": 66,
+          "sourceNumber": 126,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-127",
+      "occurrences": [
+        {
+          "page": 66,
+          "sourceNumber": 127,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-128",
+      "occurrences": [
+        {
+          "page": 67,
+          "sourceNumber": 128,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-129",
+      "occurrences": [
+        {
+          "page": 67,
+          "sourceNumber": 129,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-130",
+      "occurrences": [
+        {
+          "page": 68,
+          "sourceNumber": 130,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-131",
+      "occurrences": [
+        {
+          "page": 69,
+          "sourceNumber": 131,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-132",
+      "occurrences": [
+        {
+          "page": 69,
+          "sourceNumber": 132,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-133",
+      "occurrences": [
+        {
+          "page": 70,
+          "sourceNumber": 133,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-134",
+      "occurrences": [
+        {
+          "page": 70,
+          "sourceNumber": 134,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-135",
+      "occurrences": [
+        {
+          "page": 70,
+          "sourceNumber": 135,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-136",
+      "occurrences": [
+        {
+          "page": 72,
+          "sourceNumber": 136,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-137",
+      "occurrences": [
+        {
+          "page": 72,
+          "sourceNumber": 137,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-138",
+      "occurrences": [
+        {
+          "page": 73,
+          "sourceNumber": 138,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-139",
+      "occurrences": [
+        {
+          "page": 73,
+          "sourceNumber": 139,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-140",
+      "occurrences": [
+        {
+          "page": 73,
+          "sourceNumber": 140,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-141",
+      "occurrences": [
+        {
+          "page": 75,
+          "sourceNumber": 141,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-142",
+      "occurrences": [
+        {
+          "page": 76,
+          "sourceNumber": 142,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-143",
+      "occurrences": [
+        {
+          "page": 76,
+          "sourceNumber": 143,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-144",
+      "occurrences": [
+        {
+          "page": 77,
+          "sourceNumber": 144,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-145",
+      "occurrences": [
+        {
+          "page": 77,
+          "sourceNumber": 145,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-146",
+      "occurrences": [
+        {
+          "page": 77,
+          "sourceNumber": 146,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-147",
+      "occurrences": [
+        {
+          "page": 78,
+          "sourceNumber": 147,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-148",
+      "occurrences": [
+        {
+          "page": 78,
+          "sourceNumber": 148,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-149",
+      "occurrences": [
+        {
+          "page": 79,
+          "sourceNumber": 149,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-150",
+      "occurrences": [
+        {
+          "page": 79,
+          "sourceNumber": 150,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-151",
+      "occurrences": [
+        {
+          "page": 79,
+          "sourceNumber": 151,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-152",
+      "occurrences": [
+        {
+          "page": 80,
+          "sourceNumber": 152,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-153",
+      "occurrences": [
+        {
+          "page": 80,
+          "sourceNumber": 153,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-154",
+      "occurrences": [
+        {
+          "page": 81,
+          "sourceNumber": 154,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-155",
+      "occurrences": [
+        {
+          "page": 81,
+          "sourceNumber": 155,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-156",
+      "occurrences": [
+        {
+          "page": 82,
+          "sourceNumber": 156,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-157",
+      "occurrences": [
+        {
+          "page": 82,
+          "sourceNumber": 157,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-158",
+      "occurrences": [
+        {
+          "page": 82,
+          "sourceNumber": 158,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-159",
+      "occurrences": [
+        {
+          "page": 83,
+          "sourceNumber": 159,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-160",
+      "occurrences": [
+        {
+          "page": 83,
+          "sourceNumber": 160,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-161",
+      "occurrences": [
+        {
+          "page": 84,
+          "sourceNumber": 161,
+          "ocr": false
+        },
+        {
+          "page": 115,
+          "sourceNumber": 208,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-162",
+      "occurrences": [
+        {
+          "page": 84,
+          "sourceNumber": 162,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-163",
+      "occurrences": [
+        {
+          "page": 85,
+          "sourceNumber": 163,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-164",
+      "occurrences": [
+        {
+          "page": 85,
+          "sourceNumber": 164,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-165",
+      "occurrences": [
+        {
+          "page": 85,
+          "sourceNumber": 165,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-166",
+      "occurrences": [
+        {
+          "page": 87,
+          "sourceNumber": 166,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-167",
+      "occurrences": [
+        {
+          "page": 87,
+          "sourceNumber": 167,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-168",
+      "occurrences": [
+        {
+          "page": 88,
+          "sourceNumber": 168,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-169",
+      "occurrences": [
+        {
+          "page": 88,
+          "sourceNumber": 169,
+          "ocr": false
+        },
+        {
+          "page": 116,
+          "sourceNumber": 211,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-170",
+      "occurrences": [
+        {
+          "page": 88,
+          "sourceNumber": 170,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-171",
+      "occurrences": [
+        {
+          "page": 90,
+          "sourceNumber": 171,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-172",
+      "occurrences": [
+        {
+          "page": 90,
+          "sourceNumber": 172,
+          "ocr": false
+        },
+        {
+          "page": 231,
+          "sourceNumber": 412,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-173",
+      "occurrences": [
+        {
+          "page": 91,
+          "sourceNumber": 173,
+          "ocr": false
+        },
+        {
+          "page": 232,
+          "sourceNumber": 413,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-175",
+      "occurrences": [
+        {
+          "page": 91,
+          "sourceNumber": 175,
+          "ocr": false
+        },
+        {
+          "page": 232,
+          "sourceNumber": 414,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-176",
+      "occurrences": [
+        {
+          "page": 93,
+          "sourceNumber": 176,
+          "ocr": false
+        },
+        {
+          "page": 114,
+          "sourceNumber": 206,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-177",
+      "occurrences": [
+        {
+          "page": 93,
+          "sourceNumber": 177,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-178",
+      "occurrences": [
+        {
+          "page": 94,
+          "sourceNumber": 178,
+          "ocr": false
+        },
+        {
+          "page": 114,
+          "sourceNumber": 207,
+          "ocr": false
+        },
+        {
+          "page": 231,
+          "sourceNumber": 411,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-179",
+      "occurrences": [
+        {
+          "page": 94,
+          "sourceNumber": 179,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-180",
+      "occurrences": [
+        {
+          "page": 94,
+          "sourceNumber": 180,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-181",
+      "occurrences": [
+        {
+          "page": 96,
+          "sourceNumber": 181,
+          "ocr": false
+        },
+        {
+          "page": 233,
+          "sourceNumber": 415,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-182",
+      "occurrences": [
+        {
+          "page": 97,
+          "sourceNumber": 182,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-183",
+      "occurrences": [
+        {
+          "page": 97,
+          "sourceNumber": 183,
+          "ocr": false
+        },
+        {
+          "page": 125,
+          "sourceNumber": 225,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-185",
+      "occurrences": [
+        {
+          "page": 99,
+          "sourceNumber": 185,
+          "ocr": false
+        },
+        {
+          "page": 122,
+          "sourceNumber": 220,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-186",
+      "occurrences": [
+        {
+          "page": 100,
+          "sourceNumber": 186,
+          "ocr": false
+        },
+        {
+          "page": 111,
+          "sourceNumber": 201,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-187",
+      "occurrences": [
+        {
+          "page": 101,
+          "sourceNumber": 187,
+          "ocr": false
+        },
+        {
+          "page": 112,
+          "sourceNumber": 202,
+          "ocr": false
+        },
+        {
+          "page": 235,
+          "sourceNumber": 417,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-189",
+      "occurrences": [
+        {
+          "page": 101,
+          "sourceNumber": 189,
+          "ocr": false
+        },
+        {
+          "page": 112,
+          "sourceNumber": 204,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-190",
+      "occurrences": [
+        {
+          "page": 102,
+          "sourceNumber": 190,
+          "ocr": false
+        },
+        {
+          "page": 113,
+          "sourceNumber": 205,
+          "ocr": false
+        },
+        {
+          "page": 236,
+          "sourceNumber": 420,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-191",
+      "occurrences": [
+        {
+          "page": 103,
+          "sourceNumber": 191,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-192",
+      "occurrences": [
+        {
+          "page": 103,
+          "sourceNumber": 192,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-193",
+      "occurrences": [
+        {
+          "page": 104,
+          "sourceNumber": 193,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-194",
+      "occurrences": [
+        {
+          "page": 104,
+          "sourceNumber": 194,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-195",
+      "occurrences": [
+        {
+          "page": 104,
+          "sourceNumber": 195,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-196",
+      "occurrences": [
+        {
+          "page": 106,
+          "sourceNumber": 196,
+          "ocr": false
+        },
+        {
+          "page": 120,
+          "sourceNumber": 218,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-197",
+      "occurrences": [
+        {
+          "page": 107,
+          "sourceNumber": 197,
+          "ocr": false
+        },
+        {
+          "page": 120,
+          "sourceNumber": 217,
+          "ocr": false
+        },
+        {
+          "page": 236,
+          "sourceNumber": 419,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-209",
+      "occurrences": [
+        {
+          "page": 115,
+          "sourceNumber": 209,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-210",
+      "occurrences": [
+        {
+          "page": 115,
+          "sourceNumber": 210,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-212",
+      "occurrences": [
+        {
+          "page": 116,
+          "sourceNumber": 212,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-213",
+      "occurrences": [
+        {
+          "page": 116,
+          "sourceNumber": 213,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-214",
+      "occurrences": [
+        {
+          "page": 117,
+          "sourceNumber": 214,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-222",
+      "occurrences": [
+        {
+          "page": 124,
+          "sourceNumber": 222,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-223",
+      "occurrences": [
+        {
+          "page": 124,
+          "sourceNumber": 223,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-224",
+      "occurrences": [
+        {
+          "page": 125,
+          "sourceNumber": 224,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-226",
+      "occurrences": [
+        {
+          "page": 126,
+          "sourceNumber": 226,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-227",
+      "occurrences": [
+        {
+          "page": 126,
+          "sourceNumber": 227,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-228",
+      "occurrences": [
+        {
+          "page": 127,
+          "sourceNumber": 228,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-229",
+      "occurrences": [
+        {
+          "page": 127,
+          "sourceNumber": 229,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-230",
+      "occurrences": [
+        {
+          "page": 127,
+          "sourceNumber": 230,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-231",
+      "occurrences": [
+        {
+          "page": 128,
+          "sourceNumber": 231,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-232",
+      "occurrences": [
+        {
+          "page": 128,
+          "sourceNumber": 232,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-233",
+      "occurrences": [
+        {
+          "page": 129,
+          "sourceNumber": 233,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-234",
+      "occurrences": [
+        {
+          "page": 129,
+          "sourceNumber": 234,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-235",
+      "occurrences": [
+        {
+          "page": 129,
+          "sourceNumber": 235,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-236",
+      "occurrences": [
+        {
+          "page": 131,
+          "sourceNumber": 236,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-237",
+      "occurrences": [
+        {
+          "page": 131,
+          "sourceNumber": 237,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-238",
+      "occurrences": [
+        {
+          "page": 132,
+          "sourceNumber": 238,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-239",
+      "occurrences": [
+        {
+          "page": 132,
+          "sourceNumber": 239,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-240",
+      "occurrences": [
+        {
+          "page": 133,
+          "sourceNumber": 240,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-241",
+      "occurrences": [
+        {
+          "page": 134,
+          "sourceNumber": 241,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-242",
+      "occurrences": [
+        {
+          "page": 134,
+          "sourceNumber": 242,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-243",
+      "occurrences": [
+        {
+          "page": 135,
+          "sourceNumber": 243,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-244",
+      "occurrences": [
+        {
+          "page": 135,
+          "sourceNumber": 244,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-245",
+      "occurrences": [
+        {
+          "page": 136,
+          "sourceNumber": 245,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-246",
+      "occurrences": [
+        {
+          "page": 137,
+          "sourceNumber": 246,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-247",
+      "occurrences": [
+        {
+          "page": 137,
+          "sourceNumber": 247,
+          "ocr": false
+        },
+        {
+          "page": 161,
+          "sourceNumber": 283,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-248",
+      "occurrences": [
+        {
+          "page": 138,
+          "sourceNumber": 248,
+          "ocr": false
+        },
+        {
+          "page": 161,
+          "sourceNumber": 284,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-249",
+      "occurrences": [
+        {
+          "page": 138,
+          "sourceNumber": 249,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-250",
+      "occurrences": [
+        {
+          "page": 138,
+          "sourceNumber": 250,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-251",
+      "occurrences": [
+        {
+          "page": 140,
+          "sourceNumber": 251,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-252",
+      "occurrences": [
+        {
+          "page": 140,
+          "sourceNumber": 252,
+          "ocr": false
+        },
+        {
+          "page": 152,
+          "sourceNumber": 267,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-253",
+      "occurrences": [
+        {
+          "page": 141,
+          "sourceNumber": 253,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-254",
+      "occurrences": [
+        {
+          "page": 141,
+          "sourceNumber": 254,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-255",
+      "occurrences": [
+        {
+          "page": 142,
+          "sourceNumber": 255,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-256",
+      "occurrences": [
+        {
+          "page": 143,
+          "sourceNumber": 256,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-257",
+      "occurrences": [
+        {
+          "page": 144,
+          "sourceNumber": 257,
+          "ocr": false
+        },
+        {
+          "page": 158,
+          "sourceNumber": 276,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-258",
+      "occurrences": [
+        {
+          "page": 145,
+          "sourceNumber": 258,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-259",
+      "occurrences": [
+        {
+          "page": 145,
+          "sourceNumber": 259,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-260",
+      "occurrences": [
+        {
+          "page": 145,
+          "sourceNumber": 260,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-261",
+      "occurrences": [
+        {
+          "page": 147,
+          "sourceNumber": 261,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-262",
+      "occurrences": [
+        {
+          "page": 147,
+          "sourceNumber": 262,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-263",
+      "occurrences": [
+        {
+          "page": 148,
+          "sourceNumber": 263,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-264",
+      "occurrences": [
+        {
+          "page": 149,
+          "sourceNumber": 264,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-265",
+      "occurrences": [
+        {
+          "page": 149,
+          "sourceNumber": 265,
+          "ocr": false
+        },
+        {
+          "page": 157,
+          "sourceNumber": 275,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-266",
+      "occurrences": [
+        {
+          "page": 151,
+          "sourceNumber": 266,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-268",
+      "occurrences": [
+        {
+          "page": 152,
+          "sourceNumber": 268,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-269",
+      "occurrences": [
+        {
+          "page": 153,
+          "sourceNumber": 269,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-270",
+      "occurrences": [
+        {
+          "page": 153,
+          "sourceNumber": 270,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-271",
+      "occurrences": [
+        {
+          "page": 154,
+          "sourceNumber": 271,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-273",
+      "occurrences": [
+        {
+          "page": 156,
+          "sourceNumber": 273,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-274",
+      "occurrences": [
+        {
+          "page": 156,
+          "sourceNumber": 274,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-277",
+      "occurrences": [
+        {
+          "page": 159,
+          "sourceNumber": 277,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-278",
+      "occurrences": [
+        {
+          "page": 159,
+          "sourceNumber": 278,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-279",
+      "occurrences": [
+        {
+          "page": 159,
+          "sourceNumber": 279,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-280",
+      "occurrences": [
+        {
+          "page": 160,
+          "sourceNumber": 280,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-281",
+      "occurrences": [
+        {
+          "page": 160,
+          "sourceNumber": 281,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-282",
+      "occurrences": [
+        {
+          "page": 160,
+          "sourceNumber": 282,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-285",
+      "occurrences": [
+        {
+          "page": 161,
+          "sourceNumber": 285,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-286",
+      "occurrences": [
+        {
+          "page": 163,
+          "sourceNumber": 286,
+          "ocr": false
+        },
+        {
+          "page": 180,
+          "sourceNumber": 318,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-287",
+      "occurrences": [
+        {
+          "page": 163,
+          "sourceNumber": 287,
+          "ocr": false
+        },
+        {
+          "page": 181,
+          "sourceNumber": 322,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-288",
+      "occurrences": [
+        {
+          "page": 164,
+          "sourceNumber": 288,
+          "ocr": false
+        },
+        {
+          "page": 176,
+          "sourceNumber": 310,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-289",
+      "occurrences": [
+        {
+          "page": 164,
+          "sourceNumber": 289,
+          "ocr": false
+        },
+        {
+          "page": 178,
+          "sourceNumber": 313,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-290",
+      "occurrences": [
+        {
+          "page": 164,
+          "sourceNumber": 290,
+          "ocr": false
+        },
+        {
+          "page": 175,
+          "sourceNumber": 306,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-291",
+      "occurrences": [
+        {
+          "page": 166,
+          "sourceNumber": 291,
+          "ocr": false
+        },
+        {
+          "page": 181,
+          "sourceNumber": 323,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-292",
+      "occurrences": [
+        {
+          "page": 166,
+          "sourceNumber": 292,
+          "ocr": false
+        },
+        {
+          "page": 176,
+          "sourceNumber": 309,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-293",
+      "occurrences": [
+        {
+          "page": 167,
+          "sourceNumber": 293,
+          "ocr": false
+        },
+        {
+          "page": 182,
+          "sourceNumber": 324,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-294",
+      "occurrences": [
+        {
+          "page": 167,
+          "sourceNumber": 294,
+          "ocr": false
+        },
+        {
+          "page": 180,
+          "sourceNumber": 319,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-295",
+      "occurrences": [
+        {
+          "page": 167,
+          "sourceNumber": 295,
+          "ocr": false
+        },
+        {
+          "page": 179,
+          "sourceNumber": 316,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-296",
+      "occurrences": [
+        {
+          "page": 169,
+          "sourceNumber": 296,
+          "ocr": false
+        },
+        {
+          "page": 176,
+          "sourceNumber": 308,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-297",
+      "occurrences": [
+        {
+          "page": 169,
+          "sourceNumber": 297,
+          "ocr": false
+        },
+        {
+          "page": 175,
+          "sourceNumber": 307,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-298",
+      "occurrences": [
+        {
+          "page": 170,
+          "sourceNumber": 298,
+          "ocr": false
+        },
+        {
+          "page": 181,
+          "sourceNumber": 321,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-300",
+      "occurrences": [
+        {
+          "page": 170,
+          "sourceNumber": 300,
+          "ocr": false
+        },
+        {
+          "page": 177,
+          "sourceNumber": 311,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-301",
+      "occurrences": [
+        {
+          "page": 172,
+          "sourceNumber": 301,
+          "ocr": false
+        },
+        {
+          "page": 179,
+          "sourceNumber": 315,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-302",
+      "occurrences": [
+        {
+          "page": 172,
+          "sourceNumber": 302,
+          "ocr": false
+        },
+        {
+          "page": 182,
+          "sourceNumber": 325,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-303",
+      "occurrences": [
+        {
+          "page": 173,
+          "sourceNumber": 303,
+          "ocr": false
+        },
+        {
+          "page": 180,
+          "sourceNumber": 320,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-304",
+      "occurrences": [
+        {
+          "page": 173,
+          "sourceNumber": 304,
+          "ocr": false
+        },
+        {
+          "page": 177,
+          "sourceNumber": 312,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-305",
+      "occurrences": [
+        {
+          "page": 173,
+          "sourceNumber": 305,
+          "ocr": false
+        },
+        {
+          "page": 178,
+          "sourceNumber": 314,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-326",
+      "occurrences": [
+        {
+          "page": 183,
+          "sourceNumber": 326,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-327",
+      "occurrences": [
+        {
+          "page": 183,
+          "sourceNumber": 327,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-328",
+      "occurrences": [
+        {
+          "page": 184,
+          "sourceNumber": 328,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-329",
+      "occurrences": [
+        {
+          "page": 184,
+          "sourceNumber": 329,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-330",
+      "occurrences": [
+        {
+          "page": 184,
+          "sourceNumber": 330,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-331",
+      "occurrences": [
+        {
+          "page": 186,
+          "sourceNumber": 331,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-332",
+      "occurrences": [
+        {
+          "page": 186,
+          "sourceNumber": 332,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-333",
+      "occurrences": [
+        {
+          "page": 187,
+          "sourceNumber": 333,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-334",
+      "occurrences": [
+        {
+          "page": 187,
+          "sourceNumber": 334,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-335",
+      "occurrences": [
+        {
+          "page": 187,
+          "sourceNumber": 335,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-336",
+      "occurrences": [
+        {
+          "page": 189,
+          "sourceNumber": 336,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-337",
+      "occurrences": [
+        {
+          "page": 189,
+          "sourceNumber": 337,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-338",
+      "occurrences": [
+        {
+          "page": 190,
+          "sourceNumber": 338,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-339",
+      "occurrences": [
+        {
+          "page": 190,
+          "sourceNumber": 339,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-340",
+      "occurrences": [
+        {
+          "page": 190,
+          "sourceNumber": 340,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-341",
+      "occurrences": [
+        {
+          "page": 192,
+          "sourceNumber": 341,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-342",
+      "occurrences": [
+        {
+          "page": 193,
+          "sourceNumber": 342,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-343",
+      "occurrences": [
+        {
+          "page": 194,
+          "sourceNumber": 343,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-344",
+      "occurrences": [
+        {
+          "page": 195,
+          "sourceNumber": 344,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-345",
+      "occurrences": [
+        {
+          "page": 196,
+          "sourceNumber": 345,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-346",
+      "occurrences": [
+        {
+          "page": 197,
+          "sourceNumber": 346,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-347",
+      "occurrences": [
+        {
+          "page": 197,
+          "sourceNumber": 347,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-348",
+      "occurrences": [
+        {
+          "page": 198,
+          "sourceNumber": 348,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-349",
+      "occurrences": [
+        {
+          "page": 198,
+          "sourceNumber": 349,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-350",
+      "occurrences": [
+        {
+          "page": 198,
+          "sourceNumber": 350,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-351",
+      "occurrences": [
+        {
+          "page": 200,
+          "sourceNumber": 351,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-352",
+      "occurrences": [
+        {
+          "page": 201,
+          "sourceNumber": 352,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-354",
+      "occurrences": [
+        {
+          "page": 202,
+          "sourceNumber": 354,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-355",
+      "occurrences": [
+        {
+          "page": 203,
+          "sourceNumber": 355,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-356",
+      "occurrences": [
+        {
+          "page": 204,
+          "sourceNumber": 356,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-357",
+      "occurrences": [
+        {
+          "page": 204,
+          "sourceNumber": 357,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-358",
+      "occurrences": [
+        {
+          "page": 205,
+          "sourceNumber": 358,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-359",
+      "occurrences": [
+        {
+          "page": 205,
+          "sourceNumber": 359,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-360",
+      "occurrences": [
+        {
+          "page": 206,
+          "sourceNumber": 360,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-361",
+      "occurrences": [
+        {
+          "page": 207,
+          "sourceNumber": 361,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-362",
+      "occurrences": [
+        {
+          "page": 207,
+          "sourceNumber": 362,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-363",
+      "occurrences": [
+        {
+          "page": 208,
+          "sourceNumber": 363,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-364",
+      "occurrences": [
+        {
+          "page": 208,
+          "sourceNumber": 364,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-365",
+      "occurrences": [
+        {
+          "page": 208,
+          "sourceNumber": 365,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-366",
+      "occurrences": [
+        {
+          "page": 210,
+          "sourceNumber": 366,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-367",
+      "occurrences": [
+        {
+          "page": 210,
+          "sourceNumber": 367,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-368",
+      "occurrences": [
+        {
+          "page": 211,
+          "sourceNumber": 368,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-369",
+      "occurrences": [
+        {
+          "page": 211,
+          "sourceNumber": 369,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-370",
+      "occurrences": [
+        {
+          "page": 211,
+          "sourceNumber": 370,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-371",
+      "occurrences": [
+        {
+          "page": 212,
+          "sourceNumber": 371,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-372",
+      "occurrences": [
+        {
+          "page": 212,
+          "sourceNumber": 372,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-373",
+      "occurrences": [
+        {
+          "page": 212,
+          "sourceNumber": 373,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-374",
+      "occurrences": [
+        {
+          "page": 213,
+          "sourceNumber": 374,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-375",
+      "occurrences": [
+        {
+          "page": 213,
+          "sourceNumber": 375,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-376",
+      "occurrences": [
+        {
+          "page": 213,
+          "sourceNumber": 376,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-377",
+      "occurrences": [
+        {
+          "page": 214,
+          "sourceNumber": 377,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-378",
+      "occurrences": [
+        {
+          "page": 214,
+          "sourceNumber": 378,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-379",
+      "occurrences": [
+        {
+          "page": 214,
+          "sourceNumber": 379,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-380",
+      "occurrences": [
+        {
+          "page": 215,
+          "sourceNumber": 380,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-381",
+      "occurrences": [
+        {
+          "page": 215,
+          "sourceNumber": 381,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-382",
+      "occurrences": [
+        {
+          "page": 215,
+          "sourceNumber": 382,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-383",
+      "occurrences": [
+        {
+          "page": 216,
+          "sourceNumber": 383,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-384",
+      "occurrences": [
+        {
+          "page": 216,
+          "sourceNumber": 384,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-385",
+      "occurrences": [
+        {
+          "page": 217,
+          "sourceNumber": 385,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-386",
+      "occurrences": [
+        {
+          "page": 218,
+          "sourceNumber": 386,
+          "ocr": false
+        },
+        {
+          "page": 220,
+          "sourceNumber": 391,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-387",
+      "occurrences": [
+        {
+          "page": 218,
+          "sourceNumber": 387,
+          "ocr": false
+        },
+        {
+          "page": 220,
+          "sourceNumber": 392,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-388",
+      "occurrences": [
+        {
+          "page": 219,
+          "sourceNumber": 388,
+          "ocr": false
+        },
+        {
+          "page": 220,
+          "sourceNumber": 393,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-389",
+      "occurrences": [
+        {
+          "page": 219,
+          "sourceNumber": 389,
+          "ocr": false
+        },
+        {
+          "page": 221,
+          "sourceNumber": 394,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-390",
+      "occurrences": [
+        {
+          "page": 219,
+          "sourceNumber": 390,
+          "ocr": false
+        },
+        {
+          "page": 221,
+          "sourceNumber": 395,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-396",
+      "occurrences": [
+        {
+          "page": 222,
+          "sourceNumber": 396,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-397",
+      "occurrences": [
+        {
+          "page": 222,
+          "sourceNumber": 397,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-398",
+      "occurrences": [
+        {
+          "page": 223,
+          "sourceNumber": 398,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-399",
+      "occurrences": [
+        {
+          "page": 223,
+          "sourceNumber": 399,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-400",
+      "occurrences": [
+        {
+          "page": 223,
+          "sourceNumber": 400,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-401",
+      "occurrences": [
+        {
+          "page": 225,
+          "sourceNumber": 401,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-402",
+      "occurrences": [
+        {
+          "page": 225,
+          "sourceNumber": 402,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-403",
+      "occurrences": [
+        {
+          "page": 226,
+          "sourceNumber": 403,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-404",
+      "occurrences": [
+        {
+          "page": 226,
+          "sourceNumber": 404,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-405",
+      "occurrences": [
+        {
+          "page": 227,
+          "sourceNumber": 405,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-406",
+      "occurrences": [
+        {
+          "page": 228,
+          "sourceNumber": 406,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-407",
+      "occurrences": [
+        {
+          "page": 228,
+          "sourceNumber": 407,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-408",
+      "occurrences": [
+        {
+          "page": 229,
+          "sourceNumber": 408,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-409",
+      "occurrences": [
+        {
+          "page": 229,
+          "sourceNumber": 409,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-410",
+      "occurrences": [
+        {
+          "page": 229,
+          "sourceNumber": 410,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-416",
+      "occurrences": [
+        {
+          "page": 234,
+          "sourceNumber": 416,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-421",
+      "occurrences": [
+        {
+          "page": 237,
+          "sourceNumber": 421,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-422",
+      "occurrences": [
+        {
+          "page": 237,
+          "sourceNumber": 422,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-423",
+      "occurrences": [
+        {
+          "page": 238,
+          "sourceNumber": 423,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-424",
+      "occurrences": [
+        {
+          "page": 238,
+          "sourceNumber": 424,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-425",
+      "occurrences": [
+        {
+          "page": 238,
+          "sourceNumber": 425,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-426",
+      "occurrences": [
+        {
+          "page": 240,
+          "sourceNumber": 426,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-427",
+      "occurrences": [
+        {
+          "page": 240,
+          "sourceNumber": 427,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-428",
+      "occurrences": [
+        {
+          "page": 241,
+          "sourceNumber": 428,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-429",
+      "occurrences": [
+        {
+          "page": 241,
+          "sourceNumber": 429,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-430",
+      "occurrences": [
+        {
+          "page": 241,
+          "sourceNumber": 430,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-431",
+      "occurrences": [
+        {
+          "page": 243,
+          "sourceNumber": 431,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-432",
+      "occurrences": [
+        {
+          "page": 243,
+          "sourceNumber": 432,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-433",
+      "occurrences": [
+        {
+          "page": 244,
+          "sourceNumber": 433,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-434",
+      "occurrences": [
+        {
+          "page": 244,
+          "sourceNumber": 434,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-435",
+      "occurrences": [
+        {
+          "page": 244,
+          "sourceNumber": 435,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-436",
+      "occurrences": [
+        {
+          "page": 246,
+          "sourceNumber": 436,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-437",
+      "occurrences": [
+        {
+          "page": 246,
+          "sourceNumber": 437,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-438",
+      "occurrences": [
+        {
+          "page": 247,
+          "sourceNumber": 438,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-439",
+      "occurrences": [
+        {
+          "page": 247,
+          "sourceNumber": 439,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-440",
+      "occurrences": [
+        {
+          "page": 247,
+          "sourceNumber": 440,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-441",
+      "occurrences": [
+        {
+          "page": 249,
+          "sourceNumber": 441,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-442",
+      "occurrences": [
+        {
+          "page": 249,
+          "sourceNumber": 442,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-443",
+      "occurrences": [
+        {
+          "page": 250,
+          "sourceNumber": 443,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-444",
+      "occurrences": [
+        {
+          "page": 250,
+          "sourceNumber": 444,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-445",
+      "occurrences": [
+        {
+          "page": 250,
+          "sourceNumber": 445,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-446",
+      "occurrences": [
+        {
+          "page": 252,
+          "sourceNumber": 446,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-447",
+      "occurrences": [
+        {
+          "page": 252,
+          "sourceNumber": 447,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-448",
+      "occurrences": [
+        {
+          "page": 253,
+          "sourceNumber": 448,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-449",
+      "occurrences": [
+        {
+          "page": 253,
+          "sourceNumber": 449,
+          "ocr": false
+        }
+      ]
+    },
+    {
+      "questionId": "cnpm-450",
+      "occurrences": [
+        {
+          "page": 253,
+          "sourceNumber": 450,
+          "ocr": false
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "page": 91,
+      "sourceNumber": 174,
+      "question": "Biểu đồ nào giúp mô hình hoá nghiệp vụ của hệ thống?",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Biểu đồ tuần tự",
+        "Biểu đồ ca sử dụng",
+        "Biểu đồ hoạt động",
+        "Biểu đồ máy trạng thái"
+      ],
+      "reportedAnswers": [
+        "Biểu đồ ca sử dụng",
+        "Biểu đồ hoạt động",
+        "Biểu đồ máy trạng thái"
+      ]
+    },
+    {
+      "page": 98,
+      "sourceNumber": 184,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): {\\it The director or his secretary are allowed to make an appointment, but nobydy else - Chỉ giám đốc và thư ký của anh ta là có thểđược phép đặt hẹn ngoài ra không có người nào khác có thể}."
+    },
+    {
+      "page": 101,
+      "sourceNumber": 188,
+      "question": "Đâu là phát biểu đúng về nút quyết định trong biểu đồ hoạt động UML2?",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Giúp phân nhánh các luồng sự kiện tuỳ theo một giá trị cụ thể của các ràng buộc tại nút quyết định",
+        "Một nút quyết định cũng chính là một nút hoạt động của biểu đồ hoạt động tại đó có điều kiện cần phải kiểm chứng",
+        "Giúp biểu diễn các luồng khác nhau của 1 sự kiện cụ thể",
+        "Mỗi nút quyết định chỉ có thể biểu diễn với 1 ràng buộc hoặc điều kiện để kiểm chứng"
+      ],
+      "reportedAnswers": [
+        "Giúp phân nhánh các luồng sự kiện tuỳ theo một giá trị cụ thể của các ràng buộc tại nút quyết định",
+        "Một nút quyết định cũng chính là một nút hoạt động của biểu đồ hoạt động tại đó có điều kiện cần phải kiểm chứng"
+      ]
+    },
+    {
+      "page": 108,
+      "sourceNumber": 198,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): {\\it A mother cooks dinner together with her daughter. In the course of that, the mother always has to mix the cocktail - Một người mẹ nấu bữa tối cùng với con gái, trong quá trình thực hiện điều đó, người mẹ luôn luôn là người thực hiện việc pha chế cốc-tai}."
+    },
+    {
+      "page": 109,
+      "sourceNumber": 199,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): Một giáo viên thực hiện cuộc phỏng vấn cùng với sinh viên của mình, trong quá trình thực hiện điều đó, người giáo viên luôn luôn là người phải cho điểm sinh viên."
+    },
+    {
+      "page": 110,
+      "sourceNumber": 200,
+      "question": "Trong các lựa chọn dưới đây, đâu là một ví dụ cụ thể về ca sử dụng trong hệ thống quản lý thư viện ?",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Trả sách",
+        "Lựa chọn một quyển sách để xem thông tin chi tiết",
+        "Xác nhận mượn sách",
+        "Mượn sách"
+      ],
+      "reportedAnswers": [
+        "Mượn sách",
+        "Trả sách"
+      ]
+    },
+    {
+      "page": 112,
+      "sourceNumber": 203,
+      "question": "Đâu là phát biểu đúng về nút quyết định trong biểu đồ hoạt động UML2?",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Giúp phân nhánh các luồng sự kiện tuỳ theo một giá trị cụ thể của các ràng buộc tại nút quyết định",
+        "Mỗi nút quyết định chỉ có thể biểu diễn với 1 ràng buộc hoặc điều kiện để kiểm chứng",
+        "Một nút quyết định cũng chính là một nút hoạt động của biểu đồ hoạt động tại đó có điều kiện cần phải kiểm chứng",
+        "Giúp biểu diễn các luồng khác nhau của 1 sự kiện cụ thể"
+      ],
+      "reportedAnswers": [
+        "Giúp phân nhánh các luồng sự kiện tuỳ theo một giá trị cụ thể của các ràng buộc tại nút quyết định",
+        "Một nút quyết định cũng chính là một nút hoạt động của biểu đồ hoạt động tại đó có điều kiện cần phải kiểm chứng"
+      ]
+    },
+    {
+      "page": 118,
+      "sourceNumber": 215,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): {\\it A mother cooks dinner together with her daughter. In the course of that, the mother always has to mix the cocktail - Một người mẹ nấu bữa tối cùng với con gái, trong quá trình thực hiện điều đó, người mẹ luôn luôn là người thực hiện việc pha chế cốc-tai}."
+    },
+    {
+      "page": 119,
+      "sourceNumber": 216,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): {\\it A teacher is conducting the interview with her student, in the course of that the teacher always has to grade the student - Một giáo viên thực hiện cuộc phỏng vấn cùng với sinh viên của mình, trong quá trình thực hiện điều đó, người giáo viên luôn luôn là người phải cho điểm sinh viên}."
+    },
+    {
+      "page": 121,
+      "sourceNumber": 219,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Hãy mô hình hoá tình huống sau đây bằng biểu đồ UML usecase (2.0): {\\it The director or his secretary are allowed to make an appointment, but nobydy else - Chỉ giám đốc và thư ký của anh ta là có thểđược phép đặt hẹn ngoài ra không có người nào khác có thể}."
+    },
+    {
+      "page": 123,
+      "sourceNumber": 221,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Lựa chọn các kết hợp có thể có của các actor có thể thực hiện use case B. Lưu ý: ký hiệu thể hiện toán tử logic {\\bf or} và ký hiệu thể hiện toán tử logic {\\bf and}."
+    },
+    {
+      "page": 155,
+      "sourceNumber": 272,
+      "reason": "Lựa chọn/đáp án là hình; không có đủ nhãn văn bản để điền tin cậy.",
+      "question": "Giả sử bạn cần thiết kế một hệ thống quản lý tệp tin đơn giản. Hai thành phần chính cần quản lý trong thiết kế là các tập tin và thư mục. Thư mục có thể chứa 0 hoặc nhiều tập tin hoặc thư mục con khác. Các thư mục và tệp tin cần được xử lý một cách thống nhất, ví dụ: cả hai đều có tên và cung cấp các thao tác để truyền nội dung vào (streamIn) và ra (streamOut) cũng như liệt kê các phần tử con (listChildren). Lựa chọn nào là thiết kế phù hơp với mô tả trên?"
+    },
+    {
+      "page": 170,
+      "sourceNumber": 299,
+      "reason": "PDF không hiển thị đáp án đúng.",
+      "question": "Check-list của tái cấu trúc mã nguồn KHÔNG bao gồm yêu cầu nào?"
+    },
+    {
+      "page": 179,
+      "sourceNumber": 317,
+      "reason": "PDF không hiển thị đáp án đúng.",
+      "question": "Check-list của tái cấu trúc mã nguồn KHÔNG bao gồm yêu cầu nào?"
+    },
+    {
+      "page": 202,
+      "sourceNumber": 353,
+      "question": "Với bài toán xét kết quả của sinh viên với hai điểm thi là toán và vật lý. Sinh viên chỉ vượt qua kì thi nếu: Cảđiểm toán và điểm vật lý >= 70 (xét theo thang điểm 100) và điểm trung bình của toán và vật lý >= 80. Các miền tương đương được xác định bởi giới hạn của các đường",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Không có đáp án nào đúng",
+        "Toán = 100; Toán = 70",
+        "(Toán + Lý)/2 = 80",
+        "Lý = 100; Lý = 70"
+      ],
+      "reportedAnswers": [
+        "Toán = 100; Toán = 70",
+        "Lý = 100; Lý = 70",
+        "(Toán + Lý)/2 = 80"
+      ]
+    },
+    {
+      "page": 235,
+      "sourceNumber": 418,
+      "question": "Biểu đồ nào giúp mô hình hoá nghiệp vụ của hệ thống?",
+      "reason": "PDF ghi Select one nhưng phản hồi liệt kê nhiều đáp án; cần xác nhận loại câu trên form.",
+      "options": [
+        "Biểu đồ hoạt động",
+        "Biểu đồ máy trạng thái",
+        "Biểu đồ ca sử dụng",
+        "Biểu đồ tuần tự"
+      ],
+      "reportedAnswers": [
+        "Biểu đồ ca sử dụng",
+        "Biểu đồ hoạt động",
+        "Biểu đồ máy trạng thái"
+      ]
+    }
+  ],
+  "ocrCorrections": [
+    {
+      "page": 21,
+      "before": "Phương pháp Agile có bao nhiều ý trong tuyên ngôn?",
+      "after": "Phương pháp Agile có bao nhiêu ý trong tuyên ngôn?"
+    },
+    {
+      "page": 24,
+      "before": "Có thể khó ước tính được chỉ phí cuối cùng của dự án do sự lặp lại liên tục",
+      "after": "Có thể khó ước tính được chi phí cuối cùng của dự án do sự lặp lại liên tục"
+    },
+    {
+      "page": 25,
+      "before": "Mã giờ",
+      "after": "Mỗi giờ"
+    },
+    {
+      "page": 30,
+      "before": "Khi tắt cả các nhiệm vụ được hoàn thành",
+      "after": "Khi tất cả các nhiệm vụ được hoàn thành"
+    },
+    {
+      "page": 31,
+      "before": "† giờ.",
+      "after": "1 giờ."
+    },
+    {
+      "page": 34,
+      "before": "Một ứng dụng được chia thành nhiều phần khác nhau, mỗi phần được phát triển độc lập với nhau, các bản phát hành của sản phẩm được tao ra bởi sự tích hợp dần dần của các bộ phận này",
+      "after": "Một ứng dụng được chia thành nhiều phần khác nhau, mỗi phần được phát triển độc lập với nhau, các bản phát hành của sản phẩm được tạo ra bởi sự tích hợp dần dần của các bộ phận này"
+    },
+    {
+      "page": 36,
+      "before": "Đâu là điểm nỗi bật nhất của mô hình xoắn ốc?",
+      "after": "Đâu là điểm nổi bật nhất của mô hình xoắn ốc?"
+    },
+    {
+      "page": 37,
+      "before": "Mô hình này thường được dùng khi muốn phát triển một sản phẩm nhanh chóng đầy ra thị trường",
+      "after": "Mô hình này thường được dùng khi muốn phát triển một sản phẩm nhanh chóng đẩy ra thị trường"
+    },
+    {
+      "page": 56,
+      "before": "Xét dự án phần mềm A. Dự án này bị chậm tiến độ 10 tháng, chỉ phí tăng gấp rưỡi so với dự kiến. Nhưng sản phẩm của dự án được khách hàng sử dụng liên tục trong vòng 15 năm vì nó rất hữu ích cho công việc của họ. Mức độ thành công của dự án này là gì 2",
+      "after": "Xét dự án phần mềm A. Dự án này bị chậm tiến độ 10 tháng, chi phí tăng gấp rưỡi so với dự kiến. Nhưng sản phẩm của dự án được khách hàng sử dụng liên tục trong vòng 15 năm vì nó rất hữu ích cho công việc của họ. Mức độ thành công của dự án này là gì ?"
+    },
+    {
+      "page": 56,
+      "before": "Thành phần nào sau đây không thuộc 4 thành phần của quản lý dự án (4Ps of project management) 2",
+      "after": "Thành phần nào sau đây không thuộc 4 thành phần của quản lý dự án (4Ps of project management) ?"
+    },
+    {
+      "page": 56,
+      "before": "Hoạt động nào sau đây không thuộc về kế hoạch quản lý thời gian 2",
+      "after": "Hoạt động nào sau đây không thuộc về kế hoạch quản lý thời gian ?"
+    },
+    {
+      "page": 56,
+      "before": "Ước tính chỉ phí của từng hoạt động",
+      "after": "Ước tính chi phí của từng hoạt động"
+    },
+    {
+      "page": 56,
+      "before": "Ước tính chỉ phí của từng hoạt động",
+      "after": "Ước tính chi phí của từng hoạt động"
+    },
+    {
+      "page": 57,
+      "before": "Phần tử ở mức thấp nhất trong cấu trúc phân cấp công việc được gọi là gì 2",
+      "after": "Phần tử ở mức thấp nhất trong cấu trúc phân cấp công việc được gọi là gì ?"
+    },
+    {
+      "page": 58,
+      "before": "Chỉ đạo và quản lý các công việc của dự án là quy trình thuộc nhóm nào 2",
+      "after": "Chỉ đạo và quản lý các công việc của dự án là quy trình thuộc nhóm nào ?"
+    },
+    {
+      "page": 58,
+      "before": "Dự án kết thúc do các vần đề pháp lý.",
+      "after": "Dự án kết thúc do các vấn đề pháp lý."
+    },
+    {
+      "page": 58,
+      "before": "Đâu không phải là một mục tiêu ước lượng dự án 2",
+      "after": "Đâu không phải là một mục tiêu ước lượng dự án ?"
+    },
+    {
+      "page": 58,
+      "before": "Chỉ phí",
+      "after": "Chi phí"
+    },
+    {
+      "page": 60,
+      "before": "Thông tin về các công việc / hoạt động cần thực hiện trong khuôn khổ dự án là đầu ra của nhóm quy trình quản lý dự án nào 2",
+      "after": "Thông tin về các công việc / hoạt động cần thực hiện trong khuôn khổ dự án là đầu ra của nhóm quy trình quản lý dự án nào ?"
+    },
+    {
+      "page": 61,
+      "before": "Đâu không phải một kiểu ứng phó rủi ro 2",
+      "after": "Đâu không phải một kiểu ứng phó rủi ro ?"
+    }
+  ],
+  "chromeImportVerification": {
+    "chrome": "155.0.8059.86",
+    "importedQuestions": 351,
+    "editorQuestions": 351,
+    "storedDataMatchesFile": true,
+    "pageErrors": []
+  }
+}

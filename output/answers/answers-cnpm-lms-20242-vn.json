@@ -1,0 +1,5622 @@
+{
+  "schemaVersion": 1,
+  "name": "Công nghệ phần mềm — Quiz LMS kỳ 20242 VN",
+  "answers": [
+    {
+      "questionId": "cnpm-001",
+      "question": "Pha đầu tiên trong vòng đời phát triển phần mềm là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Phân tích (analysis).",
+        "Phát triển (implemention).",
+        "Lập kế hoạch (planning).",
+        "Triển khai (deployment)."
+      ],
+      "answer": [
+        "Lập kế hoạch (planning)."
+      ],
+      "sourceNumber": 1,
+      "sourcePage": 1
+    },
+    {
+      "questionId": "cnpm-002",
+      "question": "Pha thứ 3 trong vòng đời phát triển phần mềm là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Thiết kế (design).",
+        "Kiểm thử và tích hợp (Testing and integration).",
+        "Triển khai (deployment).",
+        "Phát triển (implemention)."
+      ],
+      "answer": [
+        "Thiết kế (design)."
+      ],
+      "sourceNumber": 2,
+      "sourcePage": 1
+    },
+    {
+      "questionId": "cnpm-003",
+      "question": "Trong bài học SDLC viết tắt của từ gì ? Pha thứ 3 trong vòng đời phát triển phần mềm là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Software development life cycle.",
+        "System development life cycle.",
+        "System development life conditions.",
+        "Software development litigation cycle."
+      ],
+      "answer": [
+        "Software development life cycle."
+      ],
+      "sourceNumber": 3,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "cnpm-004",
+      "question": "Trong bước thiết kế phần mềm, chúng ta thường làm gì",
+      "type": "single_choice",
+      "options": [
+        "Viết mã chương trình",
+        "Đảm bảo các yêu cầu về phần mềm được hiểu rõ",
+        "Thực hiện các thay đổi khi tạo phần mềm",
+        "Lập kế hoạch giải pháp, giao diện phần mềm"
+      ],
+      "answer": [
+        "Lập kế hoạch giải pháp, giao diện phần mềm"
+      ],
+      "sourceNumber": 4,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "cnpm-005",
+      "question": "Điều gì xảy ra trong giai đoạn phân tích?",
+      "type": "single_choice",
+      "options": [
+        "Đưa hệ thống mới vào công ty để sử dụng",
+        "Tạo hệ thống mới và kiểm tra nó",
+        "Nhìn vào hệ thống hiện có và tìm các vấn đề cần cải thiện",
+        "Quyết định hệ thống mới hoạt động tốt như thế nào"
+      ],
+      "answer": [
+        "Nhìn vào hệ thống hiện có và tìm các vấn đề cần cải thiện"
+      ],
+      "sourceNumber": 5,
+      "sourcePage": 2
+    },
+    {
+      "questionId": "cnpm-006",
+      "question": "Một dự án phần mềm có độ phức tạp cao, đòi hỏi độ tin cậy tuyệt đối cùng với khung thời gian phát triển rộng có thể sẽ được phát triển bằng cách sử dụng phương pháp nào?",
+      "type": "single_choice",
+      "options": [
+        "Theo cách tiếp cận kiểu mẫu thử (prototyping).",
+        "Cách tiếp cận theo người dùng cuối (end-user approach)",
+        "Theo cách tiếp cận của Waterfall.",
+        "Theo cách tiếp cận RAD (phát triển nhanh)"
+      ],
+      "answer": [
+        "Theo cách tiếp cận của Waterfall."
+      ],
+      "sourceNumber": 6,
+      "sourcePage": 4
+    },
+    {
+      "questionId": "cnpm-007",
+      "question": "Khi áp dụng quy trình phát triển phần mềm trong thực tế, cần lưu ý",
+      "type": "single_choice",
+      "options": [
+        "Tập trung vào tính ưu tiên và quan trọng",
+        "Viết phần mềm nhanh",
+        "Nên có nhiều lập trình viên",
+        "Tập trung vào giao diện"
+      ],
+      "answer": [
+        "Tập trung vào tính ưu tiên và quan trọng"
+      ],
+      "sourceNumber": 7,
+      "sourcePage": 4
+    },
+    {
+      "questionId": "cnpm-008",
+      "question": "Liên quan đến cách tiếp cận có cấu trúc, thời gian tương đối được phân bổ cho từng bước của dự án sẽ là một phần của giai đoạn phát triển nào?",
+      "type": "single_choice",
+      "options": [
+        "Xác định, định nghĩa yêu cầu",
+        "Phát triển/lập trình.",
+        "Lập kế hoạch và thiết kế.",
+        "Kiểm tra và đánh giá."
+      ],
+      "answer": [
+        "Lập kế hoạch và thiết kế."
+      ],
+      "sourceNumber": 8,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "cnpm-009",
+      "question": "Cách tiếp cận nào thường được coi là tốn chi phí nhất?",
+      "type": "single_choice",
+      "options": [
+        "Cách tiếp cận của người dùng cuối.",
+        "Cách tiếp cận nguyên mẫu.",
+        "Cách tiếp cận linh hoạt.",
+        "Cách tiếp cận thác nước."
+      ],
+      "answer": [
+        "Cách tiếp cận thác nước."
+      ],
+      "sourceNumber": 9,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "cnpm-010",
+      "question": "Việc thiết kế các cấu trúc chứa dữ liệu thường diễn ra ở giai đoạn phát triển nào?",
+      "type": "single_choice",
+      "options": [
+        "Xác định vấn đề .",
+        "Kiểm tra giải pháp.",
+        "Lập kế hoạch giải pháp.",
+        "Xây dựng giải pháp."
+      ],
+      "answer": [
+        "Lập kế hoạch giải pháp."
+      ],
+      "sourceNumber": 10,
+      "sourcePage": 5
+    },
+    {
+      "questionId": "cnpm-011",
+      "question": "Cách tiếp cận nào mang lại phiên bản hoạt động của phần mềm sau mỗi lần lặp?",
+      "type": "single_choice",
+      "options": [
+        "Nguyên mẫu.",
+        "Thác nước",
+        "Agile.",
+        "RAD"
+      ],
+      "answer": [
+        "Agile."
+      ],
+      "sourceNumber": 11,
+      "sourcePage": 7
+    },
+    {
+      "questionId": "cnpm-012",
+      "question": "Mô hình phát triển phần mềm nào dưới đây sẽ phù hợp cho một doanh nghiệp nhỏ khi phát triển sản phẩm phần mềm với thời hạn cụ thể?",
+      "type": "single_choice",
+      "options": [
+        "Xoắn ốc",
+        "RAD",
+        "Tăng trưởng",
+        "Thác nước"
+      ],
+      "answer": [
+        "Thác nước"
+      ],
+      "sourceNumber": 12,
+      "sourcePage": 7
+    },
+    {
+      "questionId": "cnpm-013",
+      "question": "Tên gọi khác của bản phác thảo thô hoặc phiên bản khung của chương trình là gì?",
+      "type": "single_choice",
+      "options": [
+        "Nguyên mẫu (Archetype)",
+        "Mẫu thử (prototype)",
+        "Phiên bản (Version)",
+        "Mô hình (model)"
+      ],
+      "answer": [
+        "Mẫu thử (prototype)"
+      ],
+      "sourceNumber": 13,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "cnpm-014",
+      "question": "Một nguyên mẫu được phát triển để hỗ trợ việc xác định các yêu cầu và sau đó bị loại bỏ được gọi là:",
+      "type": "single_choice",
+      "options": [
+        "Nguyên mẫu vứt/loại bỏ.",
+        "Nguyên mẫu tiến triển.",
+        "Nguyên mẫu tiến hóa.",
+        "Nguyên mẫu lý thuyết."
+      ],
+      "answer": [
+        "Nguyên mẫu vứt/loại bỏ."
+      ],
+      "sourceNumber": 14,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "cnpm-015",
+      "question": "Phương pháp RAD nhằm mục đích:",
+      "type": "single_choice",
+      "options": [
+        "Tất cả ý kiến trên đều sai.",
+        "Dạy các lập trình viên cách làm việc hiệu quả hơn.",
+        "Sản xuất các sản phẩm phần mềm có quy mô lớn, phức tạp.",
+        "Giảm cả thời gian phát triển và chi phí phát triển."
+      ],
+      "answer": [
+        "Giảm cả thời gian phát triển và chi phí phát triển."
+      ],
+      "sourceNumber": 15,
+      "sourcePage": 8
+    },
+    {
+      "questionId": "cnpm-016",
+      "question": "Ai nên xem xét thiết kế chi tiết trước khi nó được phát triển?",
+      "type": "single_choice",
+      "options": [
+        "Người sản xuất.",
+        "Càng nhiều bên liên quan càng tốt.",
+        "Nhóm hỗ trợ CNTT.",
+        "Những người dùng."
+      ],
+      "answer": [
+        "Càng nhiều bên liên quan càng tốt."
+      ],
+      "sourceNumber": 16,
+      "sourcePage": 10
+    },
+    {
+      "questionId": "cnpm-017",
+      "question": "Đối với một hệ thống lớn, nhiều người dùng xử lý dữ liệu, nhìn chung mô hình phát triển phần mềm tốt nhất sẽ là:",
+      "type": "single_choice",
+      "options": [
+        "Agile",
+        "Truyền thống"
+      ],
+      "answer": [
+        "Truyền thống"
+      ],
+      "sourceNumber": 17,
+      "sourcePage": 10
+    },
+    {
+      "questionId": "cnpm-018",
+      "question": "Khi áp dụng mô hình thác nước, một nguyên mẫu có thể được phát triển..",
+      "type": "single_choice",
+      "options": [
+        "Trong giai đoạn Thiết kế.",
+        "Trong giai đoạn Phát triển.",
+        "Trong giai đoạn Phân tích.",
+        "Trong giai đoạn Triển khai."
+      ],
+      "answer": [
+        "Trong giai đoạn Thiết kế."
+      ],
+      "sourceNumber": 18,
+      "sourcePage": 11
+    },
+    {
+      "questionId": "cnpm-019",
+      "question": "Sẽ hữu ích khi tuyển dụng một lập trình viên sẽ trong giai đoạn nào?",
+      "type": "single_choice",
+      "options": [
+        "Lập kế hoạch",
+        "Phân tích.",
+        "Thực hiện.",
+        "Thiết kế."
+      ],
+      "answer": [
+        "Thực hiện."
+      ],
+      "sourceNumber": 19,
+      "sourcePage": 11
+    },
+    {
+      "questionId": "cnpm-020",
+      "question": "Bảng Kanban là một công cụ quản lý dự án theo mô hình:",
+      "type": "single_choice",
+      "options": [
+        "Lặp đi lặp lại",
+        "Agile",
+        "Mô hình V",
+        "Thác nước"
+      ],
+      "answer": [
+        "Agile"
+      ],
+      "sourceNumber": 20,
+      "sourcePage": 11
+    },
+    {
+      "questionId": "cnpm-021",
+      "question": "Pha thứ 2 trong vòng đời phát triển phần mềm là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Phát triển (implemention.",
+        "Triển khai (deployment).",
+        "Phân tích (analysis).",
+        "Lập kế hoạch (planning)."
+      ],
+      "answer": [
+        "Phân tích (analysis)."
+      ],
+      "sourceNumber": 21,
+      "sourcePage": 13
+    },
+    {
+      "questionId": "cnpm-022",
+      "question": "Pha thứ 4 trong vòng đời phát triển phần mềm là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử và tích hợp (Testing and integration).",
+        "Thiết kế (design).",
+        "Triển khai (deployment).",
+        "Phát triển (implemention."
+      ],
+      "answer": [
+        "Kiểm thử và tích hợp (Testing and integration)."
+      ],
+      "sourceNumber": 22,
+      "sourcePage": 13
+    },
+    {
+      "questionId": "cnpm-023",
+      "question": "Bước thứ sáu trong Vòng đời phát triển phần mềm là gì?",
+      "type": "single_choice",
+      "options": [
+        "Thực hiện/Phát triển",
+        "Triển khai",
+        "Kiểm tra và tích hợp",
+        "Vận hành và bảo trì"
+      ],
+      "answer": [
+        "Triển khai"
+      ],
+      "sourceNumber": 23,
+      "sourcePage": 14
+    },
+    {
+      "questionId": "cnpm-025",
+      "question": "Bước nào trong Vòng đời phát triển phần mềm (SDLC) phù hợp với mô tả sau đây? ”Trong giai đoạn này của SDLC, người đứng đầu dự án đánh giá các vấn đề của dự án. Điều này bao gồm việc tính toán chi phí nhân công và vật chất, lập thời gian biểu với các mục tiêu cụ thể cũng như tạo ra các nhóm và cơ cấu quản lý của nhóm tỏng dự án”.",
+      "type": "single_choice",
+      "options": [
+        "Phát triển (implemention.",
+        "Lập kế hoạch (planning).",
+        "Triển khai (deployment).",
+        "Phân tích (analysis)."
+      ],
+      "answer": [
+        "Lập kế hoạch (planning)."
+      ],
+      "sourceNumber": 25,
+      "sourcePage": 14
+    },
+    {
+      "questionId": "cnpm-026",
+      "question": "Bước nào trong Vòng đời phát triển phần mềm (SDLC) phù hợp với mô tả sau đây? ”Trong giai đoạn này của SDLC, nhóm bắt đầu kiểm tra các lỗi và thiếu sót. Họ sẽ tiếp tục khắc phục mọi vấn đề được phát hiện cho đến khi sản phẩm đáp ứng được các thông số kỹ thuật ban đầu.”",
+      "type": "single_choice",
+      "options": [
+        "Lập kế hoạch (planning).",
+        "Triển khai (deployment).",
+        "Phân tích (analysis).",
+        "Kiểm thử và tích hợp (Testing and integration)."
+      ],
+      "answer": [
+        "Kiểm thử và tích hợp (Testing and integration)."
+      ],
+      "sourceNumber": 26,
+      "sourcePage": 15
+    },
+    {
+      "questionId": "cnpm-027",
+      "question": "Bước nào trong Vòng đời phát triển phần mềm (SDLC) phù hợp với mô tả sau đây? “Trong giai đoạn này của SDLC, chu trình phát triển gần như đã kết thúc. Ứng dụng đã được thực hiện và đang được sử dụng trong thực tế. Trong giai đoạn này, nếu người dùng phát hiện ra các lỗi không được tìm thấy trong quá trình thử nghiệm/phát triển. Những lỗi này cần được lên kế hoạch giải quyết bằng cách có thể tạo ra các chu kỳ phát triển mới.”",
+      "type": "single_choice",
+      "options": [
+        "Triển khai (deployment).",
+        "Kiểm thử và tích hợp (Testing and integration).",
+        "Vận hành và bảo trì (Operation and Maintenance).",
+        "Phân tích (analysis)."
+      ],
+      "answer": [
+        "Vận hành và bảo trì (Operation and Maintenance)."
+      ],
+      "sourceNumber": 27,
+      "sourcePage": 15
+    },
+    {
+      "questionId": "cnpm-031",
+      "question": "Mô hình phát triển phần mềm giả định rằng mọi thứ được thực hiện và diễn ra một cách hoàn hảo theo kế hoạch ở giai đoạn trước và không cần phải suy nghĩ về những vấn đề trong quá khứ có thể phát sinh trong giai đoạn tiếp theo.",
+      "type": "single_choice",
+      "options": [
+        "Mô hình thác nước",
+        "V-Model",
+        "Mô hình lặp",
+        "Mô hình xoắn ốc"
+      ],
+      "answer": [
+        "Mô hình thác nước"
+      ],
+      "sourceNumber": 31,
+      "sourcePage": 17
+    },
+    {
+      "questionId": "cnpm-032",
+      "question": "Yêu cầu chức năng của phần mềm bao gồm những điều sau đây?",
+      "type": "single_choice",
+      "options": [
+        "Phân tích hệ thống, Người phát triển Front End, Người phát triển Back End, tài liệu",
+        "Quản trị viên, Người dùng cụ thể",
+        "Tên miền, Hosting, Lưu trữ",
+        "Phần mềm vận hành, Thông số kỹ thuật của thiết bị, Trình duyệt sử dụng."
+      ],
+      "answer": [
+        "Phần mềm vận hành, Thông số kỹ thuật của thiết bị, Trình duyệt sử dụng."
+      ],
+      "sourceNumber": 32,
+      "sourcePage": 17
+    },
+    {
+      "questionId": "cnpm-041",
+      "question": "Đâu là lý do để chuyển sang phương pháp Agile?",
+      "type": "single_choice",
+      "options": [
+        "Trao quyền cho nhóm và ít trách nhiệm quản lý trách nhiệm",
+        "Có khả năng thích ứng và luân chuyển nhóm tốt hơn",
+        "Có sự linh hoạt hơn và luân chuyển nhóm",
+        "Có tính linh hoạt và khả năng thích ứng cao hơn"
+      ],
+      "answer": [
+        "Có tính linh hoạt và khả năng thích ứng cao hơn"
+      ],
+      "sourceNumber": 41,
+      "sourcePage": 21
+    },
+    {
+      "questionId": "cnpm-042",
+      "question": "Phương pháp Agile có bao nhiêu ý trong tuyên ngôn?",
+      "type": "single_choice",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answer": [
+        "4"
+      ],
+      "sourceNumber": 42,
+      "sourcePage": 21
+    },
+    {
+      "questionId": "cnpm-043",
+      "question": "Agile là được hiểu là gì?",
+      "type": "single_choice",
+      "options": [
+        "Phương pháp luận",
+        "Phần mềm",
+        "Framework",
+        "Mã số"
+      ],
+      "answer": [
+        "Phương pháp luận"
+      ],
+      "sourceNumber": 43,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "cnpm-044",
+      "question": "Những ý nào sau đây là đúng về Agile?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả những ý trên",
+        "Linh hoạt trong phân tích và viết mã chương trình",
+        "Chu kỳ phản hồi ngắn",
+        "Rà soát/đánh giá theo các mốc thời gian"
+      ],
+      "answer": [
+        "Tất cả những ý trên"
+      ],
+      "sourceNumber": 44,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "cnpm-045",
+      "question": "Ý tưởng phát triển lặp lại (iterative development) trong Agile là gì?.",
+      "type": "single_choice",
+      "options": [
+        "Phần mềm được phát triển có tính đến phản hồi của khách hàng",
+        "Phần mềm được phát triển với sự tiếp xúc hàng ngày với khách hàng",
+        "Phần mềm được phát triển tại chỗ với khách hàng với đội ngũ phát triển",
+        "Phần mềm được phát triển có tính đến các quyết định quản lý"
+      ],
+      "answer": [
+        "Phần mềm được phát triển có tính đến phản hồi của khách hàng"
+      ],
+      "sourceNumber": 45,
+      "sourcePage": 22
+    },
+    {
+      "questionId": "cnpm-046",
+      "question": "Điều nào sau đây là nhược điểm của mô hình Agile?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả những điều trên",
+        "Nhóm phát triển phải có tính chuyên nghiệp cao và hướng tới khách hàng.",
+        "Có thể khó ước tính được chi phí cuối cùng của dự án do sự lặp lại liên tục",
+        "Yêu cầu mới có thể xung đột với kiến trúc hiện tại"
+      ],
+      "answer": [
+        "Tất cả những điều trên"
+      ],
+      "sourceNumber": 46,
+      "sourcePage": 24
+    },
+    {
+      "questionId": "cnpm-047",
+      "question": "Vòng lặp trong Agile thường kéo dài?",
+      "type": "single_choice",
+      "options": [
+        "4 đến 8 tuần",
+        "1 đến 4 ngày",
+        "1 đến 4 tháng",
+        "1 đến 3 tuần"
+      ],
+      "answer": [
+        "1 đến 3 tuần"
+      ],
+      "sourceNumber": 47,
+      "sourcePage": 24
+    },
+    {
+      "questionId": "cnpm-048",
+      "question": "Agile hoan nghênh các yêu cầu thay đổi, thậm chí ở giai đoạn phát triển muộn?",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 48,
+      "sourcePage": 25
+    },
+    {
+      "questionId": "cnpm-049",
+      "question": "Khách hàng và nhóm phát triển phải làm việc cùng nhau...",
+      "type": "single_choice",
+      "options": [
+        "Hàng ngày",
+        "Hàng tháng",
+        "Hàng tuần",
+        "Mỗi giờ"
+      ],
+      "answer": [
+        "Hàng ngày"
+      ],
+      "sourceNumber": 49,
+      "sourcePage": 25
+    },
+    {
+      "questionId": "cnpm-050",
+      "question": "Những kiến trúc, yêu cầu và thiết kế tốt nhất xuất hiện từ các nhóm tự tổ chức",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 50,
+      "sourcePage": 25
+    },
+    {
+      "questionId": "cnpm-051",
+      "question": "Trong Agile, trách nhiệm chính của người kiểm thử là gì?",
+      "type": "single_choice",
+      "options": [
+        "Tạo kịch bản thử nghiệm và trường hợp thử nghiệm",
+        "Tìm lỗi",
+        "Không có vai trò là Người kiểm thử",
+        "Tạo tập lệnh tự động hóa"
+      ],
+      "answer": [
+        "Không có vai trò là Người kiểm thử"
+      ],
+      "sourceNumber": 51,
+      "sourcePage": 27
+    },
+    {
+      "questionId": "cnpm-052",
+      "question": "Phát triển lặp đi lặp lại KHÔNG phải là một ý tưởng hay cho?",
+      "type": "single_choice",
+      "options": [
+        "Phát triển front-end",
+        "Phát triển phần mềm trung gian",
+        "Phát triển back-end",
+        "Phát triển phần mềm"
+      ],
+      "answer": [
+        "Phát triển front-end"
+      ],
+      "sourceNumber": 52,
+      "sourcePage": 27
+    },
+    {
+      "questionId": "cnpm-053",
+      "question": "Khái niệm chính đằng sau Agile là gì?",
+      "type": "single_choice",
+      "options": [
+        "Áp dụng theo lô lớn",
+        "Định hướng theo kế hoạch",
+        "Kiểm tra vào cuối",
+        "Định hướng giá trị và chất lượng"
+      ],
+      "answer": [
+        "Định hướng giá trị và chất lượng"
+      ],
+      "sourceNumber": 53,
+      "sourcePage": 28
+    },
+    {
+      "questionId": "cnpm-054",
+      "question": "Đâu KHÔNG phải là lợi thế của quản lý dự án theo Agile?",
+      "type": "single_choice",
+      "options": [
+        "Tính linh hoạt để thích ứng với những thay đổi",
+        "Tài liệu hạn chế",
+        "Giao tiếp và hợp tác rõ ràng",
+        "Tuân thủ nghiêm ngặt các mốc thời gian"
+      ],
+      "answer": [
+        "Tài liệu hạn chế"
+      ],
+      "sourceNumber": 54,
+      "sourcePage": 28
+    },
+    {
+      "questionId": "cnpm-055",
+      "question": "Mục tiêu của sprint/lặp trong Agile là gì?",
+      "type": "single_choice",
+      "options": [
+        "Tối đa hóa năng suất của nhóm",
+        "Cung cấp sản phẩm có khả dụng sớm",
+        "Hoàn thành mọi nhiệm vụ theo kế hoạch",
+        "Đáp ứng mọi thời hạn của dự án"
+      ],
+      "answer": [
+        "Cung cấp sản phẩm có khả dụng sớm"
+      ],
+      "sourceNumber": 55,
+      "sourcePage": 28
+    },
+    {
+      "questionId": "cnpm-056",
+      "question": "Scrum là một phương pháp phát triển phần mềm",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Sai"
+      ],
+      "sourceNumber": 56,
+      "sourcePage": 30
+    },
+    {
+      "questionId": "cnpm-057",
+      "question": "Khi nào một Sprint được coi là kết thúc?",
+      "type": "single_choice",
+      "options": [
+        "Khi thời gian hết hạn",
+        "Khi tất cả các nhiệm vụ được hoàn thành",
+        "Khi Product Owner cho biết nó đã hoàn thành",
+        "Khi tất cả các hạng mục Product Backlog được định nghĩa đã hoàn thành"
+      ],
+      "answer": [
+        "Khi thời gian hết hạn"
+      ],
+      "sourceNumber": 57,
+      "sourcePage": 30
+    },
+    {
+      "questionId": "cnpm-058",
+      "question": "Khung thời gian cho Daily Scrum là:",
+      "type": "single_choice",
+      "options": [
+        "1 giờ.",
+        "15 phút cho mỗi tuần trong sprint.",
+        "15 phút.",
+        "Hai phút mỗi người."
+      ],
+      "answer": [
+        "15 phút."
+      ],
+      "sourceNumber": 58,
+      "sourcePage": 31
+    },
+    {
+      "questionId": "cnpm-059",
+      "question": "Product Backlog là gì?",
+      "type": "single_choice",
+      "options": [
+        "Danh sách các chuyên gia scrum tiềm năng",
+        "Danh sách các ý tưởng tiếp thị",
+        "Danh sách các thành viên trong nhóm",
+        "Danh sách yêu cầu đối với sản phẩm"
+      ],
+      "answer": [
+        "Danh sách yêu cầu đối với sản phẩm"
+      ],
+      "sourceNumber": 59,
+      "sourcePage": 31
+    },
+    {
+      "questionId": "cnpm-060",
+      "question": "Điều nào sau đây mô tả đúng nhất về Scrum?",
+      "type": "single_choice",
+      "options": [
+        "Một tiêu chuẩn quản lý dự án thực tế và hiện đại",
+        "Một phương pháp phát triển phần mềm",
+        "Một framework để phát triển các sản phẩm phức tạp",
+        "Một tập hợp các phương pháp hay nhất cho dự án"
+      ],
+      "answer": [
+        "Một framework để phát triển các sản phẩm phức tạp"
+      ],
+      "sourceNumber": 60,
+      "sourcePage": 31
+    },
+    {
+      "questionId": "cnpm-063",
+      "question": "Định nghĩa nào mô tả đúng nhất về vòng đời phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Là một quá trình phân tích và thiết kế phần mềm",
+        "Là khoảng thời gian phần mềm được phát triển",
+        "Là khoảng thời gian phần mềm được vận hành và bảo trì",
+        "Là một giai đoạn bắt đầu từ ý tưởng ban đầu về sản phẩm phần mềm đến việc vận hành và bảo trì phần mềm và kết thúc nếu phần mềm không được hỗ trợ"
+      ],
+      "answer": [
+        "Là một giai đoạn bắt đầu từ ý tưởng ban đầu về sản phẩm phần mềm đến việc vận hành và bảo trì phần mềm và kết thúc nếu phần mềm không được hỗ trợ"
+      ],
+      "sourceNumber": 63,
+      "sourcePage": 34
+    },
+    {
+      "questionId": "cnpm-064",
+      "question": "Phát biểu nào sau đây đúng cho mô hình thác nước?",
+      "type": "single_choice",
+      "options": [
+        "Việc phát triển phần mềm được thực hiện tuần tự, kết quả của giai đoạn trước được sử dụng làm đầu vào cho giai đoạn tiếp theo và không thể quay lại các giai đoạn trước",
+        "Vòng đời phát triển liên quan đến khách hàng để cải thiện năng suất và giảm rủi ro thay đổi",
+        "Một ứng dụng được chia thành nhiều phần khác nhau, mỗi phần được phát triển độc lập với nhau, các bản phát hành của sản phẩm được tạo ra bởi sự tích hợp dần dần của các bộ phận này",
+        "Vòng đời phát triển là một chuỗi các giai đoạn tuyến tính , trong đó đầu ra của giai đoạn trước được sử dụng làm đầu vào của giai đoạn hiện tại và có thể quay lại các giai đoạn trước để sửa đổi hoặc sửa lỗi (nếu có)"
+      ],
+      "answer": [
+        "Việc phát triển phần mềm được thực hiện tuần tự, kết quả của giai đoạn trước được sử dụng làm đầu vào cho giai đoạn tiếp theo và không thể quay lại các giai đoạn trước"
+      ],
+      "sourceNumber": 64,
+      "sourcePage": 34
+    },
+    {
+      "questionId": "cnpm-065",
+      "question": "Phát biểu nào sau đây đúng về Scrum Master trong mô hình Agile Scrum khi phát triển phần mềm",
+      "type": "single_choice",
+      "options": [
+        "Là một thành viên của đội dự án, có am hiểu về quy trình Agile Scrum, đóng vai trò điều phối, tương tác với các thành viên khác để hoàn thành kế hoạch",
+        "Là QA Leader",
+        "Là người quản lý dự án (PM)",
+        "Là đại diện từ phía khách hàng"
+      ],
+      "answer": [
+        "Là một thành viên của đội dự án, có am hiểu về quy trình Agile Scrum, đóng vai trò điều phối, tương tác với các thành viên khác để hoàn thành kế hoạch"
+      ],
+      "sourceNumber": 65,
+      "sourcePage": 35
+    },
+    {
+      "questionId": "cnpm-066",
+      "question": "Product Backlog là gì?",
+      "type": "single_choice",
+      "options": [
+        "Danh sách đầy đủ các yêu cầu — bao gồm lỗi, yêu cầu nâng cao, cải tiến khả năng sử dụng và hiệu suất — hiện không có trong bản phát hành sản phẩm.",
+        "Biên bản của các cuộc họp đứng hàng ngày.",
+        "Danh sách các hạng mục tồn đọng được chỉ định cho một sprint, nhưng chưa hoàn thành",
+        "Biểu đồ được cập nhật mỗi ngày, cho thấy công việc còn lại trong sprint."
+      ],
+      "answer": [
+        "Danh sách đầy đủ các yêu cầu — bao gồm lỗi, yêu cầu nâng cao, cải tiến khả năng sử dụng và hiệu suất — hiện không có trong bản phát hành sản phẩm."
+      ],
+      "sourceNumber": 66,
+      "sourcePage": 35
+    },
+    {
+      "questionId": "cnpm-067",
+      "question": "Đâu là điểm nổi bật nhất của mô hình xoắn ốc?",
+      "type": "single_choice",
+      "options": [
+        "Hoạt động quản lý hiệu suất.",
+        "Hoạt động quản lý chất lượng.",
+        "Hoạt động phân tích rủi ro.",
+        "Hoạt động lập kế hoạch."
+      ],
+      "answer": [
+        "Hoạt động phân tích rủi ro."
+      ],
+      "sourceNumber": 67,
+      "sourcePage": 36
+    },
+    {
+      "questionId": "cnpm-068",
+      "question": "Mô hình phần mềm nào sau đây nên được lựa chọn nếu đội phát triển có ít kinh nghiệm về dự án tương tự?",
+      "type": "single_choice",
+      "options": [
+        "Waterfall",
+        "Spiral",
+        "Prototype",
+        "RAD"
+      ],
+      "answer": [
+        "Spiral"
+      ],
+      "sourceNumber": 68,
+      "sourcePage": 36
+    },
+    {
+      "questionId": "cnpm-069",
+      "question": "Hai mô hình phần mềm cho phép các yêu cầu phần mềm chưa cần xác định rõ ràng ở các giai đoạn sớm của dự án?",
+      "type": "single_choice",
+      "options": [
+        "Waterfall & Spiral",
+        "Spiral & Prototype",
+        "Incremental & Prototype",
+        "Waterfall & RAD"
+      ],
+      "answer": [
+        "Spiral & Prototype"
+      ],
+      "sourceNumber": 69,
+      "sourcePage": 36
+    },
+    {
+      "questionId": "cnpm-070",
+      "question": "Mô hình Tăng dần là kết quả của việc kết hợp các yếu tố của các mô hình nào sau đây?",
+      "type": "single_choice",
+      "options": [
+        "Linear & Iterative",
+        "Prototype & Iterative",
+        "Linear & Prototype",
+        "Linear & RAD"
+      ],
+      "answer": [
+        "Linear & Prototype"
+      ],
+      "sourceNumber": 70,
+      "sourcePage": 37
+    },
+    {
+      "questionId": "cnpm-071",
+      "question": "Lựa chọn nào chỉ ra ưu điểm quan trọng nhất của mô hình tăng dần?",
+      "type": "single_choice",
+      "options": [
+        "Khách hàng có thể phản hồi về từng phiên bản \"tăng dần”",
+        "Mô hình này thường được dùng khi muốn phát triển một sản phẩm nhanh chóng đẩy ra thị trường",
+        "Dễ dàng kiểm thử và sửa lỗi",
+        "Dễ dàng kiểm thử và sửa lỗi, nhanh chóng đẩy sản phẩm ra thị trường"
+      ],
+      "answer": [
+        "Dễ dàng kiểm thử và sửa lỗi, nhanh chóng đẩy sản phẩm ra thị trường"
+      ],
+      "sourceNumber": 71,
+      "sourcePage": 37
+    },
+    {
+      "questionId": "cnpm-072",
+      "question": "Mô hình xoáy ốc (Spiral) có hai chiều (dimensions) là .... và .....?",
+      "type": "single_choice",
+      "options": [
+        "đường chéo (diagonal) và góc (angular)",
+        "diagonal và perpendicular",
+        "radial và angular",
+        "tia xuất phát từ tâm (radial) và các đường vuông góc (perpendicular)"
+      ],
+      "answer": [
+        "radial và angular"
+      ],
+      "sourceNumber": 72,
+      "sourcePage": 37
+    },
+    {
+      "questionId": "cnpm-073",
+      "question": "Nhược điểm lớn nhất của mô hình xoắn ốc là gì?",
+      "type": "single_choice",
+      "options": [
+        "Tài liệu hoá mỗi giai đoạn và đảm bảo sự đồng thuận giữa các bên liên quan",
+        "Các chức năng mới có thể được thêm vào dự án ở các pha muộn",
+        "Làm việc không tốt lắm với các dự án vừa và nhỏ",
+        "Phân tích rủi ro quá nhiều mà đây là một hoạt động tương đối phức tạp"
+      ],
+      "answer": [
+        "Làm việc không tốt lắm với các dự án vừa và nhỏ"
+      ],
+      "sourceNumber": 73,
+      "sourcePage": 38
+    },
+    {
+      "questionId": "cnpm-074",
+      "question": "Định nghĩa về mô hình chế thử nhanh (rapid/throwable prototype).",
+      "type": "single_choice",
+      "options": [
+        "Mẫu chế thử đầu tiên được tạo ra cho khách hàng xem xét càng sớm càng tốt, sau đó các quyết định sẽ được đưa ra dựa trên phản hồi của khách hàng để tạo ra một giải pháp cuối cùng.",
+        "Mẫu chế thử đầu tiên được tạo ra, xem xét, cải tiến dựa trên phản hồi của khách hàng và quá trình cứ vậy tiếp diễn."
+      ],
+      "answer": [
+        "Mẫu chế thử đầu tiên được tạo ra cho khách hàng xem xét càng sớm càng tốt, sau đó các quyết định sẽ được đưa ra dựa trên phản hồi của khách hàng để tạo ra một giải pháp cuối cùng."
+      ],
+      "sourceNumber": 74,
+      "sourcePage": 38
+    },
+    {
+      "questionId": "cnpm-075",
+      "question": "Hình vẽ sau đây mô tả loại mô hình chế thử nào?",
+      "type": "single_choice",
+      "options": [
+        "Requirement Prototype",
+        "Incremental Prototype",
+        "Throwaway Prototype",
+        "Evolutionary Prototype"
+      ],
+      "answer": [
+        "Evolutionary Prototype"
+      ],
+      "sourceNumber": 75,
+      "sourcePage": 39
+    },
+    {
+      "questionId": "cnpm-076",
+      "question": "Hình vẽ sau mô tả loại mô hình chế thử nào?",
+      "type": "single_choice",
+      "options": [
+        "Incremental Prototype",
+        "Throwaway Prototype",
+        "Requirement Prototype",
+        "Evolutionary Prototype"
+      ],
+      "answer": [
+        "Throwaway Prototype"
+      ],
+      "sourceNumber": 76,
+      "sourcePage": 40
+    },
+    {
+      "questionId": "cnpm-077",
+      "question": "Thế nào là một mẫu thử?",
+      "type": "single_choice",
+      "options": [
+        "Một tác vụ trong dự án phải được hoàn thành trước khi tác vụ khác được bắt đầu",
+        "được coi là một phần giả lập của một phần mềm hoặc một giải pháp cho một vấn đề nào đó",
+        "Các tác vụ cần được hoàn thành đúng hạn",
+        "Là một phần mềm mới được tạo ra cho một mục đích đặc biệt nào đó"
+      ],
+      "answer": [
+        "được coi là một phần giả lập của một phần mềm hoặc một giải pháp cho một vấn đề nào đó"
+      ],
+      "sourceNumber": 77,
+      "sourcePage": 40
+    },
+    {
+      "questionId": "cnpm-078",
+      "question": "Mô hình nào dưới đây cho phép người dùng tham gia vào mọi pha trong quá trình phát triển phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Mô hình tăng dần (gia tăng)",
+        "Mô hình nguyên mẫu và mô hình gia tăng",
+        "Mô hình thác nước",
+        "Mô hình nguyên mẫu"
+      ],
+      "answer": [
+        "Mô hình nguyên mẫu"
+      ],
+      "sourceNumber": 78,
+      "sourcePage": 41
+    },
+    {
+      "questionId": "cnpm-079",
+      "question": "Mô hình tăng dần (incremental) khác với mô hình xoáy ốc (spiral) ở điểm nào?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn trên đều đúng",
+        "Thay đổi yêu cầu phần mềm có thể được thêm vào trong mô hình tăng dần",
+        "Khách hàng có thể nhìn thấy toàn bộ hệ thống từ các pha sớm trong mô hình tăng dần",
+        "Tiến độ dự án có thể ước tính được với mô hình tăng dần"
+      ],
+      "answer": [
+        "Tiến độ dự án có thể ước tính được với mô hình tăng dần"
+      ],
+      "sourceNumber": 79,
+      "sourcePage": 41
+    },
+    {
+      "questionId": "cnpm-080",
+      "question": "Mô hình xoắn ốc có sự tham gia của khách hàng trong tất cả các pha của dự án.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 80,
+      "sourcePage": 41
+    },
+    {
+      "questionId": "cnpm-081",
+      "question": "Mô tả nào sau đây không thể hiện tính thời hạn của dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Dự án kết thúc do các vấn đề pháp lý.",
+        "Dự án có thời điểm bắt đầu, thời điểm kết thúc rõ ràng.",
+        "Cơ quan chủ quản không muốn kết thúc dự án.",
+        "Dự án kết thúc khi đã đạt mục tiêu đề ra."
+      ],
+      "answer": [
+        "Cơ quan chủ quản không muốn kết thúc dự án."
+      ],
+      "sourceNumber": 81,
+      "sourcePage": 43
+    },
+    {
+      "questionId": "cnpm-082",
+      "question": "Dự án nào sau đây không phải dự án phần mềm ?",
+      "type": "single_choice",
+      "options": [
+        "Dự án xây dựng một phần mềm mới.",
+        "Dự án chuyển đổi nhà cung cấp dịch vụ công nghệ thông tin.",
+        "Dự án tích hợp một tập hợp các thành phần phần mềm hiện có.",
+        "Dự án chỉnh sửa một phần mềm có sẵn."
+      ],
+      "answer": [
+        "Dự án chuyển đổi nhà cung cấp dịch vụ công nghệ thông tin."
+      ],
+      "sourceNumber": 82,
+      "sourcePage": 43
+    },
+    {
+      "questionId": "cnpm-083",
+      "question": "Xét dự án phần mềm A. Dự án này bị chậm tiến độ 10 tháng, chi phí tăng gấp rưỡi so với dự kiến. Nhưng sản phẩm của dự án được khách hàng sử dụng liên tục trong vòng 15 năm vì nó rất hữu ích cho công việc của họ. Mức độ thành công của dự án này là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Thành công trong quản lý dự án",
+        "Thành công trong dự án",
+        "Thành công trong nghiệp vụ",
+        "Tiềm năng cho tương lai"
+      ],
+      "answer": [
+        "Thành công trong dự án"
+      ],
+      "sourceNumber": 83,
+      "sourcePage": 44
+    },
+    {
+      "questionId": "cnpm-084",
+      "question": "Thành phần nào sau đây không thuộc 4 thành phần của quản lý dự án (4Ps of project management) ?",
+      "type": "single_choice",
+      "options": [
+        "Quy trình (Process)",
+        "Con người (People)",
+        "Sản phẩm (Product)",
+        "Hồ sơ (Porfolio)"
+      ],
+      "answer": [
+        "Hồ sơ (Porfolio)"
+      ],
+      "sourceNumber": 84,
+      "sourcePage": 44
+    },
+    {
+      "questionId": "cnpm-085",
+      "question": "Ai không phải là thành viên của một đội phát triển dự án phần mềm ?",
+      "type": "single_choice",
+      "options": [
+        "Kiến trúc sư phần mềm (Software architect)",
+        "Kỹ sư phát triển / triển khai (DevOps Engineer)",
+        "Người dùng cuối (End user)",
+        "Người phân tích nghiệp vụ (Business analyst)"
+      ],
+      "answer": [
+        "Người dùng cuối (End user)"
+      ],
+      "sourceNumber": 85,
+      "sourcePage": 44
+    },
+    {
+      "questionId": "cnpm-087",
+      "question": "Mô tả nào sau đây không thể hiện các đầu vào đặc trưng của dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Các yêu cầu, chỉ dẫn thực hiện",
+        "Tiền bạc, thời gian, công nghệ",
+        "Con người, thiết bị, máy móc",
+        "Sản phẩm giao nộp"
+      ],
+      "answer": [
+        "Sản phẩm giao nộp"
+      ],
+      "sourceNumber": 87,
+      "sourcePage": 46
+    },
+    {
+      "questionId": "cnpm-088",
+      "question": "Nhóm quy trình nào sau đây không phải là nhóm quy trình quản lý dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Nhóm quy trình giám sát và kiểm soát",
+        "Nhóm quy trình tổ chức",
+        "Nhóm quy trình khởi tạo",
+        "Nhóm quy trình lập kế hoạch"
+      ],
+      "answer": [
+        "Nhóm quy trình tổ chức"
+      ],
+      "sourceNumber": 88,
+      "sourcePage": 47
+    },
+    {
+      "questionId": "cnpm-089",
+      "question": "Mô tả nào sau đây không phải là một phân mục kiến thức về quản lý dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Quản lý phạm vi",
+        "Quản lý nguồn lực",
+        "Quản lý rủi ro",
+        "Quản lý chiến lược"
+      ],
+      "answer": [
+        "Quản lý chiến lược"
+      ],
+      "sourceNumber": 89,
+      "sourcePage": 47
+    },
+    {
+      "questionId": "cnpm-090",
+      "question": "Thông tin về các công việc / hoạt động cần thực hiện trong khuôn khổ dự án là đầu ra của nhóm quy trình quản lý dự án nào ?",
+      "type": "single_choice",
+      "options": [
+        "Nhóm quy trình thực thi",
+        "Nhóm quy trình lập kế hoạch",
+        "Nhóm quy trình khởi tạo",
+        "Nhóm quy trình giám sát và kiểm soát"
+      ],
+      "answer": [
+        "Nhóm quy trình lập kế hoạch"
+      ],
+      "sourceNumber": 90,
+      "sourcePage": 47
+    },
+    {
+      "questionId": "cnpm-091",
+      "question": "Hoạt động nào sau đây không thuộc về kế hoạch quản lý thời gian ?",
+      "type": "single_choice",
+      "options": [
+        "Xâu chuỗi các hoạt động",
+        "Xác định các hoạt động",
+        "Lập lịch thực hiện các hoạt động",
+        "Ước tính chi phí của từng hoạt động"
+      ],
+      "answer": [
+        "Ước tính chi phí của từng hoạt động"
+      ],
+      "sourceNumber": 91,
+      "sourcePage": 49
+    },
+    {
+      "questionId": "cnpm-092",
+      "question": "Mô tả nào sau đây đúng về phạm vi sản phẩm và phạm vi dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Phạm vi sản phẩm trả lời câu hỏi: cần làm gì. Phạm vi dự án trả lời câu hỏi: làm như thế nào.",
+        "Phạm vi sản phẩm trả lời câu hỏi: cần làm gì. Phạm vi dự án trả lời câu hỏi: cần tạo ra cái gì.",
+        "Phạm vi sản phẩm trả lời câu hỏi: cần tạo ra cái gì. Phạm vi dự án trả lời câu hỏi: làm như thế nào.",
+        "Phạm vi sản phẩm trả lời câu hỏi: cần tạo ra cái gì. Phạm vi dự án trả lời câu hỏi: cần làm gì."
+      ],
+      "answer": [
+        "Phạm vi sản phẩm trả lời câu hỏi: cần tạo ra cái gì. Phạm vi dự án trả lời câu hỏi: cần làm gì."
+      ],
+      "sourceNumber": 92,
+      "sourcePage": 49
+    },
+    {
+      "questionId": "cnpm-093",
+      "question": "Phần tử ở mức thấp nhất trong cấu trúc phân cấp công việc được gọi là gì ?",
+      "type": "single_choice",
+      "options": [
+        "Công việc",
+        "Hoạt động",
+        "Sản phẩm bàn giao",
+        "Gói công việc"
+      ],
+      "answer": [
+        "Gói công việc"
+      ],
+      "sourceNumber": 93,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "cnpm-094",
+      "question": "Phát biểu nào sau đây là đúng về đường găng (critical path)?",
+      "type": "single_choice",
+      "options": [
+        "Các hoạt động trên đường găng không có quan hệ phụ thuộc về thứ tự thực hiện",
+        "Các hoạt động trên đường găng có thể thực hiện song song",
+        "Các hoạt động trên đường găng được phép trễ hạn",
+        "Các hoạt động trên đường găng không được phép trễ hạn"
+      ],
+      "answer": [
+        "Các hoạt động trên đường găng không được phép trễ hạn"
+      ],
+      "sourceNumber": 94,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "cnpm-095",
+      "question": "Đâu không phải là một mục tiêu ước lượng dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Số lượng lỗi",
+        "Thời gian",
+        "Số ngày công",
+        "Chi phí"
+      ],
+      "answer": [
+        "Số lượng lỗi"
+      ],
+      "sourceNumber": 95,
+      "sourcePage": 50
+    },
+    {
+      "questionId": "cnpm-096",
+      "question": "Đâu không phải là một rủi ro kỹ thuật của dự án phần mềm ?",
+      "type": "single_choice",
+      "options": [
+        "Lựa chọn nền tảng phát triển, ngôn ngữ hoặc công cụ mới trong khi số lượng nhân sự hạn chế và thiếu kinh nghiệm",
+        "Mã nguồn chất lượng kém dẫn đến phần mềm không đáp ứng được yêu cầu về hiệu suất",
+        "Lịch trình cơ sở không nhất quán với tốc độ thực hiện dự án thực tế",
+        "Các module phần mềm được tích hợp trễ, dẫn tới việc kiểm thử trễ, khi phát hiện lỗi không có đủ thời gian sửa chữa"
+      ],
+      "answer": [
+        "Lịch trình cơ sở không nhất quán với tốc độ thực hiện dự án thực tế"
+      ],
+      "sourceNumber": 96,
+      "sourcePage": 52
+    },
+    {
+      "questionId": "cnpm-097",
+      "question": "Một quá trình liên quan đến việc ưu tiên các rủi ro để có hành động hoặc phân tích tiếp theo bằng cách đánh giá tác động và xác suất xảy ra được gọi là?",
+      "type": "single_choice",
+      "options": [
+        "Xác định rủi ro",
+        "Đáp trả rủi ro",
+        "Phân tích rủi ro định lượng",
+        "Phân tích rủi ro định tính"
+      ],
+      "answer": [
+        "Phân tích rủi ro định tính"
+      ],
+      "sourceNumber": 97,
+      "sourcePage": 52
+    },
+    {
+      "questionId": "cnpm-098",
+      "question": "Đâu không phải một kiểu ứng phó rủi ro ?",
+      "type": "single_choice",
+      "options": [
+        "Tránh (Avoid)",
+        "Giảm thiểu (Mitigate)",
+        "Chuyển (Transfer)",
+        "Bỏ qua (Skip)"
+      ],
+      "answer": [
+        "Bỏ qua (Skip)"
+      ],
+      "sourceNumber": 98,
+      "sourcePage": 53
+    },
+    {
+      "questionId": "cnpm-099",
+      "question": "Mức độ rủi ro tổng cộng (risk exposure) được tính toán dựa trên ?",
+      "type": "single_choice",
+      "options": [
+        "Xác suất xảy ra rủi ro và mức độ tác động của rủi ro",
+        "Mức độ tác động và thời điểm xảy ra rủi ro",
+        "Mức độ tác động và phân loại rủi ro",
+        "Xác suất xảy ra rủi ro và phân loại rủi ro"
+      ],
+      "answer": [
+        "Xác suất xảy ra rủi ro và mức độ tác động của rủi ro"
+      ],
+      "sourceNumber": 99,
+      "sourcePage": 53
+    },
+    {
+      "questionId": "cnpm-100",
+      "question": "Câu hỏi nào sau đây không cho phép xác định rủi ro về khách hàng / bên liên quan?",
+      "type": "single_choice",
+      "options": [
+        "Dự án có sử dụng các công nghệ mới không?",
+        "Khách hàng có được tham gia hoàn toàn trong việc định ra các yêu cầu hay không?",
+        "Người quản lý phần mềm và khách hàng cấp cao có chính thức cam kết hỗ trợ dự án hay không?",
+        "Người dùng cuối có những mong muốn mang tính thực tế hay không?"
+      ],
+      "answer": [
+        "Dự án có sử dụng các công nghệ mới không?"
+      ],
+      "sourceNumber": 100,
+      "sourcePage": 53
+    },
+    {
+      "questionId": "cnpm-109",
+      "question": "Chỉ đạo và quản lý các công việc của dự án là quy trình thuộc nhóm nào ?",
+      "type": "single_choice",
+      "options": [
+        "Nhóm quy trình thực thi",
+        "Nhóm quy trình giám sát và kiểm soát",
+        "Nhóm quy trình lập kế hoạch",
+        "Nhóm quy trình khởi tạo"
+      ],
+      "answer": [
+        "Nhóm quy trình thực thi"
+      ],
+      "sourceNumber": 109,
+      "sourcePage": 58
+    },
+    {
+      "questionId": "cnpm-121",
+      "question": "Những thay đổi của phần mềm có thể là?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các phương án còn lại",
+        "Thay đổi yêu cầu nghiệp vụ",
+        "Thay đổi trong nhóm phát triển",
+        "Thay đổi yêu cầu người dùng"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 121,
+      "sourcePage": 63
+    },
+    {
+      "questionId": "cnpm-122",
+      "question": "Lựa chọn nào phù hợp cho mô tả về ”gồm các nguyên tắc và kỹ thuật đánh giá và kiểm soát sự thay đổi đối với các sản phẩm phần mềm trong và sau quá trình kỹ thuật phần mềm”?",
+      "type": "single_choice",
+      "options": [
+        "Quản lý rủi ro dự án phần mềm",
+        "Quản lý cấu hình phần mềm",
+        "Lập kế hoạch dự án phần mềm",
+        "Quản lý nhà thầu phụ"
+      ],
+      "answer": [
+        "Quản lý cấu hình phần mềm"
+      ],
+      "sourceNumber": 122,
+      "sourcePage": 63
+    },
+    {
+      "questionId": "cnpm-123",
+      "question": "Mô tả nào sau đây không thể hiện sự tiến hóa của phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Nhiều yếu tố khác nhau được tạo ra trong suốt thời gian của dự án",
+        "Các sản phẩm được tạo ra trong quá trình phát triển phần mềm chỉ có một phiên bản duy nhất",
+        "Các thành viên của nhóm dự án làm việc đồng thời trên phần mềm đang thay đổi",
+        "Phần mềm có thể thay đổi liên tục"
+      ],
+      "answer": [
+        "Các sản phẩm được tạo ra trong quá trình phát triển phần mềm chỉ có một phiên bản duy nhất"
+      ],
+      "sourceNumber": 123,
+      "sourcePage": 64
+    },
+    {
+      "questionId": "cnpm-124",
+      "question": "Thay đổi của phần mềm có thể ảnh hưởng đến các sản phẩm nào?",
+      "type": "single_choice",
+      "options": [
+        "Các tài liệu trong quá trình phát triển phần mềm",
+        "Kế hoạch dự án",
+        "Mã nguồn phần mềm",
+        "Tất cả các phương án còn lại"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 124,
+      "sourcePage": 64
+    },
+    {
+      "questionId": "cnpm-125",
+      "question": "Lựa chọn nào có thể được chỉ định để quản lý cấu hình trong quy trình quản lý cấu hình?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các phương án còn lại",
+        "Design specification, Activity diagrams",
+        "Project plan, Requirement specification, Class diagrams",
+        "Source Code, Test Plan, Test Script, Test results"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 125,
+      "sourcePage": 64
+    },
+    {
+      "questionId": "cnpm-126",
+      "question": "Kiểm soát thay đổi (Change control) có thể được kích hoạt bởi?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn còn lại đều đúng",
+        "Phát hiện sự không nhất quán trong quá trình phát triển",
+        "Các thay đổi yêu cầu của khách hàng",
+        "Các lỗi được tìm thấy trong quá trình kiểm thử"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại đều đúng"
+      ],
+      "sourceNumber": 126,
+      "sourcePage": 66
+    },
+    {
+      "questionId": "cnpm-127",
+      "question": "Phương án nào phù hợp với mô tả về hoạt động đánh giá cấu hình phần mềm bổ sung cho việc xét duyệt kỹ thuật và đảm bảo rằng thay đổi đã được thực hiện đúng cách?",
+      "type": "single_choice",
+      "options": [
+        "Kiểm soát thay đổi (Change control)",
+        "Báo cáo trạng thái cấu hình (Configuration status reporting)",
+        "Nhận dạng mục cấu hình (Configuration item identification)",
+        "Kiểm toán cấu hình (Configuration audit)"
+      ],
+      "answer": [
+        "Kiểm toán cấu hình (Configuration audit)"
+      ],
+      "sourceNumber": 127,
+      "sourcePage": 66
+    },
+    {
+      "questionId": "cnpm-128",
+      "question": "Vai trò chịu trách nhiệm xác định các mục cấu hình và xác định các thủ tục để tạo các sự tăng trưởng và các bản phát hành?",
+      "type": "single_choice",
+      "options": [
+        "Người quản lý cấu hình",
+        "Ban kiểm soát thay đổi",
+        "Lập trình viên",
+        "Tất cả các phương án còn lại"
+      ],
+      "answer": [
+        "Người quản lý cấu hình"
+      ],
+      "sourceNumber": 128,
+      "sourcePage": 67
+    },
+    {
+      "questionId": "cnpm-129",
+      "question": "Lựa chọn nào đảm bảo rằng sự phát triển của hệ thống là một quá trình được quản lý và ưu tiên dành cho những thay đổi cấp bách nhất và tiết kiệm chi phí?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn còn lại đều không đúng",
+        "Kiểm soát thay đổi (Change control)",
+        "Kiểm toán cấu hình (Configuration audit)",
+        "Kiểm soát phiên bản (Version control)"
+      ],
+      "answer": [
+        "Kiểm soát thay đổi (Change control)"
+      ],
+      "sourceNumber": 129,
+      "sourcePage": 67
+    },
+    {
+      "questionId": "cnpm-130",
+      "question": "Nhận dạng mục cấu hình là một phần thiết yếu của quản lý cấu hình phần mềm. Mô tả nào phù hợp về nhận dạng mục cấu hình?",
+      "type": "single_choice",
+      "options": [
+        "Cung cấp thông tin lịch sử về nỗ lực phát triển và bảo trì trong suốt vòng đời của sản phẩm",
+        "Đảm bảo rằng tại một thời điểm chỉ có một người đang trong quá trình tạo phiên bản mới cho một nhánh (branch) cụ thể",
+        "Phát hiện sự không nhất quán trong quá trình phát triển",
+        "Mục cấu hình có một tập hợp các đặc trưng riêng biệt giúp xác định nó một cách duy nhất"
+      ],
+      "answer": [
+        "Mục cấu hình có một tập hợp các đặc trưng riêng biệt giúp xác định nó một cách duy nhất"
+      ],
+      "sourceNumber": 130,
+      "sourcePage": 68
+    },
+    {
+      "questionId": "cnpm-131",
+      "question": "Trong các hệ thống quản lý phiên bản, lựa chọn nào mô tả phù hợp cho thao tác check-in?",
+      "type": "single_choice",
+      "options": [
+        "Các lựa chọn còn lại đều không đúng",
+        "Nhà phát triển sao chép những thành phần cần sử dụng hoặc sửa đổi từ kho lưu trữ vào không gian làm việc riêng",
+        "Nhà phát triển hoàn thành các thay đổi của mình trên không gian làm việc riêng, các thành phần đã thay đổi sẽ được trả lại vào kho lưu trữ",
+        "Hợp nhất các nhánh phiên bản để tạo phiên bản mới của thành phần bao gồm tất cả các thay đổi đã được thực hiện"
+      ],
+      "answer": [
+        "Nhà phát triển hoàn thành các thay đổi của mình trên không gian làm việc riêng, các thành phần đã thay đổi sẽ được trả lại vào kho lưu trữ"
+      ],
+      "sourceNumber": 131,
+      "sourcePage": 69
+    },
+    {
+      "questionId": "cnpm-132",
+      "question": "Trong hệ thống quản lý phiên bản, các hoạt động phân nhánh và hợp nhất phiên bản (version branching and merging) được thể hiện bằng cấu trúc được gọi là?",
+      "type": "single_choice",
+      "options": [
+        "Các lựa chọn còn lại đều không đúng",
+        "Version Graph",
+        "Structure Chart",
+        "History Tree"
+      ],
+      "answer": [
+        "Version Graph"
+      ],
+      "sourceNumber": 132,
+      "sourcePage": 69
+    },
+    {
+      "questionId": "cnpm-133",
+      "question": "Phân nhánh phiên bản (version branching) được sử dụng cho?",
+      "type": "single_choice",
+      "options": [
+        "Phát triển thử nghiệm tính năng mới của phần mềm",
+        "Đường phát triển độc lập của các lập trình viên",
+        "Tất cả các lựa chọn còn lại đều đúng",
+        "Thay đổi đồng thời trên các thành phần mã nguồn"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại đều đúng"
+      ],
+      "sourceNumber": 133,
+      "sourcePage": 70
+    },
+    {
+      "questionId": "cnpm-134",
+      "question": "Phát biểu nào sau đây là không chính xác?",
+      "type": "single_choice",
+      "options": [
+        "Duy trì một hệ thống tệp (file system) dưới dạng vùng làm việc sẽ tiết kiệm không gian hơn so với sử dụng không gian làm việc (workspace)",
+        "Một không gian làm việc (workspace) có thể bắt nguồn từ một kho lưu trữ (repository)",
+        "Một không gian làm việc (workspace) có thể bắt nguồn từ cấu hình được bảo tồn của một không gian làm việc khác",
+        "Kho lưu trữ dự án (repository) duy trì phiên bản ”chính” của tất cả các thành phần phần mềm"
+      ],
+      "answer": [
+        "Duy trì một hệ thống tệp (file system) dưới dạng vùng làm việc sẽ tiết kiệm không gian hơn so với sử dụng không gian làm việc (workspace)"
+      ],
+      "sourceNumber": 134,
+      "sourcePage": 70
+    },
+    {
+      "questionId": "cnpm-135",
+      "question": "Trong quá trình làm việc với công cụ quản lý phiên bản, chuỗi hoạt động nào là phù hợp để chỉnh sửa tệp mã nguồn hiện có?",
+      "type": "single_choice",
+      "options": [
+        "Check-in, thực hiện sửa đổi tệp mã nguồn ở phía máy chủ và check-out",
+        "Check-out, sửa đổi bản sao của tệp mã nguồn trên máy cục bộ và check-in",
+        "Check-out, thực hiện sửa đổi tệp mã nguồn ở phía máy chủ và check-in",
+        "Check-in, sửa đổi bản sao của tệp mã nguồn trên máy cục bộ và check-out"
+      ],
+      "answer": [
+        "Check-out, sửa đổi bản sao của tệp mã nguồn trên máy cục bộ và check-in"
+      ],
+      "sourceNumber": 135,
+      "sourcePage": 70
+    },
+    {
+      "questionId": "cnpm-136",
+      "question": "Một chức năng phần mềm đã được lập trình viên xây dựng không chính xác. Tính năng nào của công cụ quản lý phiên bản có thể được sử dụng để theo vết người lập trình và phiên bản được phát triển?",
+      "type": "single_choice",
+      "options": [
+        "Merging",
+        "History log",
+        "Branching",
+        "Tất cả các phương án còn lại"
+      ],
+      "answer": [
+        "History log"
+      ],
+      "sourceNumber": 136,
+      "sourcePage": 72
+    },
+    {
+      "questionId": "cnpm-137",
+      "question": "Cơ chế làm việc của hệ thống quản lý phiên bản Git?",
+      "type": "single_choice",
+      "options": [
+        "Git lưu trữ dữ liệu như một luồng các ảnh chụp nhanh (stream of snapshots) trạng thái của dự án theo thời gian",
+        "Git không lưu trữ những thay đổi được thực hiện đối với từng tệp theo thời gian mà ghi đè dữ liệu lên tệp cũ",
+        "Tất cả các phương án còn lại đều không đúng",
+        "Git lưu trữ dữ liệu dưới dạng một tập hợp các tệp và những thay đổi được thực hiện đối với từng tệp theo thời gian"
+      ],
+      "answer": [
+        "Git lưu trữ dữ liệu như một luồng các ảnh chụp nhanh (stream of snapshots) trạng thái của dự án theo thời gian"
+      ],
+      "sourceNumber": 137,
+      "sourcePage": 72
+    },
+    {
+      "questionId": "cnpm-138",
+      "question": "Git là gì?",
+      "type": "single_choice",
+      "options": [
+        "Một nền tảng kho lưu trữ (repository) từ xa",
+        "Tên gọi tắt của GitHub",
+        "Một ngôn ngữ lập trình",
+        "Một hệ thống kiểm soát phiên bản"
+      ],
+      "answer": [
+        "Một hệ thống kiểm soát phiên bản"
+      ],
+      "sourceNumber": 138,
+      "sourcePage": 73
+    },
+    {
+      "questionId": "cnpm-139",
+      "question": "Điều nào sau đây cần được xem xét khi lựa chọn công cụ quản lý cấu hình phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Yêu cầu phần cứng",
+        "Hỗ trợ hệ điều hành",
+        "Môi trường phát triển",
+        "Tất cả các phương án còn lại"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 139,
+      "sourcePage": 73
+    },
+    {
+      "questionId": "cnpm-140",
+      "question": "Lựa chọn nào phù hợp với mô tả về vùng tổ chức hay khu vực trung gian (staging area) trong hệ thống quản lý phiên bản Git?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các phương án còn lại đều đúng",
+        "Khu vực các nhà phát triển làm việc trực tiếp để thay đổi, cập nhật tệp tin",
+        "Khu vực này là nơi Git lưu trữ siêu dữ liệu và cơ sở dữ liệu đối tượng cho dự án. Đây là thứ được sao chép khi thực hiện lệnh clone kho lưu trữ từ máy tính khác hoặc kho lưu trữ từ xa trên đám mây",
+        "Khu vực sẽ lưu trữ những thay đổi trên tập tin để nó có thể được commit"
+      ],
+      "answer": [
+        "Khu vực sẽ lưu trữ những thay đổi trên tập tin để nó có thể được commit"
+      ],
+      "sourceNumber": 140,
+      "sourcePage": 73
+    },
+    {
+      "questionId": "cnpm-141",
+      "question": "Thuật ngữ nào sau đây phù hợp nhất với phát biểu ”Sự kết hợp các nhánh phiên bản để tạo phiên bản mới của thành phần bao gồm tất cả các thay đổi đã được thực hiện”?",
+      "type": "single_choice",
+      "options": [
+        "Baseline",
+        "Branching",
+        "Codeline",
+        "Merging"
+      ],
+      "answer": [
+        "Merging"
+      ],
+      "sourceNumber": 141,
+      "sourcePage": 75
+    },
+    {
+      "questionId": "cnpm-142",
+      "question": "Hệ thống quản lý phiên bản như hình minh họa được gọi là?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn còn lại đều không đúng",
+        "Hệ thống quản lý phiên bản tập trung",
+        "Hệ thống quản lý phiên bản phân tán",
+        "Hệ thống chia sẻ tệp tin"
+      ],
+      "answer": [
+        "Hệ thống quản lý phiên bản tập trung"
+      ],
+      "sourceNumber": 142,
+      "sourcePage": 76
+    },
+    {
+      "questionId": "cnpm-143",
+      "question": "Quản lý cấu hình hỗ trợ kiểm soát thay đổi bằng cách?",
+      "type": "single_choice",
+      "options": [
+        "Xác định xu hướng và nguyên nhân gốc rễ",
+        "Đánh giá tác động của lỗi dịch vụ và tìm kiếm nguyên nhân liên quan",
+        "Ánh xạ cơ sở hạ tầng tới các ứng dụng và quy trình kinh doanh",
+        "Đánh giá chi phí và tác động liên quan đến sự thay đổi"
+      ],
+      "answer": [
+        "Đánh giá chi phí và tác động liên quan đến sự thay đổi"
+      ],
+      "sourceNumber": 143,
+      "sourcePage": 76
+    },
+    {
+      "questionId": "cnpm-144",
+      "question": "Trong khóa học này, thuật ngữ SCM là viết tắt cho?",
+      "type": "single_choice",
+      "options": [
+        "Software Configuration Management",
+        "Supply Chain Management",
+        "System Crossover Management",
+        "Software Change Management"
+      ],
+      "answer": [
+        "Software Configuration Management"
+      ],
+      "sourceNumber": 144,
+      "sourcePage": 77
+    },
+    {
+      "questionId": "cnpm-145",
+      "question": "Phương án nào có thể được xác định là mục cấu hình phần mềm (Software Configuration Item)?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các phương án còn lại",
+        "Tài liệu đặc tả yêu cầu phần mềm",
+        "Trình điều khiển cho các trường hợp kiểm thử",
+        "Tài liệu thiết kế phần mềm, tài liệu hướng dẫn sử dụng"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 145,
+      "sourcePage": 77
+    },
+    {
+      "questionId": "cnpm-146",
+      "question": "Câu lệnh trong Git để đặt email người dùng cho kho lưu trữ hiện tại là gì?",
+      "type": "single_choice",
+      "options": [
+        "git config email",
+        "git email.user",
+        "git config user.email",
+        "git email"
+      ],
+      "answer": [
+        "git config user.email"
+      ],
+      "sourceNumber": 146,
+      "sourcePage": 77
+    },
+    {
+      "questionId": "cnpm-147",
+      "question": "Nhiệm vụ nào sau đây không phải là một phần của quản lý cấu hình phần mềm (SCM)?",
+      "type": "single_choice",
+      "options": [
+        "Project planning",
+        "Version control",
+        "Change control",
+        "Configuration status reporting"
+      ],
+      "answer": [
+        "Project planning"
+      ],
+      "sourceNumber": 147,
+      "sourcePage": 78
+    },
+    {
+      "questionId": "cnpm-148",
+      "question": "Phần mềm hiện tại đang phát hành phiên bản 2.0.0. Nhà phát triển đã thực hiện sửa một lỗi (bug) nhỏ trong mã nguồn nhằm khắc phục việc hiển thị không chính xác của một nút bấm trên giao diện. Định danh phiên bản nào phù hợp để gán cho phần mềm sau thao tác sửa lỗi này?",
+      "type": "single_choice",
+      "options": [
+        "2.1.0",
+        "2.0.1",
+        "3.0.0",
+        "1.2.1"
+      ],
+      "answer": [
+        "2.0.1"
+      ],
+      "sourceNumber": 148,
+      "sourcePage": 78
+    },
+    {
+      "questionId": "cnpm-149",
+      "question": "Mô tả phù hợp cho việc tìm kiếm các mục cấu hình phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Xác định một lược đồ đặt tên thực thể để định danh cho các mục cấu hình phần mềm",
+        "Các mục cấu hình phần mềm chỉ bao gồm các thông số phần cứng và cấu hình mạng cần thiết để triển khai vận hành phần mềm",
+        "Các mục cấu hình phần mềm chỉ bao gồm các tệp tin mã nguồn của phần mềm",
+        "Tất cả mọi thực thể (các tệp tin, tài liệu,...) trong dự án đều cần được định cấu hình"
+      ],
+      "answer": [
+        "Xác định một lược đồ đặt tên thực thể để định danh cho các mục cấu hình phần mềm"
+      ],
+      "sourceNumber": 149,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "cnpm-150",
+      "question": "Quản lý cấu hình phần mềm (SCM) nằm trong các hoạt động bao trùm (umbrella activities)?",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 150,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "cnpm-151",
+      "question": "Câu lệnh để thu được thông tin phiên bản Git đã cài đặt là gì?",
+      "type": "single_choice",
+      "options": [
+        "gitVersion",
+        "git help version",
+        "git –version",
+        "getGitVersion"
+      ],
+      "answer": [
+        "git –version"
+      ],
+      "sourceNumber": 151,
+      "sourcePage": 79
+    },
+    {
+      "questionId": "cnpm-152",
+      "question": "Mô tả nào thể hiện sự cần thiết của quản lý cấu hình phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Quản lý cấu hình phần mềm cho phép các nhà phát triển theo dõi các thay đổi và khôi phục bất kỳ thay đổi nào khi gặp sự cố",
+        "Quản lý cấu hình phần mềm yêu cầu các vai trò mới trong quy trình quản lý dự án",
+        "Quản lý cấu hình phần mềm truyền bá các thay đổi trong các phiên bản chỉ dành cho người quản lý dự án",
+        "Các hoạt động trong quản lý cấu hình phần mềm làm cho quy trình phát triển phần mềm phức tạp hơn"
+      ],
+      "answer": [
+        "Quản lý cấu hình phần mềm cho phép các nhà phát triển theo dõi các thay đổi và khôi phục bất kỳ thay đổi nào khi gặp sự cố"
+      ],
+      "sourceNumber": 152,
+      "sourcePage": 80
+    },
+    {
+      "questionId": "cnpm-153",
+      "question": "Khi một sản phẩm của quá trình phát triển phần mềm được xét duyệt chính thức trở thành baseline thì nó sẽ không được thay đổi tiếp sau đó?",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Sai"
+      ],
+      "sourceNumber": 153,
+      "sourcePage": 80
+    },
+    {
+      "questionId": "cnpm-154",
+      "question": "Phát triển phiên bản 1.2 của thực thể obj thành các phiên bản 1.3 và 2.0 như hình minh họa trong hệ thống quản lý phiên bản được gọi là?",
+      "type": "single_choice",
+      "options": [
+        "Check-in",
+        "Branching",
+        "Check-out",
+        "Merging"
+      ],
+      "answer": [
+        "Branching"
+      ],
+      "sourceNumber": 154,
+      "sourcePage": 81
+    },
+    {
+      "questionId": "cnpm-155",
+      "question": "Các từ khóa có thể điền vào vị trí A, B theo thứ tự trong hình minh họa các thao tác của hệ thống quản lý phiên bản?",
+      "type": "single_choice",
+      "options": [
+        "get, set",
+        "copy, paste",
+        "check-in, check-out",
+        "check-out, check-in"
+      ],
+      "answer": [
+        "check-out, check-in"
+      ],
+      "sourceNumber": 155,
+      "sourcePage": 81
+    },
+    {
+      "questionId": "cnpm-156",
+      "question": "Trong hệ thống quản lý phiên bản Git, mô tả nào phù hợp cho trạng thái Staged của tệp tin?",
+      "type": "single_choice",
+      "options": [
+        "Đánh dấu tệp tin đã được chỉnh sửa trong phiên bản hiện tại để đưa vào snapshot lần commit tiếp theo",
+        "Tệp tin chưa được theo dõi phiên bản",
+        "Dữ liệu (các thay đổi) đã được lưu trữ an toàn trong kho lưu trữ cục bộ",
+        "Tất cả các lựa chọn còn lại đều không đúng"
+      ],
+      "answer": [
+        "Đánh dấu tệp tin đã được chỉnh sửa trong phiên bản hiện tại để đưa vào snapshot lần commit tiếp theo"
+      ],
+      "sourceNumber": 156,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "cnpm-157",
+      "question": "Câu lệnh để lấy trạng thái hiện tại của kho lưu trữ trong Git là gì?",
+      "type": "single_choice",
+      "options": [
+        "–status git",
+        "git config –status",
+        "git status",
+        "git getStatus"
+      ],
+      "answer": [
+        "git status"
+      ],
+      "sourceNumber": 157,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "cnpm-158",
+      "question": "Đặc trưng của hệ thống kiểm soát phiên bản?",
+      "type": "single_choice",
+      "options": [
+        "Ghi lại lịch sử thay đổi",
+        "Định danh phiên bản và bản phát hành",
+        "Tất cả các phương án còn lại",
+        "Sử dụng các cơ chế lưu trữ phiên bản hiệu quả"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 158,
+      "sourcePage": 82
+    },
+    {
+      "questionId": "cnpm-159",
+      "question": "Mục đích chính của việc báo cáo trạng thái cấu hình / kiểm kê trạng thái là để?",
+      "type": "single_choice",
+      "options": [
+        "Cung cấp một hoặc nhiều mục cấu hình phần mềm và sự chấp thuận của các mục cấu hình thu được thông qua đánh giá kỹ thuật chính thức",
+        "Đảm bảo rằng thông tin thay đổi được truyền đạt giữa tất cả những người có liên quan",
+        "Đảm bảo rằng việc kiểm soát của bên thứ ba được thực hiện",
+        "Đánh giá hiệu suất của các nhà phát triển phần mềm"
+      ],
+      "answer": [
+        "Đảm bảo rằng thông tin thay đổi được truyền đạt giữa tất cả những người có liên quan"
+      ],
+      "sourceNumber": 159,
+      "sourcePage": 83
+    },
+    {
+      "questionId": "cnpm-160",
+      "question": "Trong hệ thống quản lý phiên bản, thao tác nào đảm bảo rằng những thay đổi trên một tệp mã nguồn được thực hiện bởi một nhà phát triển sẽ có sẵn cho tất cả những nhà phát triển khác?",
+      "type": "single_choice",
+      "options": [
+        "Check-in",
+        "Branching",
+        "Merging",
+        "Check-out"
+      ],
+      "answer": [
+        "Check-in"
+      ],
+      "sourceNumber": 160,
+      "sourcePage": 83
+    },
+    {
+      "questionId": "cnpm-161",
+      "question": "Lựa chọn nào dưới đây để chỉ một yêu cầu chức năng của hệ thống?",
+      "type": "single_choice",
+      "options": [
+        "Không lựa chọn nào đúng",
+        "Tính đúng đắn của hệ thống",
+        "Khả năng bảo trì được",
+        "Tính khả chuyển của hệ thống"
+      ],
+      "answer": [
+        "Không lựa chọn nào đúng"
+      ],
+      "sourceNumber": 161,
+      "sourcePage": 84
+    },
+    {
+      "questionId": "cnpm-162",
+      "question": "Yêu cầu phi chức năng nào phù hợp với quan điểm của đội phát triển về một sản phẩm phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Tính linh hoạt",
+        "Tính sẵn có",
+        "Tính sử dụng được",
+        "Tính kiểm thử được"
+      ],
+      "answer": [
+        "Tính kiểm thử được"
+      ],
+      "sourceNumber": 162,
+      "sourcePage": 84
+    },
+    {
+      "questionId": "cnpm-163",
+      "question": "Xác định yêu cầu phần mềm rõ ràng đóng vai trò quan trọng trong quá trình phát triển phần mềm. Phát biểu nào sau đây là đúng nhất?",
+      "type": "single_choice",
+      "options": [
+        "Vì khách hàng hay thay đổi yêu cầu",
+        "Vì hiểu rõ yêu cầu của phần mềm giúp đội dự án dễ dàng xây dựng giao diện",
+        "Vì xác định yêu cầu phần mềm phụ thuộc vào khách hàng",
+        "Vì đáp ứng yêu cầu phần mềm quyết định sự thành công của dự án"
+      ],
+      "answer": [
+        "Vì đáp ứng yêu cầu phần mềm quyết định sự thành công của dự án"
+      ],
+      "sourceNumber": 163,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "cnpm-164",
+      "question": "Thế nào là yêu cầu chức năng?",
+      "type": "single_choice",
+      "options": [
+        "Là yêu cầu về khả năng mã nguồn phải dễ đọc dễ hiểu",
+        "Là yêu cầu về giao diện và trải nghiệm người dùng",
+        "Là yêu cầu về các tính năng của hệ thống tương tác với người dùng và các tác nhân trong hệ thống",
+        "Là yêu cầu về hiệu năng và độ tin cậy của một hệ thống"
+      ],
+      "answer": [
+        "Là yêu cầu về các tính năng của hệ thống tương tác với người dùng và các tác nhân trong hệ thống"
+      ],
+      "sourceNumber": 164,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "cnpm-165",
+      "question": "Yêu cầu phi chức năng nào sau đây là đúng?",
+      "type": "single_choice",
+      "options": [
+        "Tính tái sử dụng",
+        "Tính bảo trì được",
+        "Tính dễ sử dụng được",
+        "Tính kiểm thử được"
+      ],
+      "answer": [
+        "Tính dễ sử dụng được"
+      ],
+      "sourceNumber": 165,
+      "sourcePage": 85
+    },
+    {
+      "questionId": "cnpm-166",
+      "question": "Việc tìm hiểu yêu cầu của phần mềm thông qua khảo sát các hệ thống đang tồn tại nhằm:",
+      "type": "single_choice",
+      "options": [
+        "Tìm hiểu các yêu cầu của khách hàng",
+        "Tận dụng các yêu cầu của các hệ thống đó",
+        "Hiểu rõ nghiệp vụ của các yêu cầu chung và tái sử dụng các thành phần sẵn có nếu có thể",
+        "Phân tích các yêu cầu dư thừa mà các hệ thống đó thực hiện"
+      ],
+      "answer": [
+        "Hiểu rõ nghiệp vụ của các yêu cầu chung và tái sử dụng các thành phần sẵn có nếu có thể"
+      ],
+      "sourceNumber": 166,
+      "sourcePage": 87
+    },
+    {
+      "questionId": "cnpm-167",
+      "question": "Mục đích của việc phỏng vấn khách hàng khi phân tích yêu cầu phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Để làm rõ các mong đợi của khách hàng đối với dự án phần mềm",
+        "Để chưng cầu ý kiến của khách hàng về giao diện của hệ thống",
+        "Để yêu cầu khách hàng lựa chọn những yêu cầu cụ thể do đội dự án đưa ra",
+        "Để hiểu khách hàng muốn phát triển hệ thống dựa trên nền tảng kỹ thuật nào"
+      ],
+      "answer": [
+        "Để làm rõ các mong đợi của khách hàng đối với dự án phần mềm"
+      ],
+      "sourceNumber": 167,
+      "sourcePage": 87
+    },
+    {
+      "questionId": "cnpm-168",
+      "question": "Lựa chọn nào sau đây không phải là một nội dung của kỹ nghệ yêu cầu phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Đánh giá (Validation)",
+        "Khám phá (Elicitation)",
+        "Thiết kế (Design)",
+        "Đặc tả (Specification)"
+      ],
+      "answer": [
+        "Thiết kế (Design)"
+      ],
+      "sourceNumber": 168,
+      "sourcePage": 88
+    },
+    {
+      "questionId": "cnpm-169",
+      "question": "Một trong các đầu ra của bước phát hiện yêu cầu phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Hướng dẫn triển khai cài đặt của phần mềm",
+        "Kế hoạch thực hiện dự án phần mềm",
+        "Thiết kế chi tiết của phần mềm",
+        "Bảng kê (statement) các đòi hỏi và chức năng khả thi của phần mềm"
+      ],
+      "answer": [
+        "Bảng kê (statement) các đòi hỏi và chức năng khả thi của phần mềm"
+      ],
+      "sourceNumber": 169,
+      "sourcePage": 88
+    },
+    {
+      "questionId": "cnpm-170",
+      "question": "Tiêu chí đánh giá chất lượng của hồ sơ đặc tả yêu cầu phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Tính đầy đủ, hoàn thiện",
+        "Tất cả các đáp án",
+        "Tính phù hợp",
+        "Tính rõ ràng, chính xác"
+      ],
+      "answer": [
+        "Tất cả các đáp án"
+      ],
+      "sourceNumber": 170,
+      "sourcePage": 88
+    },
+    {
+      "questionId": "cnpm-171",
+      "question": "Mô hình hoá các hệ thống phức tạp là gì?",
+      "type": "single_choice",
+      "options": [
+        "Là việc thể hiện các yêu cầu của một hệ thống bằng các biểu đồ",
+        "Là trực quan hoá một hệ thống theo các chiều không gian",
+        "Xây dựng bản thiết kế của hệ thống",
+        "Là việc đơn giản hoá một hệ thống phức tạp bằng nhiều mô hình khác nhau, mỗi mô hình thể hiện một khía cạnh của hệ thống"
+      ],
+      "answer": [
+        "Là việc đơn giản hoá một hệ thống phức tạp bằng nhiều mô hình khác nhau, mỗi mô hình thể hiện một khía cạnh của hệ thống"
+      ],
+      "sourceNumber": 171,
+      "sourcePage": 90
+    },
+    {
+      "questionId": "cnpm-172",
+      "question": "Mục đích của việc sử dụng ngôn ngữ mô hình hoá UML trong quá trình mô hình hoá hệ thống phần mềm là gì?",
+      "type": "single_choice",
+      "options": [
+        "Giúp mô hình hoá yêu cầu phần mềm và các thành phần của hệ thống bằng một hệ thống các biểu đồ trực quan ở nhiều mức độ chi tiết khác nhau",
+        "Tất cả các đáp án",
+        "Giúp tương tác giữa các đối tượng tham gia dự án",
+        "Giúp xây dựng tài liệu hệ thống"
+      ],
+      "answer": [
+        "Tất cả các đáp án"
+      ],
+      "sourceNumber": 172,
+      "sourcePage": 90
+    },
+    {
+      "questionId": "cnpm-173",
+      "question": "Các biểu đồ nào của UML thể hiện góc nhìn động của hệ thống?",
+      "type": "single_choice",
+      "options": [
+        "Biểu đồ thành phần và biểu đồ triển khai",
+        "Biểu đồ lớp",
+        "Biểu đồ cộng tác",
+        "Biểu đồ gói"
+      ],
+      "answer": [
+        "Biểu đồ cộng tác"
+      ],
+      "sourceNumber": 173,
+      "sourcePage": 91
+    },
+    {
+      "questionId": "cnpm-175",
+      "question": "Các biểu đồ nào của UML thể hiện góc nhìn tĩnh (static view) của hệ thống?",
+      "type": "single_choice",
+      "options": [
+        "Biểu đồ ca sử dụng",
+        "Biểu đồ lớp và biểu đồ triển khai",
+        "Biểu đồ cộng tác",
+        "Biểu đồ máy hữu hạn"
+      ],
+      "answer": [
+        "Biểu đồ lớp và biểu đồ triển khai"
+      ],
+      "sourceNumber": 175,
+      "sourcePage": 91
+    },
+    {
+      "questionId": "cnpm-176",
+      "question": "Trong lược đồ DFDs, các tương tác giữa người dùng với hệ thống được biểu thị bằng:",
+      "type": "single_choice",
+      "options": [
+        "Mũi tên",
+        "Hình chữ nhật",
+        "Tam giác",
+        "Khoanh tròn"
+      ],
+      "answer": [
+        "Khoanh tròn"
+      ],
+      "sourceNumber": 176,
+      "sourcePage": 93
+    },
+    {
+      "questionId": "cnpm-177",
+      "question": "Biểu đồ máy hữu hạn trạng thái mô hình hoá khía cạnh nào của hệ thống phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Mô hình hoá các sự kiện dẫn tới một chức năng nào đó được thực hiện",
+        "Mô hình hoá các ràng buộc và điều kiện dẫn tới sự chuyển trạng thái của một đối tượng dữ liệu cụ thể",
+        "Mô hình hoá sự chuyển trạng thái của các đối tượng khác nhau trong hệ thống",
+        "Mô hình hoá các trạng thái khác nhau của một đối tượng dữ liệu cụ thể trong hệ thống và các sự kiện/bộ kích hoạt dẫn tới sự chuyển trạng thái đó"
+      ],
+      "answer": [
+        "Mô hình hoá các trạng thái khác nhau của một đối tượng dữ liệu cụ thể trong hệ thống và các sự kiện/bộ kích hoạt dẫn tới sự chuyển trạng thái đó"
+      ],
+      "sourceNumber": 177,
+      "sourcePage": 93
+    },
+    {
+      "questionId": "cnpm-178",
+      "question": "Trong các lựa chọn dưới đây, đâu là các phần trong báo cáo khả thi?",
+      "type": "single_choice",
+      "options": [
+        "Tính khả thi về mặt ngân sách",
+        "Tính khả thi về mặt kỹ thuật",
+        "Khả năng triển khai được",
+        "Tất cả các đáp án đều đúng"
+      ],
+      "answer": [
+        "Tất cả các đáp án đều đúng"
+      ],
+      "sourceNumber": 178,
+      "sourcePage": 94
+    },
+    {
+      "questionId": "cnpm-179",
+      "question": "Chọn phát biểu đúng nhất của Kho dữ liệu trong mô hình hướng luồng dữ liệu DFD",
+      "type": "single_choice",
+      "options": [
+        "Là nơi lưu trữ dữ liệu cho Hệ thống",
+        "Là 1 trong 5 thành phần của mô hình DFD",
+        "Là nơi lưu trữ dữ liệu cần thiết, lâu dài cho các tiến trình xử lý của hệ thống",
+        "Là tiền đề để xây dựng các thực thể dữ liệu khi PT Hệ thống về dữ liệu"
+      ],
+      "answer": [
+        "Là nơi lưu trữ dữ liệu cần thiết, lâu dài cho các tiến trình xử lý của hệ thống"
+      ],
+      "sourceNumber": 179,
+      "sourcePage": 94
+    },
+    {
+      "questionId": "cnpm-180",
+      "question": "Công cụ đặc tả hình thức các yêu cầu chức năng của phần mềm theo tiếp cận cấu trúc. Chọn phát biểu đúng nhất.",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các mục trên",
+        "Đặc tả bằng ngôn ngữ tự nhiên có cấu trúc",
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri, ngôn ngữ đặc tả Z",
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri"
+      ],
+      "answer": [
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri"
+      ],
+      "sourceNumber": 180,
+      "sourcePage": 94
+    },
+    {
+      "questionId": "cnpm-181",
+      "question": "Trong hình vẽ dưới đây, đâu là phát biểu đúng?",
+      "type": "single_choice",
+      "options": [
+        "B kế thừa mọi quan hệ từ A",
+        "A không được là abstract",
+        "B được gọi là base-use-case",
+        "A kế thừa mọi quan hệ từ B"
+      ],
+      "answer": [
+        "B kế thừa mọi quan hệ từ A"
+      ],
+      "sourceNumber": 181,
+      "sourcePage": 96
+    },
+    {
+      "questionId": "cnpm-182",
+      "question": "Trong hình vẽ dưới đây, đâu là phát biểu đúng?",
+      "type": "single_choice",
+      "options": [
+        "B mở rộng A",
+        "B luôn luôn gọi tới A",
+        "A không thể thực hiện mà không có",
+        "Khi thực hiện B có thể hoặc không gọi tới A"
+      ],
+      "answer": [
+        "Khi thực hiện B có thể hoặc không gọi tới A"
+      ],
+      "sourceNumber": 182,
+      "sourcePage": 97
+    },
+    {
+      "questionId": "cnpm-183",
+      "question": "Đâu là phát biểu đúng về quan hệ association giữa một actor và usecase trong biểu đồ UML?",
+      "type": "single_choice",
+      "options": [
+        "Đôi khi được biểu diễn bằng một đường nét đứt",
+        "Quan hệ này có thể có chiều, thể hiện chiều phụ thuộc của actor vào usecase",
+        "Quan hệ này có thể có định lượng (cardinalities) thể hiện số lượng actor có thể tham gia vào usecase - định lượng này được ghi chú ở phía đầu của actor"
+      ],
+      "answer": [
+        "Quan hệ này có thể có định lượng (cardinalities) thể hiện số lượng actor có thể tham gia vào usecase - định lượng này được ghi chú ở phía đầu của actor"
+      ],
+      "sourceNumber": 183,
+      "sourcePage": 97
+    },
+    {
+      "questionId": "cnpm-185",
+      "question": "Lựa chọn các kết hợp có thể có của các actor có thể thực hiện use case B. Lưu ý: ký hiệu thể hiện toán tử logic {\\bf or} và ký hiệu thể hiện toán tử logic {\\bf and}.",
+      "type": "single_choice",
+      "options": [
+        "X",
+        "Y",
+        "X Y",
+        "X (Y Y)"
+      ],
+      "answer": [
+        "X Y"
+      ],
+      "sourceNumber": 185,
+      "sourcePage": 99
+    },
+    {
+      "questionId": "cnpm-186",
+      "question": "Đâu là phát biểu đúng về biểu đồ hoạt động trong UML? (1) Nút chia của sơđồ hoạt động UML2 được sử dụng để mô hình hóa các luồng song song và tạo mã thông báo cho tất cả các cạnh đi ra. (2) Nút chia là một nút thay thế cho nút quyết định và chỉ hợp lệ khi được kết hợp với nút nối. (3) Một nút ghép giúp đồng bộ hóa nhiều luồng thay thế. (4) Nút ghép hợp nhất các mã thông báo ngay khi chúng có sẵn trên tất cả các cạnh đến (5) Nút cuối cùng của hoạt động chỉ có thểđược mô hình hóa một lần trong mỗi mô hình (6) Các phân vùng không được có độ sâu phân cấp nhiều hơn một.",
+      "type": "single_choice",
+      "options": [
+        "5 và 6",
+        "1, 3 và 4",
+        "2 và 3",
+        "1 và 4",
+        "1 và 2"
+      ],
+      "answer": [
+        "1 và 4"
+      ],
+      "sourceNumber": 186,
+      "sourcePage": 100
+    },
+    {
+      "questionId": "cnpm-187",
+      "question": "Mục đích của biểu đồ hoạt động trong mô hình hoá phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Mô hình hoá thuật toán",
+        "Biểu diễn các tương tác giữa các thành phần khác nhau trong hệ thống",
+        "Biểu diễn khía cạnh động trong đó tác nhân tương tác với nhau và tương tác với hệ thống phần mềm",
+        "Mô hình hoá nghiệp vụ của hệ thống phần mềm và giúp đặc tả trực quan luồng sự kiện của các ca sử dụng"
+      ],
+      "answer": [
+        "Mô hình hoá nghiệp vụ của hệ thống phần mềm và giúp đặc tả trực quan luồng sự kiện của các ca sử dụng"
+      ],
+      "sourceNumber": 187,
+      "sourcePage": 101
+    },
+    {
+      "questionId": "cnpm-189",
+      "question": "Mục đích của sự phân làn trong biểu đồ hoạt động là gì",
+      "type": "single_choice",
+      "options": [
+        "Giúp phân biệt một cách cụ thể sự tham gia của từng thành phần khác nhau của hệ thống",
+        "Giúp trực quan hoá từng đối tượng cụ thể với các hoạt động riêng biệt",
+        "Giúp phân định một cách rõ ràng giữa hệ thống và các tác nhân",
+        "Giúp cấu trúc hoá biểu đồ hoạt động thành các thành phần khác nhau"
+      ],
+      "answer": [
+        "Giúp trực quan hoá từng đối tượng cụ thể với các hoạt động riêng biệt"
+      ],
+      "sourceNumber": 189,
+      "sourcePage": 101
+    },
+    {
+      "questionId": "cnpm-190",
+      "question": "Một biểu đồ hoạt động chỉ có thể có 1 nút bắt đầu và 1 nút kết thúc",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 190,
+      "sourcePage": 102
+    },
+    {
+      "questionId": "cnpm-191",
+      "question": "Đâu không phải là quan hệđúng giữa các ca sử dụng trong biểu đồ ca sử dụng UML2?",
+      "type": "single_choice",
+      "options": [
+        "Quan hệ bao gồm giữa các ca sử dụng",
+        "Quan hệ kế thừa giữa các ca sử dụng",
+        "Quan hệ liên kết giữa ca sử dụng và ca sử dụng",
+        "Quan hệ mở rộng giữa các ca sử dụng"
+      ],
+      "answer": [
+        "Quan hệ liên kết giữa ca sử dụng và ca sử dụng"
+      ],
+      "sourceNumber": 191,
+      "sourcePage": 103
+    },
+    {
+      "questionId": "cnpm-192",
+      "question": "Đâu là quan hệđúng trong biểu đồ ca sử dụng của UML2?",
+      "type": "single_choice",
+      "options": [
+        "Quan hệ liên kết giữa các ca sử dụng",
+        "Quan hệ bao gồm giữa tác nhân và ca sử dụng",
+        "Quan hệ liên kết giữa một hoặc nhiều tác nhân với ca sử dụng",
+        "Quan hệ kế thừa giữa tác nhân và ca sử dụng"
+      ],
+      "answer": [
+        "Quan hệ liên kết giữa một hoặc nhiều tác nhân với ca sử dụng"
+      ],
+      "sourceNumber": 192,
+      "sourcePage": 103
+    },
+    {
+      "questionId": "cnpm-193",
+      "question": "Mỗi ca sử dụng được đặt tên bằng một danh từ",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 193,
+      "sourcePage": 104
+    },
+    {
+      "questionId": "cnpm-194",
+      "question": "Mỗi tác nhân thể hiện một vai trò cụ thểđối với hệ thống phần mềm.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 194,
+      "sourcePage": 104
+    },
+    {
+      "questionId": "cnpm-195",
+      "question": "Mỗi ca sử dụng trong biểu đồ ca sử dụng được đặc tả chi tiết bằng nhiều luồng sự kiện chính?",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 195,
+      "sourcePage": 104
+    },
+    {
+      "questionId": "cnpm-196",
+      "question": "Hãy lựa chọn phát biểu đúng cho biểu đồ sau đây.",
+      "type": "single_choice",
+      "options": [
+        "Z kế thừa từ Y, do đó kế thừa cả quan hệ của Y và được coi là một trường hợp đặc biệt của Y, do vậy có thểđược thực thi bởi bất kỳ một hậu duệ (con) của . A và B là hậu duệ của X, cho nên có thể thay thế X và thực hiện .",
+        "A và B có thể thực hiện Y một cách riêng biệt nhưng không thể thực hiện Z",
+        "A và B có thể thực hiện Z cùng nhau",
+        "A và B cùng thực hiện Y cùng nhau"
+      ],
+      "answer": [
+        "Z kế thừa từ Y, do đó kế thừa cả quan hệ của Y và được coi là một trường hợp đặc biệt của Y, do vậy có thểđược thực thi bởi bất kỳ một hậu duệ (con) của . A và B là hậu duệ của X, cho nên có thể thay thế X và thực hiện ."
+      ],
+      "sourceNumber": 196,
+      "sourcePage": 106
+    },
+    {
+      "questionId": "cnpm-197",
+      "question": "Hãy lựa chọn phát biểu đúng cho biểu đồ sau đây.",
+      "type": "single_choice",
+      "options": [
+        "A và B có thể thực hiện Z một cách riêng biệt",
+        "A và B cùng thực hiện Y cùng nhau",
+        "A và B thực hiện Z đồng thời",
+        "A và B có thể thực hiện Y nhưng chỉ có A thực hiện được Z"
+      ],
+      "answer": [
+        "A và B có thể thực hiện Z một cách riêng biệt"
+      ],
+      "sourceNumber": 197,
+      "sourcePage": 107
+    },
+    {
+      "questionId": "cnpm-209",
+      "question": "Yêu cầu phi chức năng nào phù hợp với quan điểm của đội phát triển về một sản phẩm phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Tính sử dụng được",
+        "Tính linh hoạt",
+        "Tính kiểm thửđược",
+        "Tính sẵn có"
+      ],
+      "answer": [
+        "Tính kiểm thửđược"
+      ],
+      "sourceNumber": 209,
+      "sourcePage": 115
+    },
+    {
+      "questionId": "cnpm-210",
+      "question": "Đâu là bước đầu tiên trong quá trình phân tích yêu cầu phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Xác định các bên liên quan trong hệ thống",
+        "Liệt kê các yêu cầu",
+        "Tất cả các lựa chọn trên đều đúng",
+        "Thu thập các yêu cầu"
+      ],
+      "answer": [
+        "Xác định các bên liên quan trong hệ thống"
+      ],
+      "sourceNumber": 210,
+      "sourcePage": 115
+    },
+    {
+      "questionId": "cnpm-212",
+      "question": "Công cụđặc tả hình thức các yêu cầu chức năng của phần mềm theo tiếp cận cấu trúc. Chọn phát biểu đúng nhất.",
+      "type": "single_choice",
+      "options": [
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri",
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri, ngôn ngữđặc tả Z",
+        "Tất cả các mục trên",
+        "Đặc tả bằng ngôn ngữ tự nhiên có cấu trúc"
+      ],
+      "answer": [
+        "Biểu đồ luồng dữ liệu DFD, Máy trạng thái hữu hạn FSM, Mạng Petri"
+      ],
+      "sourceNumber": 212,
+      "sourcePage": 116
+    },
+    {
+      "questionId": "cnpm-213",
+      "question": "Trong sơđồ use-case của UML, một usecase A bao gồm (includes) một usecase B có nghĩa là:",
+      "type": "single_choice",
+      "options": [
+        "B không thểđược thực hiện mà không có A",
+        "Hành vi của A luôn phải được chèn vào hành vi của B",
+        "B được thực hiện đầu tiên sau đó A sẽđược thực hiện",
+        "Hành vi của B luôn phải được chèn vào hành vi của A"
+      ],
+      "answer": [
+        "B không thểđược thực hiện mà không có A"
+      ],
+      "sourceNumber": 213,
+      "sourcePage": 116
+    },
+    {
+      "questionId": "cnpm-214",
+      "question": "Trong sơđồ use-case của UML, mối quan hệ tổng quát hoá (generalization relationship) giữa usecase A và usecase B (được hiểu là B là một trường hợp đặc biệt của A) có nghĩa là:",
+      "type": "single_choice",
+      "options": [
+        "A kế thừa tất cả các mối quan hệ từ B",
+        "B có thểđược thực thi thay vì A",
+        "A không được trừu tượng",
+        "B kế thừa tất cả các mối quan hệ từ A"
+      ],
+      "answer": [
+        "B kế thừa tất cả các mối quan hệ từ A"
+      ],
+      "sourceNumber": 214,
+      "sourcePage": 117
+    },
+    {
+      "questionId": "cnpm-222",
+      "question": "Actor T có thể thực hiện use-case nào?",
+      "type": "single_choice",
+      "options": [
+        "J",
+        "C",
+        "B"
+      ],
+      "answer": [
+        "J"
+      ],
+      "sourceNumber": 222,
+      "sourcePage": 124
+    },
+    {
+      "questionId": "cnpm-223",
+      "question": "Đâu là phát biểu đúng?",
+      "type": "single_choice",
+      "options": [
+        "B kế thừa mọi quan hệ từ A",
+        "B được gọi là base-use-case",
+        "A không được là abstract",
+        "A kế thừa mọi quan hệ từ B"
+      ],
+      "answer": [
+        "B kế thừa mọi quan hệ từ A"
+      ],
+      "sourceNumber": 223,
+      "sourcePage": 124
+    },
+    {
+      "questionId": "cnpm-224",
+      "question": "Đâu là phát biểu đúng?",
+      "type": "single_choice",
+      "options": [
+        "B mở rộng A",
+        "Khi thực hiện B có thể hoặc không gọi tới A",
+        "B luôn luôn gọi tới A",
+        "A không thể thực hiện mà không có"
+      ],
+      "answer": [
+        "Khi thực hiện B có thể hoặc không gọi tới A"
+      ],
+      "sourceNumber": 224,
+      "sourcePage": 125
+    },
+    {
+      "questionId": "cnpm-226",
+      "question": "Lựa chọn nào không phải là một nguyên tắc của thiết kế phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Thiết kế nên được cấu trúc để thích ứng với thay đổi",
+        "Thiết kế không nên ”phát minh lại bánh xe”",
+        "Thiết kế nên có thể truy ngược về mô hình phân tích",
+        "Thiết kế chính là lập trình, kết quả thiết kếđược biểu diễn bằng mã nguồn"
+      ],
+      "answer": [
+        "Thiết kế chính là lập trình, kết quả thiết kếđược biểu diễn bằng mã nguồn"
+      ],
+      "sourceNumber": 226,
+      "sourcePage": 126
+    },
+    {
+      "questionId": "cnpm-227",
+      "question": "Một đặc trưng của thiết kế tốt là?",
+      "type": "single_choice",
+      "options": [
+        "Thiết kếđược biểu diễn bằng mã nguồn nhằm mục đích mô tả",
+        "Bao gồm đầy đủ các testcase cho tất cả thành phần phần mềm",
+        "Cho thấy sự liên kết mạnh giữa các mô-đun",
+        "Thực hiện tất cả các yêu cầu rõ ràng chứa trong mô hình phân tích"
+      ],
+      "answer": [
+        "Thực hiện tất cả các yêu cầu rõ ràng chứa trong mô hình phân tích"
+      ],
+      "sourceNumber": 227,
+      "sourcePage": 126
+    },
+    {
+      "questionId": "cnpm-228",
+      "question": "Lựa chọn nào không phải là đặc trưng của một thiết kế tốt?",
+      "type": "single_choice",
+      "options": [
+        "Thiết kế không nên mô-đun hóa, phần mềm nên được xem xét như một khối tổng thểđểđảm bảo nhất quán",
+        "Thiết kế phải thực hiện tất cả các yêu cầu rõ ràng chứa trong mô hình phân tích",
+        "Thiết kế nên cung cấp một bức tranh hoàn chỉnh của phần mềm",
+        "Thiết kế phải là một hướng dẫn dễ hiểu, dễđọc cho lập trình viên, người kiểm thử và người triển khai, vận hành phần mềm"
+      ],
+      "answer": [
+        "Thiết kế không nên mô-đun hóa, phần mềm nên được xem xét như một khối tổng thểđểđảm bảo nhất quán"
+      ],
+      "sourceNumber": 228,
+      "sourcePage": 127
+    },
+    {
+      "questionId": "cnpm-229",
+      "question": "Sự quan trọng của thiết kế phần mềm được thể hiển qua sựảnh hưởng của thiết kếđối với?",
+      "type": "single_choice",
+      "options": [
+        "Sự chính xác (Accuracy) của phần mềm",
+        "Chất lượng (Quality) của phần mềm",
+        "Hiệu quả (Efficiency) của phần mềm",
+        "Độ phức tạp (Complexity) của phần mềm"
+      ],
+      "answer": [
+        "Chất lượng (Quality) của phần mềm"
+      ],
+      "sourceNumber": 229,
+      "sourcePage": 127
+    },
+    {
+      "questionId": "cnpm-230",
+      "question": "Thiết kế nên cung cấp một bức tranh hoàn chỉnh của phần mềm. Các mô hình thiết kế thể hiện các nội dung nào của phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các phương án còn lại",
+        "Dữ liệu",
+        "Giao diện",
+        "Kiến trúc"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 230,
+      "sourcePage": 127
+    },
+    {
+      "questionId": "cnpm-231",
+      "question": "Thiết kế hướng đối tượng dẫn đến sự liên kết lỏng (low coupling) giữa các đối tượng vì một đối tượng không cần thiết phải biết bất cứ điều gì về cách thức mà một đối tượng khác sẽ cung cấp dịch vụ.",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 231,
+      "sourcePage": 128
+    },
+    {
+      "questionId": "cnpm-232",
+      "question": "Thuật ngữ nào mô tả một vấn đề xảy ra hết lần này đến lần khác trong môi trường của chúng ta và sau đó mô tả cốt lõi của giải pháp cho vấn đề đó theo một cách mà bạn có thể sử dụng nó hàng triệu lần mà không bao giờ phải làm lại một việc lần thứ hai?",
+      "type": "single_choice",
+      "options": [
+        "Mô đun hoá (Modularity)",
+        "Phân tách mối quan tâm (Separation of concerns)",
+        "Mẫu thiết kế (Design patterns)",
+        "Trừu tượng hóa (Abstraction)"
+      ],
+      "answer": [
+        "Mẫu thiết kế (Design patterns)"
+      ],
+      "sourceNumber": 232,
+      "sourcePage": 128
+    },
+    {
+      "questionId": "cnpm-233",
+      "question": "Phát biểu sau phù hợp với lựa chọn nào: ”Cấu trúc hoặc tổ chức của các thành phần phần mềm (mô-đun), cách thức mà các thành phần này tương tác và cấu trúc dữ liệu được các thành phần sử dụng”",
+      "type": "single_choice",
+      "options": [
+        "Tái cấu trúc (Refactoring)",
+        "Che giấu thông tin (Information hiding)",
+        "Kiến trúc (Architecture)",
+        "Mẫu thiết kế (Design patterns)"
+      ],
+      "answer": [
+        "Kiến trúc (Architecture)"
+      ],
+      "sourceNumber": 233,
+      "sourcePage": 129
+    },
+    {
+      "questionId": "cnpm-234",
+      "question": "Lựa chọn nào không phải là một phần của các yếu tố thiết kế giao diện (Interface design elements)",
+      "type": "single_choice",
+      "options": [
+        "Các màn hình tương tác của người dùng",
+        "Đặc tả tương tác nội bộ giữa các thành phần",
+        "Đặc tả giao thức bên ngoài đến các hệ thống khác",
+        "Thông tin về miền ứng dụng của phần mềm được xây dựng"
+      ],
+      "answer": [
+        "Thông tin về miền ứng dụng của phần mềm được xây dựng"
+      ],
+      "sourceNumber": 234,
+      "sourcePage": 129
+    },
+    {
+      "questionId": "cnpm-235",
+      "question": "Nhận xét nào là không phù hợp liên quan đến việc phân hoạch mô-đun trong giai đoạn thiết kế chương trình?",
+      "type": "single_choice",
+      "options": [
+        "Số lượng mô-đun không giới hạn, kích thước một mô-đun càng nhỏ càng tốt",
+        "Trong thiết kế cấu trúc phân tầng, một mô-đun gọi đến mô-đun khác, cần chú ý tới độ sâu ở một giới hạn xác định",
+        "Số các mô-đun thành phần mà một mô-đun có thể gọi đến phải giới hạn",
+        "Giao diện giữa các mô-đun phải được đơn giản hóa"
+      ],
+      "answer": [
+        "Số lượng mô-đun không giới hạn, kích thước một mô-đun càng nhỏ càng tốt"
+      ],
+      "sourceNumber": 235,
+      "sourcePage": 129
+    },
+    {
+      "questionId": "cnpm-236",
+      "question": "Phát biểu ”Phụ thuộc vào trừu tượng hóa, không phụ thuộc vào thực thi” phù hợp với nguyên lý thiết kế cơ bản nào?",
+      "type": "single_choice",
+      "options": [
+        "Nguyên lý tráo đổi phụ thuộc (DIP)",
+        "Nguyên lý mở-đóng (OCP)",
+        "Nguyên lý thay thế Liskov (LSP)",
+        "Nguyên lý tách biệt giao diện (ISP)"
+      ],
+      "answer": [
+        "Nguyên lý tráo đổi phụ thuộc (DIP)"
+      ],
+      "sourceNumber": 236,
+      "sourcePage": 131
+    },
+    {
+      "questionId": "cnpm-237",
+      "question": "Mô tả về việc chỉ ra chi tiết và đầy đủ về thành phần, tạo điều kiện xây dựng phần mềm trong pha sau, được gọi là?",
+      "type": "single_choice",
+      "options": [
+        "Thiết kế kiến trúc",
+        "Thiết kế hướng đối tượng",
+        "Thiết kế hệ thống",
+        "Thiết kế mức thành phần"
+      ],
+      "answer": [
+        "Thiết kế mức thành phần"
+      ],
+      "sourceNumber": 237,
+      "sourcePage": 131
+    },
+    {
+      "questionId": "cnpm-238",
+      "question": "Kiểu kiến trúc nào hỗ trợ tốt nhất cho sự thay đổi trong thuật toán (cách thực hiện tính toán)?",
+      "type": "single_choice",
+      "options": [
+        "Call and return",
+        "Data abstraction",
+        "Data store or repository",
+        "Pipes & filters"
+      ],
+      "answer": [
+        "Pipes & filters"
+      ],
+      "sourceNumber": 238,
+      "sourcePage": 132
+    },
+    {
+      "questionId": "cnpm-239",
+      "question": "Hình sau minh họa các thành phần của một hệ thống phần mềm được phát triển và triển khai trên nền tảng điện toán đám mây (cloud computing). Hãy xác định kiểu kiến trúc phù hợp?",
+      "type": "single_choice",
+      "options": [
+        "Call and Return Architecture",
+        "Layered Architecture",
+        "Data-Flow Architecture",
+        "Data-Centered Architecture"
+      ],
+      "answer": [
+        "Layered Architecture"
+      ],
+      "sourceNumber": 239,
+      "sourcePage": 132
+    },
+    {
+      "questionId": "cnpm-240",
+      "question": "Mỗi kiểu kiến trúc hay phong cách kiến trúc bao gồm?",
+      "type": "single_choice",
+      "options": [
+        "Một tập hợp các kết nối",
+        "Một tập hợp các thành phần",
+        "Tất cả các phương án còn lại",
+        "Các ràng buộc và các mô hình ngữ nghĩa"
+      ],
+      "answer": [
+        "Tất cả các phương án còn lại"
+      ],
+      "sourceNumber": 240,
+      "sourcePage": 133
+    },
+    {
+      "questionId": "cnpm-241",
+      "question": "Liên kết (Coupling) là một chỉ báo chất lượng cho biết mức độ một mô-đun ...?",
+      "type": "single_choice",
+      "options": [
+        "Có thể được xây dựng một cách vững chắc",
+        "Tập trung vào một nhiệm vụ duy nhất",
+        "Có thể hoàn thành chức năng của nó trong một cách thức phù hợp về thời gian",
+        "Kết nối với mô-đun khác và môi trường bên ngoài"
+      ],
+      "answer": [
+        "Kết nối với mô-đun khác và môi trường bên ngoài"
+      ],
+      "sourceNumber": 241,
+      "sourcePage": 134
+    },
+    {
+      "questionId": "cnpm-242",
+      "question": "Để biểu diễn các quan hệ vật lý giữa phần mềm và các thành phần phần cứng trong một hệ thống bạn sẽ dụng sơ đồ nào của UML?",
+      "type": "single_choice",
+      "options": [
+        "Sơ đồ triển khai (Deployment Diagram)",
+        "Sơ đồ lớp (Class Diagram)",
+        "Sơ đồ trạng thái (State Diagram)",
+        "Sơ đồ hoạt động (Activity Diagram)"
+      ],
+      "answer": [
+        "Sơ đồ triển khai (Deployment Diagram)"
+      ],
+      "sourceNumber": 242,
+      "sourcePage": 134
+    },
+    {
+      "questionId": "cnpm-243",
+      "question": "Trong thiết kế dữ liệu theo mô hình dữ liệu quan hệ khi gặp quan hệ nhiều - nhiều, giải pháp thường thực hiện là?",
+      "type": "single_choice",
+      "options": [
+        "Tách thành hai quan hệ một - nhiều và nhiều - một",
+        "Gộp hai tập thực thể thành một tập thực thể",
+        "Xoá đi một quan hệ",
+        "Giữ nguyên không cần thay đổi"
+      ],
+      "answer": [
+        "Tách thành hai quan hệ một - nhiều và nhiều - một"
+      ],
+      "sourceNumber": 243,
+      "sourcePage": 135
+    },
+    {
+      "questionId": "cnpm-244",
+      "question": "Lựa chọn nào không được ngụ ý bởi sơ đồ lớp minh họa dưới đây?",
+      "type": "single_choice",
+      "options": [
+        "Một giáo viên chỉ dạy hai khóa học",
+        "Một số giáo viên có thể không dạy bất kỳ khóa học nào",
+        "Mỗi khóa học được giảng dạy bởi chính xác hai giáo viên",
+        "Một số giáo viên có thể dạy ba khóa học"
+      ],
+      "answer": [
+        "Một giáo viên chỉ dạy hai khóa học"
+      ],
+      "sourceNumber": 244,
+      "sourcePage": 135
+    },
+    {
+      "questionId": "cnpm-245",
+      "question": "Hai lớp B và C có quan hệ như trong hình minh họa. Phát biểu nào là đúng về mối quan hệ giữa hai lớp này?",
+      "type": "single_choice",
+      "options": [
+        "Khi một đối tượng của lớp B bị hủy, các đối tượng được tham chiếu của lớp C cũng bị hủy",
+        "Một đối tượng của lớp B chứa các tham chiếu đến hai đối tượng của lớp C",
+        "Lớp B chứa một tham chiếu đến hai lớp kiểu C",
+        "Khi lớp B bị hủy, lớp C được tham chiếu cũng bị hủy"
+      ],
+      "answer": [
+        "Một đối tượng của lớp B chứa các tham chiếu đến hai đối tượng của lớp C"
+      ],
+      "sourceNumber": 245,
+      "sourcePage": 136
+    },
+    {
+      "questionId": "cnpm-246",
+      "question": "Tìm cụm từ điền vào chỗ trống: ”..... có thể có nhiều dạng nhưng luôn hoàn thành hai nhiệm vụ cơ bản : truyền đạt thông tin từ hệ tương tác tới người dùng, và truyền đạt thông tin từ người dùng đến hệ tương tác.”",
+      "type": "single_choice",
+      "options": [
+        "Công cụ hỗ trợ thiết kế giao diện",
+        "Giao diện người dùng",
+        "Nguyên tắc thiết kế giao diện",
+        "Quy trình thiết kế giao diện"
+      ],
+      "answer": [
+        "Giao diện người dùng"
+      ],
+      "sourceNumber": 246,
+      "sourcePage": 137
+    },
+    {
+      "questionId": "cnpm-247",
+      "question": "Mệnh đề nào sau đây không đúng với quy trình thiết kế giao diện ?",
+      "type": "single_choice",
+      "options": [
+        "Hệ tương tác là trung tâm trong các hoạt động của quy trình thiết kế giao diện",
+        "Quy trình thiết kế giao diện là quy trình lặp",
+        "Tạo mẫu thử là một bước của quy trình thiết kế giao diện",
+        "Xác định bối cảnh và yêu cầu sử dụng là một bước của quy trình thiết kế giao diện"
+      ],
+      "answer": [
+        "Hệ tương tác là trung tâm trong các hoạt động của quy trình thiết kế giao diện"
+      ],
+      "sourceNumber": 247,
+      "sourcePage": 137
+    },
+    {
+      "questionId": "cnpm-248",
+      "question": "Đâu không phải là một đặc tính mong muốn của giao diện ?",
+      "type": "single_choice",
+      "options": [
+        "Tính dùng được",
+        "Tính bí mật",
+        "Trải nghiệm người dùng",
+        "Tính dễ truy cập"
+      ],
+      "answer": [
+        "Tính bí mật"
+      ],
+      "sourceNumber": 248,
+      "sourcePage": 138
+    },
+    {
+      "questionId": "cnpm-249",
+      "question": "Đâu không phải là một thành phần của đặc tả giao diện người dùng ?",
+      "type": "single_choice",
+      "options": [
+        "Đặc tính, hành vi, mối quan hệ giữa các nhiệm vụ và hệ thống",
+        "Mục tiêu khả năng sử dụng chi tiết theo nhiệm vụ cụ thể",
+        "Phần tử giao diện biểu diễn nhiệm vụ và hệ thống",
+        "Phương thức biểu diễn các phần tử giao diện"
+      ],
+      "answer": [
+        "Mục tiêu khả năng sử dụng chi tiết theo nhiệm vụ cụ thể"
+      ],
+      "sourceNumber": 249,
+      "sourcePage": 138
+    },
+    {
+      "questionId": "cnpm-250",
+      "question": "Đâu không phải là một thành phần của đặc tả tương tác người dùng ?",
+      "type": "single_choice",
+      "options": [
+        "Kiến trúc thông tin",
+        "Mục tiêu khả năng sử dụng chi tiết theo nhiệm vụ cụ thể",
+        "Thiết kế quy trình làm việc của người dùng",
+        "Phần tử giao diện biểu diễn nhiệm vụ và hệ thống"
+      ],
+      "answer": [
+        "Phần tử giao diện biểu diễn nhiệm vụ và hệ thống"
+      ],
+      "sourceNumber": 250,
+      "sourcePage": 138
+    },
+    {
+      "questionId": "cnpm-251",
+      "question": "Đâu không phải là một thành phần của bản mô tả bối cảnh sử dụng ?",
+      "type": "single_choice",
+      "options": [
+        "Tiêu chuẩn, hướng dẫn, kiến thức về công thái học và giao diện người dùng",
+        "Mục tiêu và đặc điểm của nhiệm vụ",
+        "Môi trường kỹ thuật (phần cứng, phần mềm và thiết bị)",
+        "Đặc điểm của người dùng"
+      ],
+      "answer": [
+        "Tiêu chuẩn, hướng dẫn, kiến thức về công thái học và giao diện người dùng"
+      ],
+      "sourceNumber": 251,
+      "sourcePage": 140
+    },
+    {
+      "questionId": "cnpm-252",
+      "question": "Đâu không phải là yêu cầu người dùng về giao diện?",
+      "type": "single_choice",
+      "options": [
+        "Yêu cầu của tổ chức / cộng đồng, có ảnh hưởng trực tiếp đến người dùng",
+        "Yêu cầu và mục tiêu về tính dùng được",
+        "Yêu cầu về an toàn thông tin",
+        "Yêu cầu xuất phát từ nhu cầu của người dùng và bối cảnh sử dụng"
+      ],
+      "answer": [
+        "Yêu cầu về an toàn thông tin"
+      ],
+      "sourceNumber": 252,
+      "sourcePage": 140
+    },
+    {
+      "questionId": "cnpm-253",
+      "question": "Yêu cầu sau đây thuộc loại nào: Nhân viên quản lý có thể xuất báo cáo thống kê theo tháng một cách nhanh chóng theo các tiêu chí sau: Về thời gian: Trung bình, thời gian cần thiết để xuất báo cáo không được vượt quá 1 phút. Về số hành động tương tác cần thực hiện: Quá trình xuất báo cáo sẽ được hoàn thành trong vòng 3 lần nhấp chuột.",
+      "type": "single_choice",
+      "options": [
+        "Yêu cầu phát sinh từ các tiêu chuẩn, hướng dẫn, kiến thức về công thái học và giao diện người dùng",
+        "Yêu cầu và mục tiêu về tính dùng được",
+        "Yêu cầu xuất phát từ nhu cầu của người dùng và bối cảnh sử dụng",
+        "Yêu cầu của tổ chức / cộng đồng, có ảnh hưởng trực tiếp đến người dùng"
+      ],
+      "answer": [
+        "Yêu cầu và mục tiêu về tính dùng được"
+      ],
+      "sourceNumber": 253,
+      "sourcePage": 141
+    },
+    {
+      "questionId": "cnpm-254",
+      "question": "Báo cáo về nhu cầu của từng nhóm người dùng liên quan đến các khía cạnh nhận thức, sinh lý, xã hội là một thành phần của:",
+      "type": "single_choice",
+      "options": [
+        "Báo cáo về nhu cầu người dùng",
+        "Bản mô tả yêu cầu xuất phát từ nhu cầu của người dùng và bối cảnh sử dụng",
+        "Hồ sơ người dùng",
+        "Bản mô tả bối cảnh sử dụng"
+      ],
+      "answer": [
+        "Báo cáo về nhu cầu người dùng"
+      ],
+      "sourceNumber": 254,
+      "sourcePage": 141
+    },
+    {
+      "questionId": "cnpm-255",
+      "question": "Mô tả sau đây thuộc loại nào: Sinh viên: Thông tin chung: - Độ tuổi: 18-22 - Trình độ văn hóa: tốt nghiệp trung học phổ thông - Hiện đang theo học tại các trường đại học tại Hà Nội, và có làm thêm (bán thời gian). Vai trò: - Người thực hiện công việc Mục đích / mục tiêu tương tác: - Được nhắc nhở thời hạn hoàn thành các bài tập, bài kiểm tra - Theo dõi lịch học - Tìm kiếm giải pháp hỗ trợ cân bằng trách nhiệm học tập với các hoạt động xã hội và lợi ích cá nhân.",
+      "type": "single_choice",
+      "options": [
+        "Bản mô tả bối cảnh sử dụng",
+        "Bản mô tả yêu cầu xuất phát từ nhu cầu của người dùng và bối cảnh sử dụng",
+        "Báo cáo về nhu cầu người dùng",
+        "Hồ sơ người dùng"
+      ],
+      "answer": [
+        "Hồ sơ người dùng"
+      ],
+      "sourceNumber": 255,
+      "sourcePage": 142
+    },
+    {
+      "questionId": "cnpm-256",
+      "question": "Quan sát màn hình giao diện trang web dantri.com.vn dưới đây. Các nội dung được khoanh đỏ trong hình thuộc loại nào ?",
+      "type": "single_choice",
+      "options": [
+        "Nội dung một chiều",
+        "Lưới thông tin",
+        "Nội dung tương tác",
+        "Kiến trúc thông tin"
+      ],
+      "answer": [
+        "Nội dung một chiều"
+      ],
+      "sourceNumber": 256,
+      "sourcePage": 143
+    },
+    {
+      "questionId": "cnpm-257",
+      "question": "Quan sát màn hình giao diện đăng ký tài khoản Google dưới đây. Các phần tử giao diện được khoanh đỏ trong hình thuộc loại nào ?",
+      "type": "single_choice",
+      "options": [
+        "Tiêu đề",
+        "Nút bấm",
+        "Nhãn văn bản",
+        "Ô nhập liệu"
+      ],
+      "answer": [
+        "Ô nhập liệu"
+      ],
+      "sourceNumber": 257,
+      "sourcePage": 144
+    },
+    {
+      "questionId": "cnpm-258",
+      "question": "Cô A. cần thiết kế một cửa sổ thông báo có kích thước tuân thủ tỉ lệ vàng. Tỉ lệ kích thước của cửa số đó là:",
+      "type": "single_choice",
+      "options": [
+        "(1:2)",
+        "(1:1.732)",
+        "(1:1)",
+        "(1:1.618)"
+      ],
+      "answer": [
+        "(1:1.618)"
+      ],
+      "sourceNumber": 258,
+      "sourcePage": 145
+    },
+    {
+      "questionId": "cnpm-259",
+      "question": "Loại mẫu thử nào sau đây được tạo lập với mục đích định hình bố cục màn hình giao diện?",
+      "type": "single_choice",
+      "options": [
+        "Bản phác thảo",
+        "Lưới thông tin",
+        "Bản phối máu",
+        "Bản đơn sắc"
+      ],
+      "answer": [
+        "Bản phác thảo"
+      ],
+      "sourceNumber": 259,
+      "sourcePage": 145
+    },
+    {
+      "questionId": "cnpm-260",
+      "question": "Loại mẫu thử nào sau đây được tạo lập với mục đích phối màu cho các thành phần đơn sắc?",
+      "type": "single_choice",
+      "options": [
+        "Bản phác thảo",
+        "Lưới thông tin",
+        "Bản phối máu",
+        "Bản đơn sắc"
+      ],
+      "answer": [
+        "Bản phối máu"
+      ],
+      "sourceNumber": 260,
+      "sourcePage": 145
+    },
+    {
+      "questionId": "cnpm-261",
+      "question": "Đâu là mô tả đúng nhất cho luồng người dùng (user flows)?",
+      "type": "single_choice",
+      "options": [
+        "Biểu diễn lộ trình của một cá nhân cụ thể thông qua thiết kế hiện có.",
+        "Biểu diễn tất cả các điều hướng được phép thực hiện giữa các màn hình của ứng dụng",
+        "Biểu diễn trình tự tương tác người dùng cần thực hiện để hoàn thành một nhiệm vụ hoặc mục tiêu cụ thể trong hệ thống",
+        "Biểu diễn một nhóm các thông tin bị hiện thị trên vài màn hình khác nhau"
+      ],
+      "answer": [
+        "Biểu diễn lộ trình của một cá nhân cụ thể thông qua thiết kế hiện có."
+      ],
+      "sourceNumber": 261,
+      "sourcePage": 147
+    },
+    {
+      "questionId": "cnpm-262",
+      "question": "Đâu là mô tả đúng nhất cho cơ chế hỗ trợ định vị khi người dùng tương tác?",
+      "type": "single_choice",
+      "options": [
+        "Có cơ chế giúp người dùng xác định được vị trí màn hình hiện tại và quan hệ với các màn hình khác",
+        "Có cơ chế để có thể thay đổi, hủy bỏ thao tác điều hướng trước đó",
+        "Có cơ chế liên kết đến các màn hình có liên quan theo quy trình nghiệp vụ",
+        "Có dịch vụ tìm kiếm nội dung"
+      ],
+      "answer": [
+        "Có cơ chế giúp người dùng xác định được vị trí màn hình hiện tại và quan hệ với các màn hình khác"
+      ],
+      "sourceNumber": 262,
+      "sourcePage": 147
+    },
+    {
+      "questionId": "cnpm-263",
+      "question": "Phần bôi đỏ trong hình dưới đây tương ứng với hình thức hỗ trợ tương tác nào ?",
+      "type": "single_choice",
+      "options": [
+        "Chỉ dẫn",
+        "Liên kết thông tin",
+        "Trợ giúp",
+        "Định vị"
+      ],
+      "answer": [
+        "Chỉ dẫn"
+      ],
+      "sourceNumber": 263,
+      "sourcePage": 148
+    },
+    {
+      "questionId": "cnpm-264",
+      "question": "Cho bố cục màn hình như sau. Vùng nào trên màn hình dễ tìm thấy thông tin nhất và dễ truy cập nhất?",
+      "type": "single_choice",
+      "options": [
+        "5",
+        "2, 5, 8",
+        "1, 2, 3",
+        "4, 5, 6"
+      ],
+      "answer": [
+        "5"
+      ],
+      "sourceNumber": 264,
+      "sourcePage": 149
+    },
+    {
+      "questionId": "cnpm-265",
+      "question": "Đâu là mô tả đúng nhất cho thứ tự duyệt tin bằng mắt của con người ?",
+      "type": "single_choice",
+      "options": [
+        "Trên - dưới, trái - phải, ngược chiều kim đồng hồ",
+        "Trái - phải, trên - dưới, ngược chiều kim đồng hồ",
+        "Trái - phải, trên - dưới, theo chiều kim đồng hồ",
+        "Trên - dưới, trái - phải, theo chiều kim đồng hồ"
+      ],
+      "answer": [
+        "Trái - phải, trên - dưới, theo chiều kim đồng hồ"
+      ],
+      "sourceNumber": 265,
+      "sourcePage": 149
+    },
+    {
+      "questionId": "cnpm-266",
+      "question": "Khảo sát một hệ thống thương mại điện tử, trong đó chức năng đặt hàng mới được gửi đến xử lý dưới dạng một thông điệp. Các đơn hàng được mã hóa để ngăn chặn những kẻ nghe trộm theo dõi đơn đặt hàng của khách hàng. Đơn hàng cũng chứa thông tin xác thực dưới dạng chứng chỉ số để đảm bảo rằng các đơn hàng chỉ được đặt bởi những khách hàng đáng tin cậy. Ngoài ra các đơn hàng trùng lặp (có thể do khách hàng vô tình nhấp vào nút ’Đặt hàng ngay’ nhiều lần) cũng cần xử lý loại bỏ. Chức năng này được thiết kế như hình minh họa dưới đây. Hãy xác định kiểu kiến trúc phù hợp?",
+      "type": "single_choice",
+      "options": [
+        "Layered systems",
+        "Call and Return",
+        "Data-Centered Architecture",
+        "Pipes and filters"
+      ],
+      "answer": [
+        "Pipes and filters"
+      ],
+      "sourceNumber": 266,
+      "sourcePage": 151
+    },
+    {
+      "questionId": "cnpm-268",
+      "question": "Đây là một đoạn giả mã thiết kế thuật toán xử lý cấu hình hiển thị trên một trang web thương mại điện tử. Hãy lựa chọn phương án cải thiện thiết kế thuật toán mà không làm thay đổi hành vi của nó.",
+      "type": "single_choice",
+      "options": [
+        "Sử dụng cấu trúc switch thay cho if else",
+        "Đóng gói 3 giá trị được truyền cho các thuộc tính maxDescriptionLength, numSimilarProductsToShow và numReviewsToShow thành lớp ProductDisplayType",
+        "Các giá trị hằng chuyển thành các giá trị tham số được truyền vào khi gọi phương thức",
+        "Thay thế các chuỗi được mã hóa cứng ’compact’ và ’detailed’ bằng các hằng chuỗi hoặc dưới dạng enum"
+      ],
+      "answer": [
+        "Đóng gói 3 giá trị được truyền cho các thuộc tính maxDescriptionLength, numSimilarProductsToShow và numReviewsToShow thành lớp ProductDisplayType"
+      ],
+      "sourceNumber": 268,
+      "sourcePage": 152
+    },
+    {
+      "questionId": "cnpm-269",
+      "question": "Phương án mô tả phù hợp cho một thành phần phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Theo góc nhìn hướng đối tượng, một thành phần bao gồm logic xử lý, cấu trúc dữ liệu bên trong cần thiết để triển khai logic đó và một giao diện cho phép thành phần được gọi và dữ liệu được truyền đến nó.",
+        "Tất cả các lựa chọn còn lại đều đúng.",
+        "Một phần có tính mô-đun, có thể triển khai và thay thế của một hệ thống. Nó đóng gói việc thực thi và đưa ra một tập các giao diện.",
+        "Theo góc nhìn quy ước, một thành phần bao gồm một tập các lớp cộng tác."
+      ],
+      "answer": [
+        "Một phần có tính mô-đun, có thể triển khai và thay thế của một hệ thống. Nó đóng gói việc thực thi và đưa ra một tập các giao diện."
+      ],
+      "sourceNumber": 269,
+      "sourcePage": 153
+    },
+    {
+      "questionId": "cnpm-270",
+      "question": "Phát biểu ”Một mô đun (thành phần) nên được mở cho sự mở rộng nhưng nên đóng cho các thay đổi” phù hợp với nguyên lý thiết kế nào?",
+      "type": "single_choice",
+      "options": [
+        "Nguyên lý tráo đổi phụ thuộc (DIP)",
+        "Nguyên lý tái sử dụng chung (CRP)",
+        "Nguyên lý mở-đóng (OCP)",
+        "Nguyên lý đóng chung (CCP)"
+      ],
+      "answer": [
+        "Nguyên lý mở-đóng (OCP)"
+      ],
+      "sourceNumber": 270,
+      "sourcePage": 153
+    },
+    {
+      "questionId": "cnpm-271",
+      "question": "Trong thiết kế dữ liệu, kết quả thiết kế có thể được biểu diễn ở mức trừu tượng nào?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn còn lại đều đúng",
+        "Mô hình dữ liệu logic",
+        "Mô hình dữ liệu quan niệm",
+        "Mô hình dữ liệu vật lý"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại đều đúng"
+      ],
+      "sourceNumber": 271,
+      "sourcePage": 154
+    },
+    {
+      "questionId": "cnpm-273",
+      "question": "Những nguyên lý thiết kế giao diện cho phép người dùng ít phải ghi nhớ?",
+      "type": "single_choice",
+      "options": [
+        "Xác định những lối tắt trực quan",
+        "Tất cả các lựa chọn còn lại",
+        "Thiết lập những trường hợp mặc định có ý nghĩa",
+        "Biểu lộ thông tin theo cách diễn tiến (tăng dần)"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại"
+      ],
+      "sourceNumber": 273,
+      "sourcePage": 156
+    },
+    {
+      "questionId": "cnpm-274",
+      "question": "Các minh họa (mockup) của 3 màn hình trong một ứng dụng sau mắc phải lỗi thiết kế giao diện nào?",
+      "type": "single_choice",
+      "options": [
+        "Đáp ứng kém",
+        "Thiếu nhất quán",
+        "Quá nhiều ghi nhớ",
+        "Không có hướng dẫn / giúp đỡ"
+      ],
+      "answer": [
+        "Thiếu nhất quán"
+      ],
+      "sourceNumber": 274,
+      "sourcePage": 156
+    },
+    {
+      "questionId": "cnpm-277",
+      "question": "Một số lớp được phát hiện trong giai đoạn phân tích có thể được lược bỏ trong giai đoạn thiết kế.",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 277,
+      "sourcePage": 159
+    },
+    {
+      "questionId": "cnpm-278",
+      "question": "Trong phân tích và thiết kế hướng đối tượng, các lớp đối tượng được xác định bằng cách ...?",
+      "type": "single_choice",
+      "options": [
+        "Xem xét các đối tượng trong miền ứng dụng",
+        "Phân tích các trường hợp sử dụng để xác định các lớp đối tượng",
+        "Phân tích theo khía cạnh ngữ pháp mô tả hệ thống (lớp đối tượng và thuộc tính thường là các danh từ)",
+        "Tất cả các lựa chọn còn lại"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại"
+      ],
+      "sourceNumber": 278,
+      "sourcePage": 159
+    },
+    {
+      "questionId": "cnpm-279",
+      "question": "Việc đo “độ mạnh” của sự kết nối giữa hai thành phần hệ thống được biết như là?",
+      "type": "single_choice",
+      "options": [
+        "Cohesion (gắn kết)",
+        "Coupling (liên kết)",
+        "Inheritance (kế thừa)",
+        "Aggregation (kết tập)"
+      ],
+      "answer": [
+        "Coupling (liên kết)"
+      ],
+      "sourceNumber": 279,
+      "sourcePage": 159
+    },
+    {
+      "questionId": "cnpm-280",
+      "question": "Tính gắn kết (cohension) là một chỉ số chất lượng để đánh giá thiết kế một mô-đun ...?",
+      "type": "single_choice",
+      "options": [
+        "Hoàn thành chức năng của nó một cách kịp thời",
+        "Được kết nối với các mô-đun khác và thế giới bên ngoài",
+        "Tập trung vào một nhiệm vụ đơn nhất",
+        "Có thể được viết gọn hơn"
+      ],
+      "answer": [
+        "Tập trung vào một nhiệm vụ đơn nhất"
+      ],
+      "sourceNumber": 280,
+      "sourcePage": 160
+    },
+    {
+      "questionId": "cnpm-281",
+      "question": "Các yếu tố thiết kế mức thành phần?",
+      "type": "single_choice",
+      "options": [
+        "Chi tiết thuật toán xử lý",
+        "Tất cả các lựa chọn còn lại",
+        "Cấu trúc dữ liệu",
+        "Giao diện cho phép truy cập vào tất cả các hoạt động (hành vi) của thành phần"
+      ],
+      "answer": [
+        "Tất cả các lựa chọn còn lại"
+      ],
+      "sourceNumber": 281,
+      "sourcePage": 160
+    },
+    {
+      "questionId": "cnpm-282",
+      "question": "Những phần tử mô hình thiết kế nào được sử dụng để mô tả mô hình thông tin được trình bày từ góc nhìn của người dùng?",
+      "type": "single_choice",
+      "options": [
+        "Component-level design elements",
+        "Interface design elements",
+        "Data design elements",
+        "Architectural design elements"
+      ],
+      "answer": [
+        "Data design elements"
+      ],
+      "sourceNumber": 282,
+      "sourcePage": 160
+    },
+    {
+      "questionId": "cnpm-285",
+      "question": "Hoàn chỉnh phát biểu sau: ”... là cách biểu diễn tốt để mô tả hành vi của một số đối tượng. Nó rất tốt để mô tả hành vi liên quan đến một số đối tượng hợp tác với nhau không cần biểu diễn rõ trình tự thời gian”",
+      "type": "single_choice",
+      "options": [
+        "Biểu đồ trình tự (sequence diagram)",
+        "Biểu đồ giao tiếp (communication diagram)",
+        "Biểu đồ trạng thái (state diagram)",
+        "Biểu đồ hoạt động (activity diagram)"
+      ],
+      "answer": [
+        "Biểu đồ giao tiếp (communication diagram)"
+      ],
+      "sourceNumber": 285,
+      "sourcePage": 161
+    },
+    {
+      "questionId": "cnpm-286",
+      "question": "Việc này sau đây là KHÔNG được khuyến khích khi xây dựng một hệ thống lớn?",
+      "type": "single_choice",
+      "options": [
+        "Sử dụng các framework hay thư viện có sẵn",
+        "Nắm vững cấu trúc dữ liệu và giải thuật",
+        "Tuân thủ theo các thiết kế",
+        "Coi mỗi module như một chương trình độc lập không liên kết đến các module khác"
+      ],
+      "answer": [
+        "Coi mỗi module như một chương trình độc lập không liên kết đến các module khác"
+      ],
+      "sourceNumber": 286,
+      "sourcePage": 163
+    },
+    {
+      "questionId": "cnpm-287",
+      "question": "Lựa chọn nào sau đây KHÔNG PHẢI là một mục tiêu của việc xây dựng phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Thực hiện các tác vụ theo chỉ định của thiết kế",
+        "Giảm chi phí của các giai đoạn kiểm thử và bảo trì",
+        "Làm cho mã nguồn dễ đọc, dễ hiểu hơn",
+        "Biên soạn tài liệu đi kèm với mã nguồn"
+      ],
+      "answer": [
+        "Biên soạn tài liệu đi kèm với mã nguồn"
+      ],
+      "sourceNumber": 287,
+      "sourcePage": 163
+    },
+    {
+      "questionId": "cnpm-288",
+      "question": "Trong hai loại mô thức lập trình, Imperative Paradigm và Declarative Paradigm, định nghĩa về Declarative Paradigm là...",
+      "type": "single_choice",
+      "options": [
+        "Lập trình viên đưa ra các đặc điểm của kết quả muốn có",
+        "Lập trình viên cung cấp cho máy tính từng bước để hướng dẫn máy tính làm một công việc"
+      ],
+      "answer": [
+        "Lập trình viên cung cấp cho máy tính từng bước để hướng dẫn máy tính làm một công việc"
+      ],
+      "sourceNumber": 288,
+      "sourcePage": 164
+    },
+    {
+      "questionId": "cnpm-289",
+      "question": "Trong các loại mô thức lập trình, Procedural paradigm, Structured paradigm, Object-oriented paradigm, và Database oriented paradigm: định nghĩa về Structured paradigm là...",
+      "type": "single_choice",
+      "options": [
+        "Sử dụng các câu truy vấn, query, để yêu cầu máy tính thực hiện một công việc.",
+        "Các thành phần của một chương trình được coi là các đối tượng, và có thể tương tác với nhau bằng cách ”truyền thông điệp”",
+        "Các câu lệnh được tổ chức một cách có cấu trúc (vd. thành các hàm), tương tự như tư tưởng ”chia để trị”",
+        "Các câu lệnh được đưa ra lần lượt"
+      ],
+      "answer": [
+        "Các câu lệnh được tổ chức một cách có cấu trúc (vd. thành các hàm), tương tự như tư tưởng ”chia để trị”"
+      ],
+      "sourceNumber": 289,
+      "sourcePage": 164
+    },
+    {
+      "questionId": "cnpm-290",
+      "question": "Vai trò của bước xây dựng phần mềm trong quy trình thác nước (waterfall) là lớn hơn hay nhỏ hơn các quy trình khác như (Scrum hay Spiral)",
+      "type": "single_choice",
+      "options": [
+        "Lớn hơn",
+        "Như nhau",
+        "Nhỏ hơn"
+      ],
+      "answer": [
+        "Nhỏ hơn"
+      ],
+      "sourceNumber": 290,
+      "sourcePage": 164
+    },
+    {
+      "questionId": "cnpm-291",
+      "question": "Việc mã nguồn có phong cách lập trình tốt có thể giúp giảm chi phí phát triển phần mềm?",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 291,
+      "sourcePage": 166
+    },
+    {
+      "questionId": "cnpm-292",
+      "question": "Việc mã nguồn có phong cách lập trình tốt có thể giúp cải thiện hiệu năng của chương trình",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Sai"
+      ],
+      "sourceNumber": 292,
+      "sourcePage": 166
+    },
+    {
+      "questionId": "cnpm-293",
+      "question": "Chú thích cho một hàm nên...",
+      "type": "single_choice",
+      "options": [
+        "Mô tả hàm làm gì? (WHAT)",
+        "Mô tả khi nào cần gọi hàm này? (WHEN)",
+        "Mô tả tại sao phải có hàm này? (WHY)",
+        "Mô tả hàm làm như thế nào? (HOW)"
+      ],
+      "answer": [
+        "Mô tả hàm làm gì? (WHAT)"
+      ],
+      "sourceNumber": 293,
+      "sourcePage": 167
+    },
+    {
+      "questionId": "cnpm-294",
+      "question": "Vì sao lại ví “phong cách lập trình” tương tự như “thời trang” trong lập trình",
+      "type": "single_choice",
+      "options": [
+        "Việc lập trình theo “phong cách” sẽ giúp phát triển các phần mềm hỗ trợ thời trang.",
+        "Chúng ta có thể áp dụng các khái niệm trong thiết kế thời trang vào trong phát triển phần mềm.",
+        "Không bắt buộc phải theo phong cách lập trình hay ăn mặc hợp thời trang, tuy nhiên việc tuân theo các quy ước sẽ mang lại các hiệu quả nhất định.",
+        "Vì các đoạn chú thích mã nguồn có thể được sử dụng để minh họa bằng các họa tiết, giúp mã nguồn đẹp mắt hơn."
+      ],
+      "answer": [
+        "Không bắt buộc phải theo phong cách lập trình hay ăn mặc hợp thời trang, tuy nhiên việc tuân theo các quy ước sẽ mang lại các hiệu quả nhất định."
+      ],
+      "sourceNumber": 294,
+      "sourcePage": 167
+    },
+    {
+      "questionId": "cnpm-295",
+      "question": "Lựa chọn nào sau đây không phải là một quy tắc cơ bản của phong cách lập trình tốt?",
+      "type": "single_choice",
+      "options": [
+        "Chú thích cho từng dòng lệnh trong mã nguồn",
+        "Mỗi function/method phải có một nhiệm vụ rõ ràng",
+        "Cấu trúc chương trình rõ ràng, dễ hiểu, khúc triết",
+        "Tuân thủ quy tắc đặt tên nhất quán, gợi nhớ, có tính miêu tả"
+      ],
+      "answer": [
+        "Chú thích cho từng dòng lệnh trong mã nguồn"
+      ],
+      "sourceNumber": 295,
+      "sourcePage": 167
+    },
+    {
+      "questionId": "cnpm-296",
+      "question": "Lợi ích của việc rà soát mã nguồn?",
+      "type": "single_choice",
+      "options": [
+        "Chia sẻ tri thức",
+        "Phát hiện lỗi sớm",
+        "Giảm thiểu công sức phải làm lại",
+        "Tất cả các đáp án"
+      ],
+      "answer": [
+        "Tất cả các đáp án"
+      ],
+      "sourceNumber": 296,
+      "sourcePage": 169
+    },
+    {
+      "questionId": "cnpm-297",
+      "question": "Tái cấu trúc mã nguồn được thực hiện khi mã nguồn chương trình có lỗi hoặc chưa hoàn thiện, cần phải bổ sung thêm các tính năng mới hoặc sửa lỗi cho chương trình?",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Sai"
+      ],
+      "sourceNumber": 297,
+      "sourcePage": 169
+    },
+    {
+      "questionId": "cnpm-298",
+      "question": "Tái cấu trúc mã nguồn có thể tạo ra các lỗi mới cho chương trình",
+      "type": "single_choice",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 298,
+      "sourcePage": 170
+    },
+    {
+      "questionId": "cnpm-300",
+      "question": "Các khái niệm ”lớp lười”, ”mã trùng lặp”, ”phương thức dài”... là dấu hiệu của?",
+      "type": "single_choice",
+      "options": [
+        "Mã nguồn ”bốc mùi”",
+        "Mã nguồn cần tái cấu trúc",
+        "Mã nguồn cần rà soát",
+        "Mã nguồn có lỗi"
+      ],
+      "answer": [
+        "Mã nguồn ”bốc mùi”"
+      ],
+      "sourceNumber": 300,
+      "sourcePage": 170
+    },
+    {
+      "questionId": "cnpm-301",
+      "question": "Theo nguyên tắc tái cấu trúc mã nguồn của Java, dấu ngoặc nhọn mở một block mới nên được viết ở...",
+      "type": "single_choice",
+      "options": [
+        "Dòng tiếp theo sau khai báo, cùng dòng với các khối lệnh của block",
+        "Cùng dòng với khai báo",
+        "Dòng tiếp theo sau khai báo, thẳng lề với khai báo",
+        "Dòng tiếp theo sau khai báo, thẳng lề với các khối lệnh của block"
+      ],
+      "answer": [
+        "Cùng dòng với khai báo"
+      ],
+      "sourceNumber": 301,
+      "sourcePage": 172
+    },
+    {
+      "questionId": "cnpm-302",
+      "question": "Đầu mỗi tệp mã nguồn, chú thích nên mô tả...",
+      "type": "single_choice",
+      "options": [
+        "Tên lớp",
+        "Mô tả ngắn gọn về những gì chương trình sẽ thực hiện",
+        "Tên người lập trình",
+        "Tất cả những mô tả trên"
+      ],
+      "answer": [
+        "Tất cả những mô tả trên"
+      ],
+      "sourceNumber": 302,
+      "sourcePage": 172
+    },
+    {
+      "questionId": "cnpm-303",
+      "question": "Tên phương thức theo nguyên tắc tái cấu trúc mã nguồn của Java là động từ, và...",
+      "type": "single_choice",
+      "options": [
+        "viết hoa các chữ cái đầu của từ",
+        "được viết toàn bộ bằng chữ thường",
+        "viết hoa các chữ cái đầu của từ, riêng từ đầu tiên viết thường",
+        "viết hoa các chữ cái đầu của từ, thay khoảng trắng bằng dấu gạch dưới"
+      ],
+      "answer": [
+        "viết hoa các chữ cái đầu của từ, riêng từ đầu tiên viết thường"
+      ],
+      "sourceNumber": 303,
+      "sourcePage": 173
+    },
+    {
+      "questionId": "cnpm-304",
+      "question": "Kỹ thuật tái cấu trúc mã nguồn sử dụng Null Object được sử dụng khi nào?",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các trường hợp trên",
+        "Trong mã nguồn có nhiều phương thức trả về null",
+        "Trong mã nguồn có rất nhiều kiểm tra đối tượng có phải null hay không",
+        "Trong mã nguồn có rất nhiều đối tượng mang giá trị null"
+      ],
+      "answer": [
+        "Trong mã nguồn có rất nhiều kiểm tra đối tượng có phải null hay không"
+      ],
+      "sourceNumber": 304,
+      "sourcePage": 173
+    },
+    {
+      "questionId": "cnpm-305",
+      "question": "Chúng ta sử dụng /// hoặc /** để bắt đầu chú thích trước các phương thức là để...",
+      "type": "single_choice",
+      "options": [
+        "vô hiệu hóa toàn bộ phương thức đó",
+        "các IDE kiểm tra quy ước viết mã của phương thức",
+        "các IDE tái cấu trúc mã nguồn cho phương thức",
+        "các IDE tự động sinh ra các gợi ý để viết chú thích cho phương thức"
+      ],
+      "answer": [
+        "các IDE tự động sinh ra các gợi ý để viết chú thích cho phương thức"
+      ],
+      "sourceNumber": 305,
+      "sourcePage": 173
+    },
+    {
+      "questionId": "cnpm-326",
+      "question": "Phát biển nào sau đây không đúng đối với mô hình chữ V",
+      "type": "single_choice",
+      "options": [
+        "Là mô hình cho hoạt động phát triển và đánh giá chất lượng phần mềm.",
+        "Validation là kiểm tra xem sản phẩn có thỏa mãn các yêu cầu người dùng hay không.",
+        "Verification là xác minh xem hệ thống có được xây dựng đúng hay không.",
+        "Là mô hình đánh giá chất lượng sản phẩm dựa trên góc nhìn của người dùng cuối."
+      ],
+      "answer": [
+        "Là mô hình đánh giá chất lượng sản phẩm dựa trên góc nhìn của người dùng cuối."
+      ],
+      "sourceNumber": 326,
+      "sourcePage": 183
+    },
+    {
+      "questionId": "cnpm-327",
+      "question": "Lỗi của một phần mềm",
+      "type": "single_choice",
+      "options": [
+        "Được phát hiện trực tiếp bởi lập trình viên.",
+        "Là không đáp ứng về mặt chức năng của sản phẩm.",
+        "Là sự khác biệt giữa sản phẩm với các yêu cầu đặt ra.",
+        "Là không thõa mãn yêu cầu của khách hàng."
+      ],
+      "answer": [
+        "Là sự khác biệt giữa sản phẩm với các yêu cầu đặt ra."
+      ],
+      "sourceNumber": 327,
+      "sourcePage": 183
+    },
+    {
+      "questionId": "cnpm-328",
+      "question": "Yếu tố nào sau đây không được xem là khó khăn trong kiểm thử phần mềm",
+      "type": "single_choice",
+      "options": [
+        "Việc lựa chọn kĩ thuật kiểm thử phù hợp.",
+        "Phụ thuộc vào chất lượng của thiết kế.",
+        "Dễ bịảnh hưởng tâm lý của người kiểm thử.",
+        "Khó đảm bảo được tính đầy đủ của kiểm thử."
+      ],
+      "answer": [
+        "Việc lựa chọn kĩ thuật kiểm thử phù hợp."
+      ],
+      "sourceNumber": 328,
+      "sourcePage": 184
+    },
+    {
+      "questionId": "cnpm-329",
+      "question": "Định nghĩa về chất lượng phần mềm được nhìn nhận dưới những góc độ nào?",
+      "type": "single_choice",
+      "options": [
+        "Người dùng, sản xuất, sản phẩm, kinh tế.",
+        "Người sử dụng, người phát triển, nhà kinh doanh, người phân tích chiến lược.",
+        "Nhà sản xuất, lợi ích, người phân tích, tiềm năng.",
+        "Người dùng, nhà phát triển, kĩ năng, lợi nhuận."
+      ],
+      "answer": [
+        "Người dùng, sản xuất, sản phẩm, kinh tế."
+      ],
+      "sourceNumber": 329,
+      "sourcePage": 184
+    },
+    {
+      "questionId": "cnpm-330",
+      "question": "Theo định nghĩa của IEEE thì chất lượng của sản phẩm phần mềm không bao gồm",
+      "type": "single_choice",
+      "options": [
+        "Đạt được mong đợi của khách hàng.",
+        "Đạt được các yêu cầu đặt ra.",
+        "Đạt được mong đợi của người dùng.",
+        "Đáp ứng được các yêu cầu của người phát triển."
+      ],
+      "answer": [
+        "Đáp ứng được các yêu cầu của người phát triển."
+      ],
+      "sourceNumber": 330,
+      "sourcePage": 184
+    },
+    {
+      "questionId": "cnpm-331",
+      "question": "Chọn phát biểu sai đối với kiểm thử luồng điều khiển",
+      "type": "single_choice",
+      "options": [
+        "Với mỗi dữ liệu đầu vào chương trình có thể thực hiện theo các đường dẫn khác nhau.",
+        "Luôn kiểm thửđược một đường đi (path) từđiểm bắt đầu đến điểm kết thúc của chương trình.",
+        "Luồng điều khiển luôn có một điểm bắt đầu và một điểm kết thúc.",
+        "Thiết kế các ca kiểm thử nhằm tìm ra các đường dẫn có lỗi."
+      ],
+      "answer": [
+        "Luôn kiểm thửđược một đường đi (path) từđiểm bắt đầu đến điểm kết thúc của chương trình."
+      ],
+      "sourceNumber": 331,
+      "sourcePage": 186
+    },
+    {
+      "questionId": "cnpm-332",
+      "question": "Đồ thị luồng điều khiển",
+      "type": "single_choice",
+      "options": [
+        "Là sự liên kết giữa các module trong chương trình được biểu diễn ở dạng đồ thị.",
+        "Biểu diễn các đường đi từđiểm bắt đầu đến điểm kết thúc của chương trình.",
+        "Biểu diễn cấu trúc dữ liệu của một đơn vị chương trình.",
+        "Thể hiện việc tương tác về mặt dữ liệu của chương trình."
+      ],
+      "answer": [
+        "Biểu diễn các đường đi từđiểm bắt đầu đến điểm kết thúc của chương trình."
+      ],
+      "sourceNumber": 332,
+      "sourcePage": 186
+    },
+    {
+      "questionId": "cnpm-333",
+      "question": "Phát biểu nào là sai đối với kiểm thử hộp trắng",
+      "type": "single_choice",
+      "options": [
+        "Có thể triển khai ở bước tích hợp các module.",
+        "Được thực hiện chủ yếu bởi lập trình viên hoặc kiểm thử viên",
+        "Người dùng hệ thống có thể tham gia thực hiện tùy từng giai đoạn cụ thể.",
+        "Có thể áp dụng ở giai đoạn kiểm thửđơn vị."
+      ],
+      "answer": [
+        "Người dùng hệ thống có thể tham gia thực hiện tùy từng giai đoạn cụ thể."
+      ],
+      "sourceNumber": 333,
+      "sourcePage": 187
+    },
+    {
+      "questionId": "cnpm-334",
+      "question": "Phát biểu nào là sai đối với các kĩ thuật thiết kế ca kiểm thử theo kiểm thử hộp trắng",
+      "type": "single_choice",
+      "options": [
+        "Bao phủ lệnh.",
+        "Phân vùng tương đương.",
+        "Bao phủđiểm định nghĩa của biến.",
+        "Bao phủđiểm sử dụng của biến."
+      ],
+      "answer": [
+        "Phân vùng tương đương."
+      ],
+      "sourceNumber": 334,
+      "sourcePage": 187
+    },
+    {
+      "questionId": "cnpm-335",
+      "question": "Kiểm thử hộp trắng",
+      "type": "single_choice",
+      "options": [
+        "Tập trung vào kết quảđầu ra dựa trên dữ liệu đầu vào.",
+        "Được thực hiện bởi kiểm thử viên.",
+        "Kiểm thử hoạt động của chương trình dựa vào mô tả chức năng.",
+        "Chiến lược kiểm thử dựa trên cấu trúc của chương trình."
+      ],
+      "answer": [
+        "Chiến lược kiểm thử dựa trên cấu trúc của chương trình."
+      ],
+      "sourceNumber": 335,
+      "sourcePage": 187
+    },
+    {
+      "questionId": "cnpm-336",
+      "question": "Trong kiểm thử hộp trắng với luồng điều khiển",
+      "type": "single_choice",
+      "options": [
+        "Tiêu chí bao phủ nhánh còn được gọi là bao phủđiểm quyết định.",
+        "Có thể xét bao phủ nhánh và bao phủ lệnh thay thế cho bao phủđường dẫn.",
+        "Tiêu chí mạnh nhất là bao phủ mọi đường dẫn.",
+        "Bao phủ lệnh luôn được đảm bảo trong mọi trường hợp."
+      ],
+      "answer": [
+        "Tiêu chí mạnh nhất là bao phủ mọi đường dẫn."
+      ],
+      "sourceNumber": 336,
+      "sourcePage": 189
+    },
+    {
+      "questionId": "cnpm-337",
+      "question": "Các tiêu chí nào không dùng để lựa chọn đường dẫn chương trình trong kiểm thử luồng điều khiển",
+      "type": "single_choice",
+      "options": [
+        "Đảm bảo mọi câu lệnh trong chương trình đều được thực thi.",
+        "Đảm bảo mọi miền dữ liệu đầu vào của hệ thống đều được xem xét.",
+        "Đảm bảo mọi giá trịđiều kiện true/false ở câu lệnh điều kiện đều được kiểm tra.",
+        "Bao phủ các đường dẫn."
+      ],
+      "answer": [
+        "Đảm bảo mọi miền dữ liệu đầu vào của hệ thống đều được xem xét."
+      ],
+      "sourceNumber": 337,
+      "sourcePage": 189
+    },
+    {
+      "questionId": "cnpm-338",
+      "question": "Kĩ thuật bao phủ lệnh không yêu cầu",
+      "type": "single_choice",
+      "options": [
+        "Mọi câu lệnh đều được thực thi ít nhất một lần.",
+        "Các đỉnh trên đồ thị luồng điều khiển phải xuất hiện ít nhất 1 lần trong đường thực thi của chương trình.",
+        "Cần thực thi ít nhất một nhánh rẽở khối câu lệnh điều kiện.",
+        "Tìm ra đường đi qua câu lệnh cần xem xét."
+      ],
+      "answer": [
+        "Cần thực thi ít nhất một nhánh rẽở khối câu lệnh điều kiện."
+      ],
+      "sourceNumber": 338,
+      "sourcePage": 190
+    },
+    {
+      "questionId": "cnpm-339",
+      "question": "Sử dụng kĩ thuật bao phủ nhánh trong kiểm thử luồng điều khiển nhằm mục đích",
+      "type": "single_choice",
+      "options": [
+        "Kiểm tra giá trịđiều kiện của điểm quyết định phải là true.",
+        "Xác định giá trịđầu ra khi chương trình thực hiện câu lệnh điều kiện tương ứng.",
+        "Đảm bảo các nhánh tại điểm quyết định ở trên đồ thị luồng điều khiển phải được xem xét.",
+        "Câu lệnh điều kiện bất kì luôn được thực hiện ít nhất một lần."
+      ],
+      "answer": [
+        "Đảm bảo các nhánh tại điểm quyết định ở trên đồ thị luồng điều khiển phải được xem xét."
+      ],
+      "sourceNumber": 339,
+      "sourcePage": 190
+    },
+    {
+      "questionId": "cnpm-340",
+      "question": "Phát biểu nào là sai đối với kĩ thuật bao phủ nhánh",
+      "type": "single_choice",
+      "options": [
+        "Không đảm bảo tìm được giá trị của dữ liệu để tất cả các nhánh rẽđều được xét.",
+        "Bao phủ nhánh đảm bảo bảo phủ lệnh.",
+        "Luôn thiết kếđược đường đi tương ứng với các nhánh rẽ.",
+        "Các nhánh rẽ làm mọi câu lệnh đều được thực thi ít nhất một lần."
+      ],
+      "answer": [
+        "Luôn thiết kếđược đường đi tương ứng với các nhánh rẽ."
+      ],
+      "sourceNumber": 340,
+      "sourcePage": 190
+    },
+    {
+      "questionId": "cnpm-341",
+      "question": "Các node nào trên đồ thị tương ứng với các điều kiện cần kiểm tra",
+      "type": "multiple_choice",
+      "options": [
+        "Node 4",
+        "Node 3",
+        "Node 1",
+        "Node 2"
+      ],
+      "answer": [
+        "Node 2",
+        "Node 4"
+      ],
+      "sourceNumber": 341,
+      "sourcePage": 192
+    },
+    {
+      "questionId": "cnpm-342",
+      "question": "Test case tương ứng với nhánh (qt * 0.3 + ck * 0.7) < 4 (đúng) trên đồ thị luồng điều khiển là",
+      "type": "multiple_choice",
+      "options": [
+        "<2, 8, false>",
+        "không có đáp án nào đúng",
+        "<1, 5, false>",
+        "<4, 8, true>"
+      ],
+      "answer": [
+        "<1, 5, false>"
+      ],
+      "sourceNumber": 342,
+      "sourcePage": 193
+    },
+    {
+      "questionId": "cnpm-343",
+      "question": "Test case tương ứng với câu lệnh trả về return true; của đoạn chương trình là",
+      "type": "multiple_choice",
+      "options": [
+        "<4, 8, true>",
+        "<2, 8, false>",
+        "<1, 5, false>",
+        "không có đáp án nào đúng"
+      ],
+      "answer": [
+        "<4, 8, true>"
+      ],
+      "sourceNumber": 343,
+      "sourcePage": 194
+    },
+    {
+      "questionId": "cnpm-344",
+      "question": "Các node nào trên đồ thị tương ứng với các giá trị kết quả có thể trả về",
+      "type": "multiple_choice",
+      "options": [
+        "Node 6",
+        "Node 2",
+        "Node 5",
+        "Node 3"
+      ],
+      "answer": [
+        "Node 3",
+        "Node 5",
+        "Node 6"
+      ],
+      "sourceNumber": 344,
+      "sourcePage": 195
+    },
+    {
+      "questionId": "cnpm-345",
+      "question": "Test case tương ứng với đường đi qua các node 1-2-4-5 được thể hiện trên đồ thị là",
+      "type": "multiple_choice",
+      "options": [
+        "<2, 8, false>",
+        "<1, 5, false>",
+        "không tồn tại",
+        "<4, 8, true>"
+      ],
+      "answer": [
+        "<2, 8, false>"
+      ],
+      "sourceNumber": 345,
+      "sourcePage": 196
+    },
+    {
+      "questionId": "cnpm-346",
+      "question": "Các phương pháp thiết kế ca kiểm thửđối với phương pháp kiểm thử hộp đen",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử trạng thái, phân miền giá trị, sử dụng bảng quyết định, xác định giá trị biên.",
+        "Phân lớp tương đương, phân tích giá trị biên, sử dụng bảng quyết định, kiểm thử trạng thái.",
+        "Phân tích giá trị của biến, sử dụng bảng quyết định, kiểm thử trạng thái hệ thống.",
+        "Xác định giá trị biên, kiểm thử hoạt động, phân chia miền tương đương, sử dụng bảng quyết định."
+      ],
+      "answer": [
+        "Phân lớp tương đương, phân tích giá trị biên, sử dụng bảng quyết định, kiểm thử trạng thái."
+      ],
+      "sourceNumber": 346,
+      "sourcePage": 197
+    },
+    {
+      "questionId": "cnpm-347",
+      "question": "Kĩ thuật phân lớp tương đương trong phương pháp kiểm thử hộp đen",
+      "type": "single_choice",
+      "options": [
+        "Dựa vào miền dữ liệu đầu vào và đầu ra.",
+        "Luôn có thể xác định lớp dựa theo miền dữ liệu hợp lệ hoặc không hợp lệ.",
+        "Hành vi của hệ thống là đối với mọi điểm thuộc lớp tương đương có thể khác nhau.",
+        "Hệ thống sẽ hoạt động theo cách khác nhau tùy thuộc vào dữ liệu thuộc lớp nào."
+      ],
+      "answer": [
+        "Dựa vào miền dữ liệu đầu vào và đầu ra."
+      ],
+      "sourceNumber": 347,
+      "sourcePage": 197
+    },
+    {
+      "questionId": "cnpm-348",
+      "question": "Phát biểu nào là sai đối với phương pháp kiểm thử hộp đen",
+      "type": "single_choice",
+      "options": [
+        "Cấu trúc của đơn vị chương trình quyết định đến việc thiết kế các test case.",
+        "Không xác định được việc sẽ kiểm soát lỗi như thế nào.",
+        "Kiểm thử hộp đen dựa trên yêu cầu và chức năng của chương trình.",
+        "Được thực hiện bởi kiểm thử viên."
+      ],
+      "answer": [
+        "Cấu trúc của đơn vị chương trình quyết định đến việc thiết kế các test case."
+      ],
+      "sourceNumber": 348,
+      "sourcePage": 198
+    },
+    {
+      "questionId": "cnpm-349",
+      "question": "Đâu không được xem là nhược điểm của kĩ thuật phân lớp tương đương trong phương pháp kiểm thử hộp đen là",
+      "type": "single_choice",
+      "options": [
+        "Phụ thuộc vào kiến trúc của đơn vị chương trình.",
+        "Việc thiết kế các ca kiểm thử sẽ phức tạp nếu các dữ liệu không còn độc lập.",
+        "Không quan tâm đến một số giá trị không hợp lệ.",
+        "Phụ thuộc vào kinh nghiệm của người kiểm thử."
+      ],
+      "answer": [
+        "Phụ thuộc vào kiến trúc của đơn vị chương trình."
+      ],
+      "sourceNumber": 349,
+      "sourcePage": 198
+    },
+    {
+      "questionId": "cnpm-350",
+      "question": "Kĩ thuật phân lớp tương đương trong phương pháp kiểm thử hộp đen thực hiện những bước nào sau đây",
+      "type": "single_choice",
+      "options": [
+        "Xác định các lớp tương đương từ giá trịđầu vào và đầu ra.",
+        "Cần xác định tính hợp lệ của dữ liệu đầu vào.",
+        "Xác định các giá trị nằm ở miền giao của mỗi lớp đểđảm bảo tính chính xác của ca kiểm thử.",
+        "Lấy giá trị bất kì miền giá trịđể xây dựng ca kiểm thử."
+      ],
+      "answer": [
+        "Xác định các lớp tương đương từ giá trịđầu vào và đầu ra."
+      ],
+      "sourceNumber": 350,
+      "sourcePage": 198
+    },
+    {
+      "questionId": "cnpm-351",
+      "question": "Với bài toán xét kết quả của sinh viên với hai điểm thi là toán và vật lý. Sinh viên chỉ vượt qua kì thi nếu: Cảđiểm toán và điểm vật lý >= 70 (xét theo thang điểm 100) và điểm trung bình của toán và vật lý >= 80. Các test case nào sau đây được thiết kế đúng:",
+      "type": "multiple_choice",
+      "options": [
+        "<80, 50, false>",
+        "<86, 86, true>",
+        "<96, 66, false>",
+        "<75, 75, false>"
+      ],
+      "answer": [
+        "<80, 50, false>",
+        "<96, 66, false>",
+        "<75, 75, false>",
+        "<86, 86, true>"
+      ],
+      "sourceNumber": 351,
+      "sourcePage": 200
+    },
+    {
+      "questionId": "cnpm-352",
+      "question": "Với bài toán xét kết quả của sinh viên với hai điểm thi là toán và vật lý. Sinh viên chỉ vượt qua kì thi nếu: Cảđiểm toán và điểm vật lý >= 70 (xét theo thang điểm 100) và điểm trung bình của toán và vật lý >= 80. Các miền tương ứng với trường hợp “Đạt” là:",
+      "type": "single_choice",
+      "options": [
+        "3, 4",
+        "2, 3, 7",
+        "3",
+        "Không có đáp án nào đúng"
+      ],
+      "answer": [
+        "3"
+      ],
+      "sourceNumber": 352,
+      "sourcePage": 201
+    },
+    {
+      "questionId": "cnpm-354",
+      "question": "Thứ tự các bước để giải quyết bài toán kiểm thử hộp đen với lớp tương đương là",
+      "type": "single_choice",
+      "options": [
+        "Xác định các dữ liệu đầu vào và miền giá trị tương ứng. Thiết kế các test case. Lấy giá trị thích hợp cho các dữ liệu đầu ra. Xác định các test case.",
+        "Thiết kế các test case. Phân các lớp cho miền giá trị của dữ liệu. Lấy giá trị thích hợp cho các dữ liệu đầu ra. Xác định các test case.",
+        "Phân các lớp cho miền giá trị của dữ liệu. Xác định các dữ liệu đầu vào và miền giá trị tương ứng. Lấy giá trị thích hợp cho các dữ liệu đầu ra. Thiết kế các test case.",
+        "Xác định các dữ liệu đầu vào và miền giá trị tương ứng. Phân các lớp cho miền giá trị của dữ liệu. Lấy giá trị thích hợp cho các dữ liệu đầu ra. Xác định các test case."
+      ],
+      "answer": [
+        "Xác định các dữ liệu đầu vào và miền giá trị tương ứng. Phân các lớp cho miền giá trị của dữ liệu. Lấy giá trị thích hợp cho các dữ liệu đầu ra. Xác định các test case."
+      ],
+      "sourceNumber": 354,
+      "sourcePage": 202
+    },
+    {
+      "questionId": "cnpm-355",
+      "question": "Với bài toán xét kết quả của sinh viên với hai điểm thi là toán và vật lý. Sinh viên chỉ vượt qua kì thi nếu: Cảđiểm toán và điểm vật lý >= 70 (xét theo thang điểm 100) và điểm trung bình của toán và vật lý >= 80. Các miền tương ứng với trường hợp “Không đạt” là:",
+      "type": "single_choice",
+      "options": [
+        "1, 2, 4, 5, 6",
+        "1, 4, 5, 6",
+        "1, 2, 4, 5, 6, 7",
+        "1, 5, 6"
+      ],
+      "answer": [
+        "1, 2, 4, 5, 6, 7"
+      ],
+      "sourceNumber": 355,
+      "sourcePage": 203
+    },
+    {
+      "questionId": "cnpm-356",
+      "question": "Quy trình kiểm thử trong đảm bảo chất lượng phần mềm gồm các hoạt động nào sau đây",
+      "type": "multiple_choice",
+      "options": [
+        "Chuẩn bị, lên kế hoạch kiểm thử.",
+        "Đánh giá kết quả kiểm thử.",
+        "Quản lý kiểm thử.",
+        "Thực thi kiểm thử."
+      ],
+      "answer": [
+        "Quản lý kiểm thử.",
+        "Chuẩn bị, lên kế hoạch kiểm thử.",
+        "Thực thi kiểm thử."
+      ],
+      "sourceNumber": 356,
+      "sourcePage": 204
+    },
+    {
+      "questionId": "cnpm-357",
+      "question": "Đâu được xem là các vấn đề mấu chốt trong đảm bảo chất lượng phần mềm",
+      "type": "multiple_choice",
+      "options": [
+        "Đặc tả phần mềm không đầy đủ và nhất quán.",
+        "Các tiêu chí đểđảm bảo cho chương trình tái sử dụng và dễ bảo trì lại mâu thuẫn với tín.",
+        "Việc phát triển phần mềm không tuân thủ theo một quy trình đầy đủ.",
+        "Quan điểm về chất lượng của người dùng và đội phát triển là khác nhau."
+      ],
+      "answer": [
+        "Quan điểm về chất lượng của người dùng và đội phát triển là khác nhau.",
+        "Các tiêu chí đểđảm bảo cho chương trình tái sử dụng và dễ bảo trì lại mâu thuẫn với tín.",
+        "Đặc tả phần mềm không đầy đủ và nhất quán."
+      ],
+      "sourceNumber": 357,
+      "sourcePage": 204
+    },
+    {
+      "questionId": "cnpm-358",
+      "question": "Phát biểu nào sau đây là đúng với quy trình đảm bảo chất lượng phần mềm",
+      "type": "multiple_choice",
+      "options": [
+        "Phụ thuộc vào yêu cầu cụ thể của khách hàng.",
+        "Quy trình đảm bảo chất lượng là một quy trình mang tính hệ thống.",
+        "Là việc phối hợp giữa đội ngũ phát triển và khách hàng.",
+        "Xác định xem sản phẩm hoặc dịch vụđang được phát triển có đạt được các yêu cầu theo đặc tả ban đầu hay không."
+      ],
+      "answer": [
+        "Xác định xem sản phẩm hoặc dịch vụđang được phát triển có đạt được các yêu cầu theo đặc tả ban đầu hay không.",
+        "Quy trình đảm bảo chất lượng là một quy trình mang tính hệ thống."
+      ],
+      "sourceNumber": 358,
+      "sourcePage": 205
+    },
+    {
+      "questionId": "cnpm-359",
+      "question": "Đảm bảo chất lượng phần mềm liên quan đến các quy trình nào trong vòng đời phát triển phần mềm",
+      "type": "multiple_choice",
+      "options": [
+        "Quản lý cấu hình.",
+        "Quản lý yêu cầu.",
+        "Quản lý dự án.",
+        "Quản lý mã nguồn."
+      ],
+      "answer": [
+        "Quản lý dự án.",
+        "Quản lý yêu cầu.",
+        "Quản lý cấu hình.",
+        "Quản lý mã nguồn."
+      ],
+      "sourceNumber": 359,
+      "sourcePage": 205
+    },
+    {
+      "questionId": "cnpm-360",
+      "question": "Hoạt động quản lý dự án trong quy trình đảm bảo chất lượng phần mềm cần xác định",
+      "type": "multiple_choice",
+      "options": [
+        "Các nguồn lực cần thiết cho đảm bảo chất lượng.",
+        "Các mục tiêu và tiêu chí chất lượng.",
+        "Các kết quả cần đạt được của phần mềm.",
+        "Các thủ tục kiểm thử và đảm bảo chất lượng."
+      ],
+      "answer": [
+        "Các mục tiêu và tiêu chí chất lượng.",
+        "Các thủ tục kiểm thử và đảm bảo chất lượng.",
+        "Các nguồn lực cần thiết cho đảm bảo chất lượng."
+      ],
+      "sourceNumber": 360,
+      "sourcePage": 206
+    },
+    {
+      "questionId": "cnpm-361",
+      "question": "Bảo trì cải tiến nhằm mục đích thay đổi phần mềm ngày càng hoàn thiện, hợp lý và đầy đủ hơn theo các nguyên nhân",
+      "type": "multiple_choice",
+      "options": [
+        "Mở rộng chức năng",
+        "Thay đổi môi trường",
+        "Cải tiến nghiệp vụ",
+        "Nâng cao hiệu suất"
+      ],
+      "answer": [
+        "Nâng cao hiệu suất",
+        "Mở rộng chức năng",
+        "Cải tiến nghiệp vụ"
+      ],
+      "sourceNumber": 361,
+      "sourcePage": 207
+    },
+    {
+      "questionId": "cnpm-362",
+      "question": "Bảo trì để thích hợp nhằm mục đích tu chỉnh phần mềm theo các thay đổi đến từ các nguyên nhân",
+      "type": "multiple_choice",
+      "options": [
+        "Thay đổi phần cứng",
+        "Thay đổi yêu cầu của khách hàng",
+        "Thay đổi phần mềm (môi trường, hệ thống)",
+        "Thay đổi về cấu trúc hệ thống"
+      ],
+      "answer": [
+        "Thay đổi phần cứng",
+        "Thay đổi phần mềm (môi trường, hệ thống)",
+        "Thay đổi về cấu trúc hệ thống"
+      ],
+      "sourceNumber": 362,
+      "sourcePage": 207
+    },
+    {
+      "questionId": "cnpm-363",
+      "question": "Mục đích của bảo trì là",
+      "type": "multiple_choice",
+      "options": [
+        "Sửa đổi một phần mềm đã được phát triển .",
+        "Hiệu chỉnh lỗi của phần mềm.",
+        "Thay đổi phần mềm theo yêu cầu mới của khách hàng .",
+        "Cải thiện hiệu quả của sản phẩm."
+      ],
+      "answer": [
+        "Sửa đổi một phần mềm đã được phát triển .",
+        "Hiệu chỉnh lỗi của phần mềm.",
+        "Cải thiện hiệu quả của sản phẩm."
+      ],
+      "sourceNumber": 363,
+      "sourcePage": 208
+    },
+    {
+      "questionId": "cnpm-364",
+      "question": "Bảo trì sửa lỗi là khắc phục các khiếm khuyết trong phần mềm đến từ các nguyên nhân",
+      "type": "multiple_choice",
+      "options": [
+        "Dự phòng các trường hợp có thể xảy ra",
+        "Thiết kế sai",
+        "Hiểu nhầm giữa khách hàng và kĩ sư phần mềm",
+        "Sơ ý của người lập trình hoặc kiểm thử viên"
+      ],
+      "answer": [
+        "Hiểu nhầm giữa khách hàng và kĩ sư phần mềm",
+        "Thiết kế sai",
+        "Sơ ý của người lập trình hoặc kiểm thử viên"
+      ],
+      "sourceNumber": 364,
+      "sourcePage": 208
+    },
+    {
+      "questionId": "cnpm-365",
+      "question": "Các hình thức của bảo trì",
+      "type": "multiple_choice",
+      "options": [
+        "Bảo trì để thích hợp.",
+        "Bảo trì để cải tiến.",
+        "Bảo trì để tu sửa.",
+        "Bảo trì để phòng ngừa."
+      ],
+      "answer": [
+        "Bảo trì để tu sửa.",
+        "Bảo trì để thích hợp."
+      ],
+      "sourceNumber": 365,
+      "sourcePage": 208
+    },
+    {
+      "questionId": "cnpm-366",
+      "question": "Hiểu về phần mềm đã có để bảo trì phần mềm có nghĩa là",
+      "type": "multiple_choice",
+      "options": [
+        "Cần nắm vững các chức năng của hệ thống",
+        "Hiểu vềđối tượng người dùng",
+        "Nắm bắt đặc tả và điều kiện kiểm thử",
+        "Hiểu về mã nguồn của chương trình"
+      ],
+      "answer": [
+        "Cần nắm vững các chức năng của hệ thống",
+        "Nắm bắt đặc tả và điều kiện kiểm thử",
+        "Hiểu về mã nguồn của chương trình"
+      ],
+      "sourceNumber": 366,
+      "sourcePage": 210
+    },
+    {
+      "questionId": "cnpm-367",
+      "question": "Các mục đích chính của quản lý kiểm thử trong đảm bảo chất lượng phần mềm",
+      "type": "multiple_choice",
+      "options": [
+        "Đánh giá chất lượng và viết báo cáo",
+        "Lên kế hoạch kiểm thử và xác định rủi ro",
+        "Xác định các chiến lược kiểm thử",
+        "Phân công công việc và đào tạo"
+      ],
+      "answer": [
+        "Xác định các chiến lược kiểm thử",
+        "Lên kế hoạch kiểm thử và xác định rủi ro",
+        "Đánh giá chất lượng và viết báo cáo",
+        "Phân công công việc và đào tạo"
+      ],
+      "sourceNumber": 367,
+      "sourcePage": 210
+    },
+    {
+      "questionId": "cnpm-368",
+      "question": "Quá trình bảo trì phần mềm cần",
+      "type": "multiple_choice",
+      "options": [
+        "Kiểm thử tính nhất quán của các thành phần bằng kiểm thử tích hợp",
+        "Sử dụng môi trường cũđể thực hiện việc kiểm thử",
+        "Sử dụng các ca kiểm thử và dữ liệu kiểm thử trước để kiểm thử lại hệ thống",
+        "Cập nhật các tài liệu mô tả tương ứng với công tác bảo trì"
+      ],
+      "answer": [
+        "Kiểm thử tính nhất quán của các thành phần bằng kiểm thử tích hợp",
+        "Sử dụng các ca kiểm thử và dữ liệu kiểm thử trước để kiểm thử lại hệ thống",
+        "Cập nhật các tài liệu mô tả tương ứng với công tác bảo trì"
+      ],
+      "sourceNumber": 368,
+      "sourcePage": 211
+    },
+    {
+      "questionId": "cnpm-369",
+      "question": "Thực hiện kiểm thử bao gồm",
+      "type": "multiple_choice",
+      "options": [
+        "Thu thập và ghi nhận lỗi",
+        "Thực thi các ca kiểm thử",
+        "Thiết kế ca kiểm thử theo yêu cầu",
+        "Phân tích các kết quả thực thi"
+      ],
+      "answer": [
+        "Thực thi các ca kiểm thử",
+        "Phân tích các kết quả thực thi",
+        "Thu thập và ghi nhận lỗi"
+      ],
+      "sourceNumber": 369,
+      "sourcePage": 211
+    },
+    {
+      "questionId": "cnpm-370",
+      "question": "Việc kiểm thử trong đảm bảo chất lượng phần mềm",
+      "type": "multiple_choice",
+      "options": [
+        "Cho các khía cạnh như hiệu năng, độổn định, khả năng tương tác",
+        "Là nền tảng của quy trình đảm bảo chất lượng",
+        "Ở nhiều mức độ khác nhau của sản phẩm",
+        "Có thể thực hiện trong các pha riêng biệt hoặc lồng nhau"
+      ],
+      "answer": [
+        "Có thể thực hiện trong các pha riêng biệt hoặc lồng nhau",
+        "Ở nhiều mức độ khác nhau của sản phẩm",
+        "Cho các khía cạnh như hiệu năng, độổn định, khả năng tương tác",
+        "Là nền tảng của quy trình đảm bảo chất lượng"
+      ],
+      "sourceNumber": 370,
+      "sourcePage": 211
+    },
+    {
+      "questionId": "cnpm-371",
+      "question": "Đối với các loại hình bảo trì khác nhau",
+      "type": "multiple_choice",
+      "options": [
+        "Các thành phần của hệ thống có thể bảo trì một cách độc lập",
+        "Để tu sửa phần mềm cần thực hiện thao tác lập trình và kiểm thử",
+        "Khi thêm chức năng trong bảo trì cần phải tiến hành các bước thiết kế, lập trình, kiểm thử",
+        "Cần sử dụng và cập nhật các tài liệu đặc tả trong quá trình bảo trì"
+      ],
+      "answer": [
+        "Khi thêm chức năng trong bảo trì cần phải tiến hành các bước thiết kế, lập trình, kiểm thử",
+        "Để tu sửa phần mềm cần thực hiện thao tác lập trình và kiểm thử",
+        "Cần sử dụng và cập nhật các tài liệu đặc tả trong quá trình bảo trì"
+      ],
+      "sourceNumber": 371,
+      "sourcePage": 212
+    },
+    {
+      "questionId": "cnpm-372",
+      "question": "Quản lý mã nguồn làm tăng hiệu quả cho đảm bảo chất lượng phần mềm vì",
+      "type": "multiple_choice",
+      "options": [
+        "Cải tiến được kĩ năng thành viên của đội dự án",
+        "Các nhóm/thành viên có thể làm việc một cách độc lập",
+        "Mã nguồn thống nhất sẽ giúp cho việc bảo trì sản phẩm sẽ dễ dàng hơn",
+        "Cho phép phát hiện lỗi sớm và giảm thiểu tác động của lỗi lên các thành phần phụ thuộc khác"
+      ],
+      "answer": [
+        "Mã nguồn thống nhất sẽ giúp cho việc bảo trì sản phẩm sẽ dễ dàng hơn",
+        "Cho phép phát hiện lỗi sớm và giảm thiểu tác động của lỗi lên các thành phần phụ thuộc khác",
+        "Cải tiến được kĩ năng thành viên của đội dự án"
+      ],
+      "sourceNumber": 372,
+      "sourcePage": 212
+    },
+    {
+      "questionId": "cnpm-373",
+      "question": "Phát biểu nào là sai về kiểm thử",
+      "type": "single_choice",
+      "options": [
+        "Tập các ca kiểm thử cho một chức năng hoặc một nhóm chức năng của phần mềm được gọi là một test suite",
+        "Một kiểm thử có kết quảđạt không mang lại nhiều ý nghĩa trong việc phát hiện lỗi",
+        "Một ca kiểm thửđược gọi là đạt nếu nó trả vềđúng kết quả như trong thiết kế",
+        "Ca kiểm thử là một cặp giá trịđầu vào và giá trịđầu ra khi thực hiện kiểm thử"
+      ],
+      "answer": [
+        "Ca kiểm thử là một cặp giá trịđầu vào và giá trịđầu ra khi thực hiện kiểm thử"
+      ],
+      "sourceNumber": 373,
+      "sourcePage": 212
+    },
+    {
+      "questionId": "cnpm-374",
+      "question": "Quản lý yêu cầu trong quy trình đảm bảo chất lượng phần mềm cần thực hiện các hoạt động",
+      "type": "multiple_choice",
+      "options": [
+        "Xác định các hạn chế và ngoại lệ từ yêu cầu",
+        "Nắm bắt các vấn đề của dự án",
+        "Xác định chức năng của hệ thống",
+        "Cung cấp cơ sở cho các ước tính dự án, phát triển mã nguồn và các quy trình kiểm chứng"
+      ],
+      "answer": [
+        "Xác định chức năng của hệ thống",
+        "Xác định các hạn chế và ngoại lệ từ yêu cầu",
+        "Nắm bắt các vấn đề của dự án",
+        "Cung cấp cơ sở cho các ước tính dự án, phát triển mã nguồn và các quy trình kiểm chứng"
+      ],
+      "sourceNumber": 374,
+      "sourcePage": 213
+    },
+    {
+      "questionId": "cnpm-375",
+      "question": "Thao tác kiểm thử cần chú ý đến",
+      "type": "multiple_choice",
+      "options": [
+        "Thiết kế kết quảđầu ra",
+        "Yếu tố hồi quy",
+        "Môi trường phát triển",
+        "Cấu trúc của chương trình"
+      ],
+      "answer": [
+        "Yếu tố hồi quy",
+        "Cấu trúc của chương trình",
+        "Thiết kế kết quảđầu ra"
+      ],
+      "sourceNumber": 375,
+      "sourcePage": 213
+    },
+    {
+      "questionId": "cnpm-376",
+      "question": "Phát biểu nào sau đây là đúng đối với bảo trì phòng ngừa",
+      "type": "multiple_choice",
+      "options": [
+        "Tính đến việc mở rộng hoặc thay đổi trong tương lai",
+        "Sửa dổi để thích hợp với các yêu cầu có thể có trong tương lai của người dùng",
+        "Sửa lỗi của hệ thống",
+        "Cần hiểu về thiết kế và lập trình lại"
+      ],
+      "answer": [
+        "Tính đến việc mở rộng hoặc thay đổi trong tương lai",
+        "Sửa dổi để thích hợp với các yêu cầu có thể có trong tương lai của người dùng",
+        "Cần hiểu về thiết kế và lập trình lại"
+      ],
+      "sourceNumber": 376,
+      "sourcePage": 213
+    },
+    {
+      "questionId": "cnpm-377",
+      "question": "Bài toán kiểm thử hộp đen với kĩ thuật phân lớp tương đương có",
+      "type": "multiple_choice",
+      "options": [
+        "Mã nguồn của chương trình",
+        "Miền dữ liệu đầu vào",
+        "Yêu cầu kết quảđầu ra",
+        "Sơđồ luồng điều khiển"
+      ],
+      "answer": [
+        "Miền dữ liệu đầu vào",
+        "Yêu cầu kết quảđầu ra"
+      ],
+      "sourceNumber": 377,
+      "sourcePage": 214
+    },
+    {
+      "questionId": "cnpm-378",
+      "question": "Phát biểu nào là sai cho hoạt động kiểm thử",
+      "type": "single_choice",
+      "options": [
+        "Thực hiện thao tác kiểm thử có thể khẳng định được phần mềm không có lỗi",
+        "Có hai kĩ thuật kiểm thử cơ bản, đó là: kiểm thử hộp đen và kiểm thử hộp trắng",
+        "Cần thiết kế các ca kiểm thửđể phát hiện nhiều lỗi có thể nhất có thể",
+        "Hoạt động kiểm thử cần được tiến hành trực tiếp trên chương trình"
+      ],
+      "answer": [
+        "Thực hiện thao tác kiểm thử có thể khẳng định được phần mềm không có lỗi"
+      ],
+      "sourceNumber": 378,
+      "sourcePage": 214
+    },
+    {
+      "questionId": "cnpm-379",
+      "question": "Hoạt động chính của chuẩn bị kiểm thử bao gồm",
+      "type": "multiple_choice",
+      "options": [
+        "Thiết lập môi trường cần thiết",
+        "Ghi nhật kí kiểm thử",
+        "Thiết kế các ca kiểm thử",
+        "Phân tích yêu cầu chức năng"
+      ],
+      "answer": [
+        "Phân tích yêu cầu chức năng",
+        "Thiết kế các ca kiểm thử",
+        "Thiết lập môi trường cần thiết",
+        "Ghi nhật kí kiểm thử"
+      ],
+      "sourceNumber": 379,
+      "sourcePage": 214
+    },
+    {
+      "questionId": "cnpm-380",
+      "question": "Quy trình bảo trì được tiến hành như thế nào",
+      "type": "single_choice",
+      "options": [
+        "Cần thiết kế lại trước khi lập trình",
+        "Chú ý đến thiết kế hệ thống và lập trình",
+        "Tuân theo các pha như quá trình phát triển phần mềm",
+        "Tập trung vào bước kiểm thử và sửa lỗi"
+      ],
+      "answer": [
+        "Tuân theo các pha như quá trình phát triển phần mềm"
+      ],
+      "sourceNumber": 380,
+      "sourcePage": 215
+    },
+    {
+      "questionId": "cnpm-381",
+      "question": "Ưu điểm của kĩ thuật phân lớp tương đương trong phương pháp kiểm thử hộp đen là",
+      "type": "multiple_choice",
+      "options": [
+        "Có thể lấy giá trị bất kỳ trong miền dữ liệu đã được xác định",
+        "Giảm số lượng ca kiểm thử cần thiết kế",
+        "Đảm bảo mỗi miền dữ liệu đều có thểđược kiểm thử",
+        "Không cần phải xét toàn bộ miền dữ liệu đầu vào"
+      ],
+      "answer": [
+        "Không cần phải xét toàn bộ miền dữ liệu đầu vào",
+        "Đảm bảo mỗi miền dữ liệu đều có thểđược kiểm thử",
+        "Giảm số lượng ca kiểm thử cần thiết kế"
+      ],
+      "sourceNumber": 381,
+      "sourcePage": 215
+    },
+    {
+      "questionId": "cnpm-382",
+      "question": "Quản lý cấu hình trong đảm bảo chất lượng phần mềm nhằm mục đích",
+      "type": "multiple_choice",
+      "options": [
+        "Đảm bảo cho các nhóm phát triển có thể làm việc trên cùng mã nguồn",
+        "Xác định lỗi xuất hiện ở mã nguồn nào",
+        "Tạo điều kiện cho việc kiểm thử tựđộng",
+        "Các phiên bản không bịảnh hưởng bởi lỗi cấu trúc"
+      ],
+      "answer": [
+        "Đảm bảo cho các nhóm phát triển có thể làm việc trên cùng mã nguồn",
+        "Các phiên bản không bịảnh hưởng bởi lỗi cấu trúc",
+        "Xác định lỗi xuất hiện ở mã nguồn nào",
+        "Tạo điều kiện cho việc kiểm thử tựđộng"
+      ],
+      "sourceNumber": 382,
+      "sourcePage": 215
+    },
+    {
+      "questionId": "cnpm-383",
+      "question": "Thứ tự các bước để giải quyết bài toán kiểm thử hộp trắng với luồng điều khiển là",
+      "type": "single_choice",
+      "options": [
+        "Vẽđồ thị CFG tương ứng với đoạn chương trình đã cho. Xác định các đường đi (nhánh rẽ/câu lệnh) tương ứng theo yêu cầu. Xác định các giá trịđầu vào tương ứng theo các đường đi (nhánh rẽ/câu lệnh). Thực hiện các test case.",
+        "Vẽđồ thị CFG tương ứng với đoạn chương trình đã cho. Xác định các đường đi (nhánh rẽ/câu lệnh) tương ứng theo yêu cầu. Xác định các giá trịđầu vào tương ứng theo các đường đi (nhánh rẽ/câu lệnh). Xác định các test case.",
+        "Thiết kế các test case. Vẽđồ thị CFG tương ứng với đoạn chương trình đã cho. Xác định các đường đi (nhánh rẽ/câu lệnh) tương ứng theo yêu cầu. Xác định các giá trịđầu vào tương ứng theo các đường đi (nhánh rẽ/câu lệnh).",
+        "Vẽđồ thị CFG tương ứng với đoạn chương trình đã cho. Thiết kế các test case. Xác định các đường đi (nhánh rẽ/câu lệnh) tương ứng theo yêu cầu. Xác định các giá trịđầu vào tương ứng theo các đường đi (nhánh rẽ/câu lệnh)."
+      ],
+      "answer": [
+        "Vẽđồ thị CFG tương ứng với đoạn chương trình đã cho. Xác định các đường đi (nhánh rẽ/câu lệnh) tương ứng theo yêu cầu. Xác định các giá trịđầu vào tương ứng theo các đường đi (nhánh rẽ/câu lệnh). Xác định các test case."
+      ],
+      "sourceNumber": 383,
+      "sourcePage": 216
+    },
+    {
+      "questionId": "cnpm-384",
+      "question": "Chất lượng của sản phẩm phần mềm cần",
+      "type": "single_choice",
+      "options": [
+        "Mang lại lợi ích cho người phát triển .",
+        "Đáp ứng được các yêu cầu kĩ thuật của nó",
+        "Thõa mãn tất cả các yêu cầu của khách hàng",
+        "Phù hợp với các mục đích đặt ra"
+      ],
+      "answer": [
+        "Đáp ứng được các yêu cầu kĩ thuật của nó"
+      ],
+      "sourceNumber": 384,
+      "sourcePage": 216
+    },
+    {
+      "questionId": "cnpm-385",
+      "question": "Mô hình chữ V cho phép đánh giá chất lượng phần mềm qua",
+      "type": "single_choice",
+      "options": [
+        "Các hoạt động trong tiến trình xây dựng phần mềm",
+        "Các pha phát triển bởi các hoạt động kiểm thử tương ứng",
+        "Các hoạt động kiểm chứng và xác nhận",
+        "Các hoạt động phân tích và kiểm thử"
+      ],
+      "answer": [
+        "Các pha phát triển bởi các hoạt động kiểm thử tương ứng"
+      ],
+      "sourceNumber": 385,
+      "sourcePage": 217
+    },
+    {
+      "questionId": "cnpm-386",
+      "question": "Phần mềm là gì?",
+      "type": "single_choice",
+      "options": [
+        "Phần mềm là tập hợp các chương trình, tài liệu và dữ liệu phục vụ cho nó",
+        "Phần mềm là tập hợp các chương trình",
+        "Phần mềm là tài liệu và dữ liệu đã được cấu trúc",
+        "Không có điều nào được đề cập"
+      ],
+      "answer": [
+        "Phần mềm là tập hợp các chương trình, tài liệu và dữ liệu phục vụ cho nó"
+      ],
+      "sourceNumber": 386,
+      "sourcePage": 218
+    },
+    {
+      "questionId": "cnpm-387",
+      "question": "Tài liệu nào bao gồm kiến trúc tổng thể của phần mềm và kiểm tra tính khả thi của nó với yêu cầu của khách hàng?",
+      "type": "single_choice",
+      "options": [
+        "Chi tiết kiến trúc phần mềm",
+        "Hướng dẫn sử dụng",
+        "Chi tiết mã phần mềm",
+        "Kế hoạch chi tiết"
+      ],
+      "answer": [
+        "Chi tiết kiến trúc phần mềm"
+      ],
+      "sourceNumber": 387,
+      "sourcePage": 218
+    },
+    {
+      "questionId": "cnpm-388",
+      "question": "Tài liệu SRS dùng để mô tả cho:",
+      "type": "single_choice",
+      "options": [
+        "”Làm thế nào” để thiết kế hệ thống?",
+        "Yêu cầu của hệ thống",
+        "Tính toán chi phí và lập kế hoạch cho hệ thống/phần mềm",
+        "Cụ thể phần mềm/hệ thống là ”Cái gì”?"
+      ],
+      "answer": [
+        "Cụ thể phần mềm/hệ thống là ”Cái gì”?"
+      ],
+      "sourceNumber": 388,
+      "sourcePage": 219
+    },
+    {
+      "questionId": "cnpm-389",
+      "question": "Bước nào không phải là bước của kỹ thuật xác định yêu cầu?",
+      "type": "single_choice",
+      "options": [
+        "Gợi ý yêu cầu",
+        "Tài liệu yêu cầu",
+        "Phân tích yêu cầu",
+        "Yêu cầu thiết kế"
+      ],
+      "answer": [
+        "Yêu cầu thiết kế"
+      ],
+      "sourceNumber": 389,
+      "sourcePage": 219
+    },
+    {
+      "questionId": "cnpm-390",
+      "question": "Điều nào sau đây không được xác định trong tài liệu Đặc tả yêu cầu phần mềm (SRS) tốt?",
+      "type": "single_choice",
+      "options": [
+        "Yêu cầu về chức năng",
+        "Yêu cầu phi chức năng",
+        "Mục tiêu thực hiện",
+        "Thuật toán triển khai phần mềm"
+      ],
+      "answer": [
+        "Thuật toán triển khai phần mềm"
+      ],
+      "sourceNumber": 390,
+      "sourcePage": 219
+    },
+    {
+      "questionId": "cnpm-396",
+      "question": "Product Backlog nên được sắp xếp dựa trên cơ sở?",
+      "type": "single_choice",
+      "options": [
+        "Giá trị của item",
+        "Kích thước của các item",
+        "Sự phức tạp của item",
+        "Rủi ro liên quan đến item"
+      ],
+      "answer": [
+        "Giá trị của item"
+      ],
+      "sourceNumber": 396,
+      "sourcePage": 222
+    },
+    {
+      "questionId": "cnpm-397",
+      "question": "Việc tồn đọng của sprint là trách nhiệm của ....",
+      "type": "single_choice",
+      "options": [
+        "Product Owner",
+        "Scrum Master",
+        "Nhóm phát triển",
+        "Mọi người"
+      ],
+      "answer": [
+        "Nhóm phát triển"
+      ],
+      "sourceNumber": 397,
+      "sourcePage": 222
+    },
+    {
+      "questionId": "cnpm-398",
+      "question": "Ai nên hiểu/biết nhất về mục tiêu kinh doanh hoặc giá trị bản phát hành và có thể giải thích các lựa chọn một cách rõ ràng nhất?",
+      "type": "single_choice",
+      "options": [
+        "Scrum Master",
+        "Product Owner",
+        "Người quản lý",
+        "Nhóm phát triển"
+      ],
+      "answer": [
+        "Product Owner"
+      ],
+      "sourceNumber": 398,
+      "sourcePage": 223
+    },
+    {
+      "questionId": "cnpm-399",
+      "question": "Danh sách các nhiệm vụ ưu tiên mà nhóm dự án cần thực hiện trong phạm vi quản lý dự án",
+      "type": "single_choice",
+      "options": [
+        "Nhiệm vụ được định nghĩa “Xong”",
+        "Sprint backlog",
+        "Product backlog"
+      ],
+      "answer": [
+        "Product backlog"
+      ],
+      "sourceNumber": 399,
+      "sourcePage": 223
+    },
+    {
+      "questionId": "cnpm-400",
+      "question": "Mục tiêu của Sprint là tạo ra một Phần tăng trưởng có giá trị (có giá trị) và hữu ích (hữu ích) cho sản phẩm công nghệ?",
+      "type": "single_choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": [
+        "Đúng"
+      ],
+      "sourceNumber": 400,
+      "sourcePage": 223
+    },
+    {
+      "questionId": "cnpm-401",
+      "question": "Các hành động sau đây: - Tổ chức các cuộc họp giữa các bên liên quan để gỡ rối các vấn đề hiện tại, xem xét và tiếp nhận các ý kiến đóng góp của thành viên - Xây dựng và gợi ý về tình huống sử dụng giả định cho khách hàng - Thiết lập thêm kênh trao đổi trực tiếp giữa khách hàng với nhóm phát triển (qua Zalo, điện thoại) là các hành động ngăn ngừa rủi ro ”Thiếu sự tương tác, trao đổi đa chiều dẫn đến hiểu lầm, bất đồng quan điểm”",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 401,
+      "sourcePage": 225
+    },
+    {
+      "questionId": "cnpm-402",
+      "question": "Cấu trúc phân cấp công việc hướng quy trình sẽ phân chia phạm vi dự án thành các quy trình cần thiết để hoàn thành nó. Những quy trình này sẽ ở cấp đầu tiên trong cấu trúc. Đến một cấp nào đó, các nút trong cấu trúc phân cấp công việc theo quy trình sẽ giống các nút trong cấu trúc phân cấp công việc theo sản phẩm.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 402,
+      "sourcePage": 225
+    },
+    {
+      "questionId": "cnpm-403",
+      "question": "Các hành động sau đây: - Kiểm tra kỹ các điều khoản về bàn giao sản phẩm trước khi ký hợp đồng - Thiết lập và thỏa thuận với khách hàng về các tiêu chí nghiệm thu sản phẩm một cách định lượng - Kiểm thử với dữ liệu, hệ thống thật nếu có thể là các hành động ngăn ngừa rủi ro ”Ước tính thời gian và chi phí quá lạc quan”",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 403,
+      "sourcePage": 226
+    },
+    {
+      "questionId": "cnpm-404",
+      "question": "Mục nào sau đây không thuộc cấu trúc tuyên ngôn dự án (điều lệ dự án)?",
+      "type": "single_choice",
+      "options": [
+        "Cấu trúc phân cấp công việc",
+        "Tuyên bố phạm vi dự án",
+        "Thông tin chung",
+        "Các bên liên quan"
+      ],
+      "answer": [
+        "Cấu trúc phân cấp công việc"
+      ],
+      "sourceNumber": 404,
+      "sourcePage": 226
+    },
+    {
+      "questionId": "cnpm-405",
+      "question": "Mục nào sau đây không thuộc cấu trúc tuyên bố phạm vi dự án ?",
+      "type": "single_choice",
+      "options": [
+        "Lịch trình thực hiện",
+        "Chiến lược truyền thông",
+        "Sản phẩm bàn giao",
+        "Kinh phí"
+      ],
+      "answer": [
+        "Chiến lược truyền thông"
+      ],
+      "sourceNumber": 405,
+      "sourcePage": 227
+    },
+    {
+      "questionId": "cnpm-406",
+      "question": "Phát biểu nào phù hợp cho vấn đề xung đột (conflicts) mã nguồn trong các hệ thống kiểm soát phiên bản?",
+      "type": "single_choice",
+      "options": [
+        "Xung đột có thể xảy ra khi hai hoặc nhiều nhà phát triển thay đổi cùng một tệp mã nguồn",
+        "Tất cả các lựa chọn còn lại đều đúng",
+        "Hệ thống kiểm soát phiên ban Git luôn có thể xử lý xung đột tự động",
+        "Xung đột chỉ xảy ra tại kho lưu trữ cục bộ của thành viên, không xuất hiện tại kho lưu trữ từ xa như Github"
+      ],
+      "answer": [
+        "Xung đột có thể xảy ra khi hai hoặc nhiều nhà phát triển thay đổi cùng một tệp mã nguồn"
+      ],
+      "sourceNumber": 406,
+      "sourcePage": 228
+    },
+    {
+      "questionId": "cnpm-407",
+      "question": "Trong hệ thống kiểm soát phiên bản Git, mục đích của tệp tin ”.gitignore”?",
+      "type": "single_choice",
+      "options": [
+        "Chứa nội dung của giấy phép sao chép và sử dụng, bao gồm một số thông tin bản quyền",
+        "Cho biết những tệp nào không được đồng bộ hóa với kho lưu trữ",
+        "Chứa thông tin username và email của nhà phát triển",
+        "Mô tả các thông tin cơ bản về phần mềm"
+      ],
+      "answer": [
+        "Cho biết những tệp nào không được đồng bộ hóa với kho lưu trữ"
+      ],
+      "sourceNumber": 407,
+      "sourcePage": 228
+    },
+    {
+      "questionId": "cnpm-408",
+      "question": "Câu lệnh nào của Git được sử dụng để tạo bản sao từ kho lưu trữ từ xa trên Github?",
+      "type": "single_choice",
+      "options": [
+        "git commit",
+        "git push",
+        "git clone",
+        "git log"
+      ],
+      "answer": [
+        "git clone"
+      ],
+      "sourceNumber": 408,
+      "sourcePage": 229
+    },
+    {
+      "questionId": "cnpm-409",
+      "question": "Câu lệnh nào của Git được sử dụng để kiểm tra trạng thái các tệp tin được đánh dấu quản lý phiên bản?",
+      "type": "single_choice",
+      "options": [
+        "git push",
+        "git status",
+        "git commit",
+        "git log"
+      ],
+      "answer": [
+        "git status"
+      ],
+      "sourceNumber": 409,
+      "sourcePage": 229
+    },
+    {
+      "questionId": "cnpm-410",
+      "question": "Mô tả phù hợp cho câu lệnh: {$ git branch dev}?",
+      "type": "single_choice",
+      "options": [
+        "Tạo ra một nhánh có tên là dev tại kho lưu trữ cục bộ",
+        "Xóa ra một nhánh có tên là dev tại kho lưu trữ cục bộ",
+        "Tất cả các lựa chọn còn lại đều sai",
+        "Đẩy một nhánh có tên là dev lên kho lưu trữ từ xa"
+      ],
+      "answer": [
+        "Tạo ra một nhánh có tên là dev tại kho lưu trữ cục bộ"
+      ],
+      "sourceNumber": 410,
+      "sourcePage": 229
+    },
+    {
+      "questionId": "cnpm-416",
+      "question": "Đâu là phát biểu đúng về biểu đồ hoạt động trong UML? (1) Nút chia của sơ đồ hoạt động UML2 được sử dụng để mô hình hóa các luồng song song và tạo mã thông báo cho tất cả các cạnh đi ra. (2) Nút chia là một nút thay thế cho nút quyết định và chỉ hợp lệ khi được kết hợp với nút nối. (3) Một nút ghép giúp đồng bộ hóa nhiều luồng thay thế. (4) Nút ghép hợp nhất các mã thông báo ngay khi chúng có sẵn trên tất cả các cạnh đến (5) Nút cuối cùng của hoạt động chỉ có thể được mô hình hóa một lần trong mỗi mô hình (6) Các phân vùng không được có độ sâu phân cấp nhiều hơn một.",
+      "type": "single_choice",
+      "options": [
+        "2 và 3",
+        "5 và 6",
+        "1 và 2",
+        "1, 3 và 4",
+        "1 và 4"
+      ],
+      "answer": [
+        "1 và 4"
+      ],
+      "sourceNumber": 416,
+      "sourcePage": 234
+    },
+    {
+      "questionId": "cnpm-421",
+      "question": "Trong thiết kế hướng đối tượng, cơ chế nào sau đây cho phép một số lớp đối tượng trong hệ thống phân cấp lớp có các phương thức khác nhau có cùng tên??",
+      "type": "single_choice",
+      "options": [
+        "Tất cả các lựa chọn còn lại đều sai",
+        "Polymorphism",
+        "Aggregation",
+        "Composition"
+      ],
+      "answer": [
+        "Polymorphism"
+      ],
+      "sourceNumber": 421,
+      "sourcePage": 237
+    },
+    {
+      "questionId": "cnpm-422",
+      "question": "Mô tả về chữ ký cho các phương thức trong lớp, gồm các thông tin nào?",
+      "type": "single_choice",
+      "options": [
+        "Tên phương thức và danh sách tham số (kiểu dữ liệu và thứ tự của tham số)",
+        "Kiểu dữ liệu trả về (return type)",
+        "Phạm vi của phương thức (static / non-static)",
+        "Giới hạn truy cập của phương phức (public / protected / private)"
+      ],
+      "answer": [
+        "Tên phương thức và danh sách tham số (kiểu dữ liệu và thứ tự của tham số)"
+      ],
+      "sourceNumber": 422,
+      "sourcePage": 237
+    },
+    {
+      "questionId": "cnpm-423",
+      "question": "Trong mô hình kiến trúc MVC, thành phần tương ứng với V là?",
+      "type": "single_choice",
+      "options": [
+        "Xử lý logic nghiệp vụ, phối hợp các thành phần khác",
+        "Đóng gói thông tin hay dữ liệu nghiệp vụ",
+        "Tất cả các lựa chọn còn lại đều sai",
+        "Giao diện hiển thị, tương tác người dùng"
+      ],
+      "answer": [
+        "Giao diện hiển thị, tương tác người dùng"
+      ],
+      "sourceNumber": 423,
+      "sourcePage": 238
+    },
+    {
+      "questionId": "cnpm-424",
+      "question": "Phát biểu phù hợp cho các lớp phân tích thuộc nhóm lớp thực thể (entity class)?",
+      "type": "single_choice",
+      "options": [
+        "Đóng gói thông tin hệ thống sử dụng",
+        "Lớp chứa logic điều khiển của ca sử dụng",
+        "Tất cả các lựa chọn còn lại đều sai",
+        "Ranh giới giữa hệ thống và các tác nhân"
+      ],
+      "answer": [
+        "Đóng gói thông tin hệ thống sử dụng"
+      ],
+      "sourceNumber": 424,
+      "sourcePage": 238
+    },
+    {
+      "questionId": "cnpm-425",
+      "question": "Các thành phần của một sơ đồ thực thể - quan hệ (ER diagram)?",
+      "type": "single_choice",
+      "options": [
+        "Đối tượng, trạng thái, thao tác",
+        "Tài liệu, chỉ mục (index), tập hợp",
+        "Bảng, dòng, cột",
+        "Tập thực thể, thuộc tính, quan hệ"
+      ],
+      "answer": [
+        "Tập thực thể, thuộc tính, quan hệ"
+      ],
+      "sourceNumber": 425,
+      "sourcePage": 238
+    },
+    {
+      "questionId": "cnpm-426",
+      "question": "Trong số những mẫu thử đưa ra cho người dùng xem và thảo luận, người thiết kế chủ động chọn lấy một mẫu thử để dùng làm bản thiết kế chính thức, mà không cần chỉnh sửa theo góp ý của người dùng.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "False"
+      ],
+      "sourceNumber": 426,
+      "sourcePage": 240
+    },
+    {
+      "questionId": "cnpm-427",
+      "question": "Cần lập hướng dẫn phong cách thiết kế ứng dụng để đảm bảo tính nhất quán của các phần tử giao diện.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 427,
+      "sourcePage": 240
+    },
+    {
+      "questionId": "cnpm-428",
+      "question": "Nên cung cấp cho người dùng nhiều mẫu thử giao diện để họ lựa chọn.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 428,
+      "sourcePage": 241
+    },
+    {
+      "questionId": "cnpm-429",
+      "question": "Khi thiết kế luồng duyệt tin trong mỗi màn hình, cần lưu ý kiểm tra lại thứ tự các nhóm thông tin và điều chỉnh nếu cần.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 429,
+      "sourcePage": 241
+    },
+    {
+      "questionId": "cnpm-430",
+      "question": "Màn hình trang chính của ứng dụng cần chứa các phần tử giao diện cho phép điều hướng (trực tiếp hoặc gián tiếp) đến tất cả các chức năng của ứng dụng.",
+      "type": "single_choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        "True"
+      ],
+      "sourceNumber": 430,
+      "sourcePage": 241
+    },
+    {
+      "questionId": "cnpm-431",
+      "question": "Khi xây dựng phần mềm, cần phải lưu ý",
+      "type": "single_choice",
+      "options": [
+        "Tổng hợp các chức năng có liên quan của mô hình vào cùng một lớp model",
+        "Không được viết mã nguồn xử lý trực tiếp trên giao diện",
+        "Tất cả các lưu ý",
+        "Thiết kế biểu đồ lớp phải độc lập với thiết kế kiến trúc hệ thống"
+      ],
+      "answer": [
+        "Không được viết mã nguồn xử lý trực tiếp trên giao diện"
+      ],
+      "sourceNumber": 431,
+      "sourcePage": 243
+    },
+    {
+      "questionId": "cnpm-432",
+      "question": "Các phương thức như addKhoanThu(), showAllKhoanThu()... cần phải",
+      "type": "single_choice",
+      "options": [
+        "Nằm trong lớp KhoanThu nếu lớp đó là trừu tượng",
+        "Nằm bên ngoài lớp KhoanThu",
+        "Phải được viết trong phương thức main()",
+        "Nằm trong lớp KhoanThu"
+      ],
+      "answer": [
+        "Nằm bên ngoài lớp KhoanThu"
+      ],
+      "sourceNumber": 432,
+      "sourcePage": 243
+    },
+    {
+      "questionId": "cnpm-433",
+      "question": "Quá trình tái cấu trúc mã nguồn nên được thực hiện",
+      "type": "single_choice",
+      "options": [
+        "Sau khi đã xây dựng các test case",
+        "Sớm nhất có thể",
+        "Liên tục trong suốt thời gian xây dựng phần mềm",
+        "Khi nhà phát triển có thời gian"
+      ],
+      "answer": [
+        "Sau khi đã xây dựng các test case"
+      ],
+      "sourceNumber": 433,
+      "sourcePage": 244
+    },
+    {
+      "questionId": "cnpm-434",
+      "question": "Mã bốc mùi ”Shotgun Surgery” là mã nguồn có dấu hiệu...",
+      "type": "single_choice",
+      "options": [
+        "Khi có một thay đổi, phải thực hiện thay đổi ở nhiều lớp",
+        "Nhiều dữ liệu được truyền qua lại trong mã nguồn mà không được gói lại thành một đối tượng riêng biệt",
+        "Có nhiều đoạn mã bị trùng lặp do thiết kế dạng copy-pasta",
+        "Có nhiều thay đổi được thực hiện trong một lớp"
+      ],
+      "answer": [
+        "Khi có một thay đổi, phải thực hiện thay đổi ở nhiều lớp"
+      ],
+      "sourceNumber": 434,
+      "sourcePage": 244
+    },
+    {
+      "questionId": "cnpm-435",
+      "question": "Mã bốc mùi ”Data Clump” là mã nguồn có dấu hiệu...",
+      "type": "single_choice",
+      "options": [
+        "Có nhiều thay đổi được thực hiện trong một lớp",
+        "Có nhiều đoạn mã bị trùng lặp do thiết kế dạng copy-pasta",
+        "Nhiều dữ liệu được truyền qua lại trong mã nguồn mà không được gói lại thành một đối tượng riêng biệt",
+        "Khi có một thay đổi, phải thực hiện thay đổi ở nhiều lớp"
+      ],
+      "answer": [
+        "Nhiều dữ liệu được truyền qua lại trong mã nguồn mà không được gói lại thành một đối tượng riêng biệt"
+      ],
+      "sourceNumber": 435,
+      "sourcePage": 244
+    },
+    {
+      "questionId": "cnpm-436",
+      "question": "Theo quy ước viết mã Java (Java coding convention), tên biến nên là...",
+      "type": "single_choice",
+      "options": [
+        "Danh từ, viết thường chữ cái đầu tiên",
+        "Động từ, viết hoa chữ cái đầu tiên",
+        "Động từ, viết thường chữ cái đầu tiên",
+        "Danh từ, viết hoa chữ cái đầu tiên"
+      ],
+      "answer": [
+        "Danh từ, viết thường chữ cái đầu tiên"
+      ],
+      "sourceNumber": 436,
+      "sourcePage": 246
+    },
+    {
+      "questionId": "cnpm-437",
+      "question": "Theo quy ước viết mã Java (Java coding convention), tên lớp và tên giao diện nên là...",
+      "type": "single_choice",
+      "options": [
+        "Động từ, viết hoa chữ cái đầu tiên",
+        "Danh từ, viết thường chữ cái đầu tiên",
+        "Động từ, viết thường chữ cái đầu tiên",
+        "Danh từ, viết hoa chữ cái đầu tiên"
+      ],
+      "answer": [
+        "Danh từ, viết hoa chữ cái đầu tiên"
+      ],
+      "sourceNumber": 437,
+      "sourcePage": 246
+    },
+    {
+      "questionId": "cnpm-438",
+      "question": "Theo quy ước viết mã Java (Java coding convention), tên phương thức nên là...",
+      "type": "single_choice",
+      "options": [
+        "Động từ, viết hoa chữ cái đầu tiên",
+        "Động từ, viết thường chữ cái đầu tiên",
+        "Danh từ, viết hoa chữ cái đầu tiên",
+        "Danh từ, viết thường chữ cái đầu tiên"
+      ],
+      "answer": [
+        "Động từ, viết thường chữ cái đầu tiên"
+      ],
+      "sourceNumber": 438,
+      "sourcePage": 247
+    },
+    {
+      "questionId": "cnpm-439",
+      "question": "Viết chú thích tài liệu theo Javadoc có ưu điểm là...",
+      "type": "single_choice",
+      "options": [
+        "Giúp mã nguồn có phong cách viết mã tốt và nhất quán",
+        "Tất cả các ý trên",
+        "Dễ dàng sinh tài liệu từ mã nguồn",
+        "Hỗ trợ cho các IDE trong việc cung cấp các gợi ý khi viết mã"
+      ],
+      "answer": [
+        "Tất cả các ý trên"
+      ],
+      "sourceNumber": 439,
+      "sourcePage": 247
+    },
+    {
+      "questionId": "cnpm-440",
+      "question": "Thẻ (tag) nào là bắt buộc đối với phương thức có kiểu trả về trong Javadoc",
+      "type": "single_choice",
+      "options": [
+        "@param",
+        "@author, @version, @param và @return",
+        "@return",
+        "@author và @version"
+      ],
+      "answer": [
+        "@return"
+      ],
+      "sourceNumber": 440,
+      "sourcePage": 247
+    },
+    {
+      "questionId": "cnpm-441",
+      "question": "Khi thực hiện một ca kiểm thử nhận được kết quả là đạt. Khẳng định nào là đúng nhất",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử này không phát hiện được lỗi.",
+        "Đối tượng kiểm thử không có lỗi.",
+        "Không khẳng định được gì.",
+        "Kiểm thử đã thành công."
+      ],
+      "answer": [
+        "Kiểm thử này không phát hiện được lỗi."
+      ],
+      "sourceNumber": 441,
+      "sourcePage": 249
+    },
+    {
+      "questionId": "cnpm-442",
+      "question": "Kỹ thuật này sử dụng các đặc tả yêu cầu để sinh các ca kiểm thử?",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử hộp đen.",
+        "Kiểm thử chấp nhận.",
+        "Kiểm thử hồi quy.",
+        "Kiểm thử hộp trắng"
+      ],
+      "answer": [
+        "Kiểm thử hộp đen."
+      ],
+      "sourceNumber": 442,
+      "sourcePage": 249
+    },
+    {
+      "questionId": "cnpm-443",
+      "question": "Phương pháp kiểm thử nào phù hợp với việc kiểm thử các chức năng của chương trình",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử hệ thống.",
+        "Kiểm thử hộp trắng",
+        "Kiểm thử hộp đen.",
+        "Kiểm thử chấp nhận."
+      ],
+      "answer": [
+        "Kiểm thử hộp đen."
+      ],
+      "sourceNumber": 443,
+      "sourcePage": 250
+    },
+    {
+      "questionId": "cnpm-444",
+      "question": "Phương pháp kiểm thử nào được sử dụng cho công tác kiểm tra với cấu trúc và giải thuật của chương trình",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử tích hợp.",
+        "Kiểm thử dưới lên.",
+        "Kiểm thử hộp trắng.",
+        "Kiểm thử hộp đen."
+      ],
+      "answer": [
+        "Kiểm thử hộp trắng."
+      ],
+      "sourceNumber": 444,
+      "sourcePage": 250
+    },
+    {
+      "questionId": "cnpm-445",
+      "question": "Đâu là mô tả phù hợp đối với việc thiết kế ca kiểm thử",
+      "type": "single_choice",
+      "options": [
+        "Các dữ liệu kiểm thử đã được xử lý đúng mới được chuẩn bị kiểm thử.",
+        "Các trường hợp kiểm thử được chuẩn bị trước, sau đó dữ liệu kiểm thử có thể đáp ứng yêu cầu được xác định trong trường hợp kiểm thử được chuẩn bị.",
+        "Thiết kế ca kiểm thử phụ thuộc vào dữ liệu được yêu cầu.",
+        "Cần chuẩn bị đầy đủ các dữ liệu trong thực tế tương ứng với các ca kiểm thử."
+      ],
+      "answer": [
+        "Các trường hợp kiểm thử được chuẩn bị trước, sau đó dữ liệu kiểm thử có thể đáp ứng yêu cầu được xác định trong trường hợp kiểm thử được chuẩn bị."
+      ],
+      "sourceNumber": 445,
+      "sourcePage": 250
+    },
+    {
+      "questionId": "cnpm-446",
+      "question": "Chỉ ra phát biểu sai trong kiểm thử hộp trắng",
+      "type": "single_choice",
+      "options": [
+        "Sử dụng cho kiểm thử đơn vị.",
+        "Được sử dụng trong quá trình kiểm thử tích hợp.",
+        "Phù hợp với việc kiểm thử chấp nhận.",
+        "Lập trình viên đóng vai trò quan trọng trong quá trình này."
+      ],
+      "answer": [
+        "Phù hợp với việc kiểm thử chấp nhận."
+      ],
+      "sourceNumber": 446,
+      "sourcePage": 252
+    },
+    {
+      "questionId": "cnpm-447",
+      "question": "Ai là người thích hợp nhất trong công việc kiểm thử chấp nhận",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử viên.",
+        "Khách hàng.",
+        "Người thiết kế.",
+        "Kĩ sư phần mềm."
+      ],
+      "answer": [
+        "Khách hàng."
+      ],
+      "sourceNumber": 447,
+      "sourcePage": 252
+    },
+    {
+      "questionId": "cnpm-448",
+      "question": "Ai là người thích hợp nhất trong công việc kiểm thử hộp trắng",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử viên.",
+        "Lập trình viên.",
+        "Kĩ sư phần mềm.",
+        "Khách hàng."
+      ],
+      "answer": [
+        "Khách hàng."
+      ],
+      "sourceNumber": 448,
+      "sourcePage": 253
+    },
+    {
+      "questionId": "cnpm-449",
+      "question": "Vai trò của kiểm thử tích hợp là",
+      "type": "single_choice",
+      "options": [
+        "Kiểm tra từng đơn vị chương trình.",
+        "Kiểm thử tính hợp lệ của các module.",
+        "Kiểm tra giao diện giữa các module.",
+        "Đây là một kĩ thuật kiểm thử phần mềm."
+      ],
+      "answer": [
+        "Kiểm tra giao diện giữa các module."
+      ],
+      "sourceNumber": 449,
+      "sourcePage": 253
+    },
+    {
+      "questionId": "cnpm-450",
+      "question": "Chỉ ra phát biểu sai khi nói về các kĩ thuật kiểm thử và phân tích",
+      "type": "single_choice",
+      "options": [
+        "Kiểm thử hộp trắng cần phân tích mã nguồn của chương trình.",
+        "Các kĩ thuật đều được tiến hành với mã nguồn chương trình.",
+        "Kiểm thử tích hợp cần đến mã nguồn của chương trình.",
+        "Kiểm thử hộp đen có sử dụng đến chương trình."
+      ],
+      "answer": [
+        "Các kĩ thuật đều được tiến hành với mã nguồn chương trình."
+      ],
+      "sourceNumber": 450,
+      "sourcePage": 253
+    }
+  ],
+  "matching": "document_ocr"
+}
